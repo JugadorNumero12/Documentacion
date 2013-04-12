@@ -1,0 +1,3394 @@
+<!DOCTYPE html><html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+<meta charset="utf-8">
+<title>phpDocumentor</title>
+<meta name="author" content="Mike van Riel">
+<meta name="description" content="">
+<link href="css/template.css" rel="stylesheet" media="all">
+<script src="js/jquery-1.7.1.min.js" type="text/javascript"></script><script src="js/jquery-ui-1.8.2.custom.min.js" type="text/javascript"></script><script src="js/jquery.mousewheel.min.js" type="text/javascript"></script><script src="js/bootstrap.js" type="text/javascript"></script><script src="js/template.js" type="text/javascript"></script><script src="js/prettify/prettify.min.js" type="text/javascript"></script><link rel="shortcut icon" href="img/favicon.ico">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+</head>
+<body>
+<div class="navbar navbar-fixed-top">
+<div class="navbar-inner"><div class="container">
+<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></a><a class="brand" href="index.html">phpDocumentor</a><div class="nav-collapse"><ul class="nav">
+<li class="dropdown">
+<a href="#api" class="dropdown-toggle" data-toggle="dropdown">
+                                    API Documentation <b class="caret"></b></a><ul class="dropdown-menu"></ul>
+</li>
+<li class="dropdown" id="charts-menu">
+<a href="#charts" class="dropdown-toggle" data-toggle="dropdown">
+                                    Charts <b class="caret"></b></a><ul class="dropdown-menu"><li><a href="graph_class.html"><i class="icon-list-alt"></i> Class hierarchy diagram</a></li></ul>
+</li>
+<li class="dropdown" id="reports-menu">
+<a href="#reports" class="dropdown-toggle" data-toggle="dropdown">
+                                    Reports <b class="caret"></b></a><ul class="dropdown-menu">
+<li><a href="errors.html"><i class="icon-remove-sign"></i> Errors 
+                <span class="label label-info">378</span></a></li>
+<li><a href="markers.html"><i class="icon-map-marker"></i> Markers 
+                <ul>
+<li>todo 
+                <span class="label label-info">9</span>
+</li>
+<li>fixme 
+                <span class="label label-info">2</span>
+</li>
+</ul></a></li>
+<li><a href="deprecated.html"><i class="icon-stop"></i> Deprecated elements 
+                <span class="label label-info">0</span></a></li>
+</ul>
+</li>
+</ul></div>
+</div></div>
+<div class="go_to_top"><a href="#___" style="color: inherit">Back to top  <i class="icon-upload icon-white"></i></a></div>
+</div>
+<div id="___" class="container">
+<noscript><div class="alert alert-warning">
+                            Javascript is disabled; several features are only available
+                            if Javascript is enabled.
+                        </div></noscript>
+<div class="row">
+<div class="span4"><ul class="side-nav nav nav-list">
+<li class="nav-header">Filter type</li>
+<li><div class="btn-group type-filter" data-toggle="buttons-checkbox">
+<button class="btn critical">Critical</button><button class="btn error">Error</button><button class="btn notice">Notice</button>
+</div></li>
+<li class="nav-header">Navigation</li>
+<li><a href="#cron.php"><i class="icon-file"></i>cron.php</a></li>
+<li><a href="#cron_partido.php"><i class="icon-file"></i>cron_partido.php</a></li>
+<li><a href="#index.php"><i class="icon-file"></i>index.php</a></li>
+<li><a href="#protected/commands/PartidoCommand.php"><i class="icon-file"></i>protected/commands/PartidoCommand.php</a></li>
+<li><a href="#protected/commands/RecursosCommand.php"><i class="icon-file"></i>protected/commands/RecursosCommand.php</a></li>
+<li><a href="#protected/components/Acciones/AccionGrupSingleton.php"><i class="icon-file"></i>protected/components/Acciones/AccionGrupSingleton.php</a></li>
+<li><a href="#protected/components/Acciones/AccionIndSingleton.php"><i class="icon-file"></i>protected/components/Acciones/AccionIndSingleton.php</a></li>
+<li><a href="#protected/components/Acciones/AccionPartSingleton.php"><i class="icon-file"></i>protected/components/Acciones/AccionPartSingleton.php</a></li>
+<li><a href="#protected/components/Acciones/AccionPasSingleton.php"><i class="icon-file"></i>protected/components/Acciones/AccionPasSingleton.php</a></li>
+<li><a href="#protected/components/Acciones/Apostar.php"><i class="icon-file"></i>protected/components/Acciones/Apostar.php</a></li>
+<li><a href="#protected/components/Acciones/Ascender.php"><i class="icon-file"></i>protected/components/Acciones/Ascender.php</a></li>
+<li><a href="#protected/components/Acciones/BeberCerveza.php"><i class="icon-file"></i>protected/components/Acciones/BeberCerveza.php</a></li>
+<li><a href="#protected/components/Acciones/ContratarRRPP.php"><i class="icon-file"></i>protected/components/Acciones/ContratarRRPP.php</a></li>
+<li><a href="#protected/components/Acciones/CrearseEspectativas.php"><i class="icon-file"></i>protected/components/Acciones/CrearseEspectativas.php</a></li>
+<li><a href="#protected/components/Acciones/Efectos.php"><i class="icon-file"></i>protected/components/Acciones/Efectos.php</a></li>
+<li><a href="#protected/components/Acciones/FinanciarEvento.php"><i class="icon-file"></i>protected/components/Acciones/FinanciarEvento.php</a></li>
+<li><a href="#protected/components/Acciones/HablarSpeaker.php"><i class="icon-file"></i>protected/components/Acciones/HablarSpeaker.php</a></li>
+<li><a href="#protected/components/Acciones/IncentivoEconomico.php"><i class="icon-file"></i>protected/components/Acciones/IncentivoEconomico.php</a></li>
+<li><a href="#protected/components/Acciones/IniciarOla.php"><i class="icon-file"></i>protected/components/Acciones/IniciarOla.php</a></li>
+<li><a href="#protected/components/Acciones/OrganizarHomenaje.php"><i class="icon-file"></i>protected/components/Acciones/OrganizarHomenaje.php</a></li>
+<li><a href="#protected/components/Acciones/Pintarse.php"><i class="icon-file"></i>protected/components/Acciones/Pintarse.php</a></li>
+<li><a href="#protected/components/Acciones/PromoverPartido.php"><i class="icon-file"></i>protected/components/Acciones/PromoverPartido.php</a></li>
+<li><a href="#protected/components/Acciones/PunteroLaser.php"><i class="icon-file"></i>protected/components/Acciones/PunteroLaser.php</a></li>
+<li><a href="#protected/components/Acciones/RetransmitirRRSS.php"><i class="icon-file"></i>protected/components/Acciones/RetransmitirRRSS.php</a></li>
+<li><a href="#protected/components/Bcrypt.php"><i class="icon-file"></i>protected/components/Bcrypt.php</a></li>
+<li><a href="#protected/components/Controller.php"><i class="icon-file"></i>protected/components/Controller.php</a></li>
+<li><a href="#protected/components/ejecutor_turnos.php"><i class="icon-file"></i>protected/components/ejecutor_turnos.php</a></li>
+<li><a href="#protected/components/Formula.php"><i class="icon-file"></i>protected/components/Formula.php</a></li>
+<li><a href="#protected/components/Helper.php"><i class="icon-file"></i>protected/components/Helper.php</a></li>
+<li><a href="#protected/components/Partido.php"><i class="icon-file"></i>protected/components/Partido.php</a></li>
+<li><a href="#protected/components/UserIdentity.php"><i class="icon-file"></i>protected/components/UserIdentity.php</a></li>
+<li><a href="#protected/config/console.php"><i class="icon-file"></i>protected/config/console.php</a></li>
+<li><a href="#protected/config/cron.php"><i class="icon-file"></i>protected/config/cron.php</a></li>
+<li><a href="#protected/config/cron_partido_config.php"><i class="icon-file"></i>protected/config/cron_partido_config.php</a></li>
+<li><a href="#protected/config/main.php"><i class="icon-file"></i>protected/config/main.php</a></li>
+<li><a href="#protected/config/test.php"><i class="icon-file"></i>protected/config/test.php</a></li>
+<li><a href="#protected/controllers/AccionesController.php"><i class="icon-file"></i>protected/controllers/AccionesController.php</a></li>
+<li><a href="#protected/controllers/EquiposController.php"><i class="icon-file"></i>protected/controllers/EquiposController.php</a></li>
+<li><a href="#protected/controllers/HabilidadesController.php"><i class="icon-file"></i>protected/controllers/HabilidadesController.php</a></li>
+<li><a href="#protected/controllers/PartidosController.php"><i class="icon-file"></i>protected/controllers/PartidosController.php</a></li>
+<li><a href="#protected/controllers/RegistroController.php"><i class="icon-file"></i>protected/controllers/RegistroController.php</a></li>
+<li><a href="#protected/controllers/ScriptsController.php"><i class="icon-file"></i>protected/controllers/ScriptsController.php</a></li>
+<li><a href="#protected/controllers/SiteController.php"><i class="icon-file"></i>protected/controllers/SiteController.php</a></li>
+<li><a href="#protected/controllers/UsuariosController.php"><i class="icon-file"></i>protected/controllers/UsuariosController.php</a></li>
+<li><a href="#protected/models/AccionesGrupales.php"><i class="icon-file"></i>protected/models/AccionesGrupales.php</a></li>
+<li><a href="#protected/models/AccionesIndividuales.php"><i class="icon-file"></i>protected/models/AccionesIndividuales.php</a></li>
+<li><a href="#protected/models/Clasificacion.php"><i class="icon-file"></i>protected/models/Clasificacion.php</a></li>
+<li><a href="#protected/models/ContactForm.php"><i class="icon-file"></i>protected/models/ContactForm.php</a></li>
+<li><a href="#protected/models/Desbloqueadas.php"><i class="icon-file"></i>protected/models/Desbloqueadas.php</a></li>
+<li><a href="#protected/models/Equipos.php"><i class="icon-file"></i>protected/models/Equipos.php</a></li>
+<li><a href="#protected/models/Habilidades.php"><i class="icon-file"></i>protected/models/Habilidades.php</a></li>
+<li><a href="#protected/models/LoginForm.php"><i class="icon-file"></i>protected/models/LoginForm.php</a></li>
+<li><a href="#protected/models/Participaciones.php"><i class="icon-file"></i>protected/models/Participaciones.php</a></li>
+<li><a href="#protected/models/Partidos.php"><i class="icon-file"></i>protected/models/Partidos.php</a></li>
+<li><a href="#protected/models/Recursos.php"><i class="icon-file"></i>protected/models/Recursos.php</a></li>
+<li><a href="#protected/models/Usuarios.php"><i class="icon-file"></i>protected/models/Usuarios.php</a></li>
+<li><a href="#protected/tests/bootstrap.php"><i class="icon-file"></i>protected/tests/bootstrap.php</a></li>
+<li><a href="#protected/tests/fixtures/Acciones_grupales.php"><i class="icon-file"></i>protected/tests/fixtures/Acciones_grupales.php</a></li>
+<li><a href="#protected/tests/fixtures/Acciones_individuales.php"><i class="icon-file"></i>protected/tests/fixtures/Acciones_individuales.php</a></li>
+<li><a href="#protected/tests/fixtures/Clasificacion.php"><i class="icon-file"></i>protected/tests/fixtures/Clasificacion.php</a></li>
+<li><a href="#protected/tests/fixtures/Equipos.php"><i class="icon-file"></i>protected/tests/fixtures/Equipos.php</a></li>
+<li><a href="#protected/tests/fixtures/Participaciones.php"><i class="icon-file"></i>protected/tests/fixtures/Participaciones.php</a></li>
+<li><a href="#protected/tests/fixtures/Partidos.php"><i class="icon-file"></i>protected/tests/fixtures/Partidos.php</a></li>
+<li><a href="#protected/tests/fixtures/Recursos.php"><i class="icon-file"></i>protected/tests/fixtures/Recursos.php</a></li>
+<li><a href="#protected/tests/functional/RegistroTest.php"><i class="icon-file"></i>protected/tests/functional/RegistroTest.php</a></li>
+<li><a href="#protected/tests/functional/SiteTest.php"><i class="icon-file"></i>protected/tests/functional/SiteTest.php</a></li>
+<li><a href="#protected/tests/WebTestCase.php"><i class="icon-file"></i>protected/tests/WebTestCase.php</a></li>
+<li><a href="#protected/views/acciones/index.php"><i class="icon-file"></i>protected/views/acciones/index.php</a></li>
+<li><a href="#protected/views/acciones/participar.php"><i class="icon-file"></i>protected/views/acciones/participar.php</a></li>
+<li><a href="#protected/views/acciones/usar.php"><i class="icon-file"></i>protected/views/acciones/usar.php</a></li>
+<li><a href="#protected/views/acciones/ver.php"><i class="icon-file"></i>protected/views/acciones/ver.php</a></li>
+<li><a href="#protected/views/equipos/cambiar.php"><i class="icon-file"></i>protected/views/equipos/cambiar.php</a></li>
+<li><a href="#protected/views/equipos/index.php"><i class="icon-file"></i>protected/views/equipos/index.php</a></li>
+<li><a href="#protected/views/equipos/ver.php"><i class="icon-file"></i>protected/views/equipos/ver.php</a></li>
+<li><a href="#protected/views/habilidades/adquirir.php"><i class="icon-file"></i>protected/views/habilidades/adquirir.php</a></li>
+<li><a href="#protected/views/habilidades/index.php"><i class="icon-file"></i>protected/views/habilidades/index.php</a></li>
+<li><a href="#protected/views/habilidades/ver.php"><i class="icon-file"></i>protected/views/habilidades/ver.php</a></li>
+<li><a href="#protected/views/layouts/login.php"><i class="icon-file"></i>protected/views/layouts/login.php</a></li>
+<li><a href="#protected/views/layouts/main.php"><i class="icon-file"></i>protected/views/layouts/main.php</a></li>
+<li><a href="#protected/views/partidos/_estadoPartido.php"><i class="icon-file"></i>protected/views/partidos/_estadoPartido.php</a></li>
+<li><a href="#protected/views/partidos/asistir.antiguo.php"><i class="icon-file"></i>protected/views/partidos/asistir.antiguo.php</a></li>
+<li><a href="#protected/views/partidos/asistir.php"><i class="icon-file"></i>protected/views/partidos/asistir.php</a></li>
+<li><a href="#protected/views/partidos/cronica.php"><i class="icon-file"></i>protected/views/partidos/cronica.php</a></li>
+<li><a href="#protected/views/partidos/index.php"><i class="icon-file"></i>protected/views/partidos/index.php</a></li>
+<li><a href="#protected/views/partidos/previa.php"><i class="icon-file"></i>protected/views/partidos/previa.php</a></li>
+<li><a href="#protected/views/registro/equipo.php"><i class="icon-file"></i>protected/views/registro/equipo.php</a></li>
+<li><a href="#protected/views/registro/index.php"><i class="icon-file"></i>protected/views/registro/index.php</a></li>
+<li><a href="#protected/views/registro/personaje.php"><i class="icon-file"></i>protected/views/registro/personaje.php</a></li>
+<li><a href="#protected/views/scripts/formula.php"><i class="icon-file"></i>protected/views/scripts/formula.php</a></li>
+<li><a href="#protected/views/site/contact.php"><i class="icon-file"></i>protected/views/site/contact.php</a></li>
+<li><a href="#protected/views/site/error.php"><i class="icon-file"></i>protected/views/site/error.php</a></li>
+<li><a href="#protected/views/site/index.php"><i class="icon-file"></i>protected/views/site/index.php</a></li>
+<li><a href="#protected/views/site/login.php"><i class="icon-file"></i>protected/views/site/login.php</a></li>
+<li><a href="#protected/views/site/pages/about.php"><i class="icon-file"></i>protected/views/site/pages/about.php</a></li>
+<li><a href="#protected/views/usuarios/cambiarClave.php"><i class="icon-file"></i>protected/views/usuarios/cambiarClave.php</a></li>
+<li><a href="#protected/views/usuarios/cambiarEmail.php"><i class="icon-file"></i>protected/views/usuarios/cambiarEmail.php</a></li>
+<li><a href="#protected/views/usuarios/ejemplos.php"><i class="icon-file"></i>protected/views/usuarios/ejemplos.php</a></li>
+<li><a href="#protected/views/usuarios/exp.php"><i class="icon-file"></i>protected/views/usuarios/exp.php</a></li>
+<li><a href="#protected/views/usuarios/index.php"><i class="icon-file"></i>protected/views/usuarios/index.php</a></li>
+<li><a href="#protected/views/usuarios/perfil.php"><i class="icon-file"></i>protected/views/usuarios/perfil.php</a></li>
+<li><a href="#protected/views/usuarios/ver.php"><i class="icon-file"></i>protected/views/usuarios/ver.php</a></li>
+<li><a href="#protected/yiic.php"><i class="icon-file"></i>protected/yiic.php</a></li>
+</ul></div>
+<div class="span8">
+<ul class="breadcrumb">
+<li>
+<a href=""><i class="icon-remove-sign"></i></a><span class="divider">\</span>
+</li>
+<li>Compilation Errors</li>
+</ul>
+<div class="package-contents">
+<a name="cron.php" id="cron.php"></a><h3>
+<i class="icon-file"></i>cron.php<small style="float: right;padding-right: 10px;">1</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody><tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file cron.php</td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="cron_partido.php" id="cron_partido.php"></a><h3>
+<i class="icon-file"></i>cron_partido.php<small style="float: right;padding-right: 10px;">1</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody><tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file cron_partido.php</td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="index.php" id="index.php"></a><h3>
+<i class="icon-file"></i>index.php<small style="float: right;padding-right: 10px;">1</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody><tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file index.php</td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/commands/PartidoCommand.php" id="protected/commands/PartidoCommand.php"></a><h3>
+<i class="icon-file"></i>protected/commands/PartidoCommand.php<small style="float: right;padding-right: 10px;">3</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody>
+<tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/commands/PartidoCommand.php</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>2</td>
+<td>No DocBlock was found for \PartidoCommand</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>4</td>
+<td>No DocBlock was found for method run()</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/commands/RecursosCommand.php" id="protected/commands/RecursosCommand.php"></a><h3>
+<i class="icon-file"></i>protected/commands/RecursosCommand.php<small style="float: right;padding-right: 10px;">3</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody>
+<tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/commands/RecursosCommand.php</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>3</td>
+<td>No DocBlock was found for \RecursosCommand</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>5</td>
+<td>No DocBlock was found for method run()</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="package-contents"></div>
+<div class="package-contents">
+<a name="protected/components/Acciones/AccionGrupSingleton.php" id="protected/components/Acciones/AccionGrupSingleton.php"></a><h3>
+<i class="icon-file"></i>protected/components/Acciones/AccionGrupSingleton.php<small style="float: right;padding-right: 10px;">8</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody>
+<tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/components/Acciones/AccionGrupSingleton.php</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>2</td>
+<td>No DocBlock was found for \AccionGrupSingleton</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>5</td>
+<td>No DocBlock was found for property $instancia</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>8</td>
+<td>No DocBlock was found for method __construct()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>14</td>
+<td>No DocBlock was found for method getInstance()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>26</td>
+<td>No DocBlock was found for method ejecutar()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>30</td>
+<td>No DocBlock was found for method finalizar()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>35</td>
+<td>No DocBlock was found for method __clone()</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/components/Acciones/AccionIndSingleton.php" id="protected/components/Acciones/AccionIndSingleton.php"></a><h3>
+<i class="icon-file"></i>protected/components/Acciones/AccionIndSingleton.php<small style="float: right;padding-right: 10px;">8</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody>
+<tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/components/Acciones/AccionIndSingleton.php</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>2</td>
+<td>No DocBlock was found for \AccionIndSingleton</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>5</td>
+<td>No DocBlock was found for property $instancia</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>8</td>
+<td>No DocBlock was found for method __construct()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>14</td>
+<td>No DocBlock was found for method getInstance()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>24</td>
+<td>No DocBlock was found for method ejecutar()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>29</td>
+<td>No DocBlock was found for method finalizar()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>55</td>
+<td>No DocBlock was found for method __clone()</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/components/Acciones/AccionPartSingleton.php" id="protected/components/Acciones/AccionPartSingleton.php"></a><h3>
+<i class="icon-file"></i>protected/components/Acciones/AccionPartSingleton.php<small style="float: right;padding-right: 10px;">8</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody>
+<tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/components/Acciones/AccionPartSingleton.php</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>2</td>
+<td>No DocBlock was found for \AccionPartSingleton</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>5</td>
+<td>No DocBlock was found for property $instancia</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>8</td>
+<td>No DocBlock was found for method __construct()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>14</td>
+<td>No DocBlock was found for method getInstance()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>26</td>
+<td>No DocBlock was found for method ejecutar()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>30</td>
+<td>No DocBlock was found for method finalizar()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>35</td>
+<td>No DocBlock was found for method __clone()</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/components/Acciones/AccionPasSingleton.php" id="protected/components/Acciones/AccionPasSingleton.php"></a><h3>
+<i class="icon-file"></i>protected/components/Acciones/AccionPasSingleton.php<small style="float: right;padding-right: 10px;">8</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody>
+<tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/components/Acciones/AccionPasSingleton.php</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>2</td>
+<td>No DocBlock was found for \AccionPasSingleton</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>5</td>
+<td>No DocBlock was found for property $instancia</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>8</td>
+<td>No DocBlock was found for method __construct()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>14</td>
+<td>No DocBlock was found for method getInstance()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>24</td>
+<td>No DocBlock was found for method ejecutar()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>28</td>
+<td>No DocBlock was found for method finalizar()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>33</td>
+<td>No DocBlock was found for method __clone()</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="package-contents"></div>
+<div class="package-contents">
+<a name="protected/components/Acciones/Apostar.php" id="protected/components/Acciones/Apostar.php"></a><h3>
+<i class="icon-file"></i>protected/components/Acciones/Apostar.php<small style="float: right;padding-right: 10px;">4</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody>
+<tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/components/Acciones/Apostar.php</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>14</td>
+<td>No DocBlock was found for method getInstance()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>24</td>
+<td>No DocBlock was found for method ejecutar()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>46</td>
+<td>No DocBlock was found for method finalizar()</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/components/Acciones/Ascender.php" id="protected/components/Acciones/Ascender.php"></a><h3>
+<i class="icon-file"></i>protected/components/Acciones/Ascender.php<small style="float: right;padding-right: 10px;">4</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody>
+<tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/components/Acciones/Ascender.php</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>14</td>
+<td>No DocBlock was found for method getInstance()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>24</td>
+<td>No DocBlock was found for method ejecutar()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>44</td>
+<td>No DocBlock was found for method finalizar()</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/components/Acciones/BeberCerveza.php" id="protected/components/Acciones/BeberCerveza.php"></a><h3>
+<i class="icon-file"></i>protected/components/Acciones/BeberCerveza.php<small style="float: right;padding-right: 10px;">4</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody>
+<tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/components/Acciones/BeberCerveza.php</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>14</td>
+<td>No DocBlock was found for method getInstance()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>24</td>
+<td>No DocBlock was found for method ejecutar()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>47</td>
+<td>No DocBlock was found for method finalizar()</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/components/Acciones/ContratarRRPP.php" id="protected/components/Acciones/ContratarRRPP.php"></a><h3>
+<i class="icon-file"></i>protected/components/Acciones/ContratarRRPP.php<small style="float: right;padding-right: 10px;">4</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody>
+<tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/components/Acciones/ContratarRRPP.php</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>14</td>
+<td>No DocBlock was found for method getInstance()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>24</td>
+<td>No DocBlock was found for method ejecutar()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>45</td>
+<td>No DocBlock was found for method finalizar()</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/components/Acciones/CrearseEspectativas.php" id="protected/components/Acciones/CrearseEspectativas.php"></a><h3>
+<i class="icon-file"></i>protected/components/Acciones/CrearseEspectativas.php<small style="float: right;padding-right: 10px;">4</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody>
+<tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/components/Acciones/CrearseEspectativas.php</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>15</td>
+<td>No DocBlock was found for method getInstance()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>25</td>
+<td>No DocBlock was found for method ejecutar()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>47</td>
+<td>No DocBlock was found for method finalizar()</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/components/Acciones/Efectos.php" id="protected/components/Acciones/Efectos.php"></a><h3>
+<i class="icon-file"></i>protected/components/Acciones/Efectos.php<small style="float: right;padding-right: 10px;">3</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody>
+<tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/components/Acciones/Efectos.php</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>23</td>
+<td>No DocBlock was found for \Efectos</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>25</td>
+<td>No DocBlock was found for property $datos_acciones</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/components/Acciones/FinanciarEvento.php" id="protected/components/Acciones/FinanciarEvento.php"></a><h3>
+<i class="icon-file"></i>protected/components/Acciones/FinanciarEvento.php<small style="float: right;padding-right: 10px;">4</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody>
+<tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/components/Acciones/FinanciarEvento.php</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>18</td>
+<td>No DocBlock was found for method getInstance()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>28</td>
+<td>No DocBlock was found for method ejecutar()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>69</td>
+<td>No DocBlock was found for method finalizar()</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/components/Acciones/HablarSpeaker.php" id="protected/components/Acciones/HablarSpeaker.php"></a><h3>
+<i class="icon-file"></i>protected/components/Acciones/HablarSpeaker.php<small style="float: right;padding-right: 10px;">4</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody>
+<tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/components/Acciones/HablarSpeaker.php</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>15</td>
+<td>No DocBlock was found for method getInstance()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>25</td>
+<td>No DocBlock was found for method ejecutar()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>47</td>
+<td>No DocBlock was found for method finalizar()</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/components/Acciones/IncentivoEconomico.php" id="protected/components/Acciones/IncentivoEconomico.php"></a><h3>
+<i class="icon-file"></i>protected/components/Acciones/IncentivoEconomico.php<small style="float: right;padding-right: 10px;">4</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody>
+<tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/components/Acciones/IncentivoEconomico.php</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>17</td>
+<td>No DocBlock was found for method getInstance()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>27</td>
+<td>No DocBlock was found for method ejecutar()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>68</td>
+<td>No DocBlock was found for method finalizar()</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/components/Acciones/IniciarOla.php" id="protected/components/Acciones/IniciarOla.php"></a><h3>
+<i class="icon-file"></i>protected/components/Acciones/IniciarOla.php<small style="float: right;padding-right: 10px;">4</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody>
+<tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/components/Acciones/IniciarOla.php</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>14</td>
+<td>No DocBlock was found for method getInstance()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>24</td>
+<td>No DocBlock was found for method ejecutar()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>44</td>
+<td>No DocBlock was found for method finalizar()</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/components/Acciones/OrganizarHomenaje.php" id="protected/components/Acciones/OrganizarHomenaje.php"></a><h3>
+<i class="icon-file"></i>protected/components/Acciones/OrganizarHomenaje.php<small style="float: right;padding-right: 10px;">4</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody>
+<tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/components/Acciones/OrganizarHomenaje.php</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>17</td>
+<td>No DocBlock was found for method getInstance()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>27</td>
+<td>No DocBlock was found for method ejecutar()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>68</td>
+<td>No DocBlock was found for method finalizar()</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/components/Acciones/Pintarse.php" id="protected/components/Acciones/Pintarse.php"></a><h3>
+<i class="icon-file"></i>protected/components/Acciones/Pintarse.php<small style="float: right;padding-right: 10px;">4</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody>
+<tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/components/Acciones/Pintarse.php</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>20</td>
+<td>No DocBlock was found for method getInstance()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>30</td>
+<td>No DocBlock was found for method ejecutar()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>66</td>
+<td>No DocBlock was found for method finalizar()</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/components/Acciones/PromoverPartido.php" id="protected/components/Acciones/PromoverPartido.php"></a><h3>
+<i class="icon-file"></i>protected/components/Acciones/PromoverPartido.php<small style="float: right;padding-right: 10px;">4</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody>
+<tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/components/Acciones/PromoverPartido.php</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>18</td>
+<td>No DocBlock was found for method getInstance()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>28</td>
+<td>No DocBlock was found for method ejecutar()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>69</td>
+<td>No DocBlock was found for method finalizar()</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/components/Acciones/PunteroLaser.php" id="protected/components/Acciones/PunteroLaser.php"></a><h3>
+<i class="icon-file"></i>protected/components/Acciones/PunteroLaser.php<small style="float: right;padding-right: 10px;">4</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody>
+<tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/components/Acciones/PunteroLaser.php</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>14</td>
+<td>No DocBlock was found for method getInstance()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>24</td>
+<td>No DocBlock was found for method ejecutar()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>44</td>
+<td>No DocBlock was found for method finalizar()</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/components/Acciones/RetransmitirRRSS.php" id="protected/components/Acciones/RetransmitirRRSS.php"></a><h3>
+<i class="icon-file"></i>protected/components/Acciones/RetransmitirRRSS.php<small style="float: right;padding-right: 10px;">4</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody>
+<tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/components/Acciones/RetransmitirRRSS.php</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>15</td>
+<td>No DocBlock was found for method getInstance()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>25</td>
+<td>No DocBlock was found for method ejecutar()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>55</td>
+<td>No DocBlock was found for method finalizar()</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="package-contents"></div>
+<div class="package-contents">
+<a name="protected/components/Bcrypt.php" id="protected/components/Bcrypt.php"></a><h3>
+<i class="icon-file"></i>protected/components/Bcrypt.php<small style="float: right;padding-right: 10px;">10</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody>
+<tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/components/Bcrypt.php</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>3</td>
+<td>No DocBlock was found for \Bcrypt</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>4</td>
+<td>No DocBlock was found for property $rounds</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>5</td>
+<td>No DocBlock was found for method __construct()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>13</td>
+<td>No DocBlock was found for method hash()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>22</td>
+<td>No DocBlock was found for method verify()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>28</td>
+<td>No DocBlock was found for method getSalt()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>38</td>
+<td>No DocBlock was found for property $randomState</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>39</td>
+<td>No DocBlock was found for method getRandomBytes()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>79</td>
+<td>No DocBlock was found for method encodeBytes()</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/components/Controller.php" id="protected/components/Controller.php"></a><h3>
+<i class="icon-file"></i>protected/components/Controller.php<small style="float: right;padding-right: 10px;">2</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody>
+<tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/components/Controller.php</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>24</td>
+<td>No DocBlock was found for method beforeAction()</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/components/ejecutor_turnos.php" id="protected/components/ejecutor_turnos.php"></a><h3>
+<i class="icon-file"></i>protected/components/ejecutor_turnos.php<small style="float: right;padding-right: 10px;">1</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody><tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/components/ejecutor_turnos.php</td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/components/Formula.php" id="protected/components/Formula.php"></a><h3>
+<i class="icon-file"></i>protected/components/Formula.php<small style="float: right;padding-right: 10px;">10</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody>
+<tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/components/Formula.php</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>3</td>
+<td>No DocBlock was found for \Formula</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>15</td>
+<td>No short description for method cumnormdist()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>41</td>
+<td>No short description for method gauss()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>51</td>
+<td>The type hint of the argument is incorrect for the type definition of the @param tag with argument $params in equilibrio()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>78</td>
+<td>The type hint of the argument is incorrect for the type definition of the @param tag with argument $params in calcMedia()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>106</td>
+<td>The type hint of the argument is incorrect for the type definition of the @param tag with argument $params in calcDesv()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>139</td>
+<td>The type hint of the argument is incorrect for the type definition of the @param tag with argument $params in pesos()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>203</td>
+<td>The type hint of the argument is incorrect for the type definition of the @param tag with argument $params in probabilidades()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>220</td>
+<td>The type hint of the argument is incorrect for the type definition of the @param tag with argument $params in siguienteEstado()</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/components/Helper.php" id="protected/components/Helper.php"></a><h3>
+<i class="icon-file"></i>protected/components/Helper.php<small style="float: right;padding-right: 10px;">21</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody>
+<tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/components/Helper.php</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>3</td>
+<td>No DocBlock was found for \Helper</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>6</td>
+<td>No DocBlock was found for property $datos_factores</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>27</td>
+<td>Argument $id_usuario is missing from the Docblock of aumentar_recursos()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>27</td>
+<td>Argument $columna is missing from the Docblock of aumentar_recursos()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>27</td>
+<td>Argument $cantidad is missing from the Docblock of aumentar_recursos()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>88</td>
+<td>Argument $id_usuario is missing from the Docblock of quitar_recursos()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>88</td>
+<td>Argument $columna is missing from the Docblock of quitar_recursos()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>88</td>
+<td>Argument $cantidad is missing from the Docblock of quitar_recursos()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>137</td>
+<td>Argument $id_partido is missing from the Docblock of aumentar_factores()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>137</td>
+<td>Argument $id_equipo is missing from the Docblock of aumentar_factores()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>137</td>
+<td>Argument $columna is missing from the Docblock of aumentar_factores()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>137</td>
+<td>Argument $cantidad is missing from the Docblock of aumentar_factores()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>182</td>
+<td>Argument $id_partido is missing from the Docblock of disminuir_factores()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>182</td>
+<td>Argument $id_equipo is missing from the Docblock of disminuir_factores()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>182</td>
+<td>Argument $columna is missing from the Docblock of disminuir_factores()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>182</td>
+<td>Argument $cantidad is missing from the Docblock of disminuir_factores()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>227</td>
+<td>Argument $id_partido is missing from the Docblock of aumentar_factores_prop()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>227</td>
+<td>Argument $id_equipo is missing from the Docblock of aumentar_factores_prop()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>227</td>
+<td>Argument $columna is missing from the Docblock of aumentar_factores_prop()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>227</td>
+<td>Argument $proporcion is missing from the Docblock of aumentar_factores_prop()</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/components/Partido.php" id="protected/components/Partido.php"></a><h3>
+<i class="icon-file"></i>protected/components/Partido.php<small style="float: right;padding-right: 10px;">35</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody>
+<tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/components/Partido.php</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>19</td>
+<td>No DocBlock was found for property $id_partido</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>20</td>
+<td>No DocBlock was found for property $id_local</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>21</td>
+<td>No DocBlock was found for property $id_visitante</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>22</td>
+<td>No DocBlock was found for property $turno</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>23</td>
+<td>No DocBlock was found for property $cronica</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>24</td>
+<td>No DocBlock was found for property $ambiente</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>25</td>
+<td>No DocBlock was found for property $dif_niveles</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>26</td>
+<td>No DocBlock was found for property $aforo_local</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>27</td>
+<td>No DocBlock was found for property $aforo_visitante</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>29</td>
+<td>No DocBlock was found for property $ofensivo_local</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>30</td>
+<td>No DocBlock was found for property $ofensivo_visitante</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>31</td>
+<td>No DocBlock was found for property $defensivo_local</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>32</td>
+<td>No DocBlock was found for property $defensivo_visitante</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>34</td>
+<td>No DocBlock was found for property $goles_local</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>35</td>
+<td>No DocBlock was found for property $goles_visitante</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>36</td>
+<td>No DocBlock was found for property $estado</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>37</td>
+<td>No DocBlock was found for property $moral_local</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>38</td>
+<td>No DocBlock was found for property $moral_visitante</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>40</td>
+<td>Argument $id_partido is missing from the Docblock of Partido()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>72</td>
+<td>No DocBlock was found for method guardaEstado()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>162</td>
+<td>No DocBlock was found for method generar_estado()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>223</td>
+<td>No DocBlock was found for method generaCronicaTurno()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>346</td>
+<td>No DocBlock was found for method generaCronicaBase()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>371</td>
+<td>No DocBlock was found for method finalizaEncuentro()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>382</td>
+<td>No DocBlock was found for method generaBonificacion()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>406</td>
+<td>No DocBlock was found for method bonifAnimo()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>437</td>
+<td>No DocBlock was found for method actualizaClasificacion()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>518</td>
+<td>No DocBlock was found for method generaCronicaDescanso()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>532</td>
+<td>No DocBlock was found for method generaCronicaUltimoTurno()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>573</td>
+<td>No DocBlock was found for method generaEstadoDescanso()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>596</td>
+<td>No DocBlock was found for method actualizaSiguientePartido()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>642</td>
+<td>No DocBlock was found for method rellenaSiguientePartido()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>693</td>
+<td>No DocBlock was found for method eliminaGrupales()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>706</td>
+<td>No DocBlock was found for method jugarse()</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/components/UserIdentity.php" id="protected/components/UserIdentity.php"></a><h3>
+<i class="icon-file"></i>protected/components/UserIdentity.php<small style="float: right;padding-right: 10px;">4</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody>
+<tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/components/UserIdentity.php</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>11</td>
+<td>No DocBlock was found for property $_id</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>13</td>
+<td>No DocBlock was found for method authenticate()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>35</td>
+<td>No DocBlock was found for method getId()</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/config/console.php" id="protected/config/console.php"></a><h3>
+<i class="icon-file"></i>protected/config/console.php<small style="float: right;padding-right: 10px;">1</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody><tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/config/console.php</td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/config/cron.php" id="protected/config/cron.php"></a><h3>
+<i class="icon-file"></i>protected/config/cron.php<small style="float: right;padding-right: 10px;">1</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody><tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/config/cron.php</td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/config/cron_partido_config.php" id="protected/config/cron_partido_config.php"></a><h3>
+<i class="icon-file"></i>protected/config/cron_partido_config.php<small style="float: right;padding-right: 10px;">1</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody><tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/config/cron_partido_config.php</td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/config/main.php" id="protected/config/main.php"></a><h3>
+<i class="icon-file"></i>protected/config/main.php<small style="float: right;padding-right: 10px;">1</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody><tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/config/main.php</td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/config/test.php" id="protected/config/test.php"></a><h3>
+<i class="icon-file"></i>protected/config/test.php<small style="float: right;padding-right: 10px;">1</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody><tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/config/test.php</td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/controllers/AccionesController.php" id="protected/controllers/AccionesController.php"></a><h3>
+<i class="icon-file"></i>protected/controllers/AccionesController.php<small style="float: right;padding-right: 10px;">1</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody><tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/controllers/AccionesController.php</td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/controllers/EquiposController.php" id="protected/controllers/EquiposController.php"></a><h3>
+<i class="icon-file"></i>protected/controllers/EquiposController.php<small style="float: right;padding-right: 10px;">5</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody>
+<tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/controllers/EquiposController.php</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>4</td>
+<td>No DocBlock was found for \EquiposController</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>6</td>
+<td>No short description for method filters()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>56</td>
+<td>Argument $id_equipo is missing from the Docblock of actionVer()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>108</td>
+<td>Argument $id_nuevo_equipo is missing from the Docblock of actionCambiar()</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/controllers/HabilidadesController.php" id="protected/controllers/HabilidadesController.php"></a><h3>
+<i class="icon-file"></i>protected/controllers/HabilidadesController.php<small style="float: right;padding-right: 10px;">5</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody>
+<tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/controllers/HabilidadesController.php</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>4</td>
+<td>No DocBlock was found for \HabilidadesController</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>6</td>
+<td>No short description for method filters()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>74</td>
+<td>Argument $id_habilidad is missing from the Docblock of actionVer()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>119</td>
+<td>Argument $id_habilidad is missing from the Docblock of actionAdquirir()</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/controllers/PartidosController.php" id="protected/controllers/PartidosController.php"></a><h3>
+<i class="icon-file"></i>protected/controllers/PartidosController.php<small style="float: right;padding-right: 10px;">7</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody>
+<tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/controllers/PartidosController.php</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>4</td>
+<td>No DocBlock was found for \PartidosController</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>7</td>
+<td>No DocBlock was found for method beforeAction()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>17</td>
+<td>No short description for method filters()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>73</td>
+<td>Argument $id_partido is missing from the Docblock of actionPrevia()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>162</td>
+<td>Argument $id_partido is missing from the Docblock of actionAsistir()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>250</td>
+<td>No DocBlock was found for method actionActPartido()</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/controllers/RegistroController.php" id="protected/controllers/RegistroController.php"></a><h3>
+<i class="icon-file"></i>protected/controllers/RegistroController.php<small style="float: right;padding-right: 10px;">3</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody>
+<tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/controllers/RegistroController.php</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>8</td>
+<td>No DocBlock was found for property $layout</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>67</td>
+<td>No DocBlock was found for method actionEquipo()</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/controllers/ScriptsController.php" id="protected/controllers/ScriptsController.php"></a><h3>
+<i class="icon-file"></i>protected/controllers/ScriptsController.php<small style="float: right;padding-right: 10px;">20</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody>
+<tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/controllers/ScriptsController.php</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>4</td>
+<td>No DocBlock was found for \ScriptsController</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>6</td>
+<td>No short description for method filters()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>76</td>
+<td>No DocBlock was found for method actionFinalizaIndividuales()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>136</td>
+<td>No DocBlock was found for method actionFinalizaGrupales()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>191</td>
+<td>Argument $dn is missing from the Docblock of actionFormula()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>191</td>
+<td>Argument $am is missing from the Docblock of actionFormula()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>191</td>
+<td>Argument $al is missing from the Docblock of actionFormula()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>191</td>
+<td>Argument $av is missing from the Docblock of actionFormula()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>191</td>
+<td>Argument $ml is missing from the Docblock of actionFormula()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>191</td>
+<td>Argument $mv is missing from the Docblock of actionFormula()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>191</td>
+<td>Argument $ol is missing from the Docblock of actionFormula()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>191</td>
+<td>Argument $ov is missing from the Docblock of actionFormula()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>191</td>
+<td>Argument $dl is missing from the Docblock of actionFormula()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>191</td>
+<td>Argument $dv is missing from the Docblock of actionFormula()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>266</td>
+<td>No DocBlock was found for method actionPass()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>293</td>
+<td>No DocBlock was found for method calendario()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>352</td>
+<td>No DocBlock was found for method generaLiga()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>409</td>
+<td>No DocBlock was found for method generaPartido()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>437</td>
+<td>No DocBlock was found for method actionLiga()</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/controllers/SiteController.php" id="protected/controllers/SiteController.php"></a><h3>
+<i class="icon-file"></i>protected/controllers/SiteController.php<small style="float: right;padding-right: 10px;">3</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody>
+<tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/controllers/SiteController.php</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>3</td>
+<td>No DocBlock was found for \SiteController</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>5</td>
+<td>No DocBlock was found for property $layout</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/controllers/UsuariosController.php" id="protected/controllers/UsuariosController.php"></a><h3>
+<i class="icon-file"></i>protected/controllers/UsuariosController.php<small style="float: right;padding-right: 10px;">10</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody>
+<tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/controllers/UsuariosController.php</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>7</td>
+<td>No DocBlock was found for \UsuariosController</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>93</td>
+<td>No DocBlock was found for method actionPerfil()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>138</td>
+<td>No DocBlock was found for method actionVer()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>167</td>
+<td>No DocBlock was found for method actionCambiarClave()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>202</td>
+<td>No DocBlock was found for method actionCambiarEmail()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>244</td>
+<td>No DocBlock was found for method actionDebug()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>256</td>
+<td>No DocBlock was found for method actionDebug2()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>268</td>
+<td>No DocBlock was found for method actionExp()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>277</td>
+<td>No DocBlock was found for method actionEjemplos()</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/models/AccionesGrupales.php" id="protected/models/AccionesGrupales.php"></a><h3>
+<i class="icon-file"></i>protected/models/AccionesGrupales.php<small style="float: right;padding-right: 10px;">1</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody><tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/models/AccionesGrupales.php</td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/models/AccionesIndividuales.php" id="protected/models/AccionesIndividuales.php"></a><h3>
+<i class="icon-file"></i>protected/models/AccionesIndividuales.php<small style="float: right;padding-right: 10px;">6</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody>
+<tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/models/AccionesIndividuales.php</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>23</td>
+<td>No short description for method tableName()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>31</td>
+<td>No short description for method rules()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>64</td>
+<td>No short description for method attributeLabels()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>99</td>
+<td>No DocBlock was found for method finalizaIndividuales()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>154</td>
+<td>No DocBlock was found for method usarIndividual()</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="package-contents"></div>
+<div class="package-contents">
+<a name="protected/models/Clasificacion.php" id="protected/models/Clasificacion.php"></a><h3>
+<i class="icon-file"></i>protected/models/Clasificacion.php<small style="float: right;padding-right: 10px;">4</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody>
+<tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/models/Clasificacion.php</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>26</td>
+<td>No short description for method tableName()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>34</td>
+<td>No short description for method rules()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>64</td>
+<td>No short description for method attributeLabels()</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/models/ContactForm.php" id="protected/models/ContactForm.php"></a><h3>
+<i class="icon-file"></i>protected/models/ContactForm.php<small style="float: right;padding-right: 10px;">6</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody>
+<tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/models/ContactForm.php</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>10</td>
+<td>No DocBlock was found for property $name</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>11</td>
+<td>No DocBlock was found for property $email</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>12</td>
+<td>No DocBlock was found for property $subject</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>13</td>
+<td>No DocBlock was found for property $body</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>14</td>
+<td>No DocBlock was found for property $verifyCode</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/models/Desbloqueadas.php" id="protected/models/Desbloqueadas.php"></a><h3>
+<i class="icon-file"></i>protected/models/Desbloqueadas.php<small style="float: right;padding-right: 10px;">4</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody>
+<tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/models/Desbloqueadas.php</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>22</td>
+<td>No short description for method tableName()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>30</td>
+<td>No short description for method rules()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>60</td>
+<td>No short description for method attributeLabels()</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/models/Equipos.php" id="protected/models/Equipos.php"></a><h3>
+<i class="icon-file"></i>protected/models/Equipos.php<small style="float: right;padding-right: 10px;">4</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody>
+<tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/models/Equipos.php</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>28</td>
+<td>No short description for method tableName()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>36</td>
+<td>No short description for method rules()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>74</td>
+<td>No short description for method attributeLabels()</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/models/Habilidades.php" id="protected/models/Habilidades.php"></a><h3>
+<i class="icon-file"></i>protected/models/Habilidades.php<small style="float: right;padding-right: 10px;">4</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody>
+<tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/models/Habilidades.php</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>27</td>
+<td>No short description for method tableName()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>35</td>
+<td>No short description for method rules()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>72</td>
+<td>No short description for method attributeLabels()</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/models/LoginForm.php" id="protected/models/LoginForm.php"></a><h3>
+<i class="icon-file"></i>protected/models/LoginForm.php<small style="float: right;padding-right: 10px;">7</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody>
+<tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/models/LoginForm.php</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>10</td>
+<td>No DocBlock was found for property $username</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>11</td>
+<td>No DocBlock was found for property $password</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>12</td>
+<td>No DocBlock was found for property $rememberMe</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>14</td>
+<td>No DocBlock was found for property $_identity</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>43</td>
+<td>Argument $attribute is missing from the Docblock of authenticate()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>43</td>
+<td>Argument $params is missing from the Docblock of authenticate()</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/models/Participaciones.php" id="protected/models/Participaciones.php"></a><h3>
+<i class="icon-file"></i>protected/models/Participaciones.php<small style="float: right;padding-right: 10px;">7</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody>
+<tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/models/Participaciones.php</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>22</td>
+<td>No DocBlock was found for property $animo_nuevo</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>23</td>
+<td>No DocBlock was found for property $influencia_nueva</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>25</td>
+<td>No DocBlock was found for method model()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>30</td>
+<td>No short description for method tableName()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>38</td>
+<td>No short description for method rules()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>72</td>
+<td>No short description for method attributeLabels()</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/models/Partidos.php" id="protected/models/Partidos.php"></a><h3>
+<i class="icon-file"></i>protected/models/Partidos.php<small style="float: right;padding-right: 10px;">18</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody>
+<tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/models/Partidos.php</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>22</td>
+<td>No DocBlock was found for property $datos_factores</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>43</td>
+<td>No DocBlock was found for method model()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>48</td>
+<td>No short description for method tableName()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>56</td>
+<td>No short description for method rules()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>89</td>
+<td>No short description for method attributeLabels()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>128</td>
+<td>Argument $id_partido is missing from the Docblock of aumentar_factores()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>128</td>
+<td>Argument $id_equipo is missing from the Docblock of aumentar_factores()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>128</td>
+<td>Argument $columna is missing from the Docblock of aumentar_factores()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>128</td>
+<td>Argument $cantidad is missing from the Docblock of aumentar_factores()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>173</td>
+<td>Argument $id_partido is missing from the Docblock of disminuir_factores()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>173</td>
+<td>Argument $id_equipo is missing from the Docblock of disminuir_factores()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>173</td>
+<td>Argument $columna is missing from the Docblock of disminuir_factores()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>173</td>
+<td>Argument $cantidad is missing from the Docblock of disminuir_factores()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>218</td>
+<td>Argument $id_partido is missing from the Docblock of aumentar_factores_prop()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>218</td>
+<td>Argument $id_equipo is missing from the Docblock of aumentar_factores_prop()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>218</td>
+<td>Argument $columna is missing from the Docblock of aumentar_factores_prop()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>218</td>
+<td>Argument $proporcion is missing from the Docblock of aumentar_factores_prop()</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/models/Recursos.php" id="protected/models/Recursos.php"></a><h3>
+<i class="icon-file"></i>protected/models/Recursos.php<small style="float: right;padding-right: 10px;">11</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody>
+<tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/models/Recursos.php</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>29</td>
+<td>No short description for method tableName()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>37</td>
+<td>No short description for method rules()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>68</td>
+<td>No short description for method attributeLabels()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>118</td>
+<td>No DocBlock was found for method actualizaRecursos()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>172</td>
+<td>Argument $id_usuario is missing from the Docblock of aumentar_recursos()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>172</td>
+<td>Argument $columna is missing from the Docblock of aumentar_recursos()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>172</td>
+<td>Argument $cantidad is missing from the Docblock of aumentar_recursos()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>233</td>
+<td>Argument $id_usuario is missing from the Docblock of quitar_recursos()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>233</td>
+<td>Argument $columna is missing from the Docblock of quitar_recursos()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>233</td>
+<td>Argument $cantidad is missing from the Docblock of quitar_recursos()</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/models/Usuarios.php" id="protected/models/Usuarios.php"></a><h3>
+<i class="icon-file"></i>protected/models/Usuarios.php<small style="float: right;padding-right: 10px;">12</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody>
+<tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/models/Usuarios.php</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>87</td>
+<td>No DocBlock was found for property $antigua_clave</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>88</td>
+<td>No DocBlock was found for property $nueva_clave1</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>89</td>
+<td>No DocBlock was found for property $nueva_clave2</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>90</td>
+<td>No DocBlock was found for property $antigua_email</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>91</td>
+<td>No DocBlock was found for property $nueva_email1</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>92</td>
+<td>No DocBlock was found for property $nueva_email2</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>93</td>
+<td>No DocBlock was found for property $nuevo_nick</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>102</td>
+<td>No short description for method tableName()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>218</td>
+<td>No DocBlock was found for method comprobarEmail()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>228</td>
+<td>No DocBlock was found for method comprobarNick()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>274</td>
+<td>No short description for method attributeLabels()</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/tests/bootstrap.php" id="protected/tests/bootstrap.php"></a><h3>
+<i class="icon-file"></i>protected/tests/bootstrap.php<small style="float: right;padding-right: 10px;">1</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody><tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/tests/bootstrap.php</td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/tests/fixtures/Acciones_grupales.php" id="protected/tests/fixtures/Acciones_grupales.php"></a><h3>
+<i class="icon-file"></i>protected/tests/fixtures/Acciones_grupales.php<small style="float: right;padding-right: 10px;">1</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody><tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/tests/fixtures/Acciones_grupales.php</td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/tests/fixtures/Acciones_individuales.php" id="protected/tests/fixtures/Acciones_individuales.php"></a><h3>
+<i class="icon-file"></i>protected/tests/fixtures/Acciones_individuales.php<small style="float: right;padding-right: 10px;">1</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody><tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/tests/fixtures/Acciones_individuales.php</td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/tests/fixtures/Clasificacion.php" id="protected/tests/fixtures/Clasificacion.php"></a><h3>
+<i class="icon-file"></i>protected/tests/fixtures/Clasificacion.php<small style="float: right;padding-right: 10px;">1</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody><tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/tests/fixtures/Clasificacion.php</td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="package-contents"></div>
+<div class="package-contents">
+<a name="protected/tests/fixtures/Equipos.php" id="protected/tests/fixtures/Equipos.php"></a><h3>
+<i class="icon-file"></i>protected/tests/fixtures/Equipos.php<small style="float: right;padding-right: 10px;">1</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody><tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/tests/fixtures/Equipos.php</td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="package-contents"></div>
+<div class="package-contents">
+<a name="protected/tests/fixtures/Participaciones.php" id="protected/tests/fixtures/Participaciones.php"></a><h3>
+<i class="icon-file"></i>protected/tests/fixtures/Participaciones.php<small style="float: right;padding-right: 10px;">1</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody><tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/tests/fixtures/Participaciones.php</td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/tests/fixtures/Partidos.php" id="protected/tests/fixtures/Partidos.php"></a><h3>
+<i class="icon-file"></i>protected/tests/fixtures/Partidos.php<small style="float: right;padding-right: 10px;">1</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody><tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/tests/fixtures/Partidos.php</td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/tests/fixtures/Recursos.php" id="protected/tests/fixtures/Recursos.php"></a><h3>
+<i class="icon-file"></i>protected/tests/fixtures/Recursos.php<small style="float: right;padding-right: 10px;">1</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody><tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/tests/fixtures/Recursos.php</td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="package-contents"></div>
+<div class="package-contents">
+<a name="protected/tests/functional/RegistroTest.php" id="protected/tests/functional/RegistroTest.php"></a><h3>
+<i class="icon-file"></i>protected/tests/functional/RegistroTest.php<small style="float: right;padding-right: 10px;">3</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody>
+<tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/tests/functional/RegistroTest.php</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>3</td>
+<td>No DocBlock was found for \RegistroTest</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>5</td>
+<td>No DocBlock was found for method testIndex()</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/tests/functional/SiteTest.php" id="protected/tests/functional/SiteTest.php"></a><h3>
+<i class="icon-file"></i>protected/tests/functional/SiteTest.php<small style="float: right;padding-right: 10px;">5</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody>
+<tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/tests/functional/SiteTest.php</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>3</td>
+<td>No DocBlock was found for \SiteTest</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>5</td>
+<td>No DocBlock was found for method testIndex()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>11</td>
+<td>No DocBlock was found for method testContact()</td>
+</tr>
+<tr class="error">
+<td>error</td>
+<td>24</td>
+<td>No DocBlock was found for method testLoginLogout()</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/tests/WebTestCase.php" id="protected/tests/WebTestCase.php"></a><h3>
+<i class="icon-file"></i>protected/tests/WebTestCase.php<small style="float: right;padding-right: 10px;">1</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody><tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/tests/WebTestCase.php</td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/views/acciones/index.php" id="protected/views/acciones/index.php"></a><h3>
+<i class="icon-file"></i>protected/views/acciones/index.php<small style="float: right;padding-right: 10px;">1</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody><tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/views/acciones/index.php</td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/views/acciones/participar.php" id="protected/views/acciones/participar.php"></a><h3>
+<i class="icon-file"></i>protected/views/acciones/participar.php<small style="float: right;padding-right: 10px;">1</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody><tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/views/acciones/participar.php</td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/views/acciones/usar.php" id="protected/views/acciones/usar.php"></a><h3>
+<i class="icon-file"></i>protected/views/acciones/usar.php<small style="float: right;padding-right: 10px;">1</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody><tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/views/acciones/usar.php</td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/views/acciones/ver.php" id="protected/views/acciones/ver.php"></a><h3>
+<i class="icon-file"></i>protected/views/acciones/ver.php<small style="float: right;padding-right: 10px;">1</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody><tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/views/acciones/ver.php</td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/views/equipos/cambiar.php" id="protected/views/equipos/cambiar.php"></a><h3>
+<i class="icon-file"></i>protected/views/equipos/cambiar.php<small style="float: right;padding-right: 10px;">1</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody><tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/views/equipos/cambiar.php</td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/views/equipos/index.php" id="protected/views/equipos/index.php"></a><h3>
+<i class="icon-file"></i>protected/views/equipos/index.php<small style="float: right;padding-right: 10px;">1</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody><tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/views/equipos/index.php</td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/views/equipos/ver.php" id="protected/views/equipos/ver.php"></a><h3>
+<i class="icon-file"></i>protected/views/equipos/ver.php<small style="float: right;padding-right: 10px;">1</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody><tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/views/equipos/ver.php</td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/views/habilidades/adquirir.php" id="protected/views/habilidades/adquirir.php"></a><h3>
+<i class="icon-file"></i>protected/views/habilidades/adquirir.php<small style="float: right;padding-right: 10px;">1</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody><tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/views/habilidades/adquirir.php</td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/views/habilidades/index.php" id="protected/views/habilidades/index.php"></a><h3>
+<i class="icon-file"></i>protected/views/habilidades/index.php<small style="float: right;padding-right: 10px;">1</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody><tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/views/habilidades/index.php</td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/views/habilidades/ver.php" id="protected/views/habilidades/ver.php"></a><h3>
+<i class="icon-file"></i>protected/views/habilidades/ver.php<small style="float: right;padding-right: 10px;">1</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody><tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/views/habilidades/ver.php</td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/views/layouts/login.php" id="protected/views/layouts/login.php"></a><h3>
+<i class="icon-file"></i>protected/views/layouts/login.php<small style="float: right;padding-right: 10px;">1</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody><tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/views/layouts/login.php</td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/views/layouts/main.php" id="protected/views/layouts/main.php"></a><h3>
+<i class="icon-file"></i>protected/views/layouts/main.php<small style="float: right;padding-right: 10px;">1</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody><tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/views/layouts/main.php</td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/views/partidos/_estadoPartido.php" id="protected/views/partidos/_estadoPartido.php"></a><h3>
+<i class="icon-file"></i>protected/views/partidos/_estadoPartido.php<small style="float: right;padding-right: 10px;">1</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody><tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/views/partidos/_estadoPartido.php</td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/views/partidos/asistir.antiguo.php" id="protected/views/partidos/asistir.antiguo.php"></a><h3>
+<i class="icon-file"></i>protected/views/partidos/asistir.antiguo.php<small style="float: right;padding-right: 10px;">1</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody><tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/views/partidos/asistir.antiguo.php</td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/views/partidos/asistir.php" id="protected/views/partidos/asistir.php"></a><h3>
+<i class="icon-file"></i>protected/views/partidos/asistir.php<small style="float: right;padding-right: 10px;">1</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody><tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/views/partidos/asistir.php</td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/views/partidos/cronica.php" id="protected/views/partidos/cronica.php"></a><h3>
+<i class="icon-file"></i>protected/views/partidos/cronica.php<small style="float: right;padding-right: 10px;">1</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody><tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/views/partidos/cronica.php</td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/views/partidos/index.php" id="protected/views/partidos/index.php"></a><h3>
+<i class="icon-file"></i>protected/views/partidos/index.php<small style="float: right;padding-right: 10px;">1</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody><tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/views/partidos/index.php</td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/views/partidos/previa.php" id="protected/views/partidos/previa.php"></a><h3>
+<i class="icon-file"></i>protected/views/partidos/previa.php<small style="float: right;padding-right: 10px;">1</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody><tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/views/partidos/previa.php</td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/views/registro/equipo.php" id="protected/views/registro/equipo.php"></a><h3>
+<i class="icon-file"></i>protected/views/registro/equipo.php<small style="float: right;padding-right: 10px;">1</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody><tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/views/registro/equipo.php</td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/views/registro/index.php" id="protected/views/registro/index.php"></a><h3>
+<i class="icon-file"></i>protected/views/registro/index.php<small style="float: right;padding-right: 10px;">1</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody><tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/views/registro/index.php</td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/views/registro/personaje.php" id="protected/views/registro/personaje.php"></a><h3>
+<i class="icon-file"></i>protected/views/registro/personaje.php<small style="float: right;padding-right: 10px;">1</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody><tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/views/registro/personaje.php</td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/views/scripts/formula.php" id="protected/views/scripts/formula.php"></a><h3>
+<i class="icon-file"></i>protected/views/scripts/formula.php<small style="float: right;padding-right: 10px;">1</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody><tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/views/scripts/formula.php</td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/views/site/contact.php" id="protected/views/site/contact.php"></a><h3>
+<i class="icon-file"></i>protected/views/site/contact.php<small style="float: right;padding-right: 10px;">1</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody><tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/views/site/contact.php</td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/views/site/error.php" id="protected/views/site/error.php"></a><h3>
+<i class="icon-file"></i>protected/views/site/error.php<small style="float: right;padding-right: 10px;">1</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody><tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/views/site/error.php</td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/views/site/index.php" id="protected/views/site/index.php"></a><h3>
+<i class="icon-file"></i>protected/views/site/index.php<small style="float: right;padding-right: 10px;">1</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody><tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/views/site/index.php</td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/views/site/login.php" id="protected/views/site/login.php"></a><h3>
+<i class="icon-file"></i>protected/views/site/login.php<small style="float: right;padding-right: 10px;">1</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody><tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/views/site/login.php</td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/views/site/pages/about.php" id="protected/views/site/pages/about.php"></a><h3>
+<i class="icon-file"></i>protected/views/site/pages/about.php<small style="float: right;padding-right: 10px;">1</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody><tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/views/site/pages/about.php</td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/views/usuarios/cambiarClave.php" id="protected/views/usuarios/cambiarClave.php"></a><h3>
+<i class="icon-file"></i>protected/views/usuarios/cambiarClave.php<small style="float: right;padding-right: 10px;">1</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody><tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/views/usuarios/cambiarClave.php</td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/views/usuarios/cambiarEmail.php" id="protected/views/usuarios/cambiarEmail.php"></a><h3>
+<i class="icon-file"></i>protected/views/usuarios/cambiarEmail.php<small style="float: right;padding-right: 10px;">1</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody><tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/views/usuarios/cambiarEmail.php</td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/views/usuarios/ejemplos.php" id="protected/views/usuarios/ejemplos.php"></a><h3>
+<i class="icon-file"></i>protected/views/usuarios/ejemplos.php<small style="float: right;padding-right: 10px;">1</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody><tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/views/usuarios/ejemplos.php</td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/views/usuarios/exp.php" id="protected/views/usuarios/exp.php"></a><h3>
+<i class="icon-file"></i>protected/views/usuarios/exp.php<small style="float: right;padding-right: 10px;">1</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody><tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/views/usuarios/exp.php</td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/views/usuarios/index.php" id="protected/views/usuarios/index.php"></a><h3>
+<i class="icon-file"></i>protected/views/usuarios/index.php<small style="float: right;padding-right: 10px;">1</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody><tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/views/usuarios/index.php</td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/views/usuarios/perfil.php" id="protected/views/usuarios/perfil.php"></a><h3>
+<i class="icon-file"></i>protected/views/usuarios/perfil.php<small style="float: right;padding-right: 10px;">1</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody><tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/views/usuarios/perfil.php</td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/views/usuarios/ver.php" id="protected/views/usuarios/ver.php"></a><h3>
+<i class="icon-file"></i>protected/views/usuarios/ver.php<small style="float: right;padding-right: 10px;">1</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody><tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/views/usuarios/ver.php</td>
+</tr></tbody>
+</table></div>
+</div>
+<div class="package-contents">
+<a name="protected/yiic.php" id="protected/yiic.php"></a><h3>
+<i class="icon-file"></i>protected/yiic.php<small style="float: right;padding-right: 10px;">1</small>
+</h3>
+<div><table class="table markers table-bordered">
+<thead><tr>
+<th>Type</th>
+<th>Line</th>
+<th>Description</th>
+</tr></thead>
+<tbody><tr class="error">
+<td>error</td>
+<td>0</td>
+<td>No page-level DocBlock was found in file protected/yiic.php</td>
+</tr></tbody>
+</table></div>
+</div>
+</div>
+</div>
+<div class="row"><footer class="span12">
+            Template is built using <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap 2</a> and icons provided by <a href="http://glyphicons.com/">Glyphicons</a>.<br>
+            Documentation is powered by <a href="http://www.phpdoc.org/">phpDocumentor 2.0.0a12</a> and<br>
+            generated on 2013-04-12T18:56:17+02:00.<br></footer></div>
+</div>
+</body>
+</html>
