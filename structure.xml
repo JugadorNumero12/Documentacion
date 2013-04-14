@@ -54,7 +54,7 @@
         <full_name>run</full_name>
         <argument line="4">
           <name>$args</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -75,7 +75,7 @@
         <full_name>run</full_name>
         <argument line="5">
           <name>$args</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -94,7 +94,7 @@
       <full_name>\AccionGrupSingleton</full_name>
       <property final="false" static="true" visibility="protected" line="5" namespace="global" package="Default">
         <name>$instancia</name>
-        <default></default>
+        <default/>
       </property>
       <method final="false" abstract="false" static="false" visibility="protected" namespace="global" line="8" package="Default">
         <name>__construct</name>
@@ -109,7 +109,7 @@
         <full_name>ejecutar</full_name>
         <argument line="26">
           <name>$id_accion</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -140,7 +140,7 @@
       <full_name>\AccionIndSingleton</full_name>
       <property final="false" static="true" visibility="protected" line="5" namespace="global" package="Default">
         <name>$instancia</name>
-        <default></default>
+        <default/>
       </property>
       <method final="false" abstract="false" static="false" visibility="protected" namespace="global" line="8" package="Default">
         <name>__construct</name>
@@ -155,7 +155,7 @@
         <full_name>ejecutar</full_name>
         <argument line="24">
           <name>$id_usuario</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -164,12 +164,12 @@
         <full_name>finalizar</full_name>
         <argument line="29">
           <name>$id_usuario</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="29">
           <name>$id_habilidad</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -196,7 +196,7 @@
       <full_name>\AccionPartSingleton</full_name>
       <property final="false" static="true" visibility="protected" line="5" namespace="global" package="Default">
         <name>$instancia</name>
-        <default></default>
+        <default/>
       </property>
       <method final="false" abstract="false" static="false" visibility="protected" namespace="global" line="8" package="Default">
         <name>__construct</name>
@@ -211,7 +211,7 @@
         <full_name>ejecutar</full_name>
         <argument line="26">
           <name>$id_usuario</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -242,7 +242,7 @@
       <full_name>\AccionPasSingleton</full_name>
       <property final="false" static="true" visibility="protected" line="5" namespace="global" package="Default">
         <name>$instancia</name>
-        <default></default>
+        <default/>
       </property>
       <method final="false" abstract="false" static="false" visibility="protected" namespace="global" line="8" package="Default">
         <name>__construct</name>
@@ -257,7 +257,7 @@
         <full_name>ejecutar</full_name>
         <argument line="24">
           <name>$id_usuario</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -303,7 +303,7 @@ Perfil asociado: Empresario, Ultra</description>
         <full_name>ejecutar</full_name>
         <argument line="24">
           <name>$id_usuario</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -312,12 +312,12 @@ Perfil asociado: Empresario, Ultra</description>
         <full_name>finalizar</full_name>
         <argument line="46">
           <name>$id_usuario</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="46">
           <name>$id_habilidad</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -350,7 +350,7 @@ Perfil asociado: Empresario, Ultra</description>
         <full_name>ejecutar</full_name>
         <argument line="24">
           <name>$id_usuario</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -387,17 +387,17 @@ Perfil asociado: Ultra</description>
         <full_name>ejecutar</full_name>
         <argument line="24">
           <name>$id_usuario</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="24">
           <name>$id_partido</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="24">
           <name>$id_equipo</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -434,7 +434,7 @@ Perfil asociado: Empresario, Movedora</description>
         <full_name>ejecutar</full_name>
         <argument line="24">
           <name>$id_usuario</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -443,12 +443,12 @@ Perfil asociado: Empresario, Movedora</description>
         <full_name>finalizar</full_name>
         <argument line="45">
           <name>$id_usuario</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="45">
           <name>$id_habilidad</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -482,7 +482,7 @@ Perfil asociado: Todos</description>
         <full_name>ejecutar</full_name>
         <argument line="25">
           <name>$id_usuario</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -491,12 +491,12 @@ Perfil asociado: Todos</description>
         <full_name>finalizar</full_name>
         <argument line="47">
           <name>$id_usuario</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="47">
           <name>$id_habilidad</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -549,7 +549,7 @@ Perfil asociado: Empresario</description>
         <full_name>ejecutar</full_name>
         <argument line="28">
           <name>$id_accion</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -587,17 +587,17 @@ Perfil asociado: Movedora</description>
         <full_name>ejecutar</full_name>
         <argument line="25">
           <name>$id_usuario</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="25">
           <name>$id_partido</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="25">
           <name>$id_equipo</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -637,7 +637,7 @@ Perfil asociado: Empresario</description>
         <full_name>ejecutar</full_name>
         <argument line="27">
           <name>$id_accion</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -674,17 +674,17 @@ Perfil asociado: Ultra</description>
         <full_name>ejecutar</full_name>
         <argument line="24">
           <name>$id_usuario</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="24">
           <name>$id_partido</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="24">
           <name>$id_equipo</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -724,7 +724,7 @@ Perfil asociado: Empresario, Movedora</description>
         <full_name>ejecutar</full_name>
         <argument line="27">
           <name>$id_accion</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -765,7 +765,7 @@ Perfil asociado: Ultra, Movedora</description>
         <full_name>ejecutar</full_name>
         <argument line="30">
           <name>$id_accion</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -806,7 +806,7 @@ Perfil asociado: Movedora</description>
         <full_name>ejecutar</full_name>
         <argument line="28">
           <name>$id_accion</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -843,17 +843,17 @@ Perfil asociado: Ultra</description>
         <full_name>ejecutar</full_name>
         <argument line="24">
           <name>$id_usuario</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="24">
           <name>$id_partido</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="24">
           <name>$id_equipo</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -891,17 +891,17 @@ Perfil asociado: Ultra, Movedora</description>
         <full_name>ejecutar</full_name>
         <argument line="25">
           <name>$id_usuario</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="25">
           <name>$id_partido</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="25">
           <name>$id_equipo</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -925,11 +925,11 @@ Perfil asociado: Ultra, Movedora</description>
       <full_name>\Bcrypt</full_name>
       <property final="false" static="false" visibility="private" line="4" namespace="global" package="Default">
         <name>$rounds</name>
-        <default></default>
+        <default/>
       </property>
       <property final="false" static="false" visibility="private" line="38" namespace="global" package="Default">
         <name>$randomState</name>
-        <default></default>
+        <default/>
       </property>
       <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="5" package="Default">
         <name>__construct</name>
@@ -945,7 +945,7 @@ Perfil asociado: Ultra, Movedora</description>
         <full_name>hash</full_name>
         <argument line="13">
           <name>$input</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -954,12 +954,12 @@ Perfil asociado: Ultra, Movedora</description>
         <full_name>verify</full_name>
         <argument line="22">
           <name>$input</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="22">
           <name>$existingHash</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -972,7 +972,7 @@ Perfil asociado: Ultra, Movedora</description>
         <full_name>getRandomBytes</full_name>
         <argument line="39">
           <name>$count</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -981,7 +981,7 @@ Perfil asociado: Ultra, Movedora</description>
         <full_name>encodeBytes</full_name>
         <argument line="79">
           <name>$input</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -1012,8 +1012,8 @@ Perfil asociado: Ultra, Movedora</description>
         <name>$layout</name>
         <default>'//layouts/main'</default>
         <docblock line="8">
-          <description></description>
-          <long-description></long-description>
+          <description/>
+          <long-description/>
           <tag line="8" name="var" description="the default layout for the controller view. Defaults to '//layouts/main', meaning using a single column layout." type="string">
             <type by_reference="false">string</type>
           </tag>
@@ -1023,8 +1023,8 @@ Perfil asociado: Ultra, Movedora</description>
         <name>$menu</name>
         <default>array()</default>
         <docblock line="13">
-          <description></description>
-          <long-description></long-description>
+          <description/>
+          <long-description/>
           <tag line="13" name="var" description="context menu items. This property will be assigned to {@link CMenu::items}." type="array">
             <type by_reference="false">array</type>
           </tag>
@@ -1034,8 +1034,8 @@ Perfil asociado: Ultra, Movedora</description>
         <name>$breadcrumbs</name>
         <default>array()</default>
         <docblock line="17">
-          <description></description>
-          <long-description></long-description>
+          <description/>
+          <long-description/>
           <tag line="17" name="var" description="the breadcrumbs of the current page. The value of this property will be assigned to {@link CBreadcrumbs::links}. Please refer to {@link CBreadcrumbs::links} for more details on how to specify this property." type="array">
             <type by_reference="false">array</type>
           </tag>
@@ -1046,7 +1046,7 @@ Perfil asociado: Ultra, Movedora</description>
         <full_name>beforeAction</full_name>
         <argument line="24">
           <name>$action</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -1100,8 +1100,8 @@ Perfil asociado: Ultra, Movedora</description>
         <name>cumnormdist</name>
         <full_name>cumnormdist</full_name>
         <docblock line="15">
-          <description></description>
-          <long-description></long-description>
+          <description/>
+          <long-description/>
           <tag line="15" name="param" description="Punto en el que calcular la normal" type="\" variable="$x"/>
           <tag line="15" name="return" description="normal acumulada en el punto $x" type="\La">
             <type by_reference="false">\La</type>
@@ -1109,7 +1109,7 @@ Perfil asociado: Ultra, Movedora</description>
         </docblock>
         <argument line="19">
           <name>$x</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -1117,8 +1117,8 @@ Perfil asociado: Ultra, Movedora</description>
         <name>gauss</name>
         <full_name>gauss</full_name>
         <docblock line="41">
-          <description></description>
-          <long-description></long-description>
+          <description/>
+          <long-description/>
           <tag line="41" name="param" description="Punto en el que calcular la normal" type="\" variable="$x"/>
           <tag line="41" name="param" description="Media de la normal a calcular" type="\" variable="$avg"/>
           <tag line="41" name="param" description="Desviación típica de la normal acalcular" type="\" variable="$stdev"/>
@@ -1128,17 +1128,17 @@ Perfil asociado: Ultra, Movedora</description>
         </docblock>
         <argument line="47">
           <name>$x</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="47">
           <name>$avg</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="47">
           <name>$stdev</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -1147,7 +1147,7 @@ Perfil asociado: Ultra, Movedora</description>
         <full_name>equilibrio</full_name>
         <docblock line="51">
           <description>Calcula el punto de equilibrio al cual debe tender el partido en reposo.</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="51" name="param" description="Array de parámetros de la fórmula" type="\" variable="$params"/>
           <tag line="51" name="return" description="deequilibrio del partido" type="\Punto">
             <type by_reference="false">\Punto</type>
@@ -1155,7 +1155,7 @@ Perfil asociado: Ultra, Movedora</description>
         </docblock>
         <argument line="57">
           <name>$params</name>
-          <default></default>
+          <default/>
           <type>array</type>
         </argument>
       </method>
@@ -1164,7 +1164,7 @@ Perfil asociado: Ultra, Movedora</description>
         <full_name>calcMedia</full_name>
         <docblock line="78">
           <description>Calcula la media de la función final dados los parámetros para el turno.</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="78" name="param" description="Array de parámetros de la fórmula" type="\" variable="$params"/>
           <tag line="78" name="return" description="de la función final" type="\Media">
             <type by_reference="false">\Media</type>
@@ -1172,7 +1172,7 @@ Perfil asociado: Ultra, Movedora</description>
         </docblock>
         <argument line="84">
           <name>$params</name>
-          <default></default>
+          <default/>
           <type>array</type>
         </argument>
       </method>
@@ -1182,7 +1182,7 @@ Perfil asociado: Ultra, Movedora</description>
         <docblock line="106">
           <description>Calcula la desviación típica de la función final dados los parámetros
 para el turno.</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="106" name="param" description="Array de parámetros de la fórmula" type="\" variable="$params"/>
           <tag line="106" name="return" description="típica de la función final" type="\Desviación">
             <type by_reference="false">\Desviación</type>
@@ -1190,7 +1190,7 @@ para el turno.</description>
         </docblock>
         <argument line="113">
           <name>$params</name>
-          <default></default>
+          <default/>
           <type>array</type>
         </argument>
       </method>
@@ -1200,7 +1200,7 @@ para el turno.</description>
         <docblock line="139">
           <description>Devuelve un array de los pesos que indicarán la probabilidad de cada
 cambio de estado.</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="139" name="param" description="Array de parámetros de la fórmula" type="\" variable="$params"/>
           <tag line="139" name="return" description="de los cambios de estado" type="\Pesos">
             <type by_reference="false">\Pesos</type>
@@ -1208,7 +1208,7 @@ cambio de estado.</description>
         </docblock>
         <argument line="146">
           <name>$params</name>
-          <default></default>
+          <default/>
           <type>array</type>
         </argument>
       </method>
@@ -1218,7 +1218,7 @@ cambio de estado.</description>
         <docblock line="203">
           <description>Obtiene un array de {@link #pesos} y lo transforma en probabilidades,
 dividiendo cada elemento entre la suma de todos</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="203" name="param" description="Array de parámetros de la fórmula" type="\" variable="$params"/>
           <tag line="203" name="return" description="de los cambios de estado" type="\Probabilidades">
             <type by_reference="false">\Probabilidades</type>
@@ -1226,7 +1226,7 @@ dividiendo cada elemento entre la suma de todos</description>
         </docblock>
         <argument line="210">
           <name>$params</name>
-          <default></default>
+          <default/>
           <type>array</type>
         </argument>
       </method>
@@ -1237,12 +1237,12 @@ dividiendo cada elemento entre la suma de todos</description>
           <description>Calcula de forma aleatoria el siguiente estado, basado en las
 probabilidades calculadas por {@link #probabilidades} y
 los parámetros dados.</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="220" name="param" description="Array de parámetros de la fórmula" type="\" variable="$params"/>
         </docblock>
         <argument line="227">
           <name>$params</name>
-          <default></default>
+          <default/>
           <type>array</type>
         </argument>
       </method>
@@ -1274,7 +1274,7 @@ los parámetros dados.</description>
         <full_name>aumentar_recursos</full_name>
         <docblock line="27">
           <description>Funcion auxiliar que modifica la tabla de recursos</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="27" name="paremetro" description="usuario al que modificamos sus recursos"/>
           <tag line="27" name="parametro" description="columna sobre la que modificamos (dinero, dinero_gen, ...)"/>
           <tag line="27" name="parametro" description="cantidad de recursos que aumentamos"/>
@@ -1283,17 +1283,17 @@ los parámetros dados.</description>
         </docblock>
         <argument line="35">
           <name>$id_usuario</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="35">
           <name>$columna</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="35">
           <name>$cantidad</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -1302,7 +1302,7 @@ los parámetros dados.</description>
         <full_name>quitar_recursos</full_name>
         <docblock line="88">
           <description>Funcion auxiliar que modifica la tabla de recursos</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="88" name="paremetro" description="usuario al que modificamos sus recursos"/>
           <tag line="88" name="parametro" description="columna sobre la que modificamos (dinero, dinero_gen, ...)"/>
           <tag line="88" name="parametro" description="cantidad de recursos que quitamos"/>
@@ -1311,17 +1311,17 @@ los parámetros dados.</description>
         </docblock>
         <argument line="96">
           <name>$id_usuario</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="96">
           <name>$columna</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="96">
           <name>$cantidad</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -1330,7 +1330,7 @@ los parámetros dados.</description>
         <full_name>aumentar_factores</full_name>
         <docblock line="137">
           <description>Funcion auxiliar que modifica la tabla de partidos</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="137" name="paremetro" description="partido en el que modificamos sus factores"/>
           <tag line="137" name="paremetro" description="equipo al que pertenece"/>
           <tag line="137" name="parametro" description="columna sobre la que modificamos (moral,ambiente,ind.ofensivo...)"/>
@@ -1339,22 +1339,22 @@ los parámetros dados.</description>
         </docblock>
         <argument line="145">
           <name>$id_partido</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="145">
           <name>$id_equipo</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="145">
           <name>$columna</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="145">
           <name>$cantidad</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -1363,7 +1363,7 @@ los parámetros dados.</description>
         <full_name>disminuir_factores</full_name>
         <docblock line="182">
           <description>Funcion auxiliar que modifica la tabla de partidos</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="182" name="paremetro" description="partido en el que modificamos sus factores"/>
           <tag line="182" name="paremetro" description="equipo al que pertenece"/>
           <tag line="182" name="parametro" description="columna sobre la que modificamos (moral,ambiente,ind.ofensivo...)"/>
@@ -1372,22 +1372,22 @@ los parámetros dados.</description>
         </docblock>
         <argument line="190">
           <name>$id_partido</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="190">
           <name>$id_equipo</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="190">
           <name>$columna</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="190">
           <name>$cantidad</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -1406,22 +1406,22 @@ aumento normal de factores, éste se hace de forma proporcional.&lt;/p&gt;</long
         </docblock>
         <argument line="236">
           <name>$id_partido</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="236">
           <name>$id_equipo</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="236">
           <name>$columna</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="236">
           <name>$proporcion</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -1457,7 +1457,7 @@ aumento normal de factores, éste se hace de forma proporcional.&lt;/p&gt;</long
       <full_name>\Partido</full_name>
       <docblock line="2">
         <description>CLASE PARA EL PARTIDO</description>
-        <long-description></long-description>
+        <long-description/>
       </docblock>
       <constant namespace="global" line="13" package="Default">
         <name>PRIMER_TURNO</name>
@@ -1481,75 +1481,75 @@ aumento normal de factores, éste se hace de forma proporcional.&lt;/p&gt;</long
       </constant>
       <property final="false" static="false" visibility="private" line="19" namespace="global" package="Default">
         <name>$id_partido</name>
-        <default></default>
+        <default/>
       </property>
       <property final="false" static="false" visibility="private" line="20" namespace="global" package="Default">
         <name>$id_local</name>
-        <default></default>
+        <default/>
       </property>
       <property final="false" static="false" visibility="private" line="21" namespace="global" package="Default">
         <name>$id_visitante</name>
-        <default></default>
+        <default/>
       </property>
       <property final="false" static="false" visibility="private" line="22" namespace="global" package="Default">
         <name>$turno</name>
-        <default></default>
+        <default/>
       </property>
       <property final="false" static="false" visibility="private" line="23" namespace="global" package="Default">
         <name>$cronica</name>
-        <default></default>
+        <default/>
       </property>
       <property final="false" static="false" visibility="private" line="24" namespace="global" package="Default">
         <name>$ambiente</name>
-        <default></default>
+        <default/>
       </property>
       <property final="false" static="false" visibility="private" line="25" namespace="global" package="Default">
         <name>$dif_niveles</name>
-        <default></default>
+        <default/>
       </property>
       <property final="false" static="false" visibility="private" line="26" namespace="global" package="Default">
         <name>$aforo_local</name>
-        <default></default>
+        <default/>
       </property>
       <property final="false" static="false" visibility="private" line="27" namespace="global" package="Default">
         <name>$aforo_visitante</name>
-        <default></default>
+        <default/>
       </property>
       <property final="false" static="false" visibility="private" line="29" namespace="global" package="Default">
         <name>$ofensivo_local</name>
-        <default></default>
+        <default/>
       </property>
       <property final="false" static="false" visibility="private" line="30" namespace="global" package="Default">
         <name>$ofensivo_visitante</name>
-        <default></default>
+        <default/>
       </property>
       <property final="false" static="false" visibility="private" line="31" namespace="global" package="Default">
         <name>$defensivo_local</name>
-        <default></default>
+        <default/>
       </property>
       <property final="false" static="false" visibility="private" line="32" namespace="global" package="Default">
         <name>$defensivo_visitante</name>
-        <default></default>
+        <default/>
       </property>
       <property final="false" static="false" visibility="private" line="34" namespace="global" package="Default">
         <name>$goles_local</name>
-        <default></default>
+        <default/>
       </property>
       <property final="false" static="false" visibility="private" line="35" namespace="global" package="Default">
         <name>$goles_visitante</name>
-        <default></default>
+        <default/>
       </property>
       <property final="false" static="false" visibility="private" line="36" namespace="global" package="Default">
         <name>$estado</name>
-        <default></default>
+        <default/>
       </property>
       <property final="false" static="false" visibility="private" line="37" namespace="global" package="Default">
         <name>$moral_local</name>
-        <default></default>
+        <default/>
       </property>
       <property final="false" static="false" visibility="private" line="38" namespace="global" package="Default">
         <name>$moral_visitante</name>
-        <default></default>
+        <default/>
       </property>
       <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="44" package="Default">
         <name>Partido</name>
@@ -1557,11 +1557,11 @@ aumento normal de factores, éste se hace de forma proporcional.&lt;/p&gt;</long
         <docblock line="40">
           <description>Constructora: Inicializar todos los datos de la clase
 en función de la fila correspondiente de la tabla Partidos.</description>
-          <long-description></long-description>
+          <long-description/>
         </docblock>
         <argument line="44">
           <name>$id_partido</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -1591,7 +1591,7 @@ del partido.&lt;/p&gt;</long-description>
         <full_name>generaCronicaTurno</full_name>
         <argument line="223">
           <name>$estado_antiguo</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -1612,12 +1612,12 @@ del partido.&lt;/p&gt;</long-description>
         <full_name>bonifAnimo</full_name>
         <argument line="406">
           <name>$equipo</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="406">
           <name>$bonus</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -1642,7 +1642,7 @@ del partido.&lt;/p&gt;</long-description>
         <full_name>actualizaSiguientePartido</full_name>
         <argument line="596">
           <name>$id_equipo</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -1651,7 +1651,7 @@ del partido.&lt;/p&gt;</long-description>
         <full_name>rellenaSiguientePartido</full_name>
         <argument line="642">
           <name>$id_equipo</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -1660,7 +1660,7 @@ del partido.&lt;/p&gt;</long-description>
         <full_name>eliminaGrupales</full_name>
         <argument line="693">
           <name>$id_equipo</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -1722,7 +1722,7 @@ data can identity the user.&lt;/p&gt;</long-description>
       </docblock>
       <property final="false" static="false" visibility="private" line="11" namespace="global" package="Default">
         <name>$_id</name>
-        <default></default>
+        <default/>
       </property>
       <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="13" package="Default">
         <name>authenticate</name>
@@ -1775,7 +1775,7 @@ data can identity the user.&lt;/p&gt;</long-description>
       <full_name>\AccionesController</full_name>
       <docblock line="3">
         <description>Controlador para la funcionalidad relacionada con las acciones</description>
-        <long-description></long-description>
+        <long-description/>
       </docblock>
       <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="14" package="Default">
         <name>filters</name>
@@ -1783,7 +1783,7 @@ data can identity the user.&lt;/p&gt;</long-description>
         <docblock line="8">
           <description>Funcion predeterminada de Yii
 Permitimos "delete" solo via POST</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="8" name="return" description="filtros para &quot;actions&quot;" type="\(array)">
             <type by_reference="false">\(array)</type>
           </tag>
@@ -1841,7 +1841,7 @@ la variable de sesion&lt;/p&gt;</long-description>
         </docblock>
         <argument line="97">
           <name>$id_accion</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -1861,7 +1861,7 @@ la variable de sesion&lt;/p&gt;</long-description>
         </docblock>
         <argument line="230">
           <name>$id_accion</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -1880,7 +1880,7 @@ accion que se recogen por $_POST&lt;/p&gt;
         </docblock>
         <argument line="301">
           <name>$id_accion</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -1898,12 +1898,12 @@ accion que se recogen por $_POST&lt;/p&gt;
         </docblock>
         <argument line="391">
           <name>$id_accion</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="391">
           <name>$id_jugador</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -1914,7 +1914,7 @@ accion que se recogen por $_POST&lt;/p&gt;
           <description>Funcion predeterminada de Yii
 Devuelve el modelo de datos basado en la clave primaria dada por la variable GET
 Si el modelo de datos no se encuentra, se lanza una excepcion HTTP</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="411" name="param" description=": id del modelo que se va a cargar" type="\" variable="$id"/>
           <tag line="411" name="return" description="de datos" type="\modelo">
             <type by_reference="false">\modelo</type>
@@ -1922,7 +1922,7 @@ Si el modelo de datos no se encuentra, se lanza una excepcion HTTP</description>
         </docblock>
         <argument line="419">
           <name>$id</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -1932,12 +1932,12 @@ Si el modelo de datos no se encuentra, se lanza una excepcion HTTP</description>
         <docblock line="427">
           <description>Funcion predeterminada de Yii
 Realiza la validacion por Ajax</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="427" name="param" description="(CModel) modelo a ser validado" type="\" variable="$model"/>
         </docblock>
         <argument line="433">
           <name>$model</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -1961,8 +1961,8 @@ Realiza la validacion por Ajax</description>
         <name>filters</name>
         <full_name>filters</full_name>
         <docblock line="6">
-          <description></description>
-          <long-description></long-description>
+          <description/>
+          <long-description/>
           <tag line="6" name="return" description="de filtros para actions" type="array">
             <type by_reference="false">array</type>
           </tag>
@@ -1984,7 +1984,7 @@ Realiza la validacion por Ajax</description>
         <full_name>actionIndex</full_name>
         <docblock line="34">
           <description>Muestra la clasificacion de todos los equipos</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="34" name="ruta" description="jugadorNum12/equipos"/>
         </docblock>
       </method>
@@ -2010,7 +2010,7 @@ El id del jugador se recoge de la variable de sesion&lt;/p&gt;
         </docblock>
         <argument line="75">
           <name>$id_equipo</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -2027,7 +2027,7 @@ de la variable de sesion&lt;/p&gt;</long-description>
         </docblock>
         <argument line="118">
           <name>$id_nuevo_equipo</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -2043,7 +2043,7 @@ de la variable de sesion&lt;/p&gt;</long-description>
         </docblock>
         <argument line="170">
           <name>$id</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -2052,14 +2052,14 @@ de la variable de sesion&lt;/p&gt;</long-description>
         <full_name>performAjaxValidation</full_name>
         <docblock line="178">
           <description>Performs the AJAX validation.</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="178" name="param" description="the model to be validated" type="\CModel" variable="$model">
             <type by_reference="false">\CModel</type>
           </tag>
         </docblock>
         <argument line="182">
           <name>$model</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -2081,8 +2081,8 @@ de la variable de sesion&lt;/p&gt;</long-description>
         <name>filters</name>
         <full_name>filters</full_name>
         <docblock line="6">
-          <description></description>
-          <long-description></long-description>
+          <description/>
+          <long-description/>
           <tag line="6" name="return" description="de filtros para actions" type="array">
             <type by_reference="false">array</type>
           </tag>
@@ -2104,7 +2104,7 @@ de la variable de sesion&lt;/p&gt;</long-description>
         <full_name>actionIndex</full_name>
         <docblock line="34">
           <description>Muestra el arbol de habilidades completo</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="34" name="ruta" description="jugadorNum12/habilidades"/>
         </docblock>
       </method>
@@ -2126,7 +2126,7 @@ Si no esta aun disponible mostrar un boton para escogerla&lt;/p&gt;</long-descri
         </docblock>
         <argument line="87">
           <name>$id_habilidad</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -2143,7 +2143,7 @@ la habilidad como desbloqueada&lt;/p&gt;</long-description>
         </docblock>
         <argument line="129">
           <name>$id_habilidad</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -2159,7 +2159,7 @@ la habilidad como desbloqueada&lt;/p&gt;</long-description>
         </docblock>
         <argument line="241">
           <name>$id</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -2168,14 +2168,14 @@ la habilidad como desbloqueada&lt;/p&gt;</long-description>
         <full_name>performAjaxValidation</full_name>
         <docblock line="249">
           <description>Performs the AJAX validation.</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="249" name="param" description="the model to be validated" type="\CModel" variable="$model">
             <type by_reference="false">\CModel</type>
           </tag>
         </docblock>
         <argument line="253">
           <name>$model</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -2201,7 +2201,7 @@ la habilidad como desbloqueada&lt;/p&gt;</long-description>
         <full_name>beforeAction</full_name>
         <argument line="7">
           <name>$action</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -2209,8 +2209,8 @@ la habilidad como desbloqueada&lt;/p&gt;</long-description>
         <name>filters</name>
         <full_name>filters</full_name>
         <docblock line="17">
-          <description></description>
-          <long-description></long-description>
+          <description/>
+          <long-description/>
           <tag line="17" name="return" description="de filtros para actions" type="array">
             <type by_reference="false">array</type>
           </tag>
@@ -2256,7 +2256,7 @@ en especial el próximo partido del usuario&lt;/p&gt;</long-description>
         </docblock>
         <argument line="89">
           <name>$id_partido</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -2271,7 +2271,7 @@ en especial el próximo partido del usuario&lt;/p&gt;</long-description>
         </docblock>
         <argument line="170">
           <name>$id_partido</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -2280,7 +2280,7 @@ en especial el próximo partido del usuario&lt;/p&gt;</long-description>
         <full_name>actionActPartido</full_name>
         <argument line="250">
           <name>$id_partido</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -2296,7 +2296,7 @@ en especial el próximo partido del usuario&lt;/p&gt;</long-description>
         </docblock>
         <argument line="305">
           <name>$id</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -2305,22 +2305,22 @@ en especial el próximo partido del usuario&lt;/p&gt;</long-description>
         <full_name>performAjaxValidation</full_name>
         <docblock line="313">
           <description>Performs the AJAX validation.</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="313" name="param" description="the model to be validated" type="\CModel" variable="$model">
             <type by_reference="false">\CModel</type>
           </tag>
         </docblock>
         <argument line="317">
           <name>$model</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
     </class>
     <markers>
       <todo line="153">enviar un error y redirigir,</todo>
-      <todo line="221"></todo>
-      <todo line="229"></todo>
+      <todo line="221"/>
+      <todo line="229"/>
     </markers>
     <parse_markers>
       <error line="0" code="50007">No page-level DocBlock was found in file protected/controllers/PartidosController.php</error>
@@ -2339,7 +2339,7 @@ en especial el próximo partido del usuario&lt;/p&gt;</long-description>
       <full_name>\RegistroController</full_name>
       <docblock line="3">
         <description>Pagina de registro</description>
-        <long-description></long-description>
+        <long-description/>
       </docblock>
       <property final="false" static="false" visibility="public" line="8" namespace="global" package="Default">
         <name>$layout</name>
@@ -2352,7 +2352,7 @@ en especial el próximo partido del usuario&lt;/p&gt;</long-description>
           <description>Muestra el formulario para registrarse en la pagina
 Si hay datos en $_POST procesa el formulario
 y guarda en la tabla &lt;&lt;usuarios&gt;&gt; el nuevo usuario</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="11" name="ruta" description="jugadorNum12/registro"/>
         </docblock>
       </method>
@@ -2361,7 +2361,7 @@ y guarda en la tabla &lt;&lt;usuarios&gt;&gt; el nuevo usuario</description>
         <full_name>actionEquipo</full_name>
         <argument line="67">
           <name>$id_usuario</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -2370,12 +2370,12 @@ y guarda en la tabla &lt;&lt;usuarios&gt;&gt; el nuevo usuario</description>
         <full_name>actionPersonaje</full_name>
         <docblock line="99">
           <description>3º fase del registra de usuarios: seleccion de personaje</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="99" name="param" description="" type="\" variable="$id_usuario"/>
         </docblock>
         <argument line="104">
           <name>$id_usuario</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -2395,8 +2395,8 @@ y guarda en la tabla &lt;&lt;usuarios&gt;&gt; el nuevo usuario</description>
         <name>filters</name>
         <full_name>filters</full_name>
         <docblock line="6">
-          <description></description>
-          <long-description></long-description>
+          <description/>
+          <long-description/>
           <tag line="6" name="return" description="de filtros para actions" type="array">
             <type by_reference="false">array</type>
           </tag>
@@ -2418,7 +2418,7 @@ y guarda en la tabla &lt;&lt;usuarios&gt;&gt; el nuevo usuario</description>
         <full_name>actionEjecutarTurno</full_name>
         <docblock line="31">
           <description>Selecciona los partidos en juego y ejecuta sus turnos correspondientes.</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="31" name="ruta" description="jugadorNum12/scriptsApi/jugarPartido"/>
         </docblock>
       </method>
@@ -2435,7 +2435,7 @@ y guarda en la tabla &lt;&lt;usuarios&gt;&gt; el nuevo usuario</description>
         <full_name>actionFormula</full_name>
         <docblock line="191">
           <description>Simulador de la fórmula</description>
-          <long-description></long-description>
+          <long-description/>
         </docblock>
         <argument line="194">
           <name>$dn</name>
@@ -2530,17 +2530,17 @@ y guarda en la tabla &lt;&lt;usuarios&gt;&gt; el nuevo usuario</description>
         <full_name>generaPartido</full_name>
         <argument line="409">
           <name>$id_local</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="409">
           <name>$id_visitande</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="409">
           <name>$time</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="409">
@@ -2591,7 +2591,7 @@ y guarda en la tabla &lt;&lt;usuarios&gt;&gt; el nuevo usuario</description>
         <full_name>actions</full_name>
         <docblock line="7">
           <description>Declares class-based actions.</description>
-          <long-description></long-description>
+          <long-description/>
         </docblock>
       </method>
       <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="32" package="Default">
@@ -2600,7 +2600,7 @@ y guarda en la tabla &lt;&lt;usuarios&gt;&gt; el nuevo usuario</description>
         <docblock line="26">
           <description>This is the default 'index' action that is invoked
 when an action is not explicitly requested by users.</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="26" name="redirect" description="jugadorNum12/usuarios"/>
         </docblock>
       </method>
@@ -2609,7 +2609,7 @@ when an action is not explicitly requested by users.</description>
         <full_name>actionError</full_name>
         <docblock line="42">
           <description>This is the action to handle external exceptions.</description>
-          <long-description></long-description>
+          <long-description/>
         </docblock>
       </method>
       <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="59" package="Default">
@@ -2617,7 +2617,7 @@ when an action is not explicitly requested by users.</description>
         <full_name>actionContact</full_name>
         <docblock line="56">
           <description>Displays the contact page</description>
-          <long-description></long-description>
+          <long-description/>
         </docblock>
       </method>
       <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="85" package="Default">
@@ -2625,7 +2625,7 @@ when an action is not explicitly requested by users.</description>
         <full_name>actionLogin</full_name>
         <docblock line="82">
           <description>Displays the login page</description>
-          <long-description></long-description>
+          <long-description/>
         </docblock>
       </method>
       <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="127" package="Default">
@@ -2633,7 +2633,7 @@ when an action is not explicitly requested by users.</description>
         <full_name>actionLogout</full_name>
         <docblock line="124">
           <description>Logs out the current user and redirect to homepage.</description>
-          <long-description></long-description>
+          <long-description/>
         </docblock>
       </method>
     </class>
@@ -2656,7 +2656,7 @@ when an action is not explicitly requested by users.</description>
         <full_name>filters</full_name>
         <docblock line="9">
           <description>Funcion predeterminada de Yii</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="9" name="return" description="filtros para &quot;actions&quot;" type="\(array)">
             <type by_reference="false">\(array)</type>
           </tag>
@@ -2702,7 +2702,7 @@ Especifica las reglas de control de acceso.</description>
         <full_name>actionVer</full_name>
         <argument line="138">
           <name>$id_usuario</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -2737,7 +2737,7 @@ Especifica las reglas de control de acceso.</description>
           <description>Funcion predeterminada de Yii
 Devuelve el modelo de datos basado en la clave primaria dada por la variable GET
 Si el modelo de datos no se encuentra, se lanza una excepcion HTTP</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="326" name="param" description=": id del modelo que se va a cargar" type="\" variable="$id"/>
           <tag line="326" name="return" description="de datos" type="\modelo">
             <type by_reference="false">\modelo</type>
@@ -2745,7 +2745,7 @@ Si el modelo de datos no se encuentra, se lanza una excepcion HTTP</description>
         </docblock>
         <argument line="334">
           <name>$id</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -2755,12 +2755,12 @@ Si el modelo de datos no se encuentra, se lanza una excepcion HTTP</description>
         <docblock line="342">
           <description>Funcion predeterminada de Yii
 Realiza la validacion por Ajax</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="342" name="param" description="(CModel) modelo a ser validado" type="\" variable="$model"/>
         </docblock>
         <argument line="348">
           <name>$model</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -2821,7 +2821,7 @@ string $finalizacion&lt;/p&gt;</long-description>
         <docblock line="33">
           <description>Funcion predeterminada de Yii
 Devuelve el nombre de la tabla asociada a la clase</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="33" name="return" description="nombre de la tabla en la base de datos" type="\(string)">
             <type by_reference="false">\(string)</type>
           </tag>
@@ -2834,7 +2834,7 @@ Devuelve el nombre de la tabla asociada a la clase</description>
           <description>Funcion predeterminada de Yii
 Define las reglas definidas para los atributos del modelo, incluida la regla usada por "search()"
 Nota: deben definirse solo las reglas para aquellos atributos que reciban entrada del usuario</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="44" name="return" description="reglas de validacion para los atributos" type="\(array)">
             <type by_reference="false">\(array)</type>
           </tag>
@@ -2846,7 +2846,7 @@ Nota: deben definirse solo las reglas para aquellos atributos que reciban entrad
         <docblock line="63">
           <description>Funcion predeterminada de Yii
 Define las relaciones entre la tabla &lt;acciones_grupales&gt; y el resto de tablas</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="63" name="return" description="relaciones entre &lt;acciones_grupales&gt; - &lt;tabla&gt;" type="\(array)">
             <type by_reference="false">\(array)</type>
           </tag>
@@ -2858,7 +2858,7 @@ Define las relaciones entre la tabla &lt;acciones_grupales&gt; y el resto de tab
         <docblock line="79">
           <description>Funcion predeterminada de Yii
 Define los nombres "completos" de los atributos</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="79" name="return" description="nombres de los atributos" type="\(array)">
             <type by_reference="false">\(array)</type>
           </tag>
@@ -2870,7 +2870,7 @@ Define los nombres "completos" de los atributos</description>
         <docblock line="101">
           <description>Funcion predeterminada de Yii
 Devuelve la lista de modelos con las condiciones de busqueda/filtro</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="101" name="return" description="CActiveDataProvider) creterio definido para las busquedas/filtros" type="\(array">
             <type by_reference="false">\(array</type>
           </tag>
@@ -2881,7 +2881,7 @@ Devuelve la lista de modelos con las condiciones de busqueda/filtro</description
         <full_name>finalizaGrupales</full_name>
         <docblock line="128">
           <description>Finaliza todas las acciones grupales no terminadas a tiempo</description>
-          <long-description></long-description>
+          <long-description/>
         </docblock>
       </method>
       <method final="false" abstract="false" static="true" visibility="public" namespace="global" line="184" package="Default">
@@ -2889,7 +2889,7 @@ Devuelve la lista de modelos con las condiciones de busqueda/filtro</description
         <full_name>finalizaGrupal</full_name>
         <docblock line="178">
           <description>Funcion para finalizar una grupal dada y devolver los recursos a los participantes.</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="178" name="param" description="" type="\" variable="$id_accion_grupal"/>
           <tag line="178" name="param" description="indica si se debe borrar la accion" type="\(boolean)" variable="$eliminar">
             <type by_reference="false">\(boolean)</type>
@@ -2897,7 +2897,7 @@ Devuelve la lista de modelos con las condiciones de busqueda/filtro</description
         </docblock>
         <argument line="184">
           <name>$id_accion_grupal</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="184">
@@ -2911,19 +2911,19 @@ Devuelve la lista de modelos con las condiciones de busqueda/filtro</description
         <full_name>expulsarJugador</full_name>
         <docblock line="216">
           <description>Expulsa a un jugador de una accion grupal dada (borrarle de la lista de participantes)</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="216" name="static" description=""/>
           <tag line="216" name="param" description="" type="\" variable="$id_accion"/>
           <tag line="216" name="param" description="" type="\" variable="$id_jugador"/>
         </docblock>
         <argument line="223">
           <name>$id_accion</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="223">
           <name>$id_jugador</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -2954,32 +2954,32 @@ Devuelve la lista de modelos con las condiciones de busqueda/filtro</description
         </docblock>
         <argument line="309">
           <name>$id_accion</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="309">
           <name>$recursosAportados</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="309">
           <name>$accion</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="309">
           <name>$habilidad</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="309">
           <name>$participacion</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="309">
           <name>$nuevo_participante</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -2988,7 +2988,7 @@ Devuelve la lista de modelos con las condiciones de busqueda/filtro</description
         <full_name>usarGrupal</full_name>
         <docblock line="459">
           <description>Usar una accion grupal</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="459" name="static" description=""/>
           <tag line="459" name="param" description="" type="\" variable="$usuario"/>
           <tag line="459" name="param" description="" type="\" variable="$id_accion"/>
@@ -3001,27 +3001,27 @@ Devuelve la lista de modelos con las condiciones de busqueda/filtro</description
         </docblock>
         <argument line="470">
           <name>$usuario</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="470">
           <name>$id_accion</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="470">
           <name>$id_equipo</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="470">
           <name>$res</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="470">
           <name>$habilidad</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -3047,7 +3047,7 @@ string $cooldown&lt;/p&gt;</long-description>
         <full_name>model</full_name>
         <docblock line="13">
           <description>Returns the static model of the specified AR class.</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="13" name="param" description="active record class name." type="string" variable="$className">
             <type by_reference="false">string</type>
           </tag>
@@ -3065,8 +3065,8 @@ string $cooldown&lt;/p&gt;</long-description>
         <name>tableName</name>
         <full_name>tableName</full_name>
         <docblock line="23">
-          <description></description>
-          <long-description></long-description>
+          <description/>
+          <long-description/>
           <tag line="23" name="return" description="the associated database table name" type="string">
             <type by_reference="false">string</type>
           </tag>
@@ -3076,8 +3076,8 @@ string $cooldown&lt;/p&gt;</long-description>
         <name>rules</name>
         <full_name>rules</full_name>
         <docblock line="31">
-          <description></description>
-          <long-description></long-description>
+          <description/>
+          <long-description/>
           <tag line="31" name="return" description="validation rules for model attributes." type="array">
             <type by_reference="false">array</type>
           </tag>
@@ -3088,7 +3088,7 @@ string $cooldown&lt;/p&gt;</long-description>
         <full_name>relations</full_name>
         <docblock line="48">
           <description>Define las relaciones entre &lt;acciones_individuales - tabla&gt;</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="48" name="devuelve" description="array relaciones."/>
         </docblock>
       </method>
@@ -3096,8 +3096,8 @@ string $cooldown&lt;/p&gt;</long-description>
         <name>attributeLabels</name>
         <full_name>attributeLabels</full_name>
         <docblock line="64">
-          <description></description>
-          <long-description></long-description>
+          <description/>
+          <long-description/>
           <tag line="64" name="return" description="customized attribute labels (name=&gt;label)" type="array">
             <type by_reference="false">array</type>
           </tag>
@@ -3108,7 +3108,7 @@ string $cooldown&lt;/p&gt;</long-description>
         <full_name>search</full_name>
         <docblock line="76">
           <description>Retrieves a list of models based on the current search/filter conditions.</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="76" name="return" description="the data provider that can return the models based on the search/filter conditions." type="\CActiveDataProvider">
             <type by_reference="false">\CActiveDataProvider</type>
           </tag>
@@ -3119,7 +3119,7 @@ string $cooldown&lt;/p&gt;</long-description>
         <full_name>finalizaIndividuales</full_name>
         <argument line="99">
           <name>$id_usuario</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -3128,22 +3128,22 @@ string $cooldown&lt;/p&gt;</long-description>
         <full_name>usarIndividual</full_name>
         <argument line="154">
           <name>$id_usuario</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="154">
           <name>$id_accion</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="154">
           <name>$res</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="154">
           <name>$habilidad</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -3158,99 +3158,150 @@ string $cooldown&lt;/p&gt;</long-description>
     </parse_markers>
   </file>
   <file path="protected/models/AccionesTurno.php" hash="de8d9581f619ae2b17aa1cfe1db12d1e" package="Default"/>
-  <file path="protected/models/Clasificacion.php" hash="ecde7d1f4558a6d77a7b0e1c64d4543c" package="Default">
-    <class final="false" abstract="false" namespace="global" line="14" package="Default">
+  <file path="protected/models/Clasificacion.php" hash="f0fc546a3e238ee4292e18fd35e265fe" package="Default">
+    <class final="false" abstract="false" namespace="global" line="20" package="modelos">
       <extends>\CActiveRecord</extends>
       <name>Clasificacion</name>
       <full_name>\Clasificacion</full_name>
       <docblock line="3">
-        <description>Modelo para la tabla &lt;&lt;clasificacion&gt;&gt;</description>
-        <long-description>&lt;p&gt;Columnas disponibles:
-    string $equipos_id_equipo
-    string $posicion
-    string $puntos
-    string $ganados
-    string $empatados
-    string $perdidos&lt;/p&gt;</long-description>
+        <description>Modelo para la tabla clasificacion</description>
+        <long-description>&lt;p&gt;Columnas disponibles:&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+  &lt;th align="left"&gt;tipo&lt;/th&gt;
+  &lt;th align="left"&gt;nombre&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+  &lt;td align="left"&gt;string&lt;/td&gt;
+  &lt;td align="left"&gt;$equipos_id_equipo&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td align="left"&gt;string&lt;/td&gt;
+  &lt;td align="left"&gt;$posicion&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td align="left"&gt;string&lt;/td&gt;
+  &lt;td align="left"&gt;$puntos&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td align="left"&gt;string&lt;/td&gt;
+  &lt;td align="left"&gt;$ganados&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td align="left"&gt;string&lt;/td&gt;
+  &lt;td align="left"&gt;$empatados&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td align="left"&gt;string&lt;/td&gt;
+  &lt;td align="left"&gt;$perdidos&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</long-description>
+        <tag line="3" name="package" description="modelos"/>
       </docblock>
-      <method final="false" abstract="false" static="true" visibility="public" namespace="global" line="21" package="Default">
+      <method final="false" abstract="false" static="true" visibility="public" namespace="global" line="31" package="modelos">
         <name>model</name>
         <full_name>model</full_name>
-        <docblock line="16">
-          <description>Returns the static model of the specified AR class.</description>
-          <long-description></long-description>
-          <tag line="16" name="param" description="active record class name." type="string" variable="$className">
+        <docblock line="22">
+          <description>Devuelve el modelo estatico de la clase active record especificada.</description>
+          <long-description>&lt;blockquote&gt;
+  &lt;p&gt;Funcion predetirmada de Yii&lt;/p&gt;
+&lt;/blockquote&gt;</long-description>
+          <tag line="22" name="static" description=""/>
+          <tag line="22" name="param" description="nombre de la clase active record" type="string" variable="$className">
             <type by_reference="false">string</type>
           </tag>
-          <tag line="16" name="return" description="the static model class" type="\Clasificacion">
-            <type by_reference="false">\Clasificacion</type>
+          <tag line="22" name="return" description="el modelo estatico de la clase" type="\AccionesGrupales">
+            <type by_reference="false">\AccionesGrupales</type>
           </tag>
         </docblock>
-        <argument line="21">
+        <argument line="31">
           <name>$className</name>
           <default>__CLASS__</default>
           <type/>
         </argument>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="29" package="Default">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="43" package="modelos">
         <name>tableName</name>
         <full_name>tableName</full_name>
-        <docblock line="26">
-          <description></description>
-          <long-description></long-description>
-          <tag line="26" name="return" description="the associated database table name" type="string">
+        <docblock line="36">
+          <description>Devuelve el nombre de la tabla asociada a la clase</description>
+          <long-description>&lt;blockquote&gt;
+  &lt;p&gt;Funcion predeterminada de Yii&lt;/p&gt;
+&lt;/blockquote&gt;</long-description>
+          <tag line="36" name="return" description="nombre de la tabla en la base de datos" type="string">
             <type by_reference="false">string</type>
           </tag>
         </docblock>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="37" package="Default">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="58" package="modelos">
         <name>rules</name>
         <full_name>rules</full_name>
-        <docblock line="34">
-          <description></description>
-          <long-description></long-description>
-          <tag line="34" name="return" description="validation rules for model attributes." type="array">
-            <type by_reference="false">array</type>
+        <docblock line="48">
+          <description>Define las reglas definidas para los atributos del modelo.</description>
+          <long-description>&lt;p&gt;Incluye la regla usada por la funcion &lt;code&gt;search()&lt;/code&gt;
+Deben definirse solo las reglas para aquellos atributos que reciban entrada del usuario&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Funcion predeterminada de Yii&lt;/p&gt;
+&lt;/blockquote&gt;</long-description>
+          <tag line="48" name="return" description="reglas de validacion para los atributos" type="object[]">
+            <type by_reference="false">object[]</type>
           </tag>
         </docblock>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="55" package="Default">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="78" package="modelos">
         <name>relations</name>
         <full_name>relations</full_name>
-        <docblock line="50">
-          <description>Define las relaciones entre &lt;clasificacion - tabla&gt;</description>
-          <long-description></long-description>
-          <tag line="50" name="devuelve" description="array de relaciones"/>
-        </docblock>
-      </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="67" package="Default">
-        <name>attributeLabels</name>
-        <full_name>attributeLabels</full_name>
-        <docblock line="64">
-          <description></description>
-          <long-description></long-description>
-          <tag line="64" name="return" description="customized attribute labels (name=&gt;label)" type="array">
-            <type by_reference="false">array</type>
+        <docblock line="67">
+          <description>Define las relaciones entre la tabla clasificacion y el resto de tablas</description>
+          <long-description>&lt;p&gt;Relaciones definidas:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;equipos&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Funcion predeterminada de Yii&lt;/p&gt;
+&lt;/blockquote&gt;</long-description>
+          <tag line="67" name="return" description="relaciones entre clasificacion - tabla" type="object[]">
+            <type by_reference="false">object[]</type>
           </tag>
         </docblock>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="84" package="Default">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="90" package="modelos">
+        <name>attributeLabels</name>
+        <full_name>attributeLabels</full_name>
+        <docblock line="83">
+          <description>Define los nombres completos de los atributos</description>
+          <long-description>&lt;blockquote&gt;
+  &lt;p&gt;Funcion predeterminada de Yii&lt;/p&gt;
+&lt;/blockquote&gt;</long-description>
+          <tag line="83" name="return" description="nombres de los atributos" type="object[]">
+            <type by_reference="false">object[]</type>
+          </tag>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="110" package="modelos">
         <name>search</name>
         <full_name>search</full_name>
-        <docblock line="80">
-          <description>Retrieves a list of models based on the current search/filter conditions.</description>
-          <long-description></long-description>
-          <tag line="80" name="return" description="the data provider that can return the models based on the search/filter conditions." type="\CActiveDataProvider">
-            <type by_reference="false">\CActiveDataProvider</type>
+        <docblock line="103">
+          <description>Devuelve la lista de modelos con las condiciones de busqueda/filtro</description>
+          <long-description>&lt;blockquote&gt;
+  &lt;p&gt;Funcion predeterminada de Yii&lt;/p&gt;
+&lt;/blockquote&gt;</long-description>
+          <tag line="103" name="return" description="criterio definidos para las busquedas" type="\CActiveDataProvider[]">
+            <type by_reference="false">\CActiveDataProvider[]</type>
           </tag>
         </docblock>
       </method>
     </class>
     <parse_markers>
       <error line="0" code="50007">No page-level DocBlock was found in file protected/models/Clasificacion.php</error>
-      <error line="26" code="50012">No short description for method tableName()</error>
-      <error line="34" code="50012">No short description for method rules()</error>
-      <error line="64" code="50012">No short description for method attributeLabels()</error>
     </parse_markers>
   </file>
   <file path="protected/models/ContactForm.php" hash="76ea4861832baba911c68dc445acbaa8" package="Default">
@@ -3265,30 +3316,30 @@ contact form data. It is used by the 'contact' action of 'SiteController'.&lt;/p
       </docblock>
       <property final="false" static="false" visibility="public" line="10" namespace="global" package="Default">
         <name>$name</name>
-        <default></default>
+        <default/>
       </property>
       <property final="false" static="false" visibility="public" line="11" namespace="global" package="Default">
         <name>$email</name>
-        <default></default>
+        <default/>
       </property>
       <property final="false" static="false" visibility="public" line="12" namespace="global" package="Default">
         <name>$subject</name>
-        <default></default>
+        <default/>
       </property>
       <property final="false" static="false" visibility="public" line="13" namespace="global" package="Default">
         <name>$body</name>
-        <default></default>
+        <default/>
       </property>
       <property final="false" static="false" visibility="public" line="14" namespace="global" package="Default">
         <name>$verifyCode</name>
-        <default></default>
+        <default/>
       </property>
       <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="19" package="Default">
         <name>rules</name>
         <full_name>rules</full_name>
         <docblock line="16">
           <description>Declares the validation rules.</description>
-          <long-description></long-description>
+          <long-description/>
         </docblock>
       </method>
       <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="36" package="Default">
@@ -3310,303 +3361,463 @@ the same as its name with the first letter in upper case.&lt;/p&gt;</long-descri
       <error line="14" code="50018">No DocBlock was found for property $verifyCode</error>
     </parse_markers>
   </file>
-  <file path="protected/models/Desbloqueadas.php" hash="d9356611a93e26576de0b14a602d6a12" package="Default">
-    <class final="false" abstract="false" namespace="global" line="10" package="Default">
+  <file path="protected/models/Desbloqueadas.php" hash="dd1ea4be1894a20dea20cbb03b6ada99" package="Default">
+    <class final="false" abstract="false" namespace="global" line="16" package="modelos">
       <extends>\CActiveRecord</extends>
       <name>Desbloqueadas</name>
       <full_name>\Desbloqueadas</full_name>
       <docblock line="3">
-        <description>Modelo de la tabla &lt;&lt;desbloqueadas&gt;&gt;</description>
-        <long-description>&lt;p&gt;columnas disponibles:
-string $habilidades_id_habilidad
-string $usuarios_id_usuario&lt;/p&gt;</long-description>
+        <description>Modelo de la tabla desbloqueadas</description>
+        <long-description>&lt;p&gt;Columnas disponibles:&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+  &lt;th align="left"&gt;tipo&lt;/th&gt;
+  &lt;th align="left"&gt;nombre&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+  &lt;td align="left"&gt;string&lt;/td&gt;
+  &lt;td align="left"&gt;$habilidades_id_habilidad&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td align="left"&gt;string&lt;/td&gt;
+  &lt;td align="left"&gt;$usuarios_id_usuario&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</long-description>
+        <tag line="3" name="package" description="modelos"/>
       </docblock>
-      <method final="false" abstract="false" static="true" visibility="public" namespace="global" line="17" package="Default">
+      <method final="false" abstract="false" static="true" visibility="public" namespace="global" line="27" package="modelos">
         <name>model</name>
         <full_name>model</full_name>
-        <docblock line="12">
-          <description>Returns the static model of the specified AR class.</description>
-          <long-description></long-description>
-          <tag line="12" name="param" description="active record class name." type="string" variable="$className">
+        <docblock line="18">
+          <description>Devuelve el modelo estatico de la clase active record especificada.</description>
+          <long-description>&lt;blockquote&gt;
+  &lt;p&gt;Funcion predetirmada de Yii&lt;/p&gt;
+&lt;/blockquote&gt;</long-description>
+          <tag line="18" name="static" description=""/>
+          <tag line="18" name="param" description="nombre de la clase active record" type="string" variable="$className">
             <type by_reference="false">string</type>
           </tag>
-          <tag line="12" name="return" description="the static model class" type="\Desbloqueadas">
-            <type by_reference="false">\Desbloqueadas</type>
+          <tag line="18" name="return" description="el modelo estatico de la clase" type="\AccionesGrupales">
+            <type by_reference="false">\AccionesGrupales</type>
           </tag>
         </docblock>
-        <argument line="17">
+        <argument line="27">
           <name>$className</name>
           <default>__CLASS__</default>
           <type/>
         </argument>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="25" package="Default">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="39" package="modelos">
         <name>tableName</name>
         <full_name>tableName</full_name>
-        <docblock line="22">
-          <description></description>
-          <long-description></long-description>
-          <tag line="22" name="return" description="the associated database table name" type="string">
+        <docblock line="32">
+          <description>Devuelve el nombre de la tabla asociada a la clase</description>
+          <long-description>&lt;blockquote&gt;
+  &lt;p&gt;Funcion predeterminada de Yii&lt;/p&gt;
+&lt;/blockquote&gt;</long-description>
+          <tag line="32" name="return" description="nombre de la tabla en la base de datos" type="string">
             <type by_reference="false">string</type>
           </tag>
         </docblock>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="33" package="Default">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="54" package="modelos">
         <name>rules</name>
         <full_name>rules</full_name>
-        <docblock line="30">
-          <description></description>
-          <long-description></long-description>
-          <tag line="30" name="return" description="validation rules for model attributes." type="array">
-            <type by_reference="false">array</type>
+        <docblock line="44">
+          <description>Define las reglas definidas para los atributos del modelo.</description>
+          <long-description>&lt;p&gt;Incluye la regla usada por la funcion &lt;code&gt;search()&lt;/code&gt;
+Deben definirse solo las reglas para aquellos atributos que reciban entrada del usuario&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Funcion predeterminada de Yii&lt;/p&gt;
+&lt;/blockquote&gt;</long-description>
+          <tag line="44" name="return" description="reglas de validacion para los atributos" type="object[]">
+            <type by_reference="false">object[]</type>
           </tag>
         </docblock>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="51" package="Default">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="75" package="modelos">
         <name>relations</name>
         <full_name>relations</full_name>
-        <docblock line="46">
-          <description>Define las relaciones entre &lt;desbloqueadas - tabla&gt;</description>
-          <long-description></long-description>
-          <tag line="46" name="devuelve" description="array de relaciones"/>
-        </docblock>
-      </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="63" package="Default">
-        <name>attributeLabels</name>
-        <full_name>attributeLabels</full_name>
-        <docblock line="60">
-          <description></description>
-          <long-description></long-description>
-          <tag line="60" name="return" description="customized attribute labels (name=&gt;label)" type="array">
-            <type by_reference="false">array</type>
+        <docblock line="63">
+          <description>Define las relaciones entre la tabla desbloqueadas y el resto de tablas</description>
+          <long-description>&lt;p&gt;Relaciones definidas:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;usuarios&lt;/li&gt;
+&lt;li&gt;habilidades&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Funcion predeterminada de Yii&lt;/p&gt;
+&lt;/blockquote&gt;</long-description>
+          <tag line="63" name="return" description="relaciones entre desbloqueadas - tabla" type="object[]">
+            <type by_reference="false">object[]</type>
           </tag>
         </docblock>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="75" package="Default">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="90" package="modelos">
+        <name>attributeLabels</name>
+        <full_name>attributeLabels</full_name>
+        <docblock line="83">
+          <description>Define los nombres completos de los atributos</description>
+          <long-description>&lt;blockquote&gt;
+  &lt;p&gt;Funcion predeterminada de Yii&lt;/p&gt;
+&lt;/blockquote&gt;</long-description>
+          <tag line="83" name="return" description="nombres de los atributos" type="object[]">
+            <type by_reference="false">object[]</type>
+          </tag>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="105" package="modelos">
         <name>search</name>
         <full_name>search</full_name>
-        <docblock line="71">
-          <description>Retrieves a list of models based on the current search/filter conditions.</description>
-          <long-description></long-description>
-          <tag line="71" name="return" description="the data provider that can return the models based on the search/filter conditions." type="\CActiveDataProvider">
-            <type by_reference="false">\CActiveDataProvider</type>
+        <docblock line="98">
+          <description>Devuelve la lista de modelos con las condiciones de busqueda/filtro</description>
+          <long-description>&lt;blockquote&gt;
+  &lt;p&gt;Funcion predeterminada de Yii&lt;/p&gt;
+&lt;/blockquote&gt;</long-description>
+          <tag line="98" name="return" description="criterio definidos para las busquedas" type="\CActiveDataProvider[]">
+            <type by_reference="false">\CActiveDataProvider[]</type>
           </tag>
         </docblock>
       </method>
     </class>
     <parse_markers>
       <error line="0" code="50007">No page-level DocBlock was found in file protected/models/Desbloqueadas.php</error>
-      <error line="22" code="50012">No short description for method tableName()</error>
-      <error line="30" code="50012">No short description for method rules()</error>
-      <error line="60" code="50012">No short description for method attributeLabels()</error>
     </parse_markers>
   </file>
-  <file path="protected/models/Equipos.php" hash="45a22a3c8c5ce469e57f1b30b3601c27" package="Default">
-    <class final="false" abstract="false" namespace="global" line="16" package="Default">
+  <file path="protected/models/Equipos.php" hash="480d82e6a6ffa70c244c89f08f6682e5" package="Default">
+    <class final="false" abstract="false" namespace="global" line="22" package="modelos">
       <extends>\CActiveRecord</extends>
       <name>Equipos</name>
       <full_name>\Equipos</full_name>
       <docblock line="3">
-        <description>Modelo de la tabla &lt;&lt;equipos&gt;&gt;</description>
-        <long-description>&lt;p&gt;Columnas disponibles
-string  $id_equipo
-string  $nombre
-string  $categoria
-string  $aforo_max
-string  $aforo_base
-integer $nivel_equipo
-string  $factor_ofensivo
-string  $factor_defensivo&lt;/p&gt;</long-description>
+        <description>Modelo de la tabla equipos</description>
+        <long-description>&lt;p&gt;Columnas disponibles:&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+  &lt;th align="left"&gt;tipo&lt;/th&gt;
+  &lt;th align="left"&gt;nombre&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+  &lt;td align="left"&gt;string&lt;/td&gt;
+  &lt;td align="left"&gt;$id_equipo&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td align="left"&gt;string&lt;/td&gt;
+  &lt;td align="left"&gt;$nombre&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td align="left"&gt;string&lt;/td&gt;
+  &lt;td align="left"&gt;$categoria&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td align="left"&gt;string&lt;/td&gt;
+  &lt;td align="left"&gt;$aforo_max&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td align="left"&gt;string&lt;/td&gt;
+  &lt;td align="left"&gt;$aforo_base&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td align="left"&gt;integer&lt;/td&gt;
+  &lt;td align="left"&gt;$nivel_equipo&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td align="left"&gt;string&lt;/td&gt;
+  &lt;td align="left"&gt;$factor_ofensivo&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td align="left"&gt;string&lt;/td&gt;
+  &lt;td align="left"&gt;$factor_defensivo&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</long-description>
+        <tag line="3" name="package" description="modelos"/>
       </docblock>
-      <method final="false" abstract="false" static="true" visibility="public" namespace="global" line="23" package="Default">
+      <method final="false" abstract="false" static="true" visibility="public" namespace="global" line="33" package="modelos">
         <name>model</name>
         <full_name>model</full_name>
-        <docblock line="18">
-          <description>Returns the static model of the specified AR class.</description>
-          <long-description></long-description>
-          <tag line="18" name="param" description="active record class name." type="string" variable="$className">
+        <docblock line="24">
+          <description>Devuelve el modelo estatico de la clase active record especificada.</description>
+          <long-description>&lt;blockquote&gt;
+  &lt;p&gt;Funcion predetirmada de Yii&lt;/p&gt;
+&lt;/blockquote&gt;</long-description>
+          <tag line="24" name="static" description=""/>
+          <tag line="24" name="param" description="nombre de la clase active record" type="string" variable="$className">
             <type by_reference="false">string</type>
           </tag>
-          <tag line="18" name="return" description="the static model class" type="\Equipos">
-            <type by_reference="false">\Equipos</type>
+          <tag line="24" name="return" description="el modelo estatico de la clase" type="\AccionesGrupales">
+            <type by_reference="false">\AccionesGrupales</type>
           </tag>
         </docblock>
-        <argument line="23">
+        <argument line="33">
           <name>$className</name>
           <default>__CLASS__</default>
           <type/>
         </argument>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="31" package="Default">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="45" package="modelos">
         <name>tableName</name>
         <full_name>tableName</full_name>
-        <docblock line="28">
-          <description></description>
-          <long-description></long-description>
-          <tag line="28" name="return" description="the associated database table name" type="string">
+        <docblock line="38">
+          <description>Devuelve el nombre de la tabla asociada a la clase</description>
+          <long-description>&lt;blockquote&gt;
+  &lt;p&gt;Funcion predeterminada de Yii&lt;/p&gt;
+&lt;/blockquote&gt;</long-description>
+          <tag line="38" name="return" description="nombre de la tabla en la base de datos" type="string">
             <type by_reference="false">string</type>
           </tag>
         </docblock>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="39" package="Default">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="60" package="modelos">
         <name>rules</name>
         <full_name>rules</full_name>
-        <docblock line="36">
-          <description></description>
-          <long-description></long-description>
-          <tag line="36" name="return" description="validation rules for model attributes." type="array">
-            <type by_reference="false">array</type>
+        <docblock line="50">
+          <description>Define las reglas definidas para los atributos del modelo.</description>
+          <long-description>&lt;p&gt;Incluye la regla usada por la funcion &lt;code&gt;search()&lt;/code&gt;
+Deben definirse solo las reglas para aquellos atributos que reciban entrada del usuario&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Funcion predeterminada de Yii&lt;/p&gt;
+&lt;/blockquote&gt;</long-description>
+          <tag line="50" name="return" description="reglas de validacion para los atributos" type="object[]">
+            <type by_reference="false">object[]</type>
           </tag>
         </docblock>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="60" package="Default">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="88" package="modelos">
         <name>relations</name>
         <full_name>relations</full_name>
-        <docblock line="55">
-          <description>Define las relaciones entre &lt;equipos - tabla&gt;</description>
-          <long-description></long-description>
-          <tag line="55" name="devuelve" description="array de relaciones"/>
-        </docblock>
-      </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="77" package="Default">
-        <name>attributeLabels</name>
-        <full_name>attributeLabels</full_name>
-        <docblock line="74">
-          <description></description>
-          <long-description></long-description>
-          <tag line="74" name="return" description="customized attribute labels (name=&gt;label)" type="array">
-            <type by_reference="false">array</type>
+        <docblock line="71">
+          <description>Define las relaciones entre la tabla equipos y el resto de tablas</description>
+          <long-description>&lt;p&gt;Relaciones definidas:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;sigPartido&lt;/li&gt;
+&lt;li&gt;local&lt;/li&gt;
+&lt;li&gt;visitante&lt;/li&gt;
+&lt;li&gt;clasificacion&lt;/li&gt;
+&lt;li&gt;accionesTurno&lt;/li&gt;
+&lt;li&gt;accionesGrupales&lt;/li&gt;
+&lt;li&gt;usuarios&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Funcion predeterminada de Yii&lt;/p&gt;
+&lt;/blockquote&gt;</long-description>
+          <tag line="71" name="return" description="relaciones entre equipos - tabla" type="object[]">
+            <type by_reference="false">object[]</type>
           </tag>
         </docblock>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="96" package="Default">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="108" package="modelos">
+        <name>attributeLabels</name>
+        <full_name>attributeLabels</full_name>
+        <docblock line="101">
+          <description>Define los nombres completos de los atributos</description>
+          <long-description>&lt;blockquote&gt;
+  &lt;p&gt;Funcion predeterminada de Yii&lt;/p&gt;
+&lt;/blockquote&gt;</long-description>
+          <tag line="101" name="return" description="nombres de los atributos" type="object[]">
+            <type by_reference="false">object[]</type>
+          </tag>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="130" package="modelos">
         <name>search</name>
         <full_name>search</full_name>
-        <docblock line="92">
-          <description>Retrieves a list of models based on the current search/filter conditions.</description>
-          <long-description></long-description>
-          <tag line="92" name="return" description="the data provider that can return the models based on the search/filter conditions." type="\CActiveDataProvider">
-            <type by_reference="false">\CActiveDataProvider</type>
+        <docblock line="123">
+          <description>Devuelve la lista de modelos con las condiciones de busqueda/filtro</description>
+          <long-description>&lt;blockquote&gt;
+  &lt;p&gt;Funcion predeterminada de Yii&lt;/p&gt;
+&lt;/blockquote&gt;</long-description>
+          <tag line="123" name="return" description="criterio definidos para las busquedas" type="\CActiveDataProvider[]">
+            <type by_reference="false">\CActiveDataProvider[]</type>
           </tag>
         </docblock>
       </method>
     </class>
     <parse_markers>
       <error line="0" code="50007">No page-level DocBlock was found in file protected/models/Equipos.php</error>
-      <error line="28" code="50012">No short description for method tableName()</error>
-      <error line="36" code="50012">No short description for method rules()</error>
-      <error line="74" code="50012">No short description for method attributeLabels()</error>
     </parse_markers>
   </file>
-  <file path="protected/models/Habilidades.php" hash="f1d4473d7f82ea310bab745fd4bb4b7b" package="Default">
-    <class final="false" abstract="false" namespace="global" line="10" package="Default">
+  <file path="protected/models/Habilidades.php" hash="3b877fe98b6d01bb742f26933698994d" package="Default">
+    <class final="false" abstract="false" namespace="global" line="16" package="modelos">
       <extends>\CActiveRecord</extends>
       <name>Habilidades</name>
       <full_name>\Habilidades</full_name>
       <docblock line="3">
-        <description>Modelo de la tabla &lt;&lt;habilidades&gt;&gt;</description>
-        <long-description>&lt;p&gt;Columnas disponibles:
-string $id_habilidad
-string $codigo&lt;/p&gt;</long-description>
+        <description>Modelo de la tabla habilidades</description>
+        <long-description>&lt;p&gt;Columnas disponibles:&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+  &lt;th align="left"&gt;tipo&lt;/th&gt;
+  &lt;th align="left"&gt;nombre&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+  &lt;td align="left"&gt;string&lt;/td&gt;
+  &lt;td align="left"&gt;$id_habilidad&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td align="left"&gt;string&lt;/td&gt;
+  &lt;td align="left"&gt;$codigo&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</long-description>
+        <tag line="3" name="package" description="modelos"/>
       </docblock>
-      <constant namespace="global" line="12" package="Default">
+      <constant namespace="global" line="21" package="modelos">
         <name>TIPO_GRUPAL</name>
         <full_name>TIPO_GRUPAL</full_name>
         <value>0</value>
+        <docblock line="18">
+          <description>Definicion de las acciones grupales : 0</description>
+          <long-description></long-description>
+        </docblock>
       </constant>
-      <constant namespace="global" line="13" package="Default">
+      <constant namespace="global" line="25" package="modelos">
         <name>TIPO_INDIVIDUAL</name>
         <full_name>TIPO_INDIVIDUAL</full_name>
         <value>1</value>
+        <docblock line="22">
+          <description>Definicion de las acciones individuales : 1</description>
+          <long-description></long-description>
+        </docblock>
       </constant>
-      <constant namespace="global" line="14" package="Default">
+      <constant namespace="global" line="29" package="modelos">
         <name>TIPO_PARTIDO</name>
         <full_name>TIPO_PARTIDO</full_name>
         <value>2</value>
+        <docblock line="26">
+          <description>Definicion de las acciones de partido : 2</description>
+          <long-description></long-description>
+        </docblock>
       </constant>
-      <constant namespace="global" line="15" package="Default">
+      <constant namespace="global" line="33" package="modelos">
         <name>TIPO_PASIVA</name>
         <full_name>TIPO_PASIVA</full_name>
         <value>3</value>
+        <docblock line="30">
+          <description>Definicion de las acciones pasivas : 3</description>
+          <long-description></long-description>
+        </docblock>
       </constant>
-      <method final="false" abstract="false" static="true" visibility="public" namespace="global" line="22" package="Default">
+      <method final="false" abstract="false" static="true" visibility="public" namespace="global" line="44" package="modelos">
         <name>model</name>
         <full_name>model</full_name>
-        <docblock line="17">
-          <description>Returns the static model of the specified AR class.</description>
-          <long-description></long-description>
-          <tag line="17" name="param" description="active record class name." type="string" variable="$className">
+        <docblock line="35">
+          <description>Devuelve el modelo estatico de la clase active record especificada.</description>
+          <long-description>&lt;blockquote&gt;
+  &lt;p&gt;Funcion predetirmada de Yii&lt;/p&gt;
+&lt;/blockquote&gt;</long-description>
+          <tag line="35" name="static" description=""/>
+          <tag line="35" name="param" description="nombre de la clase active record" type="string" variable="$className">
             <type by_reference="false">string</type>
           </tag>
-          <tag line="17" name="return" description="the static model class" type="\Habilidades">
-            <type by_reference="false">\Habilidades</type>
+          <tag line="35" name="return" description="el modelo estatico de la clase" type="\AccionesGrupales">
+            <type by_reference="false">\AccionesGrupales</type>
           </tag>
         </docblock>
-        <argument line="22">
+        <argument line="44">
           <name>$className</name>
           <default>__CLASS__</default>
           <type/>
         </argument>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="30" package="Default">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="56" package="modelos">
         <name>tableName</name>
         <full_name>tableName</full_name>
-        <docblock line="27">
-          <description></description>
-          <long-description></long-description>
-          <tag line="27" name="return" description="the associated database table name" type="string">
+        <docblock line="49">
+          <description>Devuelve el nombre de la tabla asociada a la clase</description>
+          <long-description>&lt;blockquote&gt;
+  &lt;p&gt;Funcion predeterminada de Yii&lt;/p&gt;
+&lt;/blockquote&gt;</long-description>
+          <tag line="49" name="return" description="nombre de la tabla en la base de datos" type="string">
             <type by_reference="false">string</type>
           </tag>
         </docblock>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="38" package="Default">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="71" package="modelos">
         <name>rules</name>
         <full_name>rules</full_name>
-        <docblock line="35">
-          <description></description>
-          <long-description></long-description>
-          <tag line="35" name="return" description="validation rules for model attributes." type="array">
-            <type by_reference="false">array</type>
+        <docblock line="61">
+          <description>Define las reglas definidas para los atributos del modelo.</description>
+          <long-description>&lt;p&gt;Incluye la regla usada por la funcion &lt;code&gt;search()&lt;/code&gt;
+Deben definirse solo las reglas para aquellos atributos que reciban entrada del usuario&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Funcion predeterminada de Yii&lt;/p&gt;
+&lt;/blockquote&gt;</long-description>
+          <tag line="61" name="return" description="reglas de validacion para los atributos" type="object[]">
+            <type by_reference="false">object[]</type>
           </tag>
         </docblock>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="57" package="Default">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="94" package="modelos">
         <name>relations</name>
         <full_name>relations</full_name>
-        <docblock line="52">
-          <description>Define las relaciones entre &lt;habilidades - tabla&gt;</description>
-          <long-description></long-description>
-          <tag line="52" name="devuelve" description="array de relaciones"/>
-        </docblock>
-      </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="75" package="Default">
-        <name>attributeLabels</name>
-        <full_name>attributeLabels</full_name>
-        <docblock line="72">
-          <description></description>
-          <long-description></long-description>
-          <tag line="72" name="return" description="customized attribute labels (name=&gt;label)" type="array">
-            <type by_reference="false">array</type>
+        <docblock line="81">
+          <description>Define las relaciones entre la tabla habilidades y el resto de tablas</description>
+          <long-description>&lt;p&gt;Relaciones definidas:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;desbloqueadas&lt;/li&gt;
+&lt;li&gt;accionesIndividuales&lt;/li&gt;
+&lt;li&gt;accionesGrupales&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Funcion predeterminada de Yii&lt;/p&gt;
+&lt;/blockquote&gt;</long-description>
+          <tag line="81" name="return" description="relaciones entre habilidades - tabla" type="object[]">
+            <type by_reference="false">object[]</type>
           </tag>
         </docblock>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="98" package="Default">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="110" package="modelos">
+        <name>attributeLabels</name>
+        <full_name>attributeLabels</full_name>
+        <docblock line="103">
+          <description>Define los nombres completos de los atributos</description>
+          <long-description>&lt;blockquote&gt;
+  &lt;p&gt;Funcion predeterminada de Yii&lt;/p&gt;
+&lt;/blockquote&gt;</long-description>
+          <tag line="103" name="return" description="nombres de los atributos" type="object[]">
+            <type by_reference="false">object[]</type>
+          </tag>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="136" package="modelos">
         <name>search</name>
         <full_name>search</full_name>
-        <docblock line="94">
-          <description>Retrieves a list of models based on the current search/filter conditions.</description>
-          <long-description></long-description>
-          <tag line="94" name="return" description="the data provider that can return the models based on the search/filter conditions." type="\CActiveDataProvider">
-            <type by_reference="false">\CActiveDataProvider</type>
+        <docblock line="129">
+          <description>Devuelve la lista de modelos con las condiciones de busqueda/filtro</description>
+          <long-description>&lt;blockquote&gt;
+  &lt;p&gt;Funcion predeterminada de Yii&lt;/p&gt;
+&lt;/blockquote&gt;</long-description>
+          <tag line="129" name="return" description="criterio definidos para las busquedas" type="\CActiveDataProvider[]">
+            <type by_reference="false">\CActiveDataProvider[]</type>
           </tag>
         </docblock>
       </method>
     </class>
     <parse_markers>
       <error line="0" code="50007">No page-level DocBlock was found in file protected/models/Habilidades.php</error>
-      <error line="27" code="50012">No short description for method tableName()</error>
-      <error line="35" code="50012">No short description for method rules()</error>
-      <error line="72" code="50012">No short description for method attributeLabels()</error>
     </parse_markers>
   </file>
   <file path="protected/models/LoginForm.php" hash="3d5b48074d6b106143073c71721727a9" package="Default">
@@ -3621,19 +3832,19 @@ user login form data. It is used by the 'login' action of 'SiteController'.&lt;/
       </docblock>
       <property final="false" static="false" visibility="public" line="10" namespace="global" package="Default">
         <name>$username</name>
-        <default></default>
+        <default/>
       </property>
       <property final="false" static="false" visibility="public" line="11" namespace="global" package="Default">
         <name>$password</name>
-        <default></default>
+        <default/>
       </property>
       <property final="false" static="false" visibility="public" line="12" namespace="global" package="Default">
         <name>$rememberMe</name>
-        <default></default>
+        <default/>
       </property>
       <property final="false" static="false" visibility="private" line="14" namespace="global" package="Default">
         <name>$_identity</name>
-        <default></default>
+        <default/>
       </property>
       <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="21" package="Default">
         <name>rules</name>
@@ -3649,7 +3860,7 @@ and password needs to be authenticated.&lt;/p&gt;</long-description>
         <full_name>attributeLabels</full_name>
         <docblock line="33">
           <description>Declares attribute labels.</description>
-          <long-description></long-description>
+          <long-description/>
         </docblock>
       </method>
       <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="47" package="Default">
@@ -3661,12 +3872,12 @@ and password needs to be authenticated.&lt;/p&gt;</long-description>
         </docblock>
         <argument line="47">
           <name>$attribute</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="47">
           <name>$params</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -3675,7 +3886,7 @@ and password needs to be authenticated.&lt;/p&gt;</long-description>
         <full_name>login</full_name>
         <docblock line="57">
           <description>Logs in the user using the given username and password in the model.</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="57" name="return" description="whether login is successful" type="boolean">
             <type by_reference="false">boolean</type>
           </tag>
@@ -3692,318 +3903,469 @@ and password needs to be authenticated.&lt;/p&gt;</long-description>
       <error line="43" code="50015">Argument $params is missing from the Docblock of authenticate()</error>
     </parse_markers>
   </file>
-  <file path="protected/models/Participaciones.php" hash="bd8edd914f0e2bdfa73cfb6befecacc1" package="Default">
-    <class final="false" abstract="false" namespace="global" line="13" package="Default">
+  <file path="protected/models/Participaciones.php" hash="bf75b74a01f344b4b44a4350e7f2292d" package="Default">
+    <class final="false" abstract="false" namespace="global" line="19" package="modelos">
       <extends>\CActiveRecord</extends>
       <name>Participaciones</name>
       <full_name>\Participaciones</full_name>
       <docblock line="3">
-        <description>Modelo para la tabla &lt;&lt;participaciones&gt;&gt;</description>
-        <long-description>&lt;p&gt;Columnas disponibles:
- string $acciones_grupales_id_accion_grupal
- string $usuarios_id_usuario
- string $dinero_aportado
- string $influencias_aportadas
- string $animo_aportado&lt;/p&gt;</long-description>
+        <description>Modelo para la tabla participaciones</description>
+        <long-description>&lt;p&gt;Columnas disponibles:&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+  &lt;th align="left"&gt;tipo&lt;/th&gt;
+  &lt;th align="left"&gt;nombre&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+  &lt;td align="left"&gt;string&lt;/td&gt;
+  &lt;td align="left"&gt;$acciones_grupales_id_accion_grupal&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td align="left"&gt;string&lt;/td&gt;
+  &lt;td align="left"&gt;$usuarios_id_usuario&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td align="left"&gt;string&lt;/td&gt;
+  &lt;td align="left"&gt;$dinero_aportado&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td align="left"&gt;string&lt;/td&gt;
+  &lt;td align="left"&gt;$influencias_aportadas&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td align="left"&gt;string&lt;/td&gt;
+  &lt;td align="left"&gt;$animo_aportado&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</long-description>
+        <tag line="3" name="package" description="modelos"/>
       </docblock>
-      <property final="false" static="false" visibility="public" line="21" namespace="global" package="Default">
+      <property final="false" static="false" visibility="public" line="26" namespace="global" package="Default">
         <name>$dinero_nuevo</name>
         <default></default>
-        <docblock line="15">
-          <description>Returns the static model of the specified AR class.</description>
+        <docblock line="21">
+          <description>cantidad de dinero disponible</description>
           <long-description></long-description>
-          <tag line="15" name="param" description="active record class name." type="string" variable="$className">
-            <type by_reference="false">string</type>
-          </tag>
-          <tag line="15" name="return" description="the static model class" type="\Participaciones">
-            <type by_reference="false">\Participaciones</type>
-          </tag>
+          <tag line="21" name="type" description="double"/>
         </docblock>
       </property>
-      <property final="false" static="false" visibility="public" line="22" namespace="global" package="Default">
+      <property final="false" static="false" visibility="public" line="32" namespace="global" package="Default">
         <name>$animo_nuevo</name>
         <default></default>
+        <docblock line="27">
+          <description>cantidad de animo disponible</description>
+          <long-description></long-description>
+          <tag line="27" name="type" description="double"/>
+        </docblock>
       </property>
-      <property final="false" static="false" visibility="public" line="23" namespace="global" package="Default">
+      <property final="false" static="false" visibility="public" line="38" namespace="global" package="Default">
         <name>$influencia_nueva</name>
         <default></default>
+        <docblock line="33">
+          <description>cantidad de influencia disponible</description>
+          <long-description></long-description>
+          <tag line="33" name="type" description="double"/>
+        </docblock>
       </property>
-      <method final="false" abstract="false" static="true" visibility="public" namespace="global" line="25" package="Default">
+      <method final="false" abstract="false" static="true" visibility="public" namespace="global" line="49" package="modelos">
         <name>model</name>
         <full_name>model</full_name>
-        <argument line="25">
+        <docblock line="40">
+          <description>Devuelve el modelo estatico de la clase active record especificada.</description>
+          <long-description>&lt;blockquote&gt;
+  &lt;p&gt;Funcion predetirmada de Yii&lt;/p&gt;
+&lt;/blockquote&gt;</long-description>
+          <tag line="40" name="static" description=""/>
+          <tag line="40" name="param" description="nombre de la clase active record" type="string" variable="$className">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="40" name="return" description="el modelo estatico de la clase" type="\AccionesGrupales">
+            <type by_reference="false">\AccionesGrupales</type>
+          </tag>
+        </docblock>
+        <argument line="49">
           <name>$className</name>
           <default>__CLASS__</default>
           <type/>
         </argument>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="33" package="Default">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="61" package="modelos">
         <name>tableName</name>
         <full_name>tableName</full_name>
-        <docblock line="30">
-          <description></description>
-          <long-description></long-description>
-          <tag line="30" name="return" description="the associated database table name" type="string">
+        <docblock line="54">
+          <description>Devuelve el nombre de la tabla asociada a la clase</description>
+          <long-description>&lt;blockquote&gt;
+  &lt;p&gt;Funcion predeterminada de Yii&lt;/p&gt;
+&lt;/blockquote&gt;</long-description>
+          <tag line="54" name="return" description="nombre de la tabla en la base de datos" type="string">
             <type by_reference="false">string</type>
           </tag>
         </docblock>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="41" package="Default">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="76" package="modelos">
         <name>rules</name>
         <full_name>rules</full_name>
-        <docblock line="38">
-          <description></description>
-          <long-description></long-description>
-          <tag line="38" name="return" description="validation rules for model attributes." type="array">
-            <type by_reference="false">array</type>
+        <docblock line="66">
+          <description>Define las reglas definidas para los atributos del modelo.</description>
+          <long-description>&lt;p&gt;Incluye la regla usada por la funcion &lt;code&gt;search()&lt;/code&gt;
+Deben definirse solo las reglas para aquellos atributos que reciban entrada del usuario&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Funcion predeterminada de Yii&lt;/p&gt;
+&lt;/blockquote&gt;</long-description>
+          <tag line="66" name="return" description="reglas de validacion para los atributos" type="object[]">
+            <type by_reference="false">object[]</type>
           </tag>
         </docblock>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="64" package="Default">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="101" package="modelos">
         <name>relations</name>
         <full_name>relations</full_name>
-        <docblock line="59">
-          <description>Define las relaciones entre &lt;participaciones - tabla&gt;</description>
-          <long-description></long-description>
-          <tag line="59" name="devuelve" description="array de relaciones"/>
-        </docblock>
-      </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="75" package="Default">
-        <name>attributeLabels</name>
-        <full_name>attributeLabels</full_name>
-        <docblock line="72">
-          <description></description>
-          <long-description></long-description>
-          <tag line="72" name="return" description="customized attribute labels (name=&gt;label)" type="array">
-            <type by_reference="false">array</type>
+        <docblock line="89">
+          <description>Define las relaciones entre la tabla participaciones y el resto de tablas</description>
+          <long-description>&lt;p&gt;Relaciones definidas:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;usuario&lt;/li&gt;
+&lt;li&gt;accionGrupal&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Funcion predeterminada de Yii&lt;/p&gt;
+&lt;/blockquote&gt;</long-description>
+          <tag line="89" name="return" description="relaciones entre participaciones - tabla" type="object[]">
+            <type by_reference="false">object[]</type>
           </tag>
         </docblock>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="90" package="Default">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="116" package="modelos">
+        <name>attributeLabels</name>
+        <full_name>attributeLabels</full_name>
+        <docblock line="109">
+          <description>Define los nombres completos de los atributos</description>
+          <long-description>&lt;blockquote&gt;
+  &lt;p&gt;Funcion predeterminada de Yii&lt;/p&gt;
+&lt;/blockquote&gt;</long-description>
+          <tag line="109" name="return" description="nombres de los atributos" type="object[]">
+            <type by_reference="false">object[]</type>
+          </tag>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="134" package="modelos">
         <name>search</name>
         <full_name>search</full_name>
-        <docblock line="86">
-          <description>Retrieves a list of models based on the current search/filter conditions.</description>
-          <long-description></long-description>
-          <tag line="86" name="return" description="the data provider that can return the models based on the search/filter conditions." type="\CActiveDataProvider">
-            <type by_reference="false">\CActiveDataProvider</type>
+        <docblock line="127">
+          <description>Devuelve la lista de modelos con las condiciones de busqueda/filtro</description>
+          <long-description>&lt;blockquote&gt;
+  &lt;p&gt;Funcion predeterminada de Yii&lt;/p&gt;
+&lt;/blockquote&gt;</long-description>
+          <tag line="127" name="return" description="criterio definidos para las busquedas" type="\CActiveDataProvider[]">
+            <type by_reference="false">\CActiveDataProvider[]</type>
           </tag>
         </docblock>
       </method>
     </class>
     <parse_markers>
       <error line="0" code="50007">No page-level DocBlock was found in file protected/models/Participaciones.php</error>
-      <error line="22" code="50018">No DocBlock was found for property $animo_nuevo</error>
-      <error line="23" code="50018">No DocBlock was found for property $influencia_nueva</error>
-      <error line="25" code="50010">No DocBlock was found for method model()</error>
-      <error line="30" code="50012">No short description for method tableName()</error>
-      <error line="38" code="50012">No short description for method rules()</error>
-      <error line="72" code="50012">No short description for method attributeLabels()</error>
     </parse_markers>
   </file>
-  <file path="protected/models/Partidos.php" hash="9def5874fc598e9cb9db3230bd39a139" package="Default">
-    <class final="false" abstract="false" namespace="global" line="13" package="Default">
+  <file path="protected/models/Partidos.php" hash="8b300209fc79497ea126a89a07a04541" package="Default">
+    <class final="false" abstract="false" namespace="global" line="19" package="modelos">
       <extends>\CActiveRecord</extends>
       <name>Partidos</name>
       <full_name>\Partidos</full_name>
       <docblock line="3">
-        <description>Modelo de la tabla &lt;&lt;partidos&gt;&gt;</description>
-        <long-description>&lt;p&gt;Columnas disponibles:
-string $id_partido
-string $equipos_id_equipo_1
-string $equipos_id_equipo_2
-string $hora
-string $cronica&lt;/p&gt;</long-description>
+        <description>Modelo de la tabla partidos</description>
+        <long-description>&lt;p&gt;Columnas disponibles:&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+  &lt;th align="left"&gt;tipo&lt;/th&gt;
+  &lt;th align="left"&gt;nombre&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+  &lt;td align="left"&gt;string&lt;/td&gt;
+  &lt;td align="left"&gt;$id_partido&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td align="left"&gt;string&lt;/td&gt;
+  &lt;td align="left"&gt;$equipos_id_equipo_1&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td align="left"&gt;string&lt;/td&gt;
+  &lt;td align="left"&gt;$equipos_id_equipo_2&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td align="left"&gt;object&lt;/td&gt;
+  &lt;td align="left"&gt;$hora&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+  &lt;td align="left"&gt;string&lt;/td&gt;
+  &lt;td align="left"&gt;$cronica&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;</long-description>
+        <tag line="3" name="package" description="modelos"/>
       </docblock>
-      <property final="false" static="true" visibility="public" line="22" namespace="global" package="Default">
+      <property final="false" static="true" visibility="public" line="26" namespace="global" package="Default">
         <name>$datos_factores</name>
         <default>array('local' =&gt; array('ambiente' =&gt; 'ambiente', 'nivel' =&gt; 'nivel_local', 'aforo' =&gt; 'aforo_local', 'moral' =&gt; 'moral_local', 'ofensivo' =&gt; 'ofensivo_local', 'defensivo' =&gt; 'defensivo_local'), 'visitante' =&gt; array('ambiente' =&gt; 'ambiente', 'nivel' =&gt; 'nivel_visitante', 'aforo' =&gt; 'aforo_visitante', 'moral' =&gt; 'moral_visitante', 'ofensivo' =&gt; 'ofensivo_visitante', 'defensivo' =&gt; 'defensivo_visitante'))</default>
+        <docblock line="21">
+          <description>Facilita cambiar los factores de partido</description>
+          <long-description></long-description>
+          <tag line="21" name="type" description="object[]"/>
+        </docblock>
       </property>
-      <method final="false" abstract="false" static="true" visibility="public" namespace="global" line="43" package="Default">
+      <method final="false" abstract="false" static="true" visibility="public" namespace="global" line="56" package="modelos">
         <name>model</name>
         <full_name>model</full_name>
-        <argument line="43">
+        <docblock line="47">
+          <description>Devuelve el modelo estatico de la clase active record especificada.</description>
+          <long-description>&lt;blockquote&gt;
+  &lt;p&gt;Funcion predetirmada de Yii&lt;/p&gt;
+&lt;/blockquote&gt;</long-description>
+          <tag line="47" name="static" description=""/>
+          <tag line="47" name="param" description="nombre de la clase active record" type="string" variable="$className">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="47" name="return" description="el modelo estatico de la clase" type="\AccionesGrupales">
+            <type by_reference="false">\AccionesGrupales</type>
+          </tag>
+        </docblock>
+        <argument line="56">
           <name>$className</name>
           <default>__CLASS__</default>
           <type/>
         </argument>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="51" package="Default">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="68" package="modelos">
         <name>tableName</name>
         <full_name>tableName</full_name>
-        <docblock line="48">
-          <description></description>
-          <long-description></long-description>
-          <tag line="48" name="return" description="the associated database table name" type="string">
+        <docblock line="61">
+          <description>Devuelve el nombre de la tabla asociada a la clase</description>
+          <long-description>&lt;blockquote&gt;
+  &lt;p&gt;Funcion predeterminada de Yii&lt;/p&gt;
+&lt;/blockquote&gt;</long-description>
+          <tag line="61" name="return" description="nombre de la tabla en la base de datos" type="string">
             <type by_reference="false">string</type>
           </tag>
         </docblock>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="59" package="Default">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="83" package="modelos">
         <name>rules</name>
         <full_name>rules</full_name>
-        <docblock line="56">
-          <description></description>
-          <long-description></long-description>
-          <tag line="56" name="return" description="validation rules for model attributes." type="array">
-            <type by_reference="false">array</type>
+        <docblock line="73">
+          <description>Define las reglas definidas para los atributos del modelo.</description>
+          <long-description>&lt;p&gt;Incluye la regla usada por la funcion &lt;code&gt;search()&lt;/code&gt;
+Deben definirse solo las reglas para aquellos atributos que reciban entrada del usuario&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Funcion predeterminada de Yii&lt;/p&gt;
+&lt;/blockquote&gt;</long-description>
+          <tag line="73" name="return" description="reglas de validacion para los atributos" type="object[]">
+            <type by_reference="false">object[]</type>
           </tag>
         </docblock>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="78" package="Default">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="107" package="modelos">
         <name>relations</name>
         <full_name>relations</full_name>
-        <docblock line="73">
-          <description>Define las relaciones entre &lt;partidos - tabla&gt;</description>
-          <long-description></long-description>
-          <tag line="73" name="devuelve" description="array de relaciones"/>
+        <docblock line="93">
+          <description>Define las relaciones entre la tabla partidos y el resto de tablas</description>
+          <long-description>&lt;p&gt;Relaciones definidas:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;esSiguiente&lt;/li&gt;
+&lt;li&gt;accionesTurno&lt;/li&gt;
+&lt;li&gt;local&lt;/li&gt;
+&lt;li&gt;visitante&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Funcion predeterminada de Yii&lt;/p&gt;
+&lt;/blockquote&gt;</long-description>
+          <tag line="93" name="return" description="relaciones entre partidos - tabla" type="object[]">
+            <type by_reference="false">object[]</type>
+          </tag>
         </docblock>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="92" package="Default">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="124" package="modelos">
         <name>attributeLabels</name>
         <full_name>attributeLabels</full_name>
-        <docblock line="89">
-          <description></description>
-          <long-description></long-description>
-          <tag line="89" name="return" description="customized attribute labels (name=&gt;label)" type="array">
-            <type by_reference="false">array</type>
+        <docblock line="117">
+          <description>Define los nombres completos de los atributos</description>
+          <long-description>&lt;blockquote&gt;
+  &lt;p&gt;Funcion predeterminada de Yii&lt;/p&gt;
+&lt;/blockquote&gt;</long-description>
+          <tag line="117" name="return" description="nombres de los atributos" type="object[]">
+            <type by_reference="false">object[]</type>
           </tag>
         </docblock>
       </method>
-      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="107" package="Default">
+      <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="142" package="modelos">
         <name>search</name>
         <full_name>search</full_name>
-        <docblock line="103">
-          <description>Retrieves a list of models based on the current search/filter conditions.</description>
-          <long-description></long-description>
-          <tag line="103" name="return" description="the data provider that can return the models based on the search/filter conditions." type="\CActiveDataProvider">
-            <type by_reference="false">\CActiveDataProvider</type>
+        <docblock line="135">
+          <description>Devuelve la lista de modelos con las condiciones de busqueda/filtro</description>
+          <long-description>&lt;blockquote&gt;
+  &lt;p&gt;Funcion predeterminada de Yii&lt;/p&gt;
+&lt;/blockquote&gt;</long-description>
+          <tag line="135" name="return" description="criterio definidos para las busquedas" type="\CActiveDataProvider[]">
+            <type by_reference="false">\CActiveDataProvider[]</type>
           </tag>
         </docblock>
       </method>
-      <method final="false" abstract="false" static="true" visibility="public" namespace="global" line="136" package="Default">
+      <method final="false" abstract="false" static="true" visibility="public" namespace="global" line="170" package="modelos">
         <name>aumentar_factores</name>
         <full_name>aumentar_factores</full_name>
-        <docblock line="128">
-          <description>Funcion auxiliar que modifica la tabla de partidos</description>
+        <docblock line="156">
+          <description>Funcion auxiliar que modifica los factores de un partido: aumenta el factor espeficicado</description>
           <long-description></long-description>
-          <tag line="128" name="paremetro" description="partido en el que modificamos sus factores"/>
-          <tag line="128" name="paremetro" description="equipo al que pertenece"/>
-          <tag line="128" name="parametro" description="columna sobre la que modificamos (moral,ambiente,ind.ofensivo...)"/>
-          <tag line="128" name="parametro" description="cantidad de recursos que aumentamos"/>
-          <tag line="128" name="devuelve" description="flag de error"/>
+          <tag line="156" name="static" description=""/>
+          <tag line="156" name="param" description="partido en el que modificamos los factores" type="int" variable="$id_partido">
+            <type by_reference="false">int</type>
+          </tag>
+          <tag line="156" name="param" description="equipo sobre el que se aplica la modificacion" type="int" variable="$id_equipo">
+            <type by_reference="false">int</type>
+          </tag>
+          <tag line="156" name="param" description="columna de la tabla sobre la que modificamos (moral, ambiente, f_ofensivo...)" type="string" variable="$columna">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="156" name="param" description="cantidad que modificamos" type="double" variable="$cantidad">
+            <type by_reference="false">double</type>
+          </tag>
+          <tag line="156" name="throws" description="partido no encontrado" type="\CHttpException">
+            <type by_reference="false">\CHttpException</type>
+          </tag>
+          <tag line="156" name="return" description="flag de error (0 si no ha habido ningun error; -1 cc)" type="int">
+            <type by_reference="false">int</type>
+          </tag>
         </docblock>
-        <argument line="136">
+        <argument line="170">
           <name>$id_partido</name>
           <default></default>
           <type/>
         </argument>
-        <argument line="136">
+        <argument line="170">
           <name>$id_equipo</name>
           <default></default>
           <type/>
         </argument>
-        <argument line="136">
+        <argument line="170">
           <name>$columna</name>
           <default></default>
           <type/>
         </argument>
-        <argument line="136">
+        <argument line="170">
           <name>$cantidad</name>
           <default></default>
           <type/>
         </argument>
       </method>
-      <method final="false" abstract="false" static="true" visibility="public" namespace="global" line="181" package="Default">
+      <method final="false" abstract="false" static="true" visibility="public" namespace="global" line="225" package="modelos">
         <name>disminuir_factores</name>
         <full_name>disminuir_factores</full_name>
-        <docblock line="173">
-          <description>Funcion auxiliar que modifica la tabla de partidos</description>
+        <docblock line="211">
+          <description>Funcion auxiliar que modifica los factores de un partido: disminuye el factor espeficicado</description>
           <long-description></long-description>
-          <tag line="173" name="paremetro" description="partido en el que modificamos sus factores"/>
-          <tag line="173" name="paremetro" description="equipo al que pertenece"/>
-          <tag line="173" name="parametro" description="columna sobre la que modificamos (moral,ambiente,ind.ofensivo...)"/>
-          <tag line="173" name="parametro" description="cantidad de recursos que aumentamos"/>
-          <tag line="173" name="devuelve" description="flag de error"/>
+          <tag line="211" name="static" description=""/>
+          <tag line="211" name="param" description="partido en el que modificamos los factores" type="int" variable="$id_partido">
+            <type by_reference="false">int</type>
+          </tag>
+          <tag line="211" name="param" description="equipo sobre el que se aplica la modificacion" type="int" variable="$id_equipo">
+            <type by_reference="false">int</type>
+          </tag>
+          <tag line="211" name="param" description="columna de la tabla sobre la que modificamos (moral, ambiente, f_ofensivo...)" type="string" variable="$columna">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="211" name="param" description="cantidad que modificamos" type="double" variable="$cantidad">
+            <type by_reference="false">double</type>
+          </tag>
+          <tag line="211" name="throws" description="partido no encontrado" type="\CHttpException">
+            <type by_reference="false">\CHttpException</type>
+          </tag>
+          <tag line="211" name="return" description="flag de error (0 si no ha habido ningun error ; -1 cc)" type="int">
+            <type by_reference="false">int</type>
+          </tag>
         </docblock>
-        <argument line="181">
+        <argument line="225">
           <name>$id_partido</name>
           <default></default>
           <type/>
         </argument>
-        <argument line="181">
+        <argument line="225">
           <name>$id_equipo</name>
           <default></default>
           <type/>
         </argument>
-        <argument line="181">
+        <argument line="225">
           <name>$columna</name>
           <default></default>
           <type/>
         </argument>
-        <argument line="181">
+        <argument line="225">
           <name>$cantidad</name>
           <default></default>
           <type/>
         </argument>
       </method>
-      <method final="false" abstract="false" static="true" visibility="public" namespace="global" line="227" package="Default">
+      <method final="false" abstract="false" static="true" visibility="public" namespace="global" line="281" package="modelos">
         <name>aumentar_factores_prop</name>
         <full_name>aumentar_factores_prop</full_name>
-        <docblock line="218">
-          <description>Funcion auxiliar que modifica la tabla de partidos.</description>
-          <long-description>&lt;p&gt;A diferencia del
-aumento normal de factores, éste se hace de forma proporcional.&lt;/p&gt;</long-description>
-          <tag line="218" name="paremetro" description="partido en el que modificamos sus factores"/>
-          <tag line="218" name="paremetro" description="equipo al que pertenece"/>
-          <tag line="218" name="parametro" description="columna sobre la que modificamos (moral,ambiente,ind.ofensivo...)"/>
-          <tag line="218" name="parametro" description="proporción de recursos que aumentamos"/>
-          <tag line="218" name="devuelve" description="flag de error"/>
+        <docblock line="267">
+          <description>Funcion auxiliar que modifica la tabla de partidos de forma proporcionada</description>
+          <long-description></long-description>
+          <tag line="267" name="static" description=""/>
+          <tag line="267" name="param" description="partido en el que modificamos los factores" type="int" variable="$id_partido">
+            <type by_reference="false">int</type>
+          </tag>
+          <tag line="267" name="param" description="equipo sobre el que se aplica la modificacion" type="int" variable="$id_equipo">
+            <type by_reference="false">int</type>
+          </tag>
+          <tag line="267" name="param" description="columna de la tabla sobre la que modificamos (moral, ambiente, f_ofensivo...)" type="string" variable="$columna">
+            <type by_reference="false">string</type>
+          </tag>
+          <tag line="267" name="param" description="proporcion que modificamos" type="double" variable="$proporcion">
+            <type by_reference="false">double</type>
+          </tag>
+          <tag line="267" name="throws" description="partido no encontrado" type="\CHttpException">
+            <type by_reference="false">\CHttpException</type>
+          </tag>
+          <tag line="267" name="return" description="flag de error (0 si no ha habido ningun error ; -1 cc)" type="int">
+            <type by_reference="false">int</type>
+          </tag>
         </docblock>
-        <argument line="227">
+        <argument line="281">
           <name>$id_partido</name>
           <default></default>
           <type/>
         </argument>
-        <argument line="227">
+        <argument line="281">
           <name>$id_equipo</name>
           <default></default>
           <type/>
         </argument>
-        <argument line="227">
+        <argument line="281">
           <name>$columna</name>
           <default></default>
           <type/>
         </argument>
-        <argument line="227">
+        <argument line="281">
           <name>$proporcion</name>
           <default></default>
           <type/>
         </argument>
       </method>
     </class>
-    <markers>
-      <todo line="109">-&gt; Regles de busqueda para atributos de turno??</todo>
-    </markers>
     <parse_markers>
       <error line="0" code="50007">No page-level DocBlock was found in file protected/models/Partidos.php</error>
-      <error line="22" code="50018">No DocBlock was found for property $datos_factores</error>
-      <error line="43" code="50010">No DocBlock was found for method model()</error>
-      <error line="48" code="50012">No short description for method tableName()</error>
-      <error line="56" code="50012">No short description for method rules()</error>
-      <error line="89" code="50012">No short description for method attributeLabels()</error>
-      <error line="128" code="50015">Argument $id_partido is missing from the Docblock of aumentar_factores()</error>
-      <error line="128" code="50015">Argument $id_equipo is missing from the Docblock of aumentar_factores()</error>
-      <error line="128" code="50015">Argument $columna is missing from the Docblock of aumentar_factores()</error>
-      <error line="128" code="50015">Argument $cantidad is missing from the Docblock of aumentar_factores()</error>
-      <error line="173" code="50015">Argument $id_partido is missing from the Docblock of disminuir_factores()</error>
-      <error line="173" code="50015">Argument $id_equipo is missing from the Docblock of disminuir_factores()</error>
-      <error line="173" code="50015">Argument $columna is missing from the Docblock of disminuir_factores()</error>
-      <error line="173" code="50015">Argument $cantidad is missing from the Docblock of disminuir_factores()</error>
-      <error line="218" code="50015">Argument $id_partido is missing from the Docblock of aumentar_factores_prop()</error>
-      <error line="218" code="50015">Argument $id_equipo is missing from the Docblock of aumentar_factores_prop()</error>
-      <error line="218" code="50015">Argument $columna is missing from the Docblock of aumentar_factores_prop()</error>
-      <error line="218" code="50015">Argument $proporcion is missing from the Docblock of aumentar_factores_prop()</error>
     </parse_markers>
   </file>
   <file path="protected/models/Recursos.php" hash="bb7dc416d0eaf363276fc3e79b649bfd" package="Default">
@@ -4029,7 +4391,7 @@ aumento normal de factores, éste se hace de forma proporcional.&lt;/p&gt;</long
         <full_name>model</full_name>
         <docblock line="19">
           <description>Returns the static model of the specified AR class.</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="19" name="param" description="active record class name." type="string" variable="$className">
             <type by_reference="false">string</type>
           </tag>
@@ -4047,8 +4409,8 @@ aumento normal de factores, éste se hace de forma proporcional.&lt;/p&gt;</long
         <name>tableName</name>
         <full_name>tableName</full_name>
         <docblock line="29">
-          <description></description>
-          <long-description></long-description>
+          <description/>
+          <long-description/>
           <tag line="29" name="return" description="the associated database table name" type="string">
             <type by_reference="false">string</type>
           </tag>
@@ -4058,8 +4420,8 @@ aumento normal de factores, éste se hace de forma proporcional.&lt;/p&gt;</long
         <name>rules</name>
         <full_name>rules</full_name>
         <docblock line="37">
-          <description></description>
-          <long-description></long-description>
+          <description/>
+          <long-description/>
           <tag line="37" name="return" description="validation rules for model attributes." type="array">
             <type by_reference="false">array</type>
           </tag>
@@ -4070,7 +4432,7 @@ aumento normal de factores, éste se hace de forma proporcional.&lt;/p&gt;</long
         <full_name>relations</full_name>
         <docblock line="55">
           <description>Define las relaciones entre &lt;recursos - tabla&gt;</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="55" name="devuelve" description="array de relaciones"/>
         </docblock>
       </method>
@@ -4078,8 +4440,8 @@ aumento normal de factores, éste se hace de forma proporcional.&lt;/p&gt;</long
         <name>attributeLabels</name>
         <full_name>attributeLabels</full_name>
         <docblock line="68">
-          <description></description>
-          <long-description></long-description>
+          <description/>
+          <long-description/>
           <tag line="68" name="return" description="customized attribute labels (name=&gt;label)" type="array">
             <type by_reference="false">array</type>
           </tag>
@@ -4090,7 +4452,7 @@ aumento normal de factores, éste se hace de forma proporcional.&lt;/p&gt;</long
         <full_name>search</full_name>
         <docblock line="89">
           <description>Retrieves a list of models based on the current search/filter conditions.</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="89" name="return" description="the data provider that can return the models based on the search/filter conditions." type="\CActiveDataProvider">
             <type by_reference="false">\CActiveDataProvider</type>
           </tag>
@@ -4101,7 +4463,7 @@ aumento normal de factores, éste se hace de forma proporcional.&lt;/p&gt;</long
         <full_name>actualizaRecursos</full_name>
         <argument line="118">
           <name>$id_usuario</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -4110,7 +4472,7 @@ aumento normal de factores, éste se hace de forma proporcional.&lt;/p&gt;</long
         <full_name>aumentar_recursos</full_name>
         <docblock line="172">
           <description>Funcion auxiliar que modifica la tabla de recursos</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="172" name="paremetro" description="usuario al que modificamos sus recursos"/>
           <tag line="172" name="parametro" description="columna sobre la que modificamos (dinero, dinero_gen, ...)"/>
           <tag line="172" name="parametro" description="cantidad de recursos que aumentamos"/>
@@ -4119,17 +4481,17 @@ aumento normal de factores, éste se hace de forma proporcional.&lt;/p&gt;</long
         </docblock>
         <argument line="180">
           <name>$id_usuario</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="180">
           <name>$columna</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="180">
           <name>$cantidad</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -4138,7 +4500,7 @@ aumento normal de factores, éste se hace de forma proporcional.&lt;/p&gt;</long
         <full_name>quitar_recursos</full_name>
         <docblock line="233">
           <description>Funcion auxiliar que modifica la tabla de recursos</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="233" name="paremetro" description="usuario al que modificamos sus recursos"/>
           <tag line="233" name="parametro" description="columna sobre la que modificamos (dinero, dinero_gen, ...)"/>
           <tag line="233" name="parametro" description="cantidad de recursos que quitamos"/>
@@ -4147,17 +4509,17 @@ aumento normal de factores, éste se hace de forma proporcional.&lt;/p&gt;</long
         </docblock>
         <argument line="241">
           <name>$id_usuario</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="241">
           <name>$columna</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="241">
           <name>$cantidad</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -4413,38 +4775,38 @@ int     $exp_necesaria
       </constant>
       <property final="false" static="false" visibility="public" line="87" namespace="global" package="Default">
         <name>$antigua_clave</name>
-        <default></default>
+        <default/>
       </property>
       <property final="false" static="false" visibility="public" line="88" namespace="global" package="Default">
         <name>$nueva_clave1</name>
-        <default></default>
+        <default/>
       </property>
       <property final="false" static="false" visibility="public" line="89" namespace="global" package="Default">
         <name>$nueva_clave2</name>
-        <default></default>
+        <default/>
       </property>
       <property final="false" static="false" visibility="public" line="90" namespace="global" package="Default">
         <name>$antigua_email</name>
-        <default></default>
+        <default/>
       </property>
       <property final="false" static="false" visibility="public" line="91" namespace="global" package="Default">
         <name>$nueva_email1</name>
-        <default></default>
+        <default/>
       </property>
       <property final="false" static="false" visibility="public" line="92" namespace="global" package="Default">
         <name>$nueva_email2</name>
-        <default></default>
+        <default/>
       </property>
       <property final="false" static="false" visibility="public" line="93" namespace="global" package="Default">
         <name>$nuevo_nick</name>
-        <default></default>
+        <default/>
       </property>
       <method final="false" abstract="false" static="true" visibility="public" namespace="global" line="100" package="Default">
         <name>model</name>
         <full_name>model</full_name>
         <docblock line="95">
           <description>Returns the static model of the specified AR class.</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="95" name="param" description="active record class name." type="string" variable="$className">
             <type by_reference="false">string</type>
           </tag>
@@ -4462,8 +4824,8 @@ int     $exp_necesaria
         <name>tableName</name>
         <full_name>tableName</full_name>
         <docblock line="102">
-          <description></description>
-          <long-description></long-description>
+          <description/>
+          <long-description/>
           <tag line="102" name="return" description="the associated database table name" type="string">
             <type by_reference="false">string</type>
           </tag>
@@ -4475,7 +4837,7 @@ int     $exp_necesaria
         <docblock line="107">
           <description>Deben definirse solo reglas para aquellos atributos que recibiran entradas
 del usuario</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="107" name="return" description="validation rules for model attributes." type="array">
             <type by_reference="false">array</type>
           </tag>
@@ -4486,7 +4848,7 @@ del usuario</description>
         <full_name>comprobarClave</full_name>
         <docblock line="158">
           <description>Comprueba que la clave pasada por parámetro es válida con respecto a la clave de la base de datos.</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="158" name="param" description="Clave a comprobar" type="\" variable="$clave"/>
           <tag line="158" name="return" description="válida" type="\Clave">
             <type by_reference="false">\Clave</type>
@@ -4494,7 +4856,7 @@ del usuario</description>
         </docblock>
         <argument line="164">
           <name>$clave</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -4503,7 +4865,7 @@ del usuario</description>
         <full_name>cambiarClave</full_name>
         <docblock line="172">
           <description>Cambia la clave del usuario a la clave pasada por parámetro.</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="172" name="param" description="Nueva clase" type="\" variable="$clave"/>
           <tag line="172" name="return" description="" type="\éxito">
             <type by_reference="false">\éxito</type>
@@ -4511,7 +4873,7 @@ del usuario</description>
         </docblock>
         <argument line="178">
           <name>$clave</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -4520,12 +4882,12 @@ del usuario</description>
         <full_name>clavesIguales</full_name>
         <docblock line="191">
           <description>Compara para comprobar que su clave coincide con la de la BBDD</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="191" name="param" description="" type="\" variable="$antigua_clave"/>
         </docblock>
         <argument line="196">
           <name>$antigua_clave</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -4534,12 +4896,12 @@ del usuario</description>
         <full_name>emailIguales</full_name>
         <docblock line="205">
           <description>Comprobar que el email coincide con el de la BBDD</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="205" name="param" description="" type="\" variable="$antigua_email"/>
         </docblock>
         <argument line="210">
           <name>$antigua_email</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -4548,7 +4910,7 @@ del usuario</description>
         <full_name>comprobarEmail</full_name>
         <argument line="218">
           <name>$nueva_email1</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -4557,7 +4919,7 @@ del usuario</description>
         <full_name>comprobarNick</full_name>
         <argument line="228">
           <name>$nuevo_nick</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -4566,7 +4928,7 @@ del usuario</description>
         <full_name>relations</full_name>
         <docblock line="237">
           <description>Define las relaciones entre &lt;usuarios&gt; - &lt;tabla&gt;</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="237" name="return" description="de relaciones" type="array">
             <type by_reference="false">array</type>
           </tag>
@@ -4576,8 +4938,8 @@ del usuario</description>
         <name>attributeLabels</name>
         <full_name>attributeLabels</full_name>
         <docblock line="274">
-          <description></description>
-          <long-description></long-description>
+          <description/>
+          <long-description/>
           <tag line="274" name="return" description="customized attribute labels (name=&gt;label)" type="array">
             <type by_reference="false">array</type>
           </tag>
@@ -4603,12 +4965,12 @@ should not be searched.</description>
  - generar recursos
  - finalizar acciones individuales
  - finalizar acciones grupales</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="318" name="param" description="" type="\" variable="$id_usuario"/>
         </docblock>
         <argument line="326">
           <name>$id_usuario</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -4620,7 +4982,7 @@ should not be searched.</description>
 La experencia necesaria depende del nivel actual y un modificador
 La curva esta sacada de:
 stackoverflow.com/questions/6954874/php-game-formula-to-calculate-a-level-based-on-exp</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="334" name="param" description="" type="\" variable="$nivel_actual"/>
           <tag line="334" name="param" description="; valor por defecto 30." type="\" variable="$modificador"/>
           <tag line="334" name="return" description="experencia necesaria para alcanzar el siguiente nivel." type="\(int)">
@@ -4629,7 +4991,7 @@ stackoverflow.com/questions/6954874/php-game-formula-to-calculate-a-level-based-
         </docblock>
         <argument line="344">
           <name>$nivel_actual</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="344">
@@ -4656,7 +5018,7 @@ stackoverflow.com/questions/6954874/php-game-formula-to-calculate-a-level-based-
         </docblock>
         <argument line="364">
           <name>$exp</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -4703,12 +5065,12 @@ Ver las constantes
         </docblock>
         <argument line="449">
           <name>$nivel_inicial</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="449">
           <name>$nivel_actual</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -4720,7 +5082,7 @@ Ver las constantes
  - influencias_max
  - ainmo_max
 dependiendo unicamente del tipo de personaje</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="487" name="param" description=": tipo de personaje" type="\" variable="$personaje"/>
           <tag line="487" name="return" description="cantidad a subir los atributos &quot;maximos&quot;" type="\(array)">
             <type by_reference="false">\(array)</type>
@@ -4728,7 +5090,7 @@ dependiendo unicamente del tipo de personaje</description>
         </docblock>
         <argument line="496">
           <name>$personaje</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -4737,7 +5099,7 @@ dependiendo unicamente del tipo de personaje</description>
         <full_name>queAtributo</full_name>
         <docblock line="523">
           <description>Dado un personaje, determina que atributo de generacion aumentar</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="523" name="param" description="tipo de personaje" type="\(int)" variable="$personaje">
             <type by_reference="false">\(int)</type>
           </tag>
@@ -4747,7 +5109,7 @@ dependiendo unicamente del tipo de personaje</description>
         </docblock>
         <argument line="529">
           <name>$personaje</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -4758,7 +5120,7 @@ dependiendo unicamente del tipo de personaje</description>
           <description>Fija los atributos del nuevo personaje:
  - Recursos iniciales en funcion del personaje escogido
  - nivel y experencia iniciales</description>
-          <long-description></long-description>
+          <long-description/>
         </docblock>
       </method>
     </class>
@@ -5075,8 +5437,9 @@ We also provide some common methods to be used by concrete test classes.&lt;/p&g
     </parse_markers>
   </file>
   <package name="Default" full_name="Default"/>
+  <package name="modelos" full_name="modelos"/>
   <namespace name="global" full_name="global"/>
-  <marker count="9">todo</marker>
+  <marker count="8">todo</marker>
   <marker count="2">fixme</marker>
   <deprecated count="0"/>
 </project>
