@@ -21,6 +21,7 @@
                                     API Documentation <b class="caret"></b></a><ul class="dropdown-menu">
 <li><a>Packages</a></li>
 <li><a href="../packages/Default.html"><i class="icon-folder-open"></i> Default</a></li>
+<li><a href="../packages/controladores.html"><i class="icon-folder-open"></i> controladores</a></li>
 <li><a href="../packages/modelos.html"><i class="icon-folder-open"></i> modelos</a></li>
 </ul>
 </li>
@@ -32,14 +33,14 @@
 <a href="#reports" class="dropdown-toggle" data-toggle="dropdown">
                                     Reports <b class="caret"></b></a><ul class="dropdown-menu">
 <li><a href="../errors.html"><i class="icon-remove-sign"></i> Errors 
-                <span class="label label-info">343</span></a></li>
+                <span class="label label-info">371</span></a></li>
 <li><a href="../markers.html"><i class="icon-map-marker"></i> Markers 
                 <ul>
 <li>todo 
                 <span class="label label-info">8</span>
 </li>
 <li>fixme 
-                <span class="label label-info">2</span>
+                <span class="label label-info">4</span>
 </li>
 </ul></a></li>
 <li><a href="../deprecated.html"><i class="icon-stop"></i> Deprecated elements 
@@ -114,6 +115,7 @@ Perfil asociado: Movedora">PromoverPartido</a></li>
 <li><a href="#PunteroLaser" title="Descripcion breve: Apuntar con puntero laser al lanzador de falta rival
 Tipo: Partido
 Perfil asociado: Ultra">PunteroLaser</a></li>
+<li><a href="#RequisitosDesbloquearHabilidades" title="">RequisitosDesbloquearHabilidades</a></li>
 <li><a href="#RetransmitirRRSS" title="Descripcion breve: Retransmitir el encuentro por las redes sociales (RRSS)
 Tipo: Partido
 Perfil asociado: Ultra, Movedora">RetransmitirRRSS</a></li>
@@ -123,20 +125,20 @@ Perfil asociado: Ultra, Movedora">RetransmitirRRSS</a></li>
 <li><a href="#Helper" title="">Helper</a></li>
 <li><a href="#Partido" title="CLASE PARA EL PARTIDO">Partido</a></li>
 <li><a href="#UserIdentity" title="UserIdentity represents the data needed to identity a user.">UserIdentity</a></li>
-<li><a href="#AccionesController" title="Controlador para la funcionalidad relacionada con las acciones">AccionesController</a></li>
-<li><a href="#EquiposController" title="Controller is the customized base controller class.">EquiposController</a></li>
 <li><a href="#HabilidadesController" title="Controller is the customized base controller class.">HabilidadesController</a></li>
-<li><a href="#PartidosController" title="Controller is the customized base controller class.">PartidosController</a></li>
 <li><a href="#RegistroController" title="Pagina de registro">RegistroController</a></li>
 <li><a href="#ScriptsController" title="Controller is the customized base controller class.">ScriptsController</a></li>
 <li><a href="#SiteController" title="Controller is the customized base controller class.">SiteController</a></li>
 <li><a href="#UsuariosController" title="Controller is the customized base controller class.">UsuariosController</a></li>
 <li><a href="#AccionesGrupales" title="Modelo para la tabla &lt;&lt;acciones_grupales&gt;&gt;">AccionesGrupales</a></li>
 <li><a href="#AccionesIndividuales" title="Modelo de la tabla &lt;&lt;acciones_individuales&gt;&gt;">AccionesIndividuales</a></li>
+<li><a href="#AccionesTurno" title="Modelo para la tabla &lt;&lt;acciones_turno&gt;&gt;">AccionesTurno</a></li>
 <li><a href="#ContactForm" title="ContactForm class.">ContactForm</a></li>
+<li><a href="#Emails" title="Modelo de la tabla &lt;&lt;emails&gt;&gt;">Emails</a></li>
 <li><a href="#LoginForm" title="LoginForm class.">LoginForm</a></li>
+<li><a href="#Notificaciones" title="Modelo de la tabla &lt;&lt;notificaciones&gt;&gt;">Notificaciones</a></li>
 <li><a href="#Recursos" title="Modelo de la tabla &lt;&lt;recursos&gt;&gt;">Recursos</a></li>
-<li><a href="#Usuarios" title="Modelo de la tabla &lt;&lt;usuarios&gt;&gt;">Usuarios</a></li>
+<li><a href="#Usrnotif" title="Modelo de la tabla &lt;&lt;usrnotif&gt;&gt;">Usrnotif</a></li>
 <li><a href="#RegistroTest" title="The base class for functional test cases.">RegistroTest</a></li>
 <li><a href="#SiteTest" title="The base class for functional test cases.">SiteTest</a></li>
 <li><a href="#WebTestCase" title="The base class for functional test cases.">WebTestCase</a></li>
@@ -184,13 +186,6 @@ Perfil asociado: Ultra, Movedora">RetransmitirRRSS</a></li>
 <div class="details collapse"></div>
 <a href="../classes/AccionPasSingleton.html" class="more">« More »</a>
 </div>
-<div id="AccionesController" class="element ajax clickable class">
-<h1>AccionesController<a href="../classes/AccionesController.html">¶</a>
-</h1>
-<p class="short_description">Controlador para la funcionalidad relacionada con las acciones</p>
-<div class="details collapse"></div>
-<a href="../classes/AccionesController.html" class="more">« More »</a>
-</div>
 <div id="AccionesGrupales" class="element ajax clickable class">
 <h1>AccionesGrupales<a href="../classes/AccionesGrupales.html">¶</a>
 </h1>
@@ -204,6 +199,13 @@ Perfil asociado: Ultra, Movedora">RetransmitirRRSS</a></li>
 <p class="short_description">Modelo de la tabla <<acciones_individuales>></p>
 <div class="details collapse"></div>
 <a href="../classes/AccionesIndividuales.html" class="more">« More »</a>
+</div>
+<div id="AccionesTurno" class="element ajax clickable class">
+<h1>AccionesTurno<a href="../classes/AccionesTurno.html">¶</a>
+</h1>
+<p class="short_description">Modelo para la tabla <<acciones_turno>></p>
+<div class="details collapse"></div>
+<a href="../classes/AccionesTurno.html" class="more">« More »</a>
 </div>
 <div id="Apostar" class="element ajax clickable class">
 <h1>Apostar<a href="../classes/Apostar.html">¶</a>
@@ -278,12 +280,12 @@ Perfil asociado: Todos</p>
 <div class="details collapse"></div>
 <a href="../classes/Efectos.html" class="more">« More »</a>
 </div>
-<div id="EquiposController" class="element ajax clickable class">
-<h1>EquiposController<a href="../classes/EquiposController.html">¶</a>
+<div id="Emails" class="element ajax clickable class">
+<h1>Emails<a href="../classes/Emails.html">¶</a>
 </h1>
-<p class="short_description">Controller is the customized base controller class.</p>
+<p class="short_description">Modelo de la tabla <<emails>></p>
 <div class="details collapse"></div>
-<a href="../classes/EquiposController.html" class="more">« More »</a>
+<a href="../classes/Emails.html" class="more">« More »</a>
 </div>
 <div id="FinanciarEvento" class="element ajax clickable class">
 <h1>FinanciarEvento<a href="../classes/FinanciarEvento.html">¶</a>
@@ -349,6 +351,13 @@ Perfil asociado: Ultra</p>
 <div class="details collapse"></div>
 <a href="../classes/LoginForm.html" class="more">« More »</a>
 </div>
+<div id="Notificaciones" class="element ajax clickable class">
+<h1>Notificaciones<a href="../classes/Notificaciones.html">¶</a>
+</h1>
+<p class="short_description">Modelo de la tabla <<notificaciones>></p>
+<div class="details collapse"></div>
+<a href="../classes/Notificaciones.html" class="more">« More »</a>
+</div>
 <div id="OrganizarHomenaje" class="element ajax clickable class">
 <h1>OrganizarHomenaje<a href="../classes/OrganizarHomenaje.html">¶</a>
 </h1>
@@ -371,13 +380,6 @@ Perfil asociado: Empresario, Movedora</p>
 <p class="short_description"></p>
 <div class="details collapse"></div>
 <a href="../classes/PartidoCommand.html" class="more">« More »</a>
-</div>
-<div id="PartidosController" class="element ajax clickable class">
-<h1>PartidosController<a href="../classes/PartidosController.html">¶</a>
-</h1>
-<p class="short_description">Controller is the customized base controller class.</p>
-<div class="details collapse"></div>
-<a href="../classes/PartidosController.html" class="more">« More »</a>
 </div>
 <div id="Pintarse" class="element ajax clickable class">
 <h1>Pintarse<a href="../classes/Pintarse.html">¶</a>
@@ -434,6 +436,13 @@ Perfil asociado: Ultra</p>
 <div class="details collapse"></div>
 <a href="../classes/RegistroTest.html" class="more">« More »</a>
 </div>
+<div id="RequisitosDesbloquearHabilidades" class="element ajax clickable class">
+<h1>RequisitosDesbloquearHabilidades<a href="../classes/RequisitosDesbloquearHabilidades.html">¶</a>
+</h1>
+<p class="short_description"></p>
+<div class="details collapse"></div>
+<a href="../classes/RequisitosDesbloquearHabilidades.html" class="more">« More »</a>
+</div>
 <div id="RetransmitirRRSS" class="element ajax clickable class">
 <h1>RetransmitirRRSS<a href="../classes/RetransmitirRRSS.html">¶</a>
 </h1>
@@ -471,12 +480,12 @@ Perfil asociado: Ultra, Movedora</p>
 <div class="details collapse"></div>
 <a href="../classes/UserIdentity.html" class="more">« More »</a>
 </div>
-<div id="Usuarios" class="element ajax clickable class">
-<h1>Usuarios<a href="../classes/Usuarios.html">¶</a>
+<div id="Usrnotif" class="element ajax clickable class">
+<h1>Usrnotif<a href="../classes/Usrnotif.html">¶</a>
 </h1>
-<p class="short_description">Modelo de la tabla <<usuarios>></p>
+<p class="short_description">Modelo de la tabla <<usrnotif>></p>
 <div class="details collapse"></div>
-<a href="../classes/Usuarios.html" class="more">« More »</a>
+<a href="../classes/Usrnotif.html" class="more">« More »</a>
 </div>
 <div id="UsuariosController" class="element ajax clickable class">
 <h1>UsuariosController<a href="../classes/UsuariosController.html">¶</a>
@@ -530,7 +539,7 @@ Perfil asociado: Ultra, Movedora</p>
 <div class="row"><footer class="span12">
             Template is built using <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap 2</a> and icons provided by <a href="http://glyphicons.com/">Glyphicons</a>.<br>
             Documentation is powered by <a href="http://www.phpdoc.org/">phpDocumentor 2.0.0a12</a> and<br>
-            generated on 2013-04-14T14:40:03+02:00.<br></footer></div>
+            generated on 2013-04-16T11:10:13+02:00.<br></footer></div>
 </div>
 </body>
 </html>

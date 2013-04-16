@@ -3,7 +3,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
 <meta charset="utf-8">
-<title>phpDocumentor » \PartidosController</title>
+<title>phpDocumentor » \NotificacionesController</title>
 <meta name="author" content="Mike van Riel">
 <meta name="description" content="">
 <link href="../css/template.css" rel="stylesheet" media="all">
@@ -66,11 +66,10 @@
 <i class="icon-custom icon-method"></i> Methods
                     <ul>
 <li class="method public "><a href="#method_accessRules" title="accessRules :: Especifica las reglas de control de acceso."><span class="description">Especifica las reglas de control de acceso.</span><pre>accessRules()</pre></a></li>
-<li class="method public "><a href="#method_actionActPartido" title="actionActPartido :: renderiza el estado completo de un partido"><span class="description">renderiza el estado completo de un partido</span><pre>actionActPartido()</pre></a></li>
-<li class="method public "><a href="#method_actionAsistir" title="actionAsistir :: Muestra la pantalla para jugar un partido"><span class="description">Muestra la pantalla para jugar un partido</span><pre>actionAsistir()</pre></a></li>
-<li class="method public "><a href="#method_actionIndex" title="actionIndex :: Muestra dl calendario de la liga."><span class="description">Muestra dl calendario de la liga.</span><pre>actionIndex()</pre></a></li>
-<li class="method public "><a href="#method_actionPrevia" title="actionPrevia :: Muestra la informacion previa a un partido."><span class="description">Muestra la informacion previa a un partido.</span><pre>actionPrevia()</pre></a></li>
-<li class="method public "><a href="#method_beforeAction" title='beforeAction :: Establecer como fondo de la pagina "bg-estadio-dentro"'><span class="description">Establecer como fondo de la pagina "bg-estadio-dentro"</span><pre>beforeAction()</pre></a></li>
+<li class="method public "><a href="#method_actionIndex" title="actionIndex :: Muestra las notificaciones"><span class="description">Muestra las notificaciones</span><pre>actionIndex()</pre></a></li>
+<li class="method public "><a href="#method_actionLeer" title="actionLeer :: Leer una notificacion: Cambia el estado de la notificación a leida"><span class="description">Leer una notificacion: Cambia el estado de la notificación a leida</span><pre>actionLeer()</pre></a></li>
+<li class="method public inherited"><a href="#method_beforeAction" title="beforeAction :: "><span class="description">beforeAction()
+        </span><pre>beforeAction()</pre></a></li>
 <li class="method public "><a href="#method_filters" title="filters :: Definicion del verbo DELETE unicamente via POST"><span class="description">Definicion del verbo DELETE unicamente via POST</span><pre>filters()</pre></a></li>
 <li class="method public "><a href="#method_loadModel" title="loadModel :: Devuelve el modelo de datos basado en la clave primaria dada por la variable GET"><span class="description">Devuelve el modelo de datos basado en la clave primaria dada por la variable GET</span><pre>loadModel()</pre></a></li>
 </ul>
@@ -89,17 +88,17 @@
 </ul>
 </div>
 <div class="span8">
-<a id="\PartidosController"></a><ul class="breadcrumb">
+<a id="\NotificacionesController"></a><ul class="breadcrumb">
 <li>
 <a href="../index.html"><i class="icon-custom icon-class"></i></a><span class="divider">\</span>
 </li>
 <li><a href="../namespaces/global.html">global</a></li>
 <li class="active">
-<span class="divider">\</span><a href="../classes/PartidosController.html">PartidosController</a>
+<span class="divider">\</span><a href="../classes/NotificacionesController.html">NotificacionesController</a>
 </li>
 </ul>
 <div class="element class">
-<p class="short_description">Controlador de las jornadas y previas a los partidos</p>
+<p class="short_description">Controlador de las notificaciones</p>
 <div class="details">
 <div class="long_description"><p>All controller classes for this application should extend from this base class.</p></div>
 <table class="table table-bordered"><tr>
@@ -129,106 +128,56 @@
 <code>object[]</code>reglas usadas por el filtro "accessControl"</div>
 </div></div>
 </div>
-<a id="method_actionActPartido"></a><div class="element clickable method public method_actionActPartido" data-toggle="collapse" data-target=".method_actionActPartido .collapse">
-<h2>renderiza el estado completo de un partido</h2>
-<pre>actionActPartido(int $id_partido) : void</pre>
-<div class="labels"></div>
-<div class="row collapse"><div class="detail-description">
-<div class="long_description"><ul>
-<li>marcador</li>
-<li>tiempo</li>
-<li>crónica</li>
-</ul></div>
-<table class="table table-bordered"><tr>
-<th>route</th>
-<td>jugadorNum12/partidos/actPartido/{$id_partido}</td>
-</tr></table>
-<h3>Parameters</h3>
-<div class="subelement argument">
-<h4>$id_partido</h4>
-<code>int</code><p>id del partido</p></div>
-</div></div>
-</div>
-<a id="method_actionAsistir"></a><div class="element clickable method public method_actionAsistir" data-toggle="collapse" data-target=".method_actionAsistir .collapse">
-<h2>Muestra la pantalla para jugar un partido</h2>
-<pre>actionAsistir(int $id_partido) : void</pre>
-<div class="labels"></div>
-<div class="row collapse"><div class="detail-description">
-<div class="long_description"><p>Comprobaciones realizadas:</p>
-
-<ul>
-<li>acceso correcto al partido, equipos en la BD</li>
-<li>el partido esta jugandose (turnos €[1, 11])</li>
-<li>un usuario solo puede asistir al proximo partido de un equipo</li>
-</ul></div>
-<table class="table table-bordered"><tr>
-<th>route</th>
-<td>jugadorNum12/partidos/asistir/{$id_partido}</td>
-</tr></table>
-<h3>Parameters</h3>
-<div class="subelement argument">
-<h4>$id_partido</h4>
-<code>int</code><p>id del partido al que se va a asistir</p></div>
-</div></div>
-</div>
 <a id="method_actionIndex"></a><div class="element clickable method public method_actionIndex" data-toggle="collapse" data-target=".method_actionIndex .collapse">
-<h2>Muestra dl calendario de la liga.</h2>
+<h2>Muestra las notificaciones</h2>
 <pre>actionIndex() : void</pre>
 <div class="labels"></div>
 <div class="row collapse"><div class="detail-description">
-<div class="long_description"><p>Resalta los partidos del usuario y en especial el próximo partido del usuario</p></div>
+<div class="long_description"></div>
 <table class="table table-bordered"><tr>
 <th>route</th>
-<td>jugadorNum12/partidos</td>
+<td>jugadorNum12/notificaciones</td>
 </tr></table>
 </div></div>
 </div>
-<a id="method_actionPrevia"></a><div class="element clickable method public method_actionPrevia" data-toggle="collapse" data-target=".method_actionPrevia .collapse">
-<h2>Muestra la informacion previa a un partido.</h2>
-<pre>actionPrevia(int $id_partido) : void</pre>
+<a id="method_actionLeer"></a><div class="element clickable method public method_actionLeer" data-toggle="collapse" data-target=".method_actionLeer .collapse">
+<h2>Leer una notificacion: Cambia el estado de la notificación a leida</h2>
+<pre>actionLeer(int $id, string $url) : void</pre>
 <div class="labels"></div>
 <div class="row collapse"><div class="detail-description">
-<div class="long_description"><p>1 Si el partido ya se jugo, mostrar la cronica (resultado) de ese partido
-2 Si el partido no se ha jugado aún y no es el partido próximo mostrar:
-    - fecha y hora
-    - equipos que jugarán
-3 Si el partido es el próximo partido del equipo, mostrar:
-    - fecha y hora
-    - ambiente para el partido
-    - equipo local y visitante
-       - detalles de ambos equipos (aforo previsto, nivel de los equipos)
-    - acciones completadas por las aficiones</p></div>
+<div class="long_description"></div>
 <table class="table table-bordered">
 <tr>
 <th>route</th>
-<td>jugadorNum12/partidos/previa/{$id_partido}</td>
+<td>jugadorNum12/notificaciones/leer/{$id}/{$url}</td>
 </tr>
 <tr>
 <th>redirect</th>
-<td>jugadorNum12/partidos/index     si se intenta asistir a un partido posterior al siguiente</td>
+<td>{$url}</td>
 </tr>
 </table>
 <h3>Parameters</h3>
 <div class="subelement argument">
-<h4>$id_partido</h4>
-<code>int</code><p>id del partido sobre el que se consulta la previa</p></div>
+<h4>$id</h4>
+<code>int</code><p>id de la notificacion</p></div>
+<div class="subelement argument">
+<h4>$url</h4>
+<code>string</code><p>direccion de retorno una vez leida la notificacion</p></div>
 </div></div>
 </div>
 <a id="method_beforeAction"></a><div class="element clickable method public method_beforeAction" data-toggle="collapse" data-target=".method_beforeAction .collapse">
-<h2>Establecer como fondo de la pagina "bg-estadio-dentro"</h2>
-<pre>beforeAction(object $action) : true</pre>
-<div class="labels"></div>
+<h2>beforeAction()
+        </h2>
+<pre>beforeAction($action) </pre>
+<div class="labels"><span class="label">Inherited</span></div>
 <div class="row collapse"><div class="detail-description">
-<div class="long_description"><blockquote>
-  <p>Llamada a la funcion <code>beforeAction</code></p>
-</blockquote></div>
+<div class="long_description"></div>
+<table class="table table-bordered"><tr>
+<th>inherited_from</th>
+<td>\Controller::beforeAction()</td>
+</tr></table>
 <h3>Parameters</h3>
-<div class="subelement argument">
-<h4>$action</h4>
-<code>object</code>
-</div>
-<h3>Returns</h3>
-<div class="subelement response"><code>true</code></div>
+<div class="subelement argument"><h4>$action</h4></div>
 </div></div>
 </div>
 <a id="method_filters"></a><div class="element clickable method public method_filters" data-toggle="collapse" data-target=".method_filters .collapse">

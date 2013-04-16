@@ -21,6 +21,7 @@
                                     API Documentation <b class="caret"></b></a><ul class="dropdown-menu">
 <li><a>Packages</a></li>
 <li><a href="../packages/Default.html"><i class="icon-folder-open"></i> Default</a></li>
+<li><a href="../packages/controladores.html"><i class="icon-folder-open"></i> controladores</a></li>
 <li><a href="../packages/modelos.html"><i class="icon-folder-open"></i> modelos</a></li>
 </ul>
 </li>
@@ -32,14 +33,14 @@
 <a href="#reports" class="dropdown-toggle" data-toggle="dropdown">
                                     Reports <b class="caret"></b></a><ul class="dropdown-menu">
 <li><a href="../errors.html"><i class="icon-remove-sign"></i> Errors 
-                <span class="label label-info">343</span></a></li>
+                <span class="label label-info">371</span></a></li>
 <li><a href="../markers.html"><i class="icon-map-marker"></i> Markers 
                 <ul>
 <li>todo 
                 <span class="label label-info">8</span>
 </li>
 <li>fixme 
-                <span class="label label-info">2</span>
+                <span class="label label-info">4</span>
 </li>
 </ul></a></li>
 <li><a href="../deprecated.html"><i class="icon-stop"></i> Deprecated elements 
@@ -64,44 +65,20 @@
 <li class="nav-header">
 <i class="icon-custom icon-method"></i> Methods
                     <ul>
-<li class="method public "><a href="#method_accessRules" title="accessRules :: Funcion predeterminada de Yii
-Especifica las reglas de control de acceso."><span class="description">Funcion predeterminada de Yii
-Especifica las reglas de control de acceso.</span><pre>accessRules()</pre></a></li>
-<li class="method public "><a href="#method_actionExpulsar" title="actionExpulsar :: Expulsar a un jugador participante en una accion grupal."><span class="description">Expulsar a un jugador participante en una accion grupal.</span><pre>actionExpulsar()</pre></a></li>
-<li class="method public "><a href="#method_actionIndex" title="actionIndex :: Muestra todas las acciones (individuales y grupales) desbloqueadas
-Las acciones que el usuario no pueda hacer (por falta de recursos)
-aparecen remarcadas"><span class="description">Muestra todas las acciones (individuales y grupales) desbloqueadas
-Las acciones que el usuario no pueda hacer (por falta de recursos)
-aparecen remarcadas</span><pre>actionIndex()</pre></a></li>
+<li class="method public "><a href="#method_accessRules" title="accessRules :: Especifica las reglas de control de acceso."><span class="description">Especifica las reglas de control de acceso.</span><pre>accessRules()</pre></a></li>
+<li class="method public "><a href="#method_actionExpulsar" title="actionExpulsar :: Expulsar a un jugador participante en una accion grupal"><span class="description">Expulsar a un jugador participante en una accion grupal</span><pre>actionExpulsar()</pre></a></li>
+<li class="method public "><a href="#method_actionIndex" title="actionIndex :: Muestra todas las acciones (individuales y grupales) desbloqueadas"><span class="description">Muestra todas las acciones (individuales y grupales) desbloqueadas</span><pre>actionIndex()</pre></a></li>
 <li class="method public "><a href="#method_actionParticipar" title="actionParticipar :: Permite participar en una accion grupal abierta por tu aficion."><span class="description">Permite participar en una accion grupal abierta por tu aficion.</span><pre>actionParticipar()</pre></a></li>
-<li class="method public "><a href="#method_actionUsar" title='actionUsar :: Ejecuta la accion (individual o grupal) pulsada (no habrá acciones pasivas o de partido)
-Significa "bajarse la carta de habilidad"'><span class="description">Ejecuta la accion (individual o grupal) pulsada (no habrá acciones pasivas o de partido)
-Significa "bajarse la carta de habilidad"</span><pre>actionUsar()</pre></a></li>
-<li class="method public "><a href="#method_actionVer" title="actionVer :: Muestra la informacion relativa a una accion grupal abierta
- - recursos totales requeridos en la accion
- - jugadores que participan en ella
- - recursos aportados por cada jugador
- - efecto si se consigue la accion"><span class="description">Muestra la informacion relativa a una accion grupal abierta
- - recursos totales requeridos en la accion
- - jugadores que participan en ella
- - recursos aportados por cada jugador
- - efecto si se consigue la accion</span><pre>actionVer()</pre></a></li>
+<li class="method public "><a href="#method_actionUsar" title="actionUsar :: Ejecuta la accion (individual o grupal) pulsada."><span class="description">Ejecuta la accion (individual o grupal) pulsada.</span><pre>actionUsar()</pre></a></li>
+<li class="method public "><a href="#method_actionVer" title="actionVer :: Muestra la informacion relativa a una accion grupal abierta."><span class="description">Muestra la informacion relativa a una accion grupal abierta.</span><pre>actionVer()</pre></a></li>
 <li class="method public inherited"><a href="#method_beforeAction" title="beforeAction :: "><span class="description">beforeAction()
         </span><pre>beforeAction()</pre></a></li>
-<li class="method public "><a href="#method_filters" title='filters :: Funcion predeterminada de Yii
-Permitimos "delete" solo via POST'><span class="description">Funcion predeterminada de Yii
-Permitimos "delete" solo via POST</span><pre>filters()</pre></a></li>
-<li class="method public "><a href="#method_loadModel" title="loadModel :: Funcion predeterminada de Yii
-Devuelve el modelo de datos basado en la clave primaria dada por la variable GET
-Si el modelo de datos no se encuentra, se lanza una excepcion HTTP"><span class="description">Funcion predeterminada de Yii
-Devuelve el modelo de datos basado en la clave primaria dada por la variable GET
-Si el modelo de datos no se encuentra, se lanza una excepcion HTTP</span><pre>loadModel()</pre></a></li>
+<li class="method public "><a href="#method_filters" title="filters :: Definicion del verbo DELETE unicamente via POST"><span class="description">Definicion del verbo DELETE unicamente via POST</span><pre>filters()</pre></a></li>
+<li class="method public "><a href="#method_loadModel" title="loadModel :: Devuelve el modelo de datos basado en la clave primaria dada por la variable GET"><span class="description">Devuelve el modelo de datos basado en la clave primaria dada por la variable GET</span><pre>loadModel()</pre></a></li>
 </ul>
 </li>
 <li class="nav-header protected">» Protected
-                    <ul><li class="method protected "><a href="#method_performAjaxValidation" title="performAjaxValidation :: Funcion predeterminada de Yii
-Realiza la validacion por Ajax"><span class="description">Funcion predeterminada de Yii
-Realiza la validacion por Ajax</span><pre>performAjaxValidation()</pre></a></li></ul>
+                    <ul><li class="method protected "><a href="#method_performAjaxValidation" title="performAjaxValidation :: Realiza la validacion por Ajax"><span class="description">Realiza la validacion por Ajax</span><pre>performAjaxValidation()</pre></a></li></ul>
 </li>
 <li class="nav-header">
 <i class="icon-custom icon-property"></i> Properties
@@ -124,15 +101,18 @@ Realiza la validacion por Ajax</span><pre>performAjaxValidation()</pre></a></li>
 </li>
 </ul>
 <div class="element class">
-<p class="short_description">Controlador para la funcionalidad relacionada con las acciones</p>
+<p class="short_description">Controlador de las acciones</p>
 <div class="details">
 <div class="long_description"><p>All controller classes for this application should extend from this base class.</p></div>
+<table class="table table-bordered"><tr>
+<th>package</th>
+<td><a href="../packages/controladores.html">controladores</a></td>
+</tr></table>
 <h3>
 <i class="icon-custom icon-method"></i> Methods</h3>
 <a id="method_accessRules"></a><div class="element clickable method public method_accessRules" data-toggle="collapse" data-target=".method_accessRules .collapse">
-<h2>Funcion predeterminada de Yii
-Especifica las reglas de control de acceso.</h2>
-<pre>accessRules() : \(array)</pre>
+<h2>Especifica las reglas de control de acceso.</h2>
+<pre>accessRules() : object[]</pre>
 <div class="labels"></div>
 <div class="row collapse"><div class="detail-description">
 <div class="long_description"><ul>
@@ -141,19 +121,22 @@ Especifica las reglas de control de acceso.</h2>
 <ul>
 <li>Niega el acceso al resto de usuarios</li>
 </ul></li>
-</ul></div>
+</ul>
+
+<blockquote>
+  <p>Funcion predeterminada de Yii</p>
+</blockquote></div>
 <h3>Returns</h3>
 <div class="subelement response">
-<code>\(array)</code>reglas usadas por el filtro "accessControl"</div>
+<code>object[]</code>reglas usadas por el filtro "accessControl"</div>
 </div></div>
 </div>
 <a id="method_actionExpulsar"></a><div class="element clickable method public method_actionExpulsar" data-toggle="collapse" data-target=".method_actionExpulsar .collapse">
-<h2>Expulsar a un jugador participante en una accion grupal.</h2>
-<pre>actionExpulsar($id_accion, $id_jugador) </pre>
+<h2>Expulsar a un jugador participante en una accion grupal</h2>
+<pre>actionExpulsar(int $id_accion, int $id_jugador) : void</pre>
 <div class="labels"></div>
 <div class="row collapse"><div class="detail-description">
-<div class="long_description"><p>Los recursos que puso el jugador le son devueltos
-(comprobando limite de animo e influencias)</p></div>
+<div class="long_description"><p>Los recursos que puso el jugador le son devueltos comprobando limite de animo e influencias</p></div>
 <table class="table table-bordered">
 <tr>
 <th>route</th>
@@ -166,19 +149,29 @@ Especifica las reglas de control de acceso.</h2>
 </table>
 <h3>Parameters</h3>
 <div class="subelement argument">
-<h4>$id_accion</h4><p>: ide de la accion de donde se va a expulsar al jugador</p></div>
+<h4>$id_accion</h4>
+<code>int</code><p>id de la accion de donde se va a expulsar al jugador</p></div>
 <div class="subelement argument">
-<h4>$id_jugador</h4><p>: ide del jugador que se va a expulsar</p></div>
+<h4>$id_jugador</h4>
+<code>int</code><p>id del jugador que se va a expulsar</p></div>
+<h3>Exceptions</h3>
+<table class="table table-bordered"><tr>
+<th><code><a href="http://php.net/manual/en/class.exception.php">\Exception</a></code></th>
+<td>fallo en la transaccion</td>
+</tr></table>
 </div></div>
 </div>
 <a id="method_actionIndex"></a><div class="element clickable method public method_actionIndex" data-toggle="collapse" data-target=".method_actionIndex .collapse">
-<h2>Muestra todas las acciones (individuales y grupales) desbloqueadas
-Las acciones que el usuario no pueda hacer (por falta de recursos)
-aparecen remarcadas</h2>
-<pre>actionIndex() </pre>
+<h2>Muestra todas las acciones (individuales y grupales) desbloqueadas</h2>
+<pre>actionIndex() : void</pre>
 <div class="labels"></div>
 <div class="row collapse"><div class="detail-description">
-<div class="long_description"><p>Nota : El id del usuario se recoge de la varibale de sesion</p></div>
+<div class="long_description"><p>Las acciones que el usuario no pueda hacer (por falta de recursos)
+aparecen remarcadas</p>
+
+<blockquote>
+  <p>El id del usuario se recoge de la varibale de sesion</p>
+</blockquote></div>
 <table class="table table-bordered"><tr>
 <th>route</th>
 <td>jugadorNum12/acciones</td>
@@ -187,13 +180,14 @@ aparecen remarcadas</h2>
 </div>
 <a id="method_actionParticipar"></a><div class="element clickable method public method_actionParticipar" data-toggle="collapse" data-target=".method_actionParticipar .collapse">
 <h2>Permite participar en una accion grupal abierta por tu aficion.</h2>
-<pre>actionParticipar($id_accion) </pre>
+<pre>actionParticipar(int $id_accion) : void</pre>
 <div class="labels"></div>
 <div class="row collapse"><div class="detail-description">
-<div class="long_description"><p>Muestra el formulario que define que recursos va a aportar a la
-accion que se recogen por $_POST</p>
+<div class="long_description"><p>Muestra el formulario que define que recursos va a aportar a la accion que se recogen por $_POST</p>
 
-<p>El id del jugador se recoge de la variable de sesion</p></div>
+<blockquote>
+  <p>El id del jugador se recoge de la variable de sesion</p>
+</blockquote></div>
 <table class="table table-bordered">
 <tr>
 <th>route</th>
@@ -206,25 +200,51 @@ accion que se recogen por $_POST</p>
 </table>
 <h3>Parameters</h3>
 <div class="subelement argument">
-<h4>$id_accion</h4><p>: id de la accion en la que se va a participar</p></div>
+<h4>$id_accion</h4>
+<code>int</code><p>id de la accion en la que se va a participar</p></div>
+<h3>Exceptions</h3>
+<table class="table table-bordered">
+<tr>
+<th><code><a href="http://php.net/manual/en/class.exception.php">\Exception</a></code></th>
+<td>accion inexistente</td>
+</tr>
+<tr>
+<th><code><a href="http://php.net/manual/en/class.exception.php">\Exception</a></code></th>
+<td>habilidad inexistente</td>
+</tr>
+<tr>
+<th><code>\Excepcion</code></th>
+<td>la accion no permite mas participantes</td>
+</tr>
+<tr>
+<th><code>\Excepcion</code></th>
+<td>fallo en la transaccion</td>
+</tr>
+</table>
 </div></div>
 </div>
 <a id="method_actionUsar"></a><div class="element clickable method public method_actionUsar" data-toggle="collapse" data-target=".method_actionUsar .collapse">
-<h2>Ejecuta la accion (individual o grupal) pulsada (no habrá acciones pasivas o de partido)
-Significa "bajarse la carta de habilidad"</h2>
-<pre>actionUsar($id_accion) </pre>
+<h2>Ejecuta la accion (individual o grupal) pulsada.</h2>
+<pre>actionUsar(int $id_accion) : void</pre>
 <div class="labels"></div>
 <div class="row collapse"><div class="detail-description">
-<div class="long_description"><p>Cualquier habilidad resta los recursos iniciales al jugador, además,</p>
+<div class="long_description"><p>Significa bajarse la carta de habilidad</p>
 
-<p>Si es una accion grupal muestra un formulario para recoger la
-cantidad inicial de recursos que aporta el jugador (podría no aportar recursos),
-Los datos del formulario se recogen por $_POST y se crea una
-nueva accion grupal en el equipo al que pertenece el usuario
-  Si es una accion individual se ejecuta al momento</p>
+<p>Cualquier habilidad resta los recursos iniciales al jugador, además,</p>
 
-<p>El id del jugador y la aficion a la que pertence se recogen de
-la variable de sesion</p></div>
+<ul>
+<li><p>Si es una accion grupal muestra un formulario para recoger la cantidad inicial de recursos
+que aporta el jugador (podría no aportar recursos).
+Los datos del formulario se recogen por $_POST y se crea una nueva accion grupal en el equipo
+al que pertenece el usuario</p></li>
+<li><p>Si es una accion individual se ejecuta al momento</p></li>
+</ul>
+
+<blockquote>
+  <p>El id del jugador y la aficion a la que pertence se recogen de la variable de sesion</p>
+  
+  <p>No se le pasaran acciones individuales ni de partido</p>
+</blockquote></div>
 <table class="table table-bordered">
 <tr>
 <th>route</th>
@@ -241,27 +261,38 @@ la variable de sesion</p></div>
 </table>
 <h3>Parameters</h3>
 <div class="subelement argument">
-<h4>$id_accion</h4><p>: id de la accion que se ejecuta</p></div>
+<h4>$id_accion</h4>
+<code>int</code><p>id de la accion que se ejecuta</p></div>
 </div></div>
 </div>
 <a id="method_actionVer"></a><div class="element clickable method public method_actionVer" data-toggle="collapse" data-target=".method_actionVer .collapse">
-<h2>Muestra la informacion relativa a una accion grupal abierta
- - recursos totales requeridos en la accion
- - jugadores que participan en ella
- - recursos aportados por cada jugador
- - efecto si se consigue la accion</h2>
-<pre>actionVer($id_accion) </pre>
+<h2>Muestra la informacion relativa a una accion grupal abierta.</h2>
+<pre>actionVer(int $id_accion) : void</pre>
 <div class="labels"></div>
 <div class="row collapse"><div class="detail-description">
-<div class="long_description"><p>Si es el usuario que la creo, muestra ademas
- - botones para expulsar participantes</p></div>
+<div class="long_description"><ul>
+<li>recursos totales requeridos en la accion
+
+<ul>
+<li>jugadores que participan en ella</li>
+<li>recursos aportados por cada jugador</li>
+<li>efecto si se consigue la accion</li>
+</ul></li>
+</ul>
+
+<p>Si es el usuario que la creo, muestra ademas</p>
+
+<ul>
+<li>botones para expulsar participantes</li>
+</ul></div>
 <table class="table table-bordered"><tr>
 <th>route</th>
 <td>jugadorNum12/acciones/ver/{$id_accion}</td>
 </tr></table>
 <h3>Parameters</h3>
 <div class="subelement argument">
-<h4>$id_accion</h4><p>: id de la accion grupal que se muestra</p></div>
+<h4>$id_accion</h4>
+<code>int</code><p>id de la accion grupal que se muestra</p></div>
 </div></div>
 </div>
 <a id="method_beforeAction"></a><div class="element clickable method public method_beforeAction" data-toggle="collapse" data-target=".method_beforeAction .collapse">
@@ -280,40 +311,48 @@ la variable de sesion</p></div>
 </div></div>
 </div>
 <a id="method_filters"></a><div class="element clickable method public method_filters" data-toggle="collapse" data-target=".method_filters .collapse">
-<h2>Funcion predeterminada de Yii
-Permitimos "delete" solo via POST</h2>
-<pre>filters() : \(array)</pre>
+<h2>Definicion del verbo DELETE unicamente via POST</h2>
+<pre>filters() : string[]</pre>
 <div class="labels"></div>
 <div class="row collapse"><div class="detail-description">
-<div class="long_description"></div>
+<div class="long_description"><blockquote>
+  <p>Funcion predeterminada de Yii</p>
+</blockquote></div>
 <h3>Returns</h3>
 <div class="subelement response">
-<code>\(array)</code>filtros para "actions"</div>
+<code>string[]</code>filtros definidos para "actions"</div>
 </div></div>
 </div>
 <a id="method_loadModel"></a><div class="element clickable method public method_loadModel" data-toggle="collapse" data-target=".method_loadModel .collapse">
-<h2>Funcion predeterminada de Yii
-Devuelve el modelo de datos basado en la clave primaria dada por la variable GET
-Si el modelo de datos no se encuentra, se lanza una excepcion HTTP</h2>
-<pre>loadModel($id) : \modelo</pre>
+<h2>Devuelve el modelo de datos basado en la clave primaria dada por la variable GET</h2>
+<pre>loadModel(int $id) : <a href="../classes/AccionesGrupales.html">\AccionesGrupales</a></pre>
 <div class="labels"></div>
 <div class="row collapse"><div class="detail-description">
-<div class="long_description"></div>
+<div class="long_description"><blockquote>
+  <p>Funcion predeterminada de Yii</p>
+</blockquote></div>
 <h3>Parameters</h3>
 <div class="subelement argument">
-<h4>$id</h4><p>: id del modelo que se va a cargar</p></div>
+<h4>$id</h4>
+<code>int</code><p>id del modelo que se va a cargar</p></div>
+<h3>Exceptions</h3>
+<table class="table table-bordered"><tr>
+<th><code>\CHttpException</code></th>
+<td>El modelo de datos no se encuentra</td>
+</tr></table>
 <h3>Returns</h3>
 <div class="subelement response">
-<code>\modelo</code>de datos</div>
+<code><a href="../classes/AccionesGrupales.html">\AccionesGrupales</a></code>modelo de datos</div>
 </div></div>
 </div>
 <a id="method_performAjaxValidation"></a><div class="element clickable method protected method_performAjaxValidation" data-toggle="collapse" data-target=".method_performAjaxValidation .collapse">
-<h2>Funcion predeterminada de Yii
-Realiza la validacion por Ajax</h2>
-<pre>performAjaxValidation($model) </pre>
+<h2>Realiza la validacion por Ajax</h2>
+<pre>performAjaxValidation($model) : void</pre>
 <div class="labels"></div>
 <div class="row collapse"><div class="detail-description">
-<div class="long_description"></div>
+<div class="long_description"><blockquote>
+  <p>Funcion predeterminada de Yii</p>
+</blockquote></div>
 <h3>Parameters</h3>
 <div class="subelement argument">
 <h4>$model</h4><p>(CModel) modelo a ser validado</p>
@@ -365,7 +404,7 @@ Realiza la validacion por Ajax</h2>
 <div class="row"><footer class="span12">
             Template is built using <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap 2</a> and icons provided by <a href="http://glyphicons.com/">Glyphicons</a>.<br>
             Documentation is powered by <a href="http://www.phpdoc.org/">phpDocumentor 2.0.0a12</a> and<br>
-            generated on 2013-04-14T14:40:03+02:00.<br></footer></div>
+            generated on 2013-04-16T11:10:13+02:00.<br></footer></div>
 </div>
 </body>
 </html>
