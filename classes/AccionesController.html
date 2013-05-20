@@ -21,6 +21,7 @@
                                     API Documentation <b class="caret"></b></a><ul class="dropdown-menu">
 <li><a>Packages</a></li>
 <li><a href="../packages/Default.html"><i class="icon-folder-open"></i> Default</a></li>
+<li><a href="../packages/componentes.html"><i class="icon-folder-open"></i> componentes</a></li>
 <li><a href="../packages/controladores.html"><i class="icon-folder-open"></i> controladores</a></li>
 <li><a href="../packages/modelos.html"><i class="icon-folder-open"></i> modelos</a></li>
 </ul>
@@ -33,14 +34,14 @@
 <a href="#reports" class="dropdown-toggle" data-toggle="dropdown">
                                     Reports <b class="caret"></b></a><ul class="dropdown-menu">
 <li><a href="../errors.html"><i class="icon-remove-sign"></i> Errors 
-                <span class="label label-info">371</span></a></li>
+                <span class="label label-info">416</span></a></li>
 <li><a href="../markers.html"><i class="icon-map-marker"></i> Markers 
                 <ul>
 <li>todo 
-                <span class="label label-info">8</span>
+                <span class="label label-info">24</span>
 </li>
 <li>fixme 
-                <span class="label label-info">4</span>
+                <span class="label label-info">3</span>
 </li>
 </ul></a></li>
 <li><a href="../deprecated.html"><i class="icon-stop"></i> Deprecated elements 
@@ -70,6 +71,7 @@
 <li class="method public "><a href="#method_actionIndex" title="actionIndex :: Muestra todas las acciones (individuales y grupales) desbloqueadas"><span class="description">Muestra todas las acciones (individuales y grupales) desbloqueadas</span><pre>actionIndex()</pre></a></li>
 <li class="method public "><a href="#method_actionParticipar" title="actionParticipar :: Permite participar en una accion grupal abierta por tu aficion."><span class="description">Permite participar en una accion grupal abierta por tu aficion.</span><pre>actionParticipar()</pre></a></li>
 <li class="method public "><a href="#method_actionUsar" title="actionUsar :: Ejecuta la accion (individual o grupal) pulsada."><span class="description">Ejecuta la accion (individual o grupal) pulsada.</span><pre>actionUsar()</pre></a></li>
+<li class="method public "><a href="#method_actionUsarPartido" title="actionUsarPartido :: Ejecuta la accion de partido pulsada."><span class="description">Ejecuta la accion de partido pulsada.</span><pre>actionUsarPartido()</pre></a></li>
 <li class="method public "><a href="#method_actionVer" title="actionVer :: Muestra la informacion relativa a una accion grupal abierta."><span class="description">Muestra la informacion relativa a una accion grupal abierta.</span><pre>actionVer()</pre></a></li>
 <li class="method public inherited"><a href="#method_beforeAction" title="beforeAction :: "><span class="description">beforeAction()
         </span><pre>beforeAction()</pre></a></li>
@@ -195,7 +197,7 @@ aparecen remarcadas</p>
 </tr>
 <tr>
 <th>redirect</th>
-<td>jugadorNum12/equipos/ver/{$id_equipo}</td>
+<td>jugadorNum12/accion/participar/{$id_accion}</td>
 </tr>
 </table>
 <h3>Parameters</h3>
@@ -262,7 +264,45 @@ al que pertenece el usuario</p></li>
 <h3>Parameters</h3>
 <div class="subelement argument">
 <h4>$id_accion</h4>
-<code>int</code><p>id de la accion que se ejecuta</p></div>
+<code>int</code><p>id de la habilidad que se ejecuta</p></div>
+</div></div>
+</div>
+<a id="method_actionUsarPartido"></a><div class="element clickable method public method_actionUsarPartido" data-toggle="collapse" data-target=".method_actionUsarPartido .collapse">
+<h2>Ejecuta la accion de partido pulsada.</h2>
+<pre>actionUsarPartido(int $id_accion) : void</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"><p>Este método será llamado por Ajax durante el partido,
+de modo que lo único que hará será devolver los datos de éxito o fallo para informar al
+usuario.</p>
+
+<p>Cualquier habilidad resta los recursos iniciales al jugador, además,</p>
+
+<ul>
+<li>Por ser una habilidad de partido se ejecuta al momento</li>
+</ul>
+
+<blockquote>
+  <p>El id del jugador y la aficion a la que pertence se recogen de la variable de sesion</p>
+</blockquote>
+
+<ul>
+<li>CODIGOS DEVUELTOS -</li>
+</ul>
+
+<p>0 -> Habilidad no encontrada
+1 -> Habilidad no desbloqueada
+2 -> Habilidad en cooldown
+3 -> Recursos insuficientes
+4 -> Error de equipo
+5 -> Error de partido, puede ser que no esté en juego o que no sea el siguiente del equipo
+6 -> La acción no es de partido
+7 -> Acción ejecutada con éxito
+8 -> Error general</p></div>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$id_accion</h4>
+<code>int</code><p>id de la habilidad que se ejecuta</p></div>
 </div></div>
 </div>
 <a id="method_actionVer"></a><div class="element clickable method public method_actionVer" data-toggle="collapse" data-target=".method_actionVer .collapse">
@@ -404,7 +444,7 @@ al que pertenece el usuario</p></li>
 <div class="row"><footer class="span12">
             Template is built using <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap 2</a> and icons provided by <a href="http://glyphicons.com/">Glyphicons</a>.<br>
             Documentation is powered by <a href="http://www.phpdoc.org/">phpDocumentor 2.0.0a12</a> and<br>
-            generated on 2013-04-16T11:10:13+02:00.<br></footer></div>
+            generated on 2013-05-21T00:47:16+02:00.<br></footer></div>
 </div>
 </body>
 </html>

@@ -1,0 +1,393 @@
+<!DOCTYPE html><html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+<meta charset="utf-8">
+<title>phpDocumentor » \ChatHandler</title>
+<meta name="author" content="Mike van Riel">
+<meta name="description" content="">
+<link href="../css/template.css" rel="stylesheet" media="all">
+<script src="../js/jquery-1.7.1.min.js" type="text/javascript"></script><script src="../js/jquery-ui-1.8.2.custom.min.js" type="text/javascript"></script><script src="../js/jquery.mousewheel.min.js" type="text/javascript"></script><script src="../js/bootstrap.js" type="text/javascript"></script><script src="../js/template.js" type="text/javascript"></script><script src="../js/prettify/prettify.min.js" type="text/javascript"></script><link rel="shortcut icon" href="../img/favicon.ico">
+<link rel="apple-touch-icon" href="../img/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="../img/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="../img/apple-touch-icon-114x114.png">
+</head>
+<body>
+<div class="navbar navbar-fixed-top">
+<div class="navbar-inner"><div class="container">
+<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></a><a class="brand" href="../index.html">phpDocumentor</a><div class="nav-collapse"><ul class="nav">
+<li class="dropdown">
+<a href="#api" class="dropdown-toggle" data-toggle="dropdown">
+                                    API Documentation <b class="caret"></b></a><ul class="dropdown-menu">
+<li><a>Packages</a></li>
+<li><a href="../packages/Default.html"><i class="icon-folder-open"></i> Default</a></li>
+<li><a href="../packages/componentes.html"><i class="icon-folder-open"></i> componentes</a></li>
+<li><a href="../packages/controladores.html"><i class="icon-folder-open"></i> controladores</a></li>
+<li><a href="../packages/modelos.html"><i class="icon-folder-open"></i> modelos</a></li>
+</ul>
+</li>
+<li class="dropdown" id="charts-menu">
+<a href="#charts" class="dropdown-toggle" data-toggle="dropdown">
+                                    Charts <b class="caret"></b></a><ul class="dropdown-menu"><li><a href="../graph_class.html"><i class="icon-list-alt"></i> Class hierarchy diagram</a></li></ul>
+</li>
+<li class="dropdown" id="reports-menu">
+<a href="#reports" class="dropdown-toggle" data-toggle="dropdown">
+                                    Reports <b class="caret"></b></a><ul class="dropdown-menu">
+<li><a href="../errors.html"><i class="icon-remove-sign"></i> Errors 
+                <span class="label label-info">416</span></a></li>
+<li><a href="../markers.html"><i class="icon-map-marker"></i> Markers 
+                <ul>
+<li>todo 
+                <span class="label label-info">24</span>
+</li>
+<li>fixme 
+                <span class="label label-info">3</span>
+</li>
+</ul></a></li>
+<li><a href="../deprecated.html"><i class="icon-stop"></i> Deprecated elements 
+                <span class="label label-info">0</span></a></li>
+</ul>
+</li>
+</ul></div>
+</div></div>
+<div class="go_to_top"><a href="#___" style="color: inherit">Back to top  <i class="icon-upload icon-white"></i></a></div>
+</div>
+<div id="___" class="container">
+<noscript><div class="alert alert-warning">
+                            Javascript is disabled; several features are only available
+                            if Javascript is enabled.
+                        </div></noscript>
+<div class="row">
+<div class="span4">
+<span class="btn-group visibility" data-toggle="buttons-checkbox"><button class="btn public active" title="Show public elements">Public</button><button class="btn protected" title="Show protected elements">Protected</button><button class="btn private" title="Show private elements">Private</button><button class="btn inherited active" title="Show inherited elements">Inherited</button></span><div class="btn-group view pull-right" data-toggle="buttons-radio">
+<button class="btn details" title="Show descriptions and method names"><i class="icon-list"></i></button><button class="btn simple" title="Show only method names"><i class="icon-align-justify"></i></button>
+</div>
+<ul class="side-nav nav nav-list">
+<li class="nav-header">
+<i class="icon-custom icon-method"></i> Methods
+                    <ul>
+<li class="method public inherited"><a href="#method_runTestTimer" title="runTestTimer :: "><span class="description">runTestTimer()
+        </span><pre>runTestTimer()</pre></a></li>
+<li class="method public inherited"><a href="#method_yiichat_list_posts" title="yiichat_list_posts :: retrieve posts from your database, considering the last_id argument:
+$last_id is the ID of the last post sent by the other person:
+when -1:
+you must reetrive all posts this scenario occurs when
+the chat initialize, retriving your posts and those posted
+by the others."><span class="description">retrieve posts from your database, considering the last_id argument:
+$last_id is the ID of the last post sent by the other person:
+when -1:
+you must reetrive all posts this scenario occurs when
+the chat initialize, retriving your posts and those posted
+by the others.</span><pre>yiichat_list_posts()</pre></a></li>
+<li class="method public inherited"><a href="#method_yiichat_post" title="yiichat_post :: post a message into your database."><span class="description">post a message into your database.</span><pre>yiichat_post()</pre></a></li>
+</ul>
+</li>
+<li class="nav-header protected">» Protected
+                    <ul>
+<li class="method protected "><a href="#method_acceptMessage" title="acceptMessage :: "><span class="description">acceptMessage()
+        </span><pre>acceptMessage()</pre></a></li>
+<li class="method protected "><a href="#method_createPostUniqueId" title="createPostUniqueId :: "><span class="description">createPostUniqueId()
+        </span><pre>createPostUniqueId()</pre></a></li>
+<li class="method protected inherited"><a href="#method_getChatId" title="getChatId :: "><span class="description">getChatId()
+        </span><pre>getChatId()</pre></a></li>
+<li class="method protected inherited"><a href="#method_getData" title="getData :: "><span class="description">getData()
+        </span><pre>getData()</pre></a></li>
+<li class="method protected "><a href="#method_getDateFormatted" title="getDateFormatted :: "><span class="description">getDateFormatted()
+        </span><pre>getDateFormatted()</pre></a></li>
+<li class="method protected "><a href="#method_getDb" title="getDb :: "><span class="description">getDb()
+        </span><pre>getDb()</pre></a></li>
+<li class="method protected inherited"><a href="#method_getIdentity" title="getIdentity :: "><span class="description">getIdentity()
+        </span><pre>getIdentity()</pre></a></li>
+<li class="method protected "><a href="#method_getIdentityName" title="getIdentityName :: "><span class="description">getIdentityName()
+        </span><pre>getIdentityName()</pre></a></li>
+<li class="method protected inherited"><a href="#method_getTableName" title="getTableName :: "><span class="description">getTableName()
+        </span><pre>getTableName()</pre></a></li>
+</ul>
+</li>
+<li class="nav-header private">» Private
+                    <ul><li class="method private inherited"><a href="#method_getLastPosts" title="getLastPosts :: retrieve the last posts since the last_id, must be used
+only when the records has been filtered (case timer)."><span class="description">retrieve the last posts since the last_id, must be used
+only when the records has been filtered (case timer).</span><pre>getLastPosts()</pre></a></li></ul>
+</li>
+<li class="nav-header">
+<i class="icon-custom icon-property"></i> Properties
+                    <ul></ul>
+</li>
+<li class="nav-header protected">» Protected
+                    <ul>
+<li class="property protected inherited"><a href="#property__chat_id" title="$_chat_id :: "><span class="description"></span><pre>$_chat_id</pre></a></li>
+<li class="property protected inherited"><a href="#property__data" title="$_data :: "><span class="description"></span><pre>$_data</pre></a></li>
+<li class="property protected inherited"><a href="#property__identity" title="$_identity :: "><span class="description"></span><pre>$_identity</pre></a></li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="span8">
+<a id="\ChatHandler"></a><ul class="breadcrumb">
+<li>
+<a href="../index.html"><i class="icon-custom icon-class"></i></a><span class="divider">\</span>
+</li>
+<li><a href="../namespaces/global.html">global</a></li>
+<li class="active">
+<span class="divider">\</span><a href="../classes/ChatHandler.html">ChatHandler</a>
+</li>
+</ul>
+<div class="element class">
+<p class="short_description">YiiChatDbHandlerBase (YiiChat A Software Interface for YiiChat Source Providers)
+serve this widget using a database.</p>
+<div class="details">
+<div class="long_description"><p>required: post.sql</p>
+
+<p>this class is invoked because you specify it in your YiiChatWidget
+arguments passed to the widget.</p>
+
+<p>this is the object fields required: (as an indexed array)</p>
+
+<pre><code>'id'                the post unique id
+'text'              the post text
+'time'              the time stamp
+'owner'             the name of the person who make this post
+'post_identity'     the ID of the person who make this post
+</code></pre>
+
+<p>the both methods in this handler receive:</p>
+
+<pre><code>$chat_id            the id provided in the widget, to discrimine
+                    between various chats.
+
+$identity           the identity (ID) of the person who is in chat
+                    (the post_identity field is the same as $identity
+                    only when we are creating a post: yiichat_post
+
+$data               a user-defined value passed from the widget
+</code></pre></div>
+<table class="table table-bordered">
+<tr>
+<th>version</th>
+<td>1.0</td>
+</tr>
+<tr>
+<th>author</th>
+<td><a href="mailto:christiansalazarh@gmail.com">Christian Salazar</a></td>
+</tr>
+</table>
+<h3>
+<i class="icon-custom icon-method"></i> Methods</h3>
+<a id="method_runTestTimer"></a><div class="element clickable method public method_runTestTimer" data-toggle="collapse" data-target=".method_runTestTimer .collapse">
+<h2>runTestTimer()
+        </h2>
+<pre>runTestTimer() </pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered"><tr>
+<th>inherited_from</th>
+<td>\YiiChatDbHandlerBase::runTestTimer()</td>
+</tr></table>
+</div></div>
+</div>
+<a id="method_yiichat_list_posts"></a><div class="element clickable method public method_yiichat_list_posts" data-toggle="collapse" data-target=".method_yiichat_list_posts .collapse">
+<h2>retrieve posts from your database, considering the last_id argument:
+$last_id is the ID of the last post sent by the other person:
+when -1:
+you must reetrive all posts this scenario occurs when
+the chat initialize, retriving your posts and those posted
+by the others.</h2>
+<pre>yiichat_list_posts($chat_id, $identity, $last_id, $data) </pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"><p>when >0:
+you must retrive thoses posts that match this criteria:
+a) having an owner distinct as $identity
+b) having an ID greater than $last_id
+this scenario occurs when the post widget refreshs using
+a timer, in order to receive the new posts since last_id.</p></div>
+<table class="table table-bordered"><tr>
+<th>inherited_from</th>
+<td>\YiiChatDbHandlerBase::yiichat_list_posts()</td>
+</tr></table>
+<h3>Parameters</h3>
+<div class="subelement argument"><h4>$chat_id</h4></div>
+<div class="subelement argument"><h4>$identity</h4></div>
+<div class="subelement argument"><h4>$last_id</h4></div>
+<div class="subelement argument"><h4>$data</h4></div>
+</div></div>
+</div>
+<a id="method_yiichat_post"></a><div class="element clickable method public method_yiichat_post" data-toggle="collapse" data-target=".method_yiichat_post .collapse">
+<h2>post a message into your database.</h2>
+<pre>yiichat_post($chat_id, $identity, $message, $data) </pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered"><tr>
+<th>inherited_from</th>
+<td>\YiiChatDbHandlerBase::yiichat_post()</td>
+</tr></table>
+<h3>Parameters</h3>
+<div class="subelement argument"><h4>$chat_id</h4></div>
+<div class="subelement argument"><h4>$identity</h4></div>
+<div class="subelement argument"><h4>$message</h4></div>
+<div class="subelement argument"><h4>$data</h4></div>
+</div></div>
+</div>
+<a id="method_acceptMessage"></a><div class="element clickable method protected method_acceptMessage" data-toggle="collapse" data-target=".method_acceptMessage .collapse">
+<h2>acceptMessage()
+        </h2>
+<pre>acceptMessage($message) </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Parameters</h3>
+<div class="subelement argument"><h4>$message</h4></div>
+</div></div>
+</div>
+<a id="method_createPostUniqueId"></a><div class="element clickable method protected method_createPostUniqueId" data-toggle="collapse" data-target=".method_createPostUniqueId .collapse">
+<h2>createPostUniqueId()
+        </h2>
+<pre>createPostUniqueId() </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
+</div>
+<a id="method_getChatId"></a><div class="element clickable method protected method_getChatId" data-toggle="collapse" data-target=".method_getChatId .collapse">
+<h2>getChatId()
+        </h2>
+<pre>getChatId() </pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered"><tr>
+<th>inherited_from</th>
+<td>\YiiChatDbHandlerBase::getChatId()</td>
+</tr></table>
+</div></div>
+</div>
+<a id="method_getData"></a><div class="element clickable method protected method_getData" data-toggle="collapse" data-target=".method_getData .collapse">
+<h2>getData()
+        </h2>
+<pre>getData() </pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered"><tr>
+<th>inherited_from</th>
+<td>\YiiChatDbHandlerBase::getData()</td>
+</tr></table>
+</div></div>
+</div>
+<a id="method_getDateFormatted"></a><div class="element clickable method protected method_getDateFormatted" data-toggle="collapse" data-target=".method_getDateFormatted .collapse">
+<h2>getDateFormatted()
+        </h2>
+<pre>getDateFormatted($value) </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Parameters</h3>
+<div class="subelement argument"><h4>$value</h4></div>
+</div></div>
+</div>
+<a id="method_getDb"></a><div class="element clickable method protected method_getDb" data-toggle="collapse" data-target=".method_getDb .collapse">
+<h2>getDb()
+        </h2>
+<pre>getDb() </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
+</div>
+<a id="method_getIdentity"></a><div class="element clickable method protected method_getIdentity" data-toggle="collapse" data-target=".method_getIdentity .collapse">
+<h2>getIdentity()
+        </h2>
+<pre>getIdentity() </pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered"><tr>
+<th>inherited_from</th>
+<td>\YiiChatDbHandlerBase::getIdentity()</td>
+</tr></table>
+</div></div>
+</div>
+<a id="method_getIdentityName"></a><div class="element clickable method protected method_getIdentityName" data-toggle="collapse" data-target=".method_getIdentityName .collapse">
+<h2>getIdentityName()
+        </h2>
+<pre>getIdentityName() </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
+</div>
+<a id="method_getTableName"></a><div class="element clickable method protected method_getTableName" data-toggle="collapse" data-target=".method_getTableName .collapse">
+<h2>getTableName()
+        </h2>
+<pre>getTableName() </pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered"><tr>
+<th>inherited_from</th>
+<td>\YiiChatDbHandlerBase::getTableName()</td>
+</tr></table>
+</div></div>
+</div>
+<a id="method_getLastPosts"></a><div class="element clickable method private method_getLastPosts" data-toggle="collapse" data-target=".method_getLastPosts .collapse">
+<h2>retrieve the last posts since the last_id, must be used
+only when the records has been filtered (case timer).</h2>
+<pre>getLastPosts($rows, $limit, $last_id) </pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered"><tr>
+<th>inherited_from</th>
+<td>\YiiChatDbHandlerBase::getLastPosts()</td>
+</tr></table>
+<h3>Parameters</h3>
+<div class="subelement argument"><h4>$rows</h4></div>
+<div class="subelement argument"><h4>$limit</h4></div>
+<div class="subelement argument"><h4>$last_id</h4></div>
+</div></div>
+</div>
+<h3>
+<i class="icon-custom icon-property"></i> Properties</h3>
+<a id="property__chat_id"> </a><div class="element clickable property protected property__chat_id" data-toggle="collapse" data-target=".property__chat_id .collapse">
+<h2></h2>
+<pre>$_chat_id </pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered"><tr>
+<th>inherited_from</th>
+<td>\YiiChatDbHandlerBase::$$_chat_id</td>
+</tr></table>
+</div></div>
+</div>
+<a id="property__data"> </a><div class="element clickable property protected property__data" data-toggle="collapse" data-target=".property__data .collapse">
+<h2></h2>
+<pre>$_data </pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered"><tr>
+<th>inherited_from</th>
+<td>\YiiChatDbHandlerBase::$$_data</td>
+</tr></table>
+</div></div>
+</div>
+<a id="property__identity"> </a><div class="element clickable property protected property__identity" data-toggle="collapse" data-target=".property__identity .collapse">
+<h2></h2>
+<pre>$_identity </pre>
+<div class="labels"><span class="label">Inherited</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered"><tr>
+<th>inherited_from</th>
+<td>\YiiChatDbHandlerBase::$$_identity</td>
+</tr></table>
+</div></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><footer class="span12">
+            Template is built using <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap 2</a> and icons provided by <a href="http://glyphicons.com/">Glyphicons</a>.<br>
+            Documentation is powered by <a href="http://www.phpdoc.org/">phpDocumentor 2.0.0a12</a> and<br>
+            generated on 2013-05-21T00:47:16+02:00.<br></footer></div>
+</div>
+</body>
+</html>

@@ -21,6 +21,7 @@
                                     API Documentation <b class="caret"></b></a><ul class="dropdown-menu">
 <li><a>Packages</a></li>
 <li><a href="../packages/Default.html"><i class="icon-folder-open"></i> Default</a></li>
+<li><a href="../packages/componentes.html"><i class="icon-folder-open"></i> componentes</a></li>
 <li><a href="../packages/controladores.html"><i class="icon-folder-open"></i> controladores</a></li>
 <li><a href="../packages/modelos.html"><i class="icon-folder-open"></i> modelos</a></li>
 </ul>
@@ -33,14 +34,14 @@
 <a href="#reports" class="dropdown-toggle" data-toggle="dropdown">
                                     Reports <b class="caret"></b></a><ul class="dropdown-menu">
 <li><a href="../errors.html"><i class="icon-remove-sign"></i> Errors 
-                <span class="label label-info">371</span></a></li>
+                <span class="label label-info">416</span></a></li>
 <li><a href="../markers.html"><i class="icon-map-marker"></i> Markers 
                 <ul>
 <li>todo 
-                <span class="label label-info">8</span>
+                <span class="label label-info">24</span>
 </li>
 <li>fixme 
-                <span class="label label-info">4</span>
+                <span class="label label-info">3</span>
 </li>
 </ul></a></li>
 <li><a href="../deprecated.html"><i class="icon-stop"></i> Deprecated elements 
@@ -67,6 +68,7 @@
                     <ul>
 <li class="method public "><a href="#method_accessRules" title="accessRules :: Especifica las reglas de control de acceso."><span class="description">Especifica las reglas de control de acceso.</span><pre>accessRules()</pre></a></li>
 <li class="method public "><a href="#method_actionActPartido" title="actionActPartido :: renderiza el estado completo de un partido"><span class="description">renderiza el estado completo de un partido</span><pre>actionActPartido()</pre></a></li>
+<li class="method public "><a href="#method_actionActRecursos" title="actionActRecursos :: Incrementa los recursos durante el partido de forma asíncrona"><span class="description">Incrementa los recursos durante el partido de forma asíncrona</span><pre>actionActRecursos()</pre></a></li>
 <li class="method public "><a href="#method_actionAsistir" title="actionAsistir :: Muestra la pantalla para jugar un partido"><span class="description">Muestra la pantalla para jugar un partido</span><pre>actionAsistir()</pre></a></li>
 <li class="method public "><a href="#method_actionIndex" title="actionIndex :: Muestra dl calendario de la liga."><span class="description">Muestra dl calendario de la liga.</span><pre>actionIndex()</pre></a></li>
 <li class="method public "><a href="#method_actionPrevia" title="actionPrevia :: Muestra la informacion previa a un partido."><span class="description">Muestra la informacion previa a un partido.</span><pre>actionPrevia()</pre></a></li>
@@ -147,6 +149,25 @@
 <div class="subelement argument">
 <h4>$id_partido</h4>
 <code>int</code><p>id del partido</p></div>
+</div></div>
+</div>
+<a id="method_actionActRecursos"></a><div class="element clickable method public method_actionActRecursos" data-toggle="collapse" data-target=".method_actionActRecursos .collapse">
+<h2>Incrementa los recursos durante el partido de forma asíncrona</h2>
+<pre>actionActRecursos(int $id_usuario) : \JSON</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered"><tr>
+<th>route</th>
+<td>jugadorNum12/partidos/actRecursos/{$id_usuario}</td>
+</tr></table>
+<h3>Parameters</h3>
+<div class="subelement argument">
+<h4>$id_usuario</h4>
+<code>int</code><p>id del usuario al que incrementar recursos</p></div>
+<h3>Returns</h3>
+<div class="subelement response">
+<code>\JSON</code>con los datos necesarios para llevar a cabo la actualización</div>
 </div></div>
 </div>
 <a id="method_actionAsistir"></a><div class="element clickable method public method_actionAsistir" data-toggle="collapse" data-target=".method_actionAsistir .collapse">
@@ -325,7 +346,7 @@
 <div class="row"><footer class="span12">
             Template is built using <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap 2</a> and icons provided by <a href="http://glyphicons.com/">Glyphicons</a>.<br>
             Documentation is powered by <a href="http://www.phpdoc.org/">phpDocumentor 2.0.0a12</a> and<br>
-            generated on 2013-04-16T11:10:14+02:00.<br></footer></div>
+            generated on 2013-05-21T00:47:16+02:00.<br></footer></div>
 </div>
 </body>
 </html>

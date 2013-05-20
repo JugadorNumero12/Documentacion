@@ -21,6 +21,7 @@
                                     API Documentation <b class="caret"></b></a><ul class="dropdown-menu">
 <li><a>Packages</a></li>
 <li><a href="../packages/Default.html"><i class="icon-folder-open"></i> Default</a></li>
+<li><a href="../packages/componentes.html"><i class="icon-folder-open"></i> componentes</a></li>
 <li><a href="../packages/controladores.html"><i class="icon-folder-open"></i> controladores</a></li>
 <li><a href="../packages/modelos.html"><i class="icon-folder-open"></i> modelos</a></li>
 </ul>
@@ -33,14 +34,14 @@
 <a href="#reports" class="dropdown-toggle" data-toggle="dropdown">
                                     Reports <b class="caret"></b></a><ul class="dropdown-menu">
 <li><a href="../errors.html"><i class="icon-remove-sign"></i> Errors 
-                <span class="label label-info">371</span></a></li>
+                <span class="label label-info">416</span></a></li>
 <li><a href="../markers.html"><i class="icon-map-marker"></i> Markers 
                 <ul>
 <li>todo 
-                <span class="label label-info">8</span>
+                <span class="label label-info">24</span>
 </li>
 <li>fixme 
-                <span class="label label-info">4</span>
+                <span class="label label-info">3</span>
 </li>
 </ul></a></li>
 <li><a href="../deprecated.html"><i class="icon-stop"></i> Deprecated elements 
@@ -84,22 +85,20 @@ los parámetros dados.</span><pre>siguienteEstado()</pre></a></li>
 para el turno."><span class="description">Calcula la desviación típica de la función final dados los parámetros
 para el turno.</span><pre>calcDesv()</pre></a></li>
 <li class="method private "><a href="#method_calcMedia" title="calcMedia :: Calcula la media de la función final dados los parámetros para el turno."><span class="description">Calcula la media de la función final dados los parámetros para el turno.</span><pre>calcMedia()</pre></a></li>
-<li class="method private "><a href="#method_cumnormdist" title="cumnormdist :: "><span class="description">cumnormdist()
-        </span><pre>cumnormdist()</pre></a></li>
+<li class="method private "><a href="#method_cumnormdist" title="cumnormdist :: Funcion que calcula la normal acumulada en un punto"><span class="description">Funcion que calcula la normal acumulada en un punto</span><pre>cumnormdist()</pre></a></li>
 <li class="method private "><a href="#method_equilibrio" title="equilibrio :: Calcula el punto de equilibrio al cual debe tender el partido en reposo."><span class="description">Calcula el punto de equilibrio al cual debe tender el partido en reposo.</span><pre>equilibrio()</pre></a></li>
-<li class="method private "><a href="#method_gauss" title="gauss :: "><span class="description">gauss()
-        </span><pre>gauss()</pre></a></li>
+<li class="method private "><a href="#method_gauss" title="gauss :: Calcula la funcion de Gauss para un punto, con una media y una desviacion"><span class="description">Calcula la funcion de Gauss para un punto, con una media y una desviacion</span><pre>gauss()</pre></a></li>
 </ul>
 </li>
 <li class="nav-header">
 <i class="icon-custom icon-constant"></i> Constants
                     <ul>
-<li class="constant  "><a href="#constant_DIFNIV_NFACT_BASE" title="DIFNIV_NFACT_BASE :: "><span class="description">DIFNIV_NFACT_BASE</span><pre>DIFNIV_NFACT_BASE</pre></a></li>
-<li class="constant  "><a href="#constant_PESOS_DIST_CERCA" title="PESOS_DIST_CERCA :: "><span class="description">PESOS_DIST_CERCA</span><pre>PESOS_DIST_CERCA</pre></a></li>
-<li class="constant  "><a href="#constant_PESOS_INICIAL" title="PESOS_INICIAL :: "><span class="description">PESOS_INICIAL</span><pre>PESOS_INICIAL</pre></a></li>
-<li class="constant  "><a href="#constant_PESOS_MIN_CERCA" title="PESOS_MIN_CERCA :: "><span class="description">PESOS_MIN_CERCA</span><pre>PESOS_MIN_CERCA</pre></a></li>
-<li class="constant  "><a href="#constant_PESOS_MIN_LEJOS" title="PESOS_MIN_LEJOS :: "><span class="description">PESOS_MIN_LEJOS</span><pre>PESOS_MIN_LEJOS</pre></a></li>
-<li class="constant  "><a href="#constant_PESOS_MULT" title="PESOS_MULT :: "><span class="description">PESOS_MULT</span><pre>PESOS_MULT</pre></a></li>
+<li class="constant  "><a href="#constant_DIFNIV_NFACT_BASE" title="DIFNIV_NFACT_BASE :: Define el peso base del factorial: 100"><span class="description">Define el peso base del factorial: 100</span><pre>DIFNIV_NFACT_BASE</pre></a></li>
+<li class="constant  "><a href="#constant_PESOS_DIST_CERCA" title='PESOS_DIST_CERCA :: Define el peso para la distancia "cerca" : 8'><span class="description">Define el peso para la distancia "cerca" : 8</span><pre>PESOS_DIST_CERCA</pre></a></li>
+<li class="constant  "><a href="#constant_PESOS_INICIAL" title="PESOS_INICIAL :: Define el peso inicial : 256"><span class="description">Define el peso inicial : 256</span><pre>PESOS_INICIAL</pre></a></li>
+<li class="constant  "><a href="#constant_PESOS_MIN_CERCA" title='PESOS_MIN_CERCA :: Define el peso de un atributo para "cerca" : 16'><span class="description">Define el peso de un atributo para "cerca" : 16</span><pre>PESOS_MIN_CERCA</pre></a></li>
+<li class="constant  "><a href="#constant_PESOS_MIN_LEJOS" title='PESOS_MIN_LEJOS :: Define el peso de un atributo para "lejos" : 3'><span class="description">Define el peso de un atributo para "lejos" : 3</span><pre>PESOS_MIN_LEJOS</pre></a></li>
+<li class="constant  "><a href="#constant_PESOS_MULT" title="PESOS_MULT :: Define el peso del multiplicador : 12000"><span class="description">Define el peso del multiplicador : 12000</span><pre>PESOS_MULT</pre></a></li>
 </ul>
 </li>
 </ul>
@@ -114,7 +113,23 @@ para el turno.</span><pre>calcDesv()</pre></a></li>
 <span class="divider">\</span><a href="../classes/Formula.html">Formula</a>
 </li>
 </ul>
-<div class="element class"><div class="details">
+<div class="element class">
+<p class="short_description">Clase que implementa la formula interna del juego</p>
+<div class="details">
+<div class="long_description"><p>Factores relevantes</p>
+
+<ul>
+<li>moral</li>
+<li>nivel de equipo</li>
+<li>aforo</li>
+<li>ambiente</li>
+<li>factor ofensivo</li>
+<li>factor defensivo</li>
+</ul></div>
+<table class="table table-bordered"><tr>
+<th>package</th>
+<td><a href="../packages/componentes.acciones.html">componentes\acciones</a></td>
+</tr></table>
 <h3>
 <i class="icon-custom icon-method"></i> Methods</h3>
 <a id="method_pesos"></a><div class="element clickable method public method_pesos" data-toggle="collapse" data-target=".method_pesos .collapse">
@@ -195,15 +210,17 @@ para el turno.</h2>
 </div></div>
 </div>
 <a id="method_cumnormdist"></a><div class="element clickable method private method_cumnormdist" data-toggle="collapse" data-target=".method_cumnormdist .collapse">
-<h2>cumnormdist()
-        </h2>
-<pre>cumnormdist($x) : \La</pre>
+<h2>Funcion que calcula la normal acumulada en un punto</h2>
+<pre>cumnormdist(\(double) $x) : \La</pre>
 <div class="labels"><span class="label">Static</span></div>
 <div class="row collapse"><div class="detail-description">
-<div class="long_description"></div>
+<div class="long_description"><blockquote>
+  <p>Algoritmo encontrado en StackOverflow</p>
+</blockquote></div>
 <h3>Parameters</h3>
 <div class="subelement argument">
-<h4>$x</h4><p>Punto en el que calcular la normal</p></div>
+<h4>$x</h4>
+<code>\(double)</code><p>Punto en el que calcular la normal</p></div>
 <h3>Returns</h3>
 <div class="subelement response">
 <code>\La</code>normal acumulada en el punto $x</div>
@@ -225,70 +242,73 @@ para el turno.</h2>
 </div></div>
 </div>
 <a id="method_gauss"></a><div class="element clickable method private method_gauss" data-toggle="collapse" data-target=".method_gauss .collapse">
-<h2>gauss()
-        </h2>
-<pre>gauss($x, $avg, $stdev) : \La</pre>
+<h2>Calcula la funcion de Gauss para un punto, con una media y una desviacion</h2>
+<pre>gauss(\(double) $x, \(double) $avg, \(double) $stdev) : \(double)</pre>
 <div class="labels"><span class="label">Static</span></div>
 <div class="row collapse"><div class="detail-description">
 <div class="long_description"></div>
 <h3>Parameters</h3>
 <div class="subelement argument">
-<h4>$x</h4><p>Punto en el que calcular la normal</p></div>
+<h4>$x</h4>
+<code>\(double)</code><p>Punto en el que calcular la normal</p></div>
 <div class="subelement argument">
-<h4>$avg</h4><p>Media de la normal a calcular</p></div>
+<h4>$avg</h4>
+<code>\(double)</code><p>Media de la normal a calcular</p></div>
 <div class="subelement argument">
-<h4>$stdev</h4><p>Desviación típica de la normal acalcular</p>
+<h4>$stdev</h4>
+<code>\(double)</code><p>Desviación típica de la normal acalcular</p>
 </div>
 <h3>Returns</h3>
 <div class="subelement response">
-<code>\La</code>normal N($avg,$stdev) en el punto $x</div>
+<code>\(double)</code>La normal N($avg,$stdev) en el punto $x</div>
 </div></div>
 </div>
 <h3>
 <i class="icon-custom icon-constant"></i> Constants</h3>
 <a id="constant_DIFNIV_NFACT_BASE"> </a><div class="element clickable constant  constant_DIFNIV_NFACT_BASE" data-toggle="collapse" data-target=".constant_DIFNIV_NFACT_BASE .collapse">
-<h2>DIFNIV_NFACT_BASE</h2>
+<h2>Define el peso base del factorial: 100</h2>
 <pre>DIFNIV_NFACT_BASE </pre>
 <div class="labels"></div>
 <div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
 </div>
 <a id="constant_PESOS_DIST_CERCA"> </a><div class="element clickable constant  constant_PESOS_DIST_CERCA" data-toggle="collapse" data-target=".constant_PESOS_DIST_CERCA .collapse">
-<h2>PESOS_DIST_CERCA</h2>
+<h2>Define el peso para la distancia "cerca" : 8</h2>
 <pre>PESOS_DIST_CERCA </pre>
 <div class="labels"></div>
 <div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
 </div>
 <a id="constant_PESOS_INICIAL"> </a><div class="element clickable constant  constant_PESOS_INICIAL" data-toggle="collapse" data-target=".constant_PESOS_INICIAL .collapse">
-<h2>PESOS_INICIAL</h2>
+<h2>Define el peso inicial : 256</h2>
 <pre>PESOS_INICIAL </pre>
 <div class="labels"></div>
 <div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
 </div>
 <a id="constant_PESOS_MIN_CERCA"> </a><div class="element clickable constant  constant_PESOS_MIN_CERCA" data-toggle="collapse" data-target=".constant_PESOS_MIN_CERCA .collapse">
-<h2>PESOS_MIN_CERCA</h2>
+<h2>Define el peso de un atributo para "cerca" : 16</h2>
 <pre>PESOS_MIN_CERCA </pre>
 <div class="labels"></div>
 <div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
 </div>
 <a id="constant_PESOS_MIN_LEJOS"> </a><div class="element clickable constant  constant_PESOS_MIN_LEJOS" data-toggle="collapse" data-target=".constant_PESOS_MIN_LEJOS .collapse">
-<h2>PESOS_MIN_LEJOS</h2>
+<h2>Define el peso de un atributo para "lejos" : 3</h2>
 <pre>PESOS_MIN_LEJOS </pre>
 <div class="labels"></div>
 <div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
 </div>
 <a id="constant_PESOS_MULT"> </a><div class="element clickable constant  constant_PESOS_MULT" data-toggle="collapse" data-target=".constant_PESOS_MULT .collapse">
-<h2>PESOS_MULT</h2>
+<h2>Define el peso del multiplicador : 12000</h2>
 <pre>PESOS_MULT </pre>
 <div class="labels"></div>
 <div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
 </div>
-</div></div>
+</div>
+</div>
 </div>
 </div>
 <div class="row"><footer class="span12">
             Template is built using <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap 2</a> and icons provided by <a href="http://glyphicons.com/">Glyphicons</a>.<br>
             Documentation is powered by <a href="http://www.phpdoc.org/">phpDocumentor 2.0.0a12</a> and<br>
-            generated on 2013-04-16T11:10:13+02:00.<br></footer></div>
+            generated on 2013-05-21T00:47:16+02:00.<br></footer></div>
 </div>
 </body>
 </html>

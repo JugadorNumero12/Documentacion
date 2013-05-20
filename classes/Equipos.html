@@ -21,6 +21,7 @@
                                     API Documentation <b class="caret"></b></a><ul class="dropdown-menu">
 <li><a>Packages</a></li>
 <li><a href="../packages/Default.html"><i class="icon-folder-open"></i> Default</a></li>
+<li><a href="../packages/componentes.html"><i class="icon-folder-open"></i> componentes</a></li>
 <li><a href="../packages/controladores.html"><i class="icon-folder-open"></i> controladores</a></li>
 <li><a href="../packages/modelos.html"><i class="icon-folder-open"></i> modelos</a></li>
 </ul>
@@ -33,14 +34,14 @@
 <a href="#reports" class="dropdown-toggle" data-toggle="dropdown">
                                     Reports <b class="caret"></b></a><ul class="dropdown-menu">
 <li><a href="../errors.html"><i class="icon-remove-sign"></i> Errors 
-                <span class="label label-info">371</span></a></li>
+                <span class="label label-info">416</span></a></li>
 <li><a href="../markers.html"><i class="icon-map-marker"></i> Markers 
                 <ul>
 <li>todo 
-                <span class="label label-info">8</span>
+                <span class="label label-info">24</span>
 </li>
 <li>fixme 
-                <span class="label label-info">4</span>
+                <span class="label label-info">3</span>
 </li>
 </ul></a></li>
 <li><a href="../deprecated.html"><i class="icon-stop"></i> Deprecated elements 
@@ -65,6 +66,7 @@
 <i class="icon-custom icon-method"></i> Methods
                     <ul>
 <li class="method public "><a href="#method_attributeLabels" title="attributeLabels :: Define los nombres completos de los atributos"><span class="description">Define los nombres completos de los atributos</span><pre>attributeLabels()</pre></a></li>
+<li class="method public "><a href="#method_aumentar_recursos_equipo" title="aumentar_recursos_equipo :: Funcion auxiliar que modifica la tabla de equipos"><span class="description">Funcion auxiliar que modifica la tabla de equipos</span><pre>aumentar_recursos_equipo()</pre></a></li>
 <li class="method public "><a href="#method_model" title="model :: Devuelve el modelo estatico de la clase active record especificada."><span class="description">Devuelve el modelo estatico de la clase active record especificada.</span><pre>model()</pre></a></li>
 <li class="method public "><a href="#method_relations" title="relations :: Define las relaciones entre la tabla equipos y el resto de tablas"><span class="description">Define las relaciones entre la tabla equipos y el resto de tablas</span><pre>relations()</pre></a></li>
 <li class="method public "><a href="#method_rules" title="rules :: Define las reglas definidas para los atributos del modelo."><span class="description">Define las reglas definidas para los atributos del modelo.</span><pre>rules()</pre></a></li>
@@ -149,9 +151,43 @@
 <code>object[]</code>nombres de los atributos</div>
 </div></div>
 </div>
+<a id="method_aumentar_recursos_equipo"></a><div class="element clickable method public method_aumentar_recursos_equipo" data-toggle="collapse" data-target=".method_aumentar_recursos_equipo .collapse">
+<h2>Funcion auxiliar que modifica la tabla de equipos</h2>
+<pre>aumentar_recursos_equipo($id_equipo, $columna, $cantidad) </pre>
+<div class="labels"><span class="label">Static</span></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered">
+<tr>
+<th>paremetro</th>
+<td>equipo al que modificamos sus recursos</td>
+</tr>
+<tr>
+<th>parametro</th>
+<td>columna sobre la que modificamos (dinero, dinero_gen, ...)</td>
+</tr>
+<tr>
+<th>parametro</th>
+<td>cantidad de recursos que aumentamos</td>
+</tr>
+<tr>
+<th>devuelve</th>
+<td>flag de error</td>
+</tr>
+<tr>
+<th>ejemplo</th>
+<td>Recursos::aumentar_recursos(3, "animo", 30);</td>
+</tr>
+</table>
+<h3>Parameters</h3>
+<div class="subelement argument"><h4>$id_equipo</h4></div>
+<div class="subelement argument"><h4>$columna</h4></div>
+<div class="subelement argument"><h4>$cantidad</h4></div>
+</div></div>
+</div>
 <a id="method_model"></a><div class="element clickable method public method_model" data-toggle="collapse" data-target=".method_model .collapse">
 <h2>Devuelve el modelo estatico de la clase active record especificada.</h2>
-<pre>model(string $className) : <a href="../classes/AccionesGrupales.html">\AccionesGrupales</a></pre>
+<pre>model(string $className) : <a href="../classes/Equipos.html">\Equipos</a></pre>
 <div class="labels"><span class="label">Static</span></div>
 <div class="row collapse"><div class="detail-description">
 <div class="long_description"><blockquote>
@@ -167,7 +203,7 @@
 <code>string</code><p>nombre de la clase active record</p></div>
 <h3>Returns</h3>
 <div class="subelement response">
-<code><a href="../classes/AccionesGrupales.html">\AccionesGrupales</a></code>el modelo estatico de la clase</div>
+<code><a href="../classes/Equipos.html">\Equipos</a></code>el modelo estatico de la clase</div>
 </div></div>
 </div>
 <a id="method_relations"></a><div class="element clickable method public method_relations" data-toggle="collapse" data-target=".method_relations .collapse">
@@ -244,7 +280,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
 <div class="row"><footer class="span12">
             Template is built using <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap 2</a> and icons provided by <a href="http://glyphicons.com/">Glyphicons</a>.<br>
             Documentation is powered by <a href="http://www.phpdoc.org/">phpDocumentor 2.0.0a12</a> and<br>
-            generated on 2013-04-16T11:10:14+02:00.<br></footer></div>
+            generated on 2013-05-21T00:47:16+02:00.<br></footer></div>
 </div>
 </body>
 </html>

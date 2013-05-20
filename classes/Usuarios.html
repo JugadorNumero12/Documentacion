@@ -21,6 +21,7 @@
                                     API Documentation <b class="caret"></b></a><ul class="dropdown-menu">
 <li><a>Packages</a></li>
 <li><a href="../packages/Default.html"><i class="icon-folder-open"></i> Default</a></li>
+<li><a href="../packages/componentes.html"><i class="icon-folder-open"></i> componentes</a></li>
 <li><a href="../packages/controladores.html"><i class="icon-folder-open"></i> controladores</a></li>
 <li><a href="../packages/modelos.html"><i class="icon-folder-open"></i> modelos</a></li>
 </ul>
@@ -33,14 +34,14 @@
 <a href="#reports" class="dropdown-toggle" data-toggle="dropdown">
                                     Reports <b class="caret"></b></a><ul class="dropdown-menu">
 <li><a href="../errors.html"><i class="icon-remove-sign"></i> Errors 
-                <span class="label label-info">371</span></a></li>
+                <span class="label label-info">416</span></a></li>
 <li><a href="../markers.html"><i class="icon-map-marker"></i> Markers 
                 <ul>
 <li>todo 
-                <span class="label label-info">8</span>
+                <span class="label label-info">24</span>
 </li>
 <li>fixme 
-                <span class="label label-info">4</span>
+                <span class="label label-info">3</span>
 </li>
 </ul></a></li>
 <li><a href="../deprecated.html"><i class="icon-stop"></i> Deprecated elements 
@@ -75,6 +76,7 @@
 <li class="method public "><a href="#method_comprobarNick" title="comprobarNick :: Comprueba que el nombre pasado por parametro sea unico (no se encuentra ya registrado)"><span class="description">Comprueba que el nombre pasado por parametro sea unico (no se encuentra ya registrado)</span><pre>comprobarNick()</pre></a></li>
 <li class="method public "><a href="#method_crearPersonaje" title="crearPersonaje :: Fija los atributos de un nuevo personaje y lo guarda en la base de datos"><span class="description">Fija los atributos de un nuevo personaje y lo guarda en la base de datos</span><pre>crearPersonaje()</pre></a></li>
 <li class="method public "><a href="#method_emailIguales" title="emailIguales :: Comprueba que el email coincide con el de la BBDD"><span class="description">Comprueba que el email coincide con el de la BBDD</span><pre>emailIguales()</pre></a></li>
+<li class="method public "><a href="#method_estaDesbloqueada" title="estaDesbloqueada :: Dado un id de una habilidad comprueba si esa habilidad está desbloqueada para el usuario"><span class="description">Dado un id de una habilidad comprueba si esa habilidad está desbloqueada para el usuario</span><pre>estaDesbloqueada()</pre></a></li>
 <li class="method public "><a href="#method_expNecesaria" title="expNecesaria :: Devuelve la experencia necesaria para alcanzar el siguiente nivel."><span class="description">Devuelve la experencia necesaria para alcanzar el siguiente nivel.</span><pre>expNecesaria()</pre></a></li>
 <li class="method public "><a href="#method_model" title="model :: Devuelve el modelo estatico de la clase active record especificada."><span class="description">Devuelve el modelo estatico de la clase active record especificada.</span><pre>model()</pre></a></li>
 <li class="method public "><a href="#method_relations" title="relations :: Define las relaciones entre la tabla usuarios y el resto de tablas"><span class="description">Define las relaciones entre la tabla usuarios y el resto de tablas</span><pre>relations()</pre></a></li>
@@ -210,6 +212,10 @@
 <tr>
   <td align="left">int</td>
   <td align="left">$exp_necesaria</td>
+</tr>
+<tr>
+  <td align="left">int</td>
+  <td align="left">$puntos_desbloqueo</td>
 </tr>
 </tbody>
 </table></div>
@@ -348,26 +354,24 @@
 </div>
 <a id="method_comprobarEmail"></a><div class="element clickable method public method_comprobarEmail" data-toggle="collapse" data-target=".method_comprobarEmail .collapse">
 <h2>Comprueba que el email pasado por parametro sea unico (no se encuentra ya registrado)</h2>
-<pre>comprobarEmail(string $nuevo_email) : void</pre>
+<pre>comprobarEmail($attribute, $params) : void</pre>
 <div class="labels"></div>
 <div class="row collapse"><div class="detail-description">
 <div class="long_description"></div>
 <h3>Parameters</h3>
-<div class="subelement argument">
-<h4>$nuevo_email</h4>
-<code>string</code><p>email a comprobar</p></div>
+<div class="subelement argument"><h4>$attribute</h4></div>
+<div class="subelement argument"><h4>$params</h4></div>
 </div></div>
 </div>
 <a id="method_comprobarNick"></a><div class="element clickable method public method_comprobarNick" data-toggle="collapse" data-target=".method_comprobarNick .collapse">
 <h2>Comprueba que el nombre pasado por parametro sea unico (no se encuentra ya registrado)</h2>
-<pre>comprobarNick(string $nuevo_nick) : void</pre>
+<pre>comprobarNick($attribute, $params) : void</pre>
 <div class="labels"></div>
 <div class="row collapse"><div class="detail-description">
 <div class="long_description"></div>
 <h3>Parameters</h3>
-<div class="subelement argument">
-<h4>$nuevo_nick</h4>
-<code>string</code><p>nick a comprobar</p></div>
+<div class="subelement argument"><h4>$attribute</h4></div>
+<div class="subelement argument"><h4>$params</h4></div>
 </div></div>
 </div>
 <a id="method_crearPersonaje"></a><div class="element clickable method public method_crearPersonaje" data-toggle="collapse" data-target=".method_crearPersonaje .collapse">
@@ -378,21 +382,35 @@
 
 <ul>
 <li>Recursos iniciales en funcion del personaje escogido</li>
-<li>nivel inicial (1)</li>
-<li>experencia inicial (0)</li>
+<li>nivel inicial (12)</li>
+<li>experencia inicial (7500)</li>
+<li>puntos de desbloqueo de habilidades (7)</li>
 </ul></div></div></div>
 </div>
 <a id="method_emailIguales"></a><div class="element clickable method public method_emailIguales" data-toggle="collapse" data-target=".method_emailIguales .collapse">
 <h2>Comprueba que el email coincide con el de la BBDD</h2>
-<pre>emailIguales(string $antigua_email) : void</pre>
+<pre>emailIguales($attribute, $params) : void</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<h3>Parameters</h3>
+<div class="subelement argument"><h4>$attribute</h4></div>
+<div class="subelement argument"><h4>$params</h4></div>
+</div></div>
+</div>
+<a id="method_estaDesbloqueada"></a><div class="element clickable method public method_estaDesbloqueada" data-toggle="collapse" data-target=".method_estaDesbloqueada .collapse">
+<h2>Dado un id de una habilidad comprueba si esa habilidad está desbloqueada para el usuario</h2>
+<pre>estaDesbloqueada(int $habilidad) : boolean</pre>
 <div class="labels"></div>
 <div class="row collapse"><div class="detail-description">
 <div class="long_description"></div>
 <h3>Parameters</h3>
 <div class="subelement argument">
-<h4>$antigua_email</h4>
-<code>string</code>
-</div>
+<h4>$habilidad</h4>
+<code>int</code><p>id de la habilidad</p></div>
+<h3>Returns</h3>
+<div class="subelement response">
+<code>boolean</code>$desbloqueada       true si la habilidad está desbloqueada por el usuario, false si no está desbloqueada</div>
 </div></div>
 </div>
 <a id="method_expNecesaria"></a><div class="element clickable method public method_expNecesaria" data-toggle="collapse" data-target=".method_expNecesaria .collapse">
@@ -518,6 +536,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
 <li>indicadores de recursos</li>
 <li>nivel</li>
 <li>exp_necesaria</li>
+<li>puntos_desbloqueo</li>
 </ul>
 
 <blockquote>
@@ -941,7 +960,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
 <div class="row"><footer class="span12">
             Template is built using <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap 2</a> and icons provided by <a href="http://glyphicons.com/">Glyphicons</a>.<br>
             Documentation is powered by <a href="http://www.phpdoc.org/">phpDocumentor 2.0.0a12</a> and<br>
-            generated on 2013-04-16T11:10:14+02:00.<br></footer></div>
+            generated on 2013-05-21T00:47:16+02:00.<br></footer></div>
 </div>
 </body>
 </html>

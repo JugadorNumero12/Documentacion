@@ -21,6 +21,7 @@
                                     API Documentation <b class="caret"></b></a><ul class="dropdown-menu">
 <li><a>Packages</a></li>
 <li><a href="../packages/Default.html"><i class="icon-folder-open"></i> Default</a></li>
+<li><a href="../packages/componentes.html"><i class="icon-folder-open"></i> componentes</a></li>
 <li><a href="../packages/controladores.html"><i class="icon-folder-open"></i> controladores</a></li>
 <li><a href="../packages/modelos.html"><i class="icon-folder-open"></i> modelos</a></li>
 </ul>
@@ -33,14 +34,14 @@
 <a href="#reports" class="dropdown-toggle" data-toggle="dropdown">
                                     Reports <b class="caret"></b></a><ul class="dropdown-menu">
 <li><a href="../errors.html"><i class="icon-remove-sign"></i> Errors 
-                <span class="label label-info">371</span></a></li>
+                <span class="label label-info">416</span></a></li>
 <li><a href="../markers.html"><i class="icon-map-marker"></i> Markers 
                 <ul>
 <li>todo 
-                <span class="label label-info">8</span>
+                <span class="label label-info">24</span>
 </li>
 <li>fixme 
-                <span class="label label-info">4</span>
+                <span class="label label-info">3</span>
 </li>
 </ul></a></li>
 <li><a href="../deprecated.html"><i class="icon-stop"></i> Deprecated elements 
@@ -66,11 +67,12 @@
 <i class="icon-custom icon-method"></i> Methods
                     <ul>
 <li class="method public "><a href="#method_accessRules" title="accessRules :: Especifica las reglas de control de acceso."><span class="description">Especifica las reglas de control de acceso.</span><pre>accessRules()</pre></a></li>
-<li class="method public "><a href="#method_actionEliminarEmail" title="actionEliminarEmail :: Elimina un email"><span class="description">Elimina un email</span><pre>actionEliminarEmail()</pre></a></li>
+<li class="method public "><a href="#method_actionEliminarEmails" title="actionEliminarEmails :: Elimina emails"><span class="description">Elimina emails</span><pre>actionEliminarEmails()</pre></a></li>
 <li class="method public "><a href="#method_actionEnviados" title="actionEnviados :: Muestra la bandeja de salida del usuario"><span class="description">Muestra la bandeja de salida del usuario</span><pre>actionEnviados()</pre></a></li>
 <li class="method public "><a href="#method_actionIndex" title="actionIndex :: Muestra la bandeja de entrada del usuario"><span class="description">Muestra la bandeja de entrada del usuario</span><pre>actionIndex()</pre></a></li>
 <li class="method public "><a href="#method_actionLeerEmail" title="actionLeerEmail :: Muestra un email"><span class="description">Muestra un email</span><pre>actionLeerEmail()</pre></a></li>
-<li class="method public "><a href="#method_actionRedactar" title="actionRedactar :: Muestra el formulario para redactar un email junto con una lista de usuarios"><span class="description">Muestra el formulario para redactar un email junto con una lista de usuarios</span><pre>actionRedactar()</pre></a></li>
+<li class="method public "><a href="#method_actionMensajeEquipo" title="actionMensajeEquipo :: Al mandar un mensaje a toda la aficion saca los nombres de todos los de tu equipo para mandar el mensaje"><span class="description">Al mandar un mensaje a toda la aficion saca los nombres de todos los de tu equipo para mandar el mensaje</span><pre>actionMensajeEquipo()</pre></a></li>
+<li class="method public "><a href="#method_actionRedactar" title="actionRedactar :: Muestra la formulario para redactar un email junto con una lista de usuarios"><span class="description">Muestra la formulario para redactar un email junto con una lista de usuarios</span><pre>actionRedactar()</pre></a></li>
 <li class="method public inherited"><a href="#method_beforeAction" title="beforeAction :: "><span class="description">beforeAction()
         </span><pre>beforeAction()</pre></a></li>
 <li class="method public "><a href="#method_filters" title="filters :: Definicion del verbo DELETE unicamente via POST"><span class="description">Definicion del verbo DELETE unicamente via POST</span><pre>filters()</pre></a></li>
@@ -131,20 +133,20 @@
 <code>object[]</code>reglas usadas por el filtro "accessControl"</div>
 </div></div>
 </div>
-<a id="method_actionEliminarEmail"></a><div class="element clickable method public method_actionEliminarEmail" data-toggle="collapse" data-target=".method_actionEliminarEmail .collapse">
-<h2>Elimina un email</h2>
-<pre>actionEliminarEmail(int $id, string $antes) : void</pre>
+<a id="method_actionEliminarEmails"></a><div class="element clickable method public method_actionEliminarEmails" data-toggle="collapse" data-target=".method_actionEliminarEmails .collapse">
+<h2>Elimina emails</h2>
+<pre>actionEliminarEmails(int $id, string $borrado) : void</pre>
 <div class="labels"></div>
 <div class="row collapse"><div class="detail-description">
 <div class="long_description"></div>
 <table class="table table-bordered">
 <tr>
 <th>route</th>
-<td>jugadorNum12/emails/eliminarEmail/{$id}/{$antes}</td>
+<td>jugadorNum12/emails/eliminarEmails/{$id}/{$borrado}</td>
 </tr>
 <tr>
 <th>redirect</th>
-<td>jugadorNum12/emails/index   si $antes == 'entrada'</td>
+<td>jugadorNum12/emails/index   si $borrado == 'borrado_to'</td>
 </tr>
 <tr>
 <th>redirect</th>
@@ -154,10 +156,10 @@
 <h3>Parameters</h3>
 <div class="subelement argument">
 <h4>$id</h4>
-<code>int</code><p>id del email a eliminar</p></div>
+<code>int</code><p>id del email a eliminar o 0 si se quieren eliminar todos</p></div>
 <div class="subelement argument">
-<h4>$antes</h4>
-<code>string</code><p>determina donde redireccionaremos.</p></div>
+<h4>$borrado</h4>
+<code>string</code><p>determina donde redireccionaremos y si se borra de la bandeja del remitente o del destinatario.</p></div>
 </div></div>
 </div>
 <a id="method_actionEnviados"></a><div class="element clickable method public method_actionEnviados" data-toggle="collapse" data-target=".method_actionEnviados .collapse">
@@ -200,33 +202,45 @@
 <code>int</code><p>id del email a leer</p></div>
 </div></div>
 </div>
-<a id="method_actionRedactar"></a><div class="element clickable method public method_actionRedactar" data-toggle="collapse" data-target=".method_actionRedactar .collapse">
-<h2>Muestra el formulario para redactar un email junto con una lista de usuarios</h2>
-<pre>actionRedactar(string $destinatario, string $tema, boolean $equipo) : void</pre>
+<a id="method_actionMensajeEquipo"></a><div class="element clickable method public method_actionMensajeEquipo" data-toggle="collapse" data-target=".method_actionMensajeEquipo .collapse">
+<h2>Al mandar un mensaje a toda la aficion saca los nombres de todos los de tu equipo para mandar el mensaje</h2>
+<pre>actionMensajeEquipo($id_equipo) </pre>
 <div class="labels"></div>
 <div class="row collapse"><div class="detail-description">
 <div class="long_description"></div>
 <table class="table table-bordered">
 <tr>
-<th>route</th>
-<td>jugadorNum12/emails/redactar/{$destinatario}/{$tema}</td>
+<th>parametro</th>
+<td>id del equipo al que se va a mandar el mensaje</td>
 </tr>
 <tr>
-<th>redirect</th>
+<th>redirige</th>
+<td>jugadorNum12/email/redactar</td>
+</tr>
+</table>
+<h3>Parameters</h3>
+<div class="subelement argument"><h4>$id_equipo</h4></div>
+</div></div>
+</div>
+<a id="method_actionRedactar"></a><div class="element clickable method public method_actionRedactar" data-toggle="collapse" data-target=".method_actionRedactar .collapse">
+<h2>Muestra la formulario para redactar un email junto con una lista de usuarios</h2>
+<pre>actionRedactar($destinatario, $tema) </pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered">
+<tr>
+<th>ruta</th>
+<td>jugadorNum12/emails/redactar</td>
+</tr>
+<tr>
+<th>redirige</th>
 <td>juagdorNum12/emails</td>
 </tr>
 </table>
 <h3>Parameters</h3>
-<div class="subelement argument">
-<h4>$destinatario</h4>
-<code>string</code><p>nick del destinatario del mensaje</p></div>
-<div class="subelement argument">
-<h4>$tema</h4>
-<code>string</code><p>asunto del email</p></div>
-<div class="subelement argument">
-<h4>$equipo</h4>
-<code>boolean</code><p>indica si el mensaje esta dirigido a un equipo entero (true)</p>
-</div>
+<div class="subelement argument"><h4>$destinatario</h4></div>
+<div class="subelement argument"><h4>$tema</h4></div>
 </div></div>
 </div>
 <a id="method_beforeAction"></a><div class="element clickable method public method_beforeAction" data-toggle="collapse" data-target=".method_beforeAction .collapse">
@@ -338,7 +352,7 @@
 <div class="row"><footer class="span12">
             Template is built using <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap 2</a> and icons provided by <a href="http://glyphicons.com/">Glyphicons</a>.<br>
             Documentation is powered by <a href="http://www.phpdoc.org/">phpDocumentor 2.0.0a12</a> and<br>
-            generated on 2013-04-16T11:10:13+02:00.<br></footer></div>
+            generated on 2013-05-21T00:47:16+02:00.<br></footer></div>
 </div>
 </body>
 </html>

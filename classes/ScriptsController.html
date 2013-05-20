@@ -21,6 +21,7 @@
                                     API Documentation <b class="caret"></b></a><ul class="dropdown-menu">
 <li><a>Packages</a></li>
 <li><a href="../packages/Default.html"><i class="icon-folder-open"></i> Default</a></li>
+<li><a href="../packages/componentes.html"><i class="icon-folder-open"></i> componentes</a></li>
 <li><a href="../packages/controladores.html"><i class="icon-folder-open"></i> controladores</a></li>
 <li><a href="../packages/modelos.html"><i class="icon-folder-open"></i> modelos</a></li>
 </ul>
@@ -33,14 +34,14 @@
 <a href="#reports" class="dropdown-toggle" data-toggle="dropdown">
                                     Reports <b class="caret"></b></a><ul class="dropdown-menu">
 <li><a href="../errors.html"><i class="icon-remove-sign"></i> Errors 
-                <span class="label label-info">371</span></a></li>
+                <span class="label label-info">416</span></a></li>
 <li><a href="../markers.html"><i class="icon-map-marker"></i> Markers 
                 <ul>
 <li>todo 
-                <span class="label label-info">8</span>
+                <span class="label label-info">24</span>
 </li>
 <li>fixme 
-                <span class="label label-info">4</span>
+                <span class="label label-info">3</span>
 </li>
 </ul></a></li>
 <li><a href="../deprecated.html"><i class="icon-stop"></i> Deprecated elements 
@@ -67,28 +68,21 @@
                     <ul>
 <li class="method public "><a href="#method_accessRules" title="accessRules :: Especifica las reglas de control de acceso."><span class="description">Especifica las reglas de control de acceso.</span><pre>accessRules()</pre></a></li>
 <li class="method public "><a href="#method_actionEjecutarTurno" title="actionEjecutarTurno :: Selecciona los partidos en juego y ejecuta sus turnos correspondientes."><span class="description">Selecciona los partidos en juego y ejecuta sus turnos correspondientes.</span><pre>actionEjecutarTurno()</pre></a></li>
-<li class="method public "><a href="#method_actionFinalizaGrupales" title="actionFinalizaGrupales :: "><span class="description">actionFinalizaGrupales()
-        </span><pre>actionFinalizaGrupales()</pre></a></li>
-<li class="method public "><a href="#method_actionFinalizaIndividuales" title="actionFinalizaIndividuales :: "><span class="description">actionFinalizaIndividuales()
-        </span><pre>actionFinalizaIndividuales()</pre></a></li>
-<li class="method public "><a href="#method_actionFormula" title="actionFormula :: Simulador de la fórmula"><span class="description">Simulador de la fórmula</span><pre>actionFormula()</pre></a></li>
-<li class="method public "><a href="#method_actionLiga" title="actionLiga :: "><span class="description">actionLiga()
-        </span><pre>actionLiga()</pre></a></li>
+<li class="method public "><a href="#method_actionFinalizaGrupales" title="actionFinalizaGrupales :: Devuelve los recursos de las acciones grupales a los participantes"><span class="description">Devuelve los recursos de las acciones grupales a los participantes</span><pre>actionFinalizaGrupales()</pre></a></li>
+<li class="method public "><a href="#method_actionFinalizaIndividuales" title="actionFinalizaIndividuales :: Devuelve los recursos de las acciones individuales"><span class="description">Devuelve los recursos de las acciones individuales</span><pre>actionFinalizaIndividuales()</pre></a></li>
+<li class="method public "><a href="#method_actionFormula" title="actionFormula :: Simulador de la formula estadistica"><span class="description">Simulador de la formula estadistica</span><pre>actionFormula()</pre></a></li>
+<li class="method public "><a href="#method_actionLiga" title="actionLiga :: Genera una liga con emparejamientos por defecto, que empieza mañana, con jornadas cada 2 días"><span class="description">Genera una liga con emparejamientos por defecto, que empieza mañana, con jornadas cada 2 días</span><pre>actionLiga()</pre></a></li>
 <li class="method public "><a href="#method_actionPass" title="actionPass :: "><span class="description">actionPass()
         </span><pre>actionPass()</pre></a></li>
 <li class="method public inherited"><a href="#method_beforeAction" title="beforeAction :: "><span class="description">beforeAction()
         </span><pre>beforeAction()</pre></a></li>
-<li class="method public "><a href="#method_filters" title="filters :: "><span class="description">filters()
-        </span><pre>filters()</pre></a></li>
-<li class="method public "><a href="#method_generaLiga" title="generaLiga :: "><span class="description">generaLiga()
-        </span><pre>generaLiga()</pre></a></li>
-<li class="method public "><a href="#method_generaPartido" title="generaPartido :: "><span class="description">generaPartido()
-        </span><pre>generaPartido()</pre></a></li>
+<li class="method public "><a href="#method_filters" title="filters :: Definicion del verbo DELETE unicamente via POST"><span class="description">Definicion del verbo DELETE unicamente via POST</span><pre>filters()</pre></a></li>
+<li class="method public "><a href="#method_generaLiga" title="generaLiga :: Genera una nueva liga"><span class="description">Genera una nueva liga</span><pre>generaLiga()</pre></a></li>
+<li class="method public "><a href="#method_generaPartido" title="generaPartido :: Añade un nuevo partido entre los equipos indicados en la fecha indicada."><span class="description">Añade un nuevo partido entre los equipos indicados en la fecha indicada.</span><pre>generaPartido()</pre></a></li>
 </ul>
 </li>
 <li class="nav-header private">» Private
-                    <ul><li class="method private "><a href="#method_calendario" title="calendario :: "><span class="description">calendario()
-        </span><pre>calendario()</pre></a></li></ul>
+                    <ul><li class="method private "><a href="#method_calendario" title="calendario :: Crea los emparejamientos para los equipos dados por parametro"><span class="description">Crea los emparejamientos para los equipos dados por parametro</span><pre>calendario()</pre></a></li></ul>
 </li>
 <li class="nav-header">
 <i class="icon-custom icon-property"></i> Properties
@@ -111,73 +105,135 @@
 </li>
 </ul>
 <div class="element class">
-<p class="short_description">Controller is the customized base controller class.</p>
+<p class="short_description">Esta api permite llamar y testear los diferentes scripts.</p>
 <div class="details">
 <div class="long_description"><p>All controller classes for this application should extend from this base class.</p></div>
+<table class="table table-bordered"><tr>
+<th>package</th>
+<td><a href="../packages/controladores.html">controladores</a></td>
+</tr></table>
 <h3>
 <i class="icon-custom icon-method"></i> Methods</h3>
 <a id="method_accessRules"></a><div class="element clickable method public method_accessRules" data-toggle="collapse" data-target=".method_accessRules .collapse">
 <h2>Especifica las reglas de control de acceso.</h2>
-<pre>accessRules() : array</pre>
+<pre>accessRules() : object[]</pre>
 <div class="labels"></div>
 <div class="row collapse"><div class="detail-description">
-<div class="long_description"><p>Esta función es usada por el filtro "accessControl".</p></div>
+<div class="long_description"><ul>
+<li>Permite realizar a todos los usuarios cualquier accion</li>
+</ul>
+
+<blockquote>
+  <p>Funcion predeterminada de Yii</p>
+</blockquote></div>
 <h3>Returns</h3>
 <div class="subelement response">
-<code>array</code>con las reglas de control de acceso</div>
+<code>object[]</code>reglas usadas por el filtro "accessControl"</div>
 </div></div>
 </div>
 <a id="method_actionEjecutarTurno"></a><div class="element clickable method public method_actionEjecutarTurno" data-toggle="collapse" data-target=".method_actionEjecutarTurno .collapse">
 <h2>Selecciona los partidos en juego y ejecuta sus turnos correspondientes.</h2>
-<pre>actionEjecutarTurno() </pre>
+<pre>actionEjecutarTurno() : void</pre>
 <div class="labels"></div>
 <div class="row collapse"><div class="detail-description">
 <div class="long_description"></div>
 <table class="table table-bordered"><tr>
-<th>ruta</th>
-<td>jugadorNum12/scriptsApi/jugarPartido</td>
+<th>route</th>
+<td>JugadorNum12/scripts/ejecutarturno</td>
 </tr></table>
 </div></div>
 </div>
 <a id="method_actionFinalizaGrupales"></a><div class="element clickable method public method_actionFinalizaGrupales" data-toggle="collapse" data-target=".method_actionFinalizaGrupales .collapse">
-<h2>actionFinalizaGrupales()
-        </h2>
-<pre>actionFinalizaGrupales() </pre>
-<div class="labels"></div>
-<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
-</div>
-<a id="method_actionFinalizaIndividuales"></a><div class="element clickable method public method_actionFinalizaIndividuales" data-toggle="collapse" data-target=".method_actionFinalizaIndividuales .collapse">
-<h2>actionFinalizaIndividuales()
-        </h2>
-<pre>actionFinalizaIndividuales() </pre>
-<div class="labels"></div>
-<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
-</div>
-<a id="method_actionFormula"></a><div class="element clickable method public method_actionFormula" data-toggle="collapse" data-target=".method_actionFormula .collapse">
-<h2>Simulador de la fórmula</h2>
-<pre>actionFormula($dn, $am, $al, $av, $ml, $mv, $ol, $ov, $dl, $dv) </pre>
+<h2>Devuelve los recursos de las acciones grupales a los participantes</h2>
+<pre>actionFinalizaGrupales() : void</pre>
 <div class="labels"></div>
 <div class="row collapse"><div class="detail-description">
-<div class="long_description"></div>
+<div class="long_description"><p>Selecciona las acciones grupales finalizadas sin éxito y devuelve los recursos a sus
+participantes y creador.</p></div>
+<table class="table table-bordered"><tr>
+<th>route</th>
+<td>JugadorNum12/scripts/finalizaGrupales</td>
+</tr></table>
+<h3>Exceptions</h3>
+<table class="table table-bordered"><tr>
+<th><code><a href="http://php.net/manual/en/class.exception.php">\Exception</a></code></th>
+<td>excepcion interna</td>
+</tr></table>
+</div></div>
+</div>
+<a id="method_actionFinalizaIndividuales"></a><div class="element clickable method public method_actionFinalizaIndividuales" data-toggle="collapse" data-target=".method_actionFinalizaIndividuales .collapse">
+<h2>Devuelve los recursos de las acciones individuales</h2>
+<pre>actionFinalizaIndividuales() : void</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"><p>Selecciona las acciones individuales pendientes de devolución
+de recursos (finalización) y ejecuta el método oportuno de cada
+una de ellas.</p></div>
+<table class="table table-bordered"><tr>
+<th>route</th>
+<td>JugadorNum12/scripts/finalizaIndividuales</td>
+</tr></table>
+<h3>Exceptions</h3>
+<table class="table table-bordered"><tr>
+<th><code><a href="http://php.net/manual/en/class.exception.php">\Exception</a></code></th>
+<td>excepcion interna</td>
+</tr></table>
+</div></div>
+</div>
+<a id="method_actionFormula"></a><div class="element clickable method public method_actionFormula" data-toggle="collapse" data-target=".method_actionFormula .collapse">
+<h2>Simulador de la formula estadistica</h2>
+<pre>actionFormula(int $dn, int $am, int $al, int $av, int $ml, int $mv, int $ol, int $ov, int $dl, int $dv) : void</pre>
+<div class="labels"></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"><p>Crea una vista en la que se muestra el simulador de un partido</p></div>
+<table class="table table-bordered"><tr>
+<th>route</th>
+<td>JugadorNum12/scripts/formula</td>
+</tr></table>
 <h3>Parameters</h3>
-<div class="subelement argument"><h4>$dn</h4></div>
-<div class="subelement argument"><h4>$am</h4></div>
-<div class="subelement argument"><h4>$al</h4></div>
-<div class="subelement argument"><h4>$av</h4></div>
-<div class="subelement argument"><h4>$ml</h4></div>
-<div class="subelement argument"><h4>$mv</h4></div>
-<div class="subelement argument"><h4>$ol</h4></div>
-<div class="subelement argument"><h4>$ov</h4></div>
-<div class="subelement argument"><h4>$dl</h4></div>
-<div class="subelement argument"><h4>$dv</h4></div>
+<div class="subelement argument">
+<h4>$dn</h4>
+<code>int</code><p>diferencia de nivel</p></div>
+<div class="subelement argument">
+<h4>$am</h4>
+<code>int</code><p>aforo maximo</p></div>
+<div class="subelement argument">
+<h4>$al</h4>
+<code>int</code><p>aforo local</p></div>
+<div class="subelement argument">
+<h4>$av</h4>
+<code>int</code><p>aforo visitante</p></div>
+<div class="subelement argument">
+<h4>$ml</h4>
+<code>int</code><p>moral local</p></div>
+<div class="subelement argument">
+<h4>$mv</h4>
+<code>int</code><p>moral visitinate</p></div>
+<div class="subelement argument">
+<h4>$ol</h4>
+<code>int</code><p>ofensiva local</p></div>
+<div class="subelement argument">
+<h4>$ov</h4>
+<code>int</code><p>ofensiva visitante</p></div>
+<div class="subelement argument">
+<h4>$dl</h4>
+<code>int</code><p>defensa local</p></div>
+<div class="subelement argument">
+<h4>$dv</h4>
+<code>int</code><p>defensa visitante</p></div>
 </div></div>
 </div>
 <a id="method_actionLiga"></a><div class="element clickable method public method_actionLiga" data-toggle="collapse" data-target=".method_actionLiga .collapse">
-<h2>actionLiga()
-        </h2>
-<pre>actionLiga() </pre>
+<h2>Genera una liga con emparejamientos por defecto, que empieza mañana, con jornadas cada 2 días</h2>
+<pre>actionLiga() : void</pre>
 <div class="labels"></div>
-<div class="row collapse"><div class="detail-description"><div class="long_description"></div></div></div>
+<div class="row collapse"><div class="detail-description">
+<div class="long_description"></div>
+<table class="table table-bordered"><tr>
+<th>route</th>
+<td>JugadorNum12/scripts/liga</td>
+</tr></table>
+</div></div>
 </div>
 <a id="method_actionPass"></a><div class="element clickable method public method_actionPass" data-toggle="collapse" data-target=".method_actionPass .collapse">
 <h2>actionPass()
@@ -202,54 +258,114 @@
 </div></div>
 </div>
 <a id="method_filters"></a><div class="element clickable method public method_filters" data-toggle="collapse" data-target=".method_filters .collapse">
-<h2>filters()
-        </h2>
-<pre>filters() : array</pre>
+<h2>Definicion del verbo DELETE unicamente via POST</h2>
+<pre>filters() : string[]</pre>
 <div class="labels"></div>
 <div class="row collapse"><div class="detail-description">
-<div class="long_description"></div>
+<div class="long_description"><blockquote>
+  <p>Funcion predeterminada de Yii</p>
+</blockquote></div>
 <h3>Returns</h3>
 <div class="subelement response">
-<code>array</code>de filtros para actions</div>
+<code>string[]</code>filtros definidos para "actions"</div>
 </div></div>
 </div>
 <a id="method_generaLiga"></a><div class="element clickable method public method_generaLiga" data-toggle="collapse" data-target=".method_generaLiga .collapse">
-<h2>generaLiga()
-        </h2>
-<pre>generaLiga($emparejamientos, $dentro_de, $descanso, $horas) </pre>
+<h2>Genera una nueva liga</h2>
+<pre>generaLiga(\int[][] $emparejamientos, int $dentro_de, $descanso, int[] $horas) : void</pre>
 <div class="labels"></div>
 <div class="row collapse"><div class="detail-description">
-<div class="long_description"></div>
+<div class="long_description"><p>Genera una liga nueva que:
+ - empezará en '$dentro_de' dias,
+ - dejará '$descanso' dias entre jornadas (si metes null escoje el minimo que no superpone jornadas)
+ - sus partidos se jugarán a las '$horas' (si hay pocas horas, se juegan el día anterior en el mismo horario).</p>
+
+<blockquote>
+  <p>Las horas se introducen como un entero entre 0 y 24, que corresponde con la hora GMT+0
+  Ej: en verano: array(20, 27.5, 13) => los partidos se jugarán a las 22:00, 19:30, 15:00 (hora española)
+      en invierno: array(11.25, 9)   => los partidos se jugarán a las 12:15, 10:00 (hora española)</p>
+</blockquote>
+
+<p>Los partidos se generan en el orden definido en '$emparejamientos'.</p>
+
+<blockquote>
+  <p>WARNING todo el algoritmo esta diseñado para tomar como refernecia de cambio de día las 0:00 GMT</p>
+</blockquote></div>
 <h3>Parameters</h3>
-<div class="subelement argument"><h4>$emparejamientos</h4></div>
-<div class="subelement argument"><h4>$dentro_de</h4></div>
-<div class="subelement argument"><h4>$descanso</h4></div>
-<div class="subelement argument"><h4>$horas</h4></div>
+<div class="subelement argument">
+<h4>$emparejamientos</h4>
+<code>\int[][]</code><p>matriz de equipos emparejados generada en la funcion calendario</p></div>
+<div class="subelement argument">
+<h4>$dentro_de</h4>
+<code>int</code><p>dias entre partidos</p></div>
+<div class="subelement argument">
+<h4>$descanso</h4><p>dias de descanso</p></div>
+<div class="subelement argument">
+<h4>$horas</h4>
+<code>int[]</code><p>horas a las que se juegan los partidos</p></div>
+<h3>Exceptions</h3>
+<table class="table table-bordered"><tr>
+<th><code><a href="http://php.net/manual/en/class.exception.php">\Exception</a></code></th>
+<td>excepcion interna</td>
+</tr></table>
 </div></div>
 </div>
 <a id="method_generaPartido"></a><div class="element clickable method public method_generaPartido" data-toggle="collapse" data-target=".method_generaPartido .collapse">
-<h2>generaPartido()
-        </h2>
-<pre>generaPartido($id_local, $id_visitande, $time, $generateNewTransaction) </pre>
+<h2>Añade un nuevo partido entre los equipos indicados en la fecha indicada.</h2>
+<pre>generaPartido(int $id_local, int $id_visitande, int $time, int $jornada, bool $generateNewTransaction) : void</pre>
 <div class="labels"></div>
 <div class="row collapse"><div class="detail-description">
-<div class="long_description"></div>
+<div class="long_description"><blockquote>
+  <p>ADVERTENCIA:
+  Los datos (dif_niveles, indOfens, ...) puden cambiar hasta que empiece el partido,
+  aqui se rellenan (porque se me ha pedido explicitamente),
+  pero deberían actualizarse en el primer turno de partido.</p>
+  
+  <p>ATENCION los partidos empiezan con sigpartido -> id = 0 !!!!</p>
+</blockquote></div>
 <h3>Parameters</h3>
-<div class="subelement argument"><h4>$id_local</h4></div>
-<div class="subelement argument"><h4>$id_visitande</h4></div>
-<div class="subelement argument"><h4>$time</h4></div>
-<div class="subelement argument"><h4>$generateNewTransaction</h4></div>
+<div class="subelement argument">
+<h4>$id_local</h4>
+<code>int</code><p>id del equipo local</p></div>
+<div class="subelement argument">
+<h4>$id_visitande</h4>
+<code>int</code><p>id del equipo visitante</p></div>
+<div class="subelement argument">
+<h4>$time</h4>
+<code>int</code><p>hora del partido</p></div>
+<div class="subelement argument">
+<h4>$jornada</h4>
+<code>int</code><p>jornada de la liga</p></div>
+<div class="subelement argument">
+<h4>$generateNewTransaction</h4>
+<code>bool</code><p>generar nueva transaccion</p></div>
+<h3>Exceptions</h3>
+<table class="table table-bordered">
+<tr>
+<th><code><a href="http://php.net/manual/en/class.exception.php">\Exception</a></code></th>
+<td>Los viajes en el tiempo no esta implemetados en esta version del juego.</td>
+</tr>
+<tr>
+<th><code><a href="http://php.net/manual/en/class.exception.php">\Exception</a></code></th>
+<td>excepcion interna</td>
+</tr>
+</table>
 </div></div>
 </div>
 <a id="method_calendario"></a><div class="element clickable method private method_calendario" data-toggle="collapse" data-target=".method_calendario .collapse">
-<h2>calendario()
-        </h2>
-<pre>calendario($participantes) </pre>
+<h2>Crea los emparejamientos para los equipos dados por parametro</h2>
+<pre>calendario(int[] $participantes) : \int[][]</pre>
 <div class="labels"></div>
 <div class="row collapse"><div class="detail-description">
-<div class="long_description"></div>
+<div class="long_description"><p>Dada una lista de id_equipos, genera unos emparejamientos con el codigo se sam.
+Ej : calendario(array(1,2,6,7,8)); -> emaprejamientos para los equipos_id = 1,2,3,6,7,8 (deja fuera al 4 y 5)
+Si no se pasan paritcipantes, coje todos los equipos que haya en la tabla Clasificacion.</p></div>
 <h3>Parameters</h3>
-<div class="subelement argument"><h4>$participantes</h4></div>
+<div class="subelement argument">
+<h4>$participantes</h4>
+<code>int[]</code><p>id de los equipos participantes</p></div>
+<h3>Returns</h3>
+<div class="subelement response"><code>\int[][]</code></div>
 </div></div>
 </div>
 <h3>
@@ -297,7 +413,7 @@
 <div class="row"><footer class="span12">
             Template is built using <a href="http://twitter.github.com/bootstrap/">Twitter Bootstrap 2</a> and icons provided by <a href="http://glyphicons.com/">Glyphicons</a>.<br>
             Documentation is powered by <a href="http://www.phpdoc.org/">phpDocumentor 2.0.0a12</a> and<br>
-            generated on 2013-04-16T11:10:14+02:00.<br></footer></div>
+            generated on 2013-05-21T00:47:16+02:00.<br></footer></div>
 </div>
 </body>
 </html>
