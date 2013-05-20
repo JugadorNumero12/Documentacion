@@ -1,22 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <project version="2.0.0a12" title="">
-  <file path="cron.php" hash="15fa1095edd776256d42ddc8782aa4b5" package="Default">
-    <include line="13" type="Require Once" package="Default">
+  <file path="cron.php" hash="7980a5f204394033084b3a772c86f2c0" package="raiz">
+    <docblock line="3">
+      <description>Cron principal</description>
+      <long-description></long-description>
+      <tag line="3" name="package" description="raiz"/>
+    </docblock>
+    <include line="19" type="Require Once" package="Default">
       <name/>
     </include>
-    <constant namespace="global" line="9" package="Default">
+    <constant namespace="global" line="15" package="raiz">
       <name>YII_DEBUG</name>
       <full_name>\YII_DEBUG</full_name>
       <value>true</value>
     </constant>
-    <constant namespace="global" line="11" package="Default">
+    <constant namespace="global" line="17" package="raiz">
       <name>YII_TRACE_LEVEL</name>
       <full_name>\YII_TRACE_LEVEL</full_name>
       <value>3</value>
     </constant>
-    <parse_markers>
-      <error line="0" code="50007">No page-level DocBlock was found in file cron.php</error>
-    </parse_markers>
   </file>
   <file path="cron_partido.php" hash="8e00e51e5843e9d998f134f9d003a82b" package="Default">
     <include line="13" type="Require Once" package="Default">
@@ -197,7 +199,7 @@
       <full_name>\AccionPartSingleton</full_name>
       <property final="false" static="true" visibility="protected" line="5" namespace="global" package="Default">
         <name>$instancia</name>
-        <default></default>
+        <default/>
       </property>
       <method final="false" abstract="false" static="false" visibility="protected" namespace="global" line="8" package="Default">
         <name>__construct</name>
@@ -212,17 +214,17 @@
         <full_name>ejecutar</full_name>
         <argument line="26">
           <name>$id_usuario</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="26">
           <name>$id_partido</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="26">
           <name>$id_equipo</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -320,7 +322,7 @@
         <full_name>getInstance</full_name>
         <docblock line="21">
           <description>Funcion para acceder al patron Singleton</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="21" name="static" description=""/>
           <tag line="21" name="return" description="instancia de la accion" type="\ConstruirEstadio">
             <type by_reference="false">\ConstruirEstadio</type>
@@ -332,7 +334,7 @@
         <full_name>ejecutar</full_name>
         <docblock line="35">
           <description>Ejecutar la accion</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="35" name="param" description="id del usuario que realiza la accion" type="int" variable="$id_usuario">
             <type by_reference="false">int</type>
           </tag>
@@ -345,7 +347,7 @@
         </docblock>
         <argument line="42">
           <name>$id_accion</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -354,7 +356,7 @@
         <full_name>finalizar</full_name>
         <docblock line="75">
           <description>Accion grupal: sin efecto en finalizar()</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="75" name="return" description="" type="void">
             <type by_reference="false">void</type>
           </tag>
@@ -362,7 +364,7 @@
       </method>
     </class>
     <markers>
-      <todo line="44"></todo>
+      <todo line="44"/>
     </markers>
     <parse_markers>
       <error line="0" code="50007">No page-level DocBlock was found in file protected/components/Acciones/AlquilarBus.php</error>
@@ -402,7 +404,7 @@
         <full_name>getInstance</full_name>
         <docblock line="24">
           <description>Funcion para acceder al patron Singleton</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="24" name="static" description=""/>
           <tag line="24" name="return" description="instancia de la accion" type="\Apostar">
             <type by_reference="false">\Apostar</type>
@@ -414,7 +416,7 @@
         <full_name>ejecutar</full_name>
         <docblock line="38">
           <description>Ejecutar la accion</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="38" name="param" description="id del usuario que realiza la accion" type="int" variable="$id_usuario">
             <type by_reference="false">int</type>
           </tag>
@@ -427,7 +429,7 @@
         </docblock>
         <argument line="45">
           <name>$id_usuario</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -436,7 +438,7 @@
         <full_name>finalizar</full_name>
         <docblock line="63">
           <description>finalizar la accion</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="63" name="param" description="id del usuario" type="int" variable="$id_usuario">
             <type by_reference="false">int</type>
           </tag>
@@ -449,12 +451,12 @@
         </docblock>
         <argument line="70">
           <name>$id_usuario</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="70">
           <name>$id_habilidad</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -484,17 +486,17 @@ Perfil asociado: Ultra</description>
         <full_name>ejecutar</full_name>
         <argument line="24">
           <name>$id_usuario</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="24">
           <name>$id_partido</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="24">
           <name>$id_equipo</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -542,7 +544,7 @@ Perfil asociado: Ultra</description>
         <full_name>getInstance</full_name>
         <docblock line="24">
           <description>Funcion para acceder al patron Singleton</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="24" name="static" description=""/>
           <tag line="24" name="return" description="instancia de la accion" type="\Ascender">
             <type by_reference="false">\Ascender</type>
@@ -554,7 +556,7 @@ Perfil asociado: Ultra</description>
         <full_name>ejecutar</full_name>
         <docblock line="38">
           <description>Ejecutar la accion</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="38" name="param" description="id del usuario que realiza la accion" type="int" variable="$id_usuario">
             <type by_reference="false">int</type>
           </tag>
@@ -567,7 +569,7 @@ Perfil asociado: Ultra</description>
         </docblock>
         <argument line="45">
           <name>$id_usuario</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -576,7 +578,7 @@ Perfil asociado: Ultra</description>
         <full_name>finalizar</full_name>
         <docblock line="61">
           <description>Accion permanente: sin efecto en finalizar()</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="61" name="return" description="" type="void">
             <type by_reference="false">void</type>
           </tag>
@@ -618,7 +620,7 @@ Perfil asociado: Ultra</description>
         <full_name>getInstance</full_name>
         <docblock line="23">
           <description>Funcion para acceder al patron Singleton</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="23" name="static" description=""/>
           <tag line="23" name="return" description="instancia de la accion" type="\BeberCerveza">
             <type by_reference="false">\BeberCerveza</type>
@@ -630,7 +632,7 @@ Perfil asociado: Ultra</description>
         <full_name>ejecutar</full_name>
         <docblock line="37">
           <description>Ejecutar la accion</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="37" name="param" description="id del usuario que realiza la accion" type="int" variable="$id_usuario">
             <type by_reference="false">int</type>
           </tag>
@@ -643,17 +645,17 @@ Perfil asociado: Ultra</description>
         </docblock>
         <argument line="44">
           <name>$id_usuario</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="44">
           <name>$id_partido</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="44">
           <name>$id_equipo</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -662,7 +664,7 @@ Perfil asociado: Ultra</description>
         <full_name>finalizar</full_name>
         <docblock line="72">
           <description>Accion de partido: sin efecto en finalizar()</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="72" name="return" description="" type="void">
             <type by_reference="false">void</type>
           </tag>
@@ -703,7 +705,7 @@ Aumenta el atributo &lt;dinero_gen&gt;&lt;/p&gt;</long-description>
         <full_name>getInstance</full_name>
         <docblock line="24">
           <description>Funcion para acceder al patron Singleton</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="24" name="static" description=""/>
           <tag line="24" name="return" description="instancia de la accion" type="\ConciertoRock">
             <type by_reference="false">\ConciertoRock</type>
@@ -715,7 +717,7 @@ Aumenta el atributo &lt;dinero_gen&gt;&lt;/p&gt;</long-description>
         <full_name>ejecutar</full_name>
         <docblock line="38">
           <description>Ejecutar la accion</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="38" name="param" description="id del usuario que realiza la accion" type="int" variable="$id_usuario">
             <type by_reference="false">int</type>
           </tag>
@@ -728,7 +730,7 @@ Aumenta el atributo &lt;dinero_gen&gt;&lt;/p&gt;</long-description>
         </docblock>
         <argument line="45">
           <name>$id_accion</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -737,7 +739,7 @@ Aumenta el atributo &lt;dinero_gen&gt;&lt;/p&gt;</long-description>
         <full_name>finalizar</full_name>
         <docblock line="78">
           <description>Accion grupal: sin efecto en finalizar()</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="78" name="return" description="" type="void">
             <type by_reference="false">void</type>
           </tag>
@@ -773,7 +775,7 @@ Aumenta el atributo &lt;dinero_gen&gt;&lt;/p&gt;</long-description>
         <full_name>getInstance</full_name>
         <docblock line="21">
           <description>Funcion para acceder al patron Singleton</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="21" name="static" description=""/>
           <tag line="21" name="return" description="instancia de la accion" type="\ConseguirInversores">
             <type by_reference="false">\ConseguirInversores</type>
@@ -785,7 +787,7 @@ Aumenta el atributo &lt;dinero_gen&gt;&lt;/p&gt;</long-description>
         <full_name>ejecutar</full_name>
         <docblock line="35">
           <description>Ejecutar la accion</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="35" name="param" description="identificador de la accion" type="int" variable="$id_accion">
             <type by_reference="false">int</type>
           </tag>
@@ -798,7 +800,7 @@ Aumenta el atributo &lt;dinero_gen&gt;&lt;/p&gt;</long-description>
         </docblock>
         <argument line="42">
           <name>$id_accion</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -807,7 +809,7 @@ Aumenta el atributo &lt;dinero_gen&gt;&lt;/p&gt;</long-description>
         <full_name>finalizar</full_name>
         <docblock line="78">
           <description>Accion grupal: sin efecto en finalizar()</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="78" name="return" description="" type="void">
             <type by_reference="false">void</type>
           </tag>
@@ -815,7 +817,7 @@ Aumenta el atributo &lt;dinero_gen&gt;&lt;/p&gt;</long-description>
       </method>
     </class>
     <markers>
-      <todo line="44"></todo>
+      <todo line="44"/>
     </markers>
     <parse_markers>
       <error line="0" code="50007">No page-level DocBlock was found in file protected/components/Acciones/ConseguirInversores.php</error>
@@ -848,7 +850,7 @@ Aumenta el atributo &lt;dinero_gen&gt;&lt;/p&gt;</long-description>
         <full_name>getInstance</full_name>
         <docblock line="23">
           <description>Funcion para acceder al patron Singleton</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="23" name="static" description=""/>
           <tag line="23" name="return" description="instancia de la accion" type="\ConstruirEstadio">
             <type by_reference="false">\ConstruirEstadio</type>
@@ -860,7 +862,7 @@ Aumenta el atributo &lt;dinero_gen&gt;&lt;/p&gt;</long-description>
         <full_name>ejecutar</full_name>
         <docblock line="37">
           <description>Ejecutar la accion</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="37" name="param" description="id del usuario que realiza la accion" type="int" variable="$id_usuario">
             <type by_reference="false">int</type>
           </tag>
@@ -873,7 +875,7 @@ Aumenta el atributo &lt;dinero_gen&gt;&lt;/p&gt;</long-description>
         </docblock>
         <argument line="44">
           <name>$id_accion</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -882,7 +884,7 @@ Aumenta el atributo &lt;dinero_gen&gt;&lt;/p&gt;</long-description>
         <full_name>finalizar</full_name>
         <docblock line="80">
           <description>Accion grupal: sin efecto en finalizar()</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="80" name="return" description="" type="void">
             <type by_reference="false">void</type>
           </tag>
@@ -890,7 +892,7 @@ Aumenta el atributo &lt;dinero_gen&gt;&lt;/p&gt;</long-description>
       </method>
     </class>
     <markers>
-      <todo line="46"></todo>
+      <todo line="46"/>
     </markers>
     <parse_markers>
       <error line="0" code="50007">No page-level DocBlock was found in file protected/components/Acciones/ConstruirEstadio.php</error>
@@ -915,7 +917,7 @@ Aumenta el atributo &lt;dinero_gen&gt;&lt;/p&gt;</long-description>
         <full_name>getInstance</full_name>
         <docblock line="14">
           <description>Funcion para acceder al patron Singleton</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="14" name="static" description=""/>
           <tag line="14" name="return" description="instancia de la accion" type="\ContactarYakuza">
             <type by_reference="false">\ContactarYakuza</type>
@@ -927,7 +929,7 @@ Aumenta el atributo &lt;dinero_gen&gt;&lt;/p&gt;</long-description>
         <full_name>ejecutar</full_name>
         <docblock line="28">
           <description>Ejecutar la accion</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="28" name="param" description="id del usuario que realiza la accion" type="int" variable="$id_usuario">
             <type by_reference="false">int</type>
           </tag>
@@ -940,7 +942,7 @@ Aumenta el atributo &lt;dinero_gen&gt;&lt;/p&gt;</long-description>
         </docblock>
         <argument line="35">
           <name>$id_usuario</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -949,7 +951,7 @@ Aumenta el atributo &lt;dinero_gen&gt;&lt;/p&gt;</long-description>
         <full_name>finalizar</full_name>
         <docblock line="51">
           <description>Accion permanente: sin efecto en finalizar()</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="51" name="return" description="" type="void">
             <type by_reference="false">void</type>
           </tag>
@@ -957,7 +959,7 @@ Aumenta el atributo &lt;dinero_gen&gt;&lt;/p&gt;</long-description>
       </method>
     </class>
     <markers>
-      <todo line="37"></todo>
+      <todo line="37"/>
     </markers>
     <parse_markers>
       <error line="0" code="50007">No page-level DocBlock was found in file protected/components/Acciones/ContactarYakuza.php</error>
@@ -995,7 +997,7 @@ Aumenta el atributo &lt;dinero_gen&gt;&lt;/p&gt;</long-description>
         <full_name>getInstance</full_name>
         <docblock line="24">
           <description>Funcion para acceder al patron Singleton</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="24" name="static" description=""/>
           <tag line="24" name="return" description="instancia de la accion" type="\ContratarRRPP">
             <type by_reference="false">\ContratarRRPP</type>
@@ -1007,7 +1009,7 @@ Aumenta el atributo &lt;dinero_gen&gt;&lt;/p&gt;</long-description>
         <full_name>ejecutar</full_name>
         <docblock line="38">
           <description>Ejecutar la accion</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="38" name="param" description="id del usuario que realiza la accion" type="int" variable="$id_usuario">
             <type by_reference="false">int</type>
           </tag>
@@ -1020,7 +1022,7 @@ Aumenta el atributo &lt;dinero_gen&gt;&lt;/p&gt;</long-description>
         </docblock>
         <argument line="45">
           <name>$id_usuario</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -1029,7 +1031,7 @@ Aumenta el atributo &lt;dinero_gen&gt;&lt;/p&gt;</long-description>
         <full_name>finalizar</full_name>
         <docblock line="62">
           <description>finalizar la accion</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="62" name="param" description="id del usuario" type="int" variable="$id_usuario">
             <type by_reference="false">int</type>
           </tag>
@@ -1042,12 +1044,12 @@ Aumenta el atributo &lt;dinero_gen&gt;&lt;/p&gt;</long-description>
         </docblock>
         <argument line="69">
           <name>$id_usuario</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="69">
           <name>$id_habilidad</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -1077,17 +1079,17 @@ Perfil asociado: Ultra</description>
         <full_name>ejecutar</full_name>
         <argument line="24">
           <name>$id_usuario</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="24">
           <name>$id_partido</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="24">
           <name>$id_equipo</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -1173,7 +1175,7 @@ Perfil asociado: Todos</description>
         <full_name>getInstance</full_name>
         <docblock line="17">
           <description>Funcion para acceder al patron Singleton</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="17" name="static" description=""/>
           <tag line="17" name="return" description="instancia de la accion" type="\DoblarApuesta">
             <type by_reference="false">\DoblarApuesta</type>
@@ -1185,7 +1187,7 @@ Perfil asociado: Todos</description>
         <full_name>ejecutar</full_name>
         <docblock line="31">
           <description>Ejecutar la accion</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="31" name="param" description="id del usuario que realiza la accion" type="int" variable="$id_usuario">
             <type by_reference="false">int</type>
           </tag>
@@ -1198,17 +1200,17 @@ Perfil asociado: Todos</description>
         </docblock>
         <argument line="38">
           <name>$id_usuario</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="38">
           <name>$id_partido</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="38">
           <name>$id_equipo</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -1217,7 +1219,7 @@ Perfil asociado: Todos</description>
         <full_name>finalizar</full_name>
         <docblock line="59">
           <description>Accion de partido: sin efecto en finalizar()</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="59" name="return" description="" type="void">
             <type by_reference="false">void</type>
           </tag>
@@ -1263,8 +1265,8 @@ Perfil asociado: Todos</description>
         <name>$datos_acciones</name>
         <default>array('CrearseEspectativas' =&gt; array('animo' =&gt; 75), 'Apostar' =&gt; array('dinero' =&gt; 1000), 'RetransmitirRRSS' =&gt; array('defensivo' =&gt; 1, 'animo' =&gt; 25), 'BeberCerveza' =&gt; array('ofensivo' =&gt; 1, 'animo' =&gt; 50), 'Pintarse' =&gt; array('ambiente' =&gt; 10, 'animo' =&gt; 100, 'moral' =&gt; 20, 'ofensivo' =&gt; 1, 'bonus_creador' =&gt; array('animo' =&gt; 150)), 'EscribirBlog' =&gt; array('influencias_max' =&gt; 20), 'CorearEstadio' =&gt; array('moral' =&gt; 60), 'AlquilarBus' =&gt; array('aforo' =&gt; 60, 'bonus_creador' =&gt; array('animo_max' =&gt; 30)), 'ConciertoRock' =&gt; array('aforo_base' =&gt; 120, 'bonus_creador' =&gt; array('dinero' =&gt; 10000, 'dinero_gen' =&gt; 50)), 'Ascender' =&gt; array('dinero_gen' =&gt; 150), 'PromoverPartido' =&gt; array('ambiente' =&gt; 20, 'aforo' =&gt; 0.15, 'moral' =&gt; 75), 'ContratarRRPP' =&gt; array('bonus_jugador' =&gt; array('influencias' =&gt; 10)), 'FalsearCuentas' =&gt; array('bonus_jugador' =&gt; array('dinero' =&gt; 500)), 'DoblarApuesta' =&gt; array('animo' =&gt; 250), 'ArrojarMechero' =&gt; array('defensivo' =&gt; 3), 'FinanciarEvento' =&gt; array('aforo' =&gt; 0.25, 'ambiente' =&gt; 8, 'moral' =&gt; 60), 'PublicarDifamaciones' =&gt; array('nivel_equipo' =&gt; 3, 'ambiente' =&gt; 40, 'aforo' =&gt; 100), 'TumultoGradas' =&gt; array('ofensivo' =&gt; 4, 'ambiente' =&gt; 25), 'OrganizarHomenaje' =&gt; array('aforo' =&gt; 0.6, 'bonus_creador' =&gt; array('influencias_max' =&gt; 11)), 'ConseguirInversores' =&gt; array('nivel_equipo' =&gt; 12, 'bonus_creador' =&gt; array('dinero' =&gt; 15000, 'dinero_gen' =&gt; 90)), 'HackearPlataforma' =&gt; array('nivel_equipo' =&gt; 5, 'aforo' =&gt; 80), 'EntrevistaPartido' =&gt; array('ofensivo' =&gt; 1, 'defensivo' =&gt; 1), 'IncentivoEconomico' =&gt; array('nivel_equipo' =&gt; 8, 'moral' =&gt; 65, 'bonus_creador' =&gt; array('influencias' =&gt; 80)), 'HablarSpeaker' =&gt; array('moral' =&gt; 90, 'ofensivo' =&gt; 5), 'FinanciarPelicula' =&gt; array('aforo_base' =&gt; 350, 'nivel_equipo' =&gt; 3, 'bonus_creador' =&gt; array('animo_gen' =&gt; 25, 'dinero_gen' =&gt; 900)), 'ObrasBeneficas' =&gt; array('aforo_max' =&gt; 200, 'bonus_creador' =&gt; array('animo_gen' =&gt; 85)), 'FicharJugador' =&gt; array('aforo_base' =&gt; 100, 'nivel_equipo' =&gt; 23, 'aforo' =&gt; 100, 'bonus_creador' =&gt; array('influencias_max' =&gt; 48)), 'MandarJugadorHospital' =&gt; array('nivel_equipo' =&gt; 25), 'ConstruirEstadio' =&gt; array('aforo_max' =&gt; 700, 'moral' =&gt; 140, 'nivel_equipo' =&gt; 8), 'ContactarYakuza' =&gt; array('influencias_max' =&gt; 650, 'influencias_gen' =&gt; 40), 'EquipHeroe' =&gt; array('animo_max' =&gt; 10000, 'animo_gen' =&gt; 500, 'influencias_max' =&gt; 300, 'influencias_gen' =&gt; 10))</default>
         <docblock line="30">
-          <description></description>
-          <long-description></long-description>
+          <description/>
+          <long-description/>
           <tag line="30" name="static" description=""/>
           <tag line="30" name="type" description="object[]"/>
         </docblock>
@@ -1297,7 +1299,7 @@ Perfil asociado: Todos</description>
         <full_name>getInstance</full_name>
         <docblock line="18">
           <description>Funcion para acceder al patron Singleton</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="18" name="static" description=""/>
           <tag line="18" name="return" description="instancia de la accion" type="\Entrevista">
             <type by_reference="false">\Entrevista</type>
@@ -1309,7 +1311,7 @@ Perfil asociado: Todos</description>
         <full_name>ejecutar</full_name>
         <docblock line="32">
           <description>Ejecutar la accion</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="32" name="param" description="id del usuario que realiza la accion" type="int" variable="$id_usuario">
             <type by_reference="false">int</type>
           </tag>
@@ -1322,17 +1324,17 @@ Perfil asociado: Todos</description>
         </docblock>
         <argument line="39">
           <name>$id_usuario</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="39">
           <name>$id_partido</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="39">
           <name>$id_equipo</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -1341,7 +1343,7 @@ Perfil asociado: Todos</description>
         <full_name>finalizar</full_name>
         <docblock line="61">
           <description>Accion de partido: sin efecto en finalizar()</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="61" name="return" description="" type="void">
             <type by_reference="false">void</type>
           </tag>
@@ -1349,7 +1351,7 @@ Perfil asociado: Todos</description>
       </method>
     </class>
     <markers>
-      <todo line="41"></todo>
+      <todo line="41"/>
     </markers>
     <parse_markers>
       <error line="0" code="50007">No page-level DocBlock was found in file protected/components/Acciones/EntrevistaPartido.php</error>
@@ -1381,7 +1383,7 @@ Perfil asociado: Todos</description>
         <full_name>getInstance</full_name>
         <docblock line="20">
           <description>Funcion para acceder al patron Singleton</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="20" name="static" description=""/>
           <tag line="20" name="return" description="instancia de la accion" type="\EquipamientoHeroe">
             <type by_reference="false">\EquipamientoHeroe</type>
@@ -1393,7 +1395,7 @@ Perfil asociado: Todos</description>
         <full_name>ejecutar</full_name>
         <docblock line="34">
           <description>Ejecutar la accion</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="34" name="param" description="id del usuario que realiza la accion" type="int" variable="$id_usuario">
             <type by_reference="false">int</type>
           </tag>
@@ -1406,7 +1408,7 @@ Perfil asociado: Todos</description>
         </docblock>
         <argument line="41">
           <name>$id_usuario</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -1415,7 +1417,7 @@ Perfil asociado: Todos</description>
         <full_name>finalizar</full_name>
         <docblock line="62">
           <description>Accion permanente: sin efecto en finalizar()</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="62" name="return" description="" type="void">
             <type by_reference="false">void</type>
           </tag>
@@ -1423,7 +1425,7 @@ Perfil asociado: Todos</description>
       </method>
     </class>
     <markers>
-      <todo line="43"></todo>
+      <todo line="43"/>
     </markers>
     <parse_markers>
       <error line="0" code="50007">No page-level DocBlock was found in file protected/components/Acciones/EquipamientoHeroe.php</error>
@@ -1450,7 +1452,7 @@ Perfil asociado: Todos</description>
         <full_name>getInstance</full_name>
         <docblock line="17">
           <description>Funcion para acceder al patron Singleton</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="17" name="static" description=""/>
           <tag line="17" name="return" description="instancia de la accion" type="\EscribirBlog">
             <type by_reference="false">\EscribirBlog</type>
@@ -1462,7 +1464,7 @@ Perfil asociado: Todos</description>
         <full_name>ejecutar</full_name>
         <docblock line="31">
           <description>Ejecutar la accion</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="31" name="param" description="id del usuario que realiza la accion" type="int" variable="$id_usuario">
             <type by_reference="false">int</type>
           </tag>
@@ -1475,7 +1477,7 @@ Perfil asociado: Todos</description>
         </docblock>
         <argument line="38">
           <name>$id_usuario</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -1484,7 +1486,7 @@ Perfil asociado: Todos</description>
         <full_name>finalizar</full_name>
         <docblock line="53">
           <description>Accion permanente: sin efecto en finalizar()</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="53" name="return" description="" type="void">
             <type by_reference="false">void</type>
           </tag>
@@ -1492,7 +1494,7 @@ Perfil asociado: Todos</description>
       </method>
     </class>
     <markers>
-      <todo line="40"></todo>
+      <todo line="40"/>
     </markers>
     <parse_markers>
       <error line="0" code="50007">No page-level DocBlock was found in file protected/components/Acciones/EscribirBlog.php</error>
@@ -1519,7 +1521,7 @@ Perfil asociado: Todos</description>
         <full_name>getInstance</full_name>
         <docblock line="17">
           <description>Funcion para acceder al patron Singleton</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="17" name="static" description=""/>
           <tag line="17" name="return" description="instancia de la accion" type="\FalsearCuentas">
             <type by_reference="false">\FalsearCuentas</type>
@@ -1531,7 +1533,7 @@ Perfil asociado: Todos</description>
         <full_name>ejecutar</full_name>
         <docblock line="31">
           <description>Ejecutar la accion</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="31" name="param" description="id del usuario que realiza la accion" type="int" variable="$id_usuario">
             <type by_reference="false">int</type>
           </tag>
@@ -1544,7 +1546,7 @@ Perfil asociado: Todos</description>
         </docblock>
         <argument line="38">
           <name>$id_usuario</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -1553,7 +1555,7 @@ Perfil asociado: Todos</description>
         <full_name>finalizar</full_name>
         <docblock line="57">
           <description>finalizar la accion</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="57" name="param" description="id del usuario" type="int" variable="$id_usuario">
             <type by_reference="false">int</type>
           </tag>
@@ -1566,19 +1568,19 @@ Perfil asociado: Todos</description>
         </docblock>
         <argument line="64">
           <name>$id_usuario</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="64">
           <name>$id_habilidad</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
     </class>
     <markers>
-      <todo line="40"></todo>
-      <todo line="66"></todo>
+      <todo line="40"/>
+      <todo line="66"/>
     </markers>
     <parse_markers>
       <error line="0" code="50007">No page-level DocBlock was found in file protected/components/Acciones/FalsearCuentas.php</error>
@@ -1613,7 +1615,7 @@ Perfil asociado: Todos</description>
         <full_name>getInstance</full_name>
         <docblock line="25">
           <description>Funcion para acceder al patron Singleton</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="25" name="static" description=""/>
           <tag line="25" name="return" description="instancia de la accion" type="\FicharJugador">
             <type by_reference="false">\FicharJugador</type>
@@ -1625,7 +1627,7 @@ Perfil asociado: Todos</description>
         <full_name>ejecutar</full_name>
         <docblock line="39">
           <description>Ejecutar la accion</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="39" name="param" description="id del usuario que realiza la accion" type="int" variable="$id_usuario">
             <type by_reference="false">int</type>
           </tag>
@@ -1638,7 +1640,7 @@ Perfil asociado: Todos</description>
         </docblock>
         <argument line="46">
           <name>$id_accion</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -1647,7 +1649,7 @@ Perfil asociado: Todos</description>
         <full_name>finalizar</full_name>
         <docblock line="82">
           <description>Accion grupal: sin efecto en finalizar()</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="82" name="return" description="" type="void">
             <type by_reference="false">void</type>
           </tag>
@@ -1655,7 +1657,7 @@ Perfil asociado: Todos</description>
       </method>
     </class>
     <markers>
-      <todo line="48"></todo>
+      <todo line="48"/>
     </markers>
     <parse_markers>
       <error line="0" code="50007">No page-level DocBlock was found in file protected/components/Acciones/FicharJugador.php</error>
@@ -1698,7 +1700,7 @@ Perfil asociado: Todos</description>
         <full_name>getInstance</full_name>
         <docblock line="27">
           <description>Funcion para acceder al patron Singleton</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="27" name="static" description=""/>
           <tag line="27" name="return" description="instancia de la accion" type="\Apostar">
             <type by_reference="false">\Apostar</type>
@@ -1710,7 +1712,7 @@ Perfil asociado: Todos</description>
         <full_name>ejecutar</full_name>
         <docblock line="41">
           <description>Ejecutar la accion</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="41" name="param" description="id del usuario que realiza la accion" type="int" variable="$id_usuario">
             <type by_reference="false">int</type>
           </tag>
@@ -1723,7 +1725,7 @@ Perfil asociado: Todos</description>
         </docblock>
         <argument line="48">
           <name>$id_accion</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -1732,7 +1734,7 @@ Perfil asociado: Todos</description>
         <full_name>finalizar</full_name>
         <docblock line="85">
           <description>Accion grupal: sin efecto en finalizar()</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="85" name="return" description="" type="void">
             <type by_reference="false">void</type>
           </tag>
@@ -1774,7 +1776,7 @@ Aumenta el atributo &lt;dinero_gen&gt;&lt;/p&gt;</long-description>
         <full_name>getInstance</full_name>
         <docblock line="25">
           <description>Funcion para acceder al patron Singleton</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="25" name="static" description=""/>
           <tag line="25" name="return" description="instancia de la accion" type="\FinanciarPelicula">
             <type by_reference="false">\FinanciarPelicula</type>
@@ -1786,7 +1788,7 @@ Aumenta el atributo &lt;dinero_gen&gt;&lt;/p&gt;</long-description>
         <full_name>ejecutar</full_name>
         <docblock line="39">
           <description>Ejecutar la accion</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="39" name="param" description="id del usuario que realiza la accion" type="int" variable="$id_usuario">
             <type by_reference="false">int</type>
           </tag>
@@ -1799,7 +1801,7 @@ Aumenta el atributo &lt;dinero_gen&gt;&lt;/p&gt;</long-description>
         </docblock>
         <argument line="46">
           <name>$id_accion</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -1808,7 +1810,7 @@ Aumenta el atributo &lt;dinero_gen&gt;&lt;/p&gt;</long-description>
         <full_name>finalizar</full_name>
         <docblock line="82">
           <description>Accion grupal: sin efecto en finalizar()</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="82" name="return" description="" type="void">
             <type by_reference="false">void</type>
           </tag>
@@ -1816,7 +1818,7 @@ Aumenta el atributo &lt;dinero_gen&gt;&lt;/p&gt;</long-description>
       </method>
     </class>
     <markers>
-      <todo line="48"></todo>
+      <todo line="48"/>
     </markers>
     <parse_markers>
       <error line="0" code="50007">No page-level DocBlock was found in file protected/components/Acciones/FinanciarPelicula.php</error>
@@ -1856,7 +1858,7 @@ Aumenta el atributo &lt;dinero_gen&gt;&lt;/p&gt;</long-description>
         <full_name>getInstance</full_name>
         <docblock line="24">
           <description>Funcion para acceder al patron Singleton</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="24" name="static" description=""/>
           <tag line="24" name="return" description="instancia de la accion" type="\Apostar">
             <type by_reference="false">\Apostar</type>
@@ -1868,17 +1870,17 @@ Aumenta el atributo &lt;dinero_gen&gt;&lt;/p&gt;</long-description>
         <full_name>ejecutar</full_name>
         <argument line="40">
           <name>$id_usuario</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="40">
           <name>$id_partido</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="40">
           <name>$id_equipo</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -1923,7 +1925,7 @@ Aumenta el atributo &lt;dinero_gen&gt;&lt;/p&gt;</long-description>
         <full_name>getInstance</full_name>
         <docblock line="24">
           <description>Funcion para acceder al patron Singleton</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="24" name="static" description=""/>
           <tag line="24" name="return" description="instancia de la accion" type="\HackearPlataforma">
             <type by_reference="false">\HackearPlataforma</type>
@@ -1935,7 +1937,7 @@ Aumenta el atributo &lt;dinero_gen&gt;&lt;/p&gt;</long-description>
         <full_name>ejecutar</full_name>
         <docblock line="38">
           <description>Ejecutar la accion</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="38" name="param" description="id del usuario que realiza la accion" type="int" variable="$id_usuario">
             <type by_reference="false">int</type>
           </tag>
@@ -1948,7 +1950,7 @@ Aumenta el atributo &lt;dinero_gen&gt;&lt;/p&gt;</long-description>
         </docblock>
         <argument line="45">
           <name>$id_accion</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -1957,7 +1959,7 @@ Aumenta el atributo &lt;dinero_gen&gt;&lt;/p&gt;</long-description>
         <full_name>finalizar</full_name>
         <docblock line="78">
           <description>Accion grupal: sin efecto en finalizar()</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="78" name="return" description="" type="void">
             <type by_reference="false">void</type>
           </tag>
@@ -1965,7 +1967,7 @@ Aumenta el atributo &lt;dinero_gen&gt;&lt;/p&gt;</long-description>
       </method>
     </class>
     <markers>
-      <todo line="47"></todo>
+      <todo line="47"/>
     </markers>
     <parse_markers>
       <error line="0" code="50007">No page-level DocBlock was found in file protected/components/Acciones/HackearPlataforma.php</error>
@@ -1997,7 +1999,7 @@ Perfil asociado: Empresario</description>
         <full_name>ejecutar</full_name>
         <argument line="27">
           <name>$id_accion</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -2040,7 +2042,7 @@ Perfil asociado: Empresario</description>
         <full_name>getInstance</full_name>
         <docblock line="21">
           <description>Funcion para acceder al patron Singleton</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="21" name="static" description=""/>
           <tag line="21" name="return" description="instancia de la accion" type="\MandarJugadorHospital">
             <type by_reference="false">\MandarJugadorHospital</type>
@@ -2052,7 +2054,7 @@ Perfil asociado: Empresario</description>
         <full_name>ejecutar</full_name>
         <docblock line="35">
           <description>Ejecutar la accion</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="35" name="param" description="id del usuario que realiza la accion" type="int" variable="$id_usuario">
             <type by_reference="false">int</type>
           </tag>
@@ -2065,7 +2067,7 @@ Perfil asociado: Empresario</description>
         </docblock>
         <argument line="42">
           <name>$id_accion</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -2074,7 +2076,7 @@ Perfil asociado: Empresario</description>
         <full_name>finalizar</full_name>
         <docblock line="75">
           <description>Accion grupal: sin efecto en finalizar()</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="75" name="return" description="" type="void">
             <type by_reference="false">void</type>
           </tag>
@@ -2082,7 +2084,7 @@ Perfil asociado: Empresario</description>
       </method>
     </class>
     <markers>
-      <todo line="44"></todo>
+      <todo line="44"/>
     </markers>
     <parse_markers>
       <error line="0" code="50007">No page-level DocBlock was found in file protected/components/Acciones/MandarJugadorHospital.php</error>
@@ -2117,7 +2119,7 @@ Perfil asociado: Empresario</description>
         <full_name>getInstance</full_name>
         <docblock line="21">
           <description>Funcion para acceder al patron Singleton</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="21" name="static" description=""/>
           <tag line="21" name="return" description="instancia de la accion" type="\ConstruirEstadio">
             <type by_reference="false">\ConstruirEstadio</type>
@@ -2129,7 +2131,7 @@ Perfil asociado: Empresario</description>
         <full_name>ejecutar</full_name>
         <docblock line="35">
           <description>Ejecutar la accion</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="35" name="param" description="id del usuario que realiza la accion" type="int" variable="$id_usuario">
             <type by_reference="false">int</type>
           </tag>
@@ -2142,7 +2144,7 @@ Perfil asociado: Empresario</description>
         </docblock>
         <argument line="42">
           <name>$id_accion</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -2151,7 +2153,7 @@ Perfil asociado: Empresario</description>
         <full_name>finalizar</full_name>
         <docblock line="76">
           <description>Accion grupal: sin efecto en finalizar()</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="76" name="return" description="" type="void">
             <type by_reference="false">void</type>
           </tag>
@@ -2159,7 +2161,7 @@ Perfil asociado: Empresario</description>
       </method>
     </class>
     <markers>
-      <todo line="44"></todo>
+      <todo line="44"/>
     </markers>
     <parse_markers>
       <error line="0" code="50007">No page-level DocBlock was found in file protected/components/Acciones/ObrasBeneficas.php</error>
@@ -2191,7 +2193,7 @@ Perfil asociado: Empresario, Movedora</description>
         <full_name>ejecutar</full_name>
         <argument line="27">
           <name>$id_accion</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -2232,7 +2234,7 @@ Perfil asociado: Ultra, Movedora</description>
         <full_name>ejecutar</full_name>
         <argument line="30">
           <name>$id_accion</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -2273,7 +2275,7 @@ Perfil asociado: Movedora</description>
         <full_name>ejecutar</full_name>
         <argument line="28">
           <name>$id_accion</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -2320,7 +2322,7 @@ Perfil asociado: Movedora</description>
         <full_name>getInstance</full_name>
         <docblock line="25">
           <description>Funcion para acceder al patron Singleton</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="25" name="static" description=""/>
           <tag line="25" name="return" description="instancia de la accion" type="\PublicarDifamaciones">
             <type by_reference="false">\PublicarDifamaciones</type>
@@ -2332,7 +2334,7 @@ Perfil asociado: Movedora</description>
         <full_name>ejecutar</full_name>
         <docblock line="39">
           <description>Ejecutar la accion</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="39" name="param" description="id del usuario que realiza la accion" type="int" variable="$id_usuario">
             <type by_reference="false">int</type>
           </tag>
@@ -2345,7 +2347,7 @@ Perfil asociado: Movedora</description>
         </docblock>
         <argument line="46">
           <name>$id_accion</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -2354,7 +2356,7 @@ Perfil asociado: Movedora</description>
         <full_name>finalizar</full_name>
         <docblock line="81">
           <description>Accion grupal: sin efecto en finalizar()</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="81" name="return" description="" type="void">
             <type by_reference="false">void</type>
           </tag>
@@ -2362,7 +2364,7 @@ Perfil asociado: Movedora</description>
       </method>
     </class>
     <markers>
-      <todo line="48"></todo>
+      <todo line="48"/>
     </markers>
     <parse_markers>
       <error line="0" code="50007">No page-level DocBlock was found in file protected/components/Acciones/PublicarDifamaciones.php</error>
@@ -2420,17 +2422,17 @@ Perfil asociado: Ultra, Movedora</description>
         <full_name>ejecutar</full_name>
         <argument line="25">
           <name>$id_usuario</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="25">
           <name>$id_partido</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="25">
           <name>$id_equipo</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -2463,7 +2465,7 @@ Tipo: Partido</description>
         <full_name>getInstance</full_name>
         <docblock line="13">
           <description>Acceso al patron Singleton</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="13" name="static" description=""/>
           <tag line="13" name="return" description="" type="void">
             <type by_reference="false">void</type>
@@ -2475,24 +2477,24 @@ Tipo: Partido</description>
         <full_name>ejecutar</full_name>
         <docblock line="26">
           <description>Aplicar los efectos de la accion</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="26" name="return" description="" type="void">
             <type by_reference="false">void</type>
           </tag>
         </docblock>
         <argument line="30">
           <name>$id_usuario</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="30">
           <name>$id_partido</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="30">
           <name>$id_equipo</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -2501,12 +2503,12 @@ Tipo: Partido</description>
         <full_name>finalizar</full_name>
         <docblock line="52">
           <description>Accion de partido : Sin efecto en finalizar</description>
-          <long-description></long-description>
+          <long-description/>
         </docblock>
       </method>
     </class>
     <markers>
-      <todo line="32"></todo>
+      <todo line="32"/>
     </markers>
     <parse_markers>
       <error line="0" code="50007">No page-level DocBlock was found in file protected/components/Acciones/TumultoGradas.php</error>
@@ -2618,7 +2620,7 @@ Tipo: Partido</description>
         <full_name>getDateFormatted</full_name>
         <argument line="24">
           <name>$value</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -2627,7 +2629,7 @@ Tipo: Partido</description>
         <full_name>acceptMessage</full_name>
         <argument line="29">
           <name>$message</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -2729,7 +2731,7 @@ Tipo: Partido</description>
         <value>8</value>
         <docblock line="19">
           <description>Define el peso para la distancia "cerca" : 8</description>
-          <long-description></long-description>
+          <long-description/>
         </docblock>
       </constant>
       <constant namespace="global" line="22" package="componentes\acciones">
@@ -2738,7 +2740,7 @@ Tipo: Partido</description>
         <value>16</value>
         <docblock line="21">
           <description>Define el peso de un atributo para "cerca" : 16</description>
-          <long-description></long-description>
+          <long-description/>
         </docblock>
       </constant>
       <constant namespace="global" line="24" package="componentes\acciones">
@@ -2747,7 +2749,7 @@ Tipo: Partido</description>
         <value>3</value>
         <docblock line="23">
           <description>Define el peso de un atributo para "lejos" : 3</description>
-          <long-description></long-description>
+          <long-description/>
         </docblock>
       </constant>
       <constant namespace="global" line="26" package="componentes\acciones">
@@ -2756,7 +2758,7 @@ Tipo: Partido</description>
         <value>256</value>
         <docblock line="25">
           <description>Define el peso inicial : 256</description>
-          <long-description></long-description>
+          <long-description/>
         </docblock>
       </constant>
       <constant namespace="global" line="28" package="componentes\acciones">
@@ -2765,7 +2767,7 @@ Tipo: Partido</description>
         <value>12000</value>
         <docblock line="27">
           <description>Define el peso del multiplicador : 12000</description>
-          <long-description></long-description>
+          <long-description/>
         </docblock>
       </constant>
       <constant namespace="global" line="30" package="componentes\acciones">
@@ -2774,7 +2776,7 @@ Tipo: Partido</description>
         <value>100</value>
         <docblock line="29">
           <description>Define el peso base del factorial: 100</description>
-          <long-description></long-description>
+          <long-description/>
         </docblock>
       </constant>
       <method final="false" abstract="false" static="true" visibility="private" namespace="global" line="41" package="componentes\acciones">
@@ -2794,7 +2796,7 @@ Tipo: Partido</description>
         </docblock>
         <argument line="41">
           <name>$x</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -2803,7 +2805,7 @@ Tipo: Partido</description>
         <full_name>gauss</full_name>
         <docblock line="61">
           <description>Calcula la funcion de Gauss para un punto, con una media y una desviacion</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="61" name="param" description="Punto en el que calcular la normal" type="\(double)" variable="$x">
             <type by_reference="false">\(double)</type>
           </tag>
@@ -2819,17 +2821,17 @@ Tipo: Partido</description>
         </docblock>
         <argument line="69">
           <name>$x</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="69">
           <name>$avg</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="69">
           <name>$stdev</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -2838,7 +2840,7 @@ Tipo: Partido</description>
         <full_name>equilibrio</full_name>
         <docblock line="73">
           <description>Calcula el punto de equilibrio al cual debe tender el partido en reposo.</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="73" name="param" description="Array de parámetros de la fórmula" type="\" variable="$params"/>
           <tag line="73" name="return" description="deequilibrio del partido" type="\Punto">
             <type by_reference="false">\Punto</type>
@@ -2846,7 +2848,7 @@ Tipo: Partido</description>
         </docblock>
         <argument line="79">
           <name>$params</name>
-          <default></default>
+          <default/>
           <type>array</type>
         </argument>
       </method>
@@ -2855,7 +2857,7 @@ Tipo: Partido</description>
         <full_name>calcMedia</full_name>
         <docblock line="100">
           <description>Calcula la media de la función final dados los parámetros para el turno.</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="100" name="param" description="Array de parámetros de la fórmula" type="\" variable="$params"/>
           <tag line="100" name="return" description="de la función final" type="\Media">
             <type by_reference="false">\Media</type>
@@ -2863,7 +2865,7 @@ Tipo: Partido</description>
         </docblock>
         <argument line="106">
           <name>$params</name>
-          <default></default>
+          <default/>
           <type>array</type>
         </argument>
       </method>
@@ -2873,7 +2875,7 @@ Tipo: Partido</description>
         <docblock line="130">
           <description>Calcula la desviación típica de la función final dados los parámetros
 para el turno.</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="130" name="param" description="Array de parámetros de la fórmula" type="\" variable="$params"/>
           <tag line="130" name="return" description="típica de la función final" type="\Desviación">
             <type by_reference="false">\Desviación</type>
@@ -2881,7 +2883,7 @@ para el turno.</description>
         </docblock>
         <argument line="137">
           <name>$params</name>
-          <default></default>
+          <default/>
           <type>array</type>
         </argument>
       </method>
@@ -2891,7 +2893,7 @@ para el turno.</description>
         <docblock line="163">
           <description>Devuelve un array de los pesos que indicarán la probabilidad de cada
 cambio de estado.</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="163" name="param" description="Array de parámetros de la fórmula" type="\" variable="$params"/>
           <tag line="163" name="return" description="de los cambios de estado" type="\Pesos">
             <type by_reference="false">\Pesos</type>
@@ -2899,7 +2901,7 @@ cambio de estado.</description>
         </docblock>
         <argument line="170">
           <name>$params</name>
-          <default></default>
+          <default/>
           <type>array</type>
         </argument>
       </method>
@@ -2909,7 +2911,7 @@ cambio de estado.</description>
         <docblock line="227">
           <description>Obtiene un array de {@link #pesos} y lo transforma en probabilidades,
 dividiendo cada elemento entre la suma de todos</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="227" name="param" description="Array de parámetros de la fórmula" type="\" variable="$params"/>
           <tag line="227" name="return" description="de los cambios de estado" type="\Probabilidades">
             <type by_reference="false">\Probabilidades</type>
@@ -2917,7 +2919,7 @@ dividiendo cada elemento entre la suma de todos</description>
         </docblock>
         <argument line="234">
           <name>$params</name>
-          <default></default>
+          <default/>
           <type>array</type>
         </argument>
       </method>
@@ -2928,12 +2930,12 @@ dividiendo cada elemento entre la suma de todos</description>
           <description>Calcula de forma aleatoria el siguiente estado, basado en las
 probabilidades calculadas por {@link #probabilidades} y
 los parámetros dados.</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="251" name="param" description="Array de parámetros de la fórmula" type="\" variable="$params"/>
         </docblock>
         <argument line="258">
           <name>$params</name>
-          <default></default>
+          <default/>
           <type>array</type>
         </argument>
       </method>
@@ -2955,7 +2957,7 @@ los parámetros dados.</description>
       <full_name>\Helper</full_name>
       <docblock line="3">
         <description>Clase con funciones auxiliares de utilidad</description>
-        <long-description></long-description>
+        <long-description/>
         <tag line="3" name="package" description="componentes"/>
       </docblock>
       <property final="false" static="true" visibility="public" line="12" namespace="global" package="Default">
@@ -2967,7 +2969,7 @@ los parámetros dados.</description>
         <full_name>aumentar_recursos</full_name>
         <docblock line="33">
           <description>Funcion auxiliar que modifica la tabla de recursos</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="33" name="paremetro" description="usuario al que modificamos sus recursos"/>
           <tag line="33" name="parametro" description="columna sobre la que modificamos (dinero, dinero_gen, ...)"/>
           <tag line="33" name="parametro" description="cantidad de recursos que aumentamos"/>
@@ -2976,17 +2978,17 @@ los parámetros dados.</description>
         </docblock>
         <argument line="41">
           <name>$id_usuario</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="41">
           <name>$columna</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="41">
           <name>$cantidad</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -2995,7 +2997,7 @@ los parámetros dados.</description>
         <full_name>quitar_recursos</full_name>
         <docblock line="94">
           <description>Funcion auxiliar que modifica la tabla de recursos</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="94" name="paremetro" description="usuario al que modificamos sus recursos"/>
           <tag line="94" name="parametro" description="columna sobre la que modificamos (dinero, dinero_gen, ...)"/>
           <tag line="94" name="parametro" description="cantidad de recursos que quitamos"/>
@@ -3004,17 +3006,17 @@ los parámetros dados.</description>
         </docblock>
         <argument line="102">
           <name>$id_usuario</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="102">
           <name>$columna</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="102">
           <name>$cantidad</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -3023,7 +3025,7 @@ los parámetros dados.</description>
         <full_name>aumentar_factores</full_name>
         <docblock line="143">
           <description>Funcion auxiliar que modifica la tabla de partidos</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="143" name="paremetro" description="partido en el que modificamos sus factores"/>
           <tag line="143" name="paremetro" description="equipo al que pertenece"/>
           <tag line="143" name="parametro" description="columna sobre la que modificamos (moral,ambiente,ind.ofensivo...)"/>
@@ -3032,22 +3034,22 @@ los parámetros dados.</description>
         </docblock>
         <argument line="151">
           <name>$id_partido</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="151">
           <name>$id_equipo</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="151">
           <name>$columna</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="151">
           <name>$cantidad</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -3056,7 +3058,7 @@ los parámetros dados.</description>
         <full_name>disminuir_factores</full_name>
         <docblock line="188">
           <description>Funcion auxiliar que modifica la tabla de partidos</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="188" name="paremetro" description="partido en el que modificamos sus factores"/>
           <tag line="188" name="paremetro" description="equipo al que pertenece"/>
           <tag line="188" name="parametro" description="columna sobre la que modificamos (moral,ambiente,ind.ofensivo...)"/>
@@ -3065,22 +3067,22 @@ los parámetros dados.</description>
         </docblock>
         <argument line="196">
           <name>$id_partido</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="196">
           <name>$id_equipo</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="196">
           <name>$columna</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="196">
           <name>$cantidad</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -3099,22 +3101,22 @@ aumento normal de factores, éste se hace de forma proporcional.&lt;/p&gt;</long
         </docblock>
         <argument line="242">
           <name>$id_partido</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="242">
           <name>$id_equipo</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="242">
           <name>$columna</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="242">
           <name>$proporcion</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -3130,7 +3132,7 @@ un fichero LESS. Si no, cargaun fichero CSS.&lt;/p&gt;</long-description>
         </docblock>
         <argument line="311">
           <name>$file</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -3182,7 +3184,7 @@ un fichero LESS. Si no, cargaun fichero CSS.&lt;/p&gt;</long-description>
         <value>0</value>
         <docblock line="19">
           <description>turno de inicializacion del partido</description>
-          <long-description></long-description>
+          <long-description/>
         </docblock>
       </constant>
       <constant namespace="global" line="22" package="componentes">
@@ -3191,7 +3193,7 @@ un fichero LESS. Si no, cargaun fichero CSS.&lt;/p&gt;</long-description>
         <value>11</value>
         <docblock line="21">
           <description>turno de finalizacion del partido</description>
-          <long-description></long-description>
+          <long-description/>
         </docblock>
       </constant>
       <constant namespace="global" line="24" package="componentes">
@@ -3200,7 +3202,7 @@ un fichero LESS. Si no, cargaun fichero CSS.&lt;/p&gt;</long-description>
         <value>6</value>
         <docblock line="23">
           <description>turno para el descanso</description>
-          <long-description></long-description>
+          <long-description/>
         </docblock>
       </constant>
       <constant namespace="global" line="27" package="componentes">
@@ -3209,168 +3211,168 @@ un fichero LESS. Si no, cargaun fichero CSS.&lt;/p&gt;</long-description>
         <value>500</value>
         <docblock line="26">
           <description>puntuacion de ambiente estandar</description>
-          <long-description></long-description>
+          <long-description/>
         </docblock>
       </constant>
       <property final="false" static="false" visibility="private" line="30" namespace="global" package="Default">
         <name>$id_partido</name>
-        <default></default>
+        <default/>
         <docblock line="29">
-          <description></description>
-          <long-description></long-description>
+          <description/>
+          <long-description/>
           <tag line="29" name="type" description="int"/>
         </docblock>
       </property>
       <property final="false" static="false" visibility="private" line="32" namespace="global" package="Default">
         <name>$id_local</name>
-        <default></default>
+        <default/>
         <docblock line="31">
-          <description></description>
-          <long-description></long-description>
+          <description/>
+          <long-description/>
           <tag line="31" name="type" description="int"/>
         </docblock>
       </property>
       <property final="false" static="false" visibility="private" line="34" namespace="global" package="Default">
         <name>$id_visitante</name>
-        <default></default>
+        <default/>
         <docblock line="33">
-          <description></description>
-          <long-description></long-description>
+          <description/>
+          <long-description/>
           <tag line="33" name="type" description="int"/>
         </docblock>
       </property>
       <property final="false" static="false" visibility="private" line="36" namespace="global" package="Default">
         <name>$turno</name>
-        <default></default>
+        <default/>
         <docblock line="35">
-          <description></description>
-          <long-description></long-description>
+          <description/>
+          <long-description/>
           <tag line="35" name="type" description="int"/>
         </docblock>
       </property>
       <property final="false" static="false" visibility="private" line="38" namespace="global" package="Default">
         <name>$cronica</name>
-        <default></default>
+        <default/>
         <docblock line="37">
-          <description></description>
-          <long-description></long-description>
+          <description/>
+          <long-description/>
           <tag line="37" name="type" description="string"/>
         </docblock>
       </property>
       <property final="false" static="false" visibility="private" line="40" namespace="global" package="Default">
         <name>$ambiente</name>
-        <default></default>
+        <default/>
         <docblock line="39">
-          <description></description>
-          <long-description></long-description>
+          <description/>
+          <long-description/>
           <tag line="39" name="type" description="int"/>
         </docblock>
       </property>
       <property final="false" static="false" visibility="private" line="42" namespace="global" package="Default">
         <name>$dif_niveles</name>
-        <default></default>
+        <default/>
         <docblock line="41">
-          <description></description>
-          <long-description></long-description>
+          <description/>
+          <long-description/>
           <tag line="41" name="type" description="int"/>
         </docblock>
       </property>
       <property final="false" static="false" visibility="private" line="44" namespace="global" package="Default">
         <name>$aforo_local</name>
-        <default></default>
+        <default/>
         <docblock line="43">
-          <description></description>
-          <long-description></long-description>
+          <description/>
+          <long-description/>
           <tag line="43" name="type" description="int"/>
         </docblock>
       </property>
       <property final="false" static="false" visibility="private" line="46" namespace="global" package="Default">
         <name>$aforo_visitante</name>
-        <default></default>
+        <default/>
         <docblock line="45">
-          <description></description>
-          <long-description></long-description>
+          <description/>
+          <long-description/>
           <tag line="45" name="type" description="int"/>
         </docblock>
       </property>
       <property final="false" static="false" visibility="private" line="49" namespace="global" package="Default">
         <name>$ofensivo_local</name>
-        <default></default>
+        <default/>
         <docblock line="48">
-          <description></description>
-          <long-description></long-description>
+          <description/>
+          <long-description/>
           <tag line="48" name="type" description="int"/>
         </docblock>
       </property>
       <property final="false" static="false" visibility="private" line="51" namespace="global" package="Default">
         <name>$ofensivo_visitante</name>
-        <default></default>
+        <default/>
         <docblock line="50">
-          <description></description>
-          <long-description></long-description>
+          <description/>
+          <long-description/>
           <tag line="50" name="type" description="int"/>
         </docblock>
       </property>
       <property final="false" static="false" visibility="private" line="53" namespace="global" package="Default">
         <name>$defensivo_local</name>
-        <default></default>
+        <default/>
         <docblock line="52">
-          <description></description>
-          <long-description></long-description>
+          <description/>
+          <long-description/>
           <tag line="52" name="type" description="int"/>
         </docblock>
       </property>
       <property final="false" static="false" visibility="private" line="55" namespace="global" package="Default">
         <name>$defensivo_visitante</name>
-        <default></default>
+        <default/>
         <docblock line="54">
-          <description></description>
-          <long-description></long-description>
+          <description/>
+          <long-description/>
           <tag line="54" name="type" description="int"/>
         </docblock>
       </property>
       <property final="false" static="false" visibility="private" line="58" namespace="global" package="Default">
         <name>$goles_local</name>
-        <default></default>
+        <default/>
         <docblock line="57">
-          <description></description>
-          <long-description></long-description>
+          <description/>
+          <long-description/>
           <tag line="57" name="type" description="int"/>
         </docblock>
       </property>
       <property final="false" static="false" visibility="private" line="60" namespace="global" package="Default">
         <name>$goles_visitante</name>
-        <default></default>
+        <default/>
         <docblock line="59">
-          <description></description>
-          <long-description></long-description>
+          <description/>
+          <long-description/>
           <tag line="59" name="type" description="int"/>
         </docblock>
       </property>
       <property final="false" static="false" visibility="private" line="62" namespace="global" package="Default">
         <name>$estado</name>
-        <default></default>
+        <default/>
         <docblock line="61">
-          <description></description>
-          <long-description></long-description>
+          <description/>
+          <long-description/>
           <tag line="61" name="type" description="int"/>
         </docblock>
       </property>
       <property final="false" static="false" visibility="private" line="64" namespace="global" package="Default">
         <name>$moral_local</name>
-        <default></default>
+        <default/>
         <docblock line="63">
-          <description></description>
-          <long-description></long-description>
+          <description/>
+          <long-description/>
           <tag line="63" name="type" description="int"/>
         </docblock>
       </property>
       <property final="false" static="false" visibility="private" line="66" namespace="global" package="Default">
         <name>$moral_visitante</name>
-        <default></default>
+        <default/>
         <docblock line="65">
-          <description></description>
-          <long-description></long-description>
+          <description/>
+          <long-description/>
           <tag line="65" name="type" description="int"/>
         </docblock>
       </property>
@@ -3394,7 +3396,7 @@ un fichero LESS. Si no, cargaun fichero CSS.&lt;/p&gt;</long-description>
         </docblock>
         <argument line="77">
           <name>$id_partido</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -3403,7 +3405,7 @@ un fichero LESS. Si no, cargaun fichero CSS.&lt;/p&gt;</long-description>
         <full_name>guardaEstado</full_name>
         <docblock line="102">
           <description>Guarda toda la información del estado actual en la base de datos</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="102" name="throws" description="partido inexistente" type="\Exception">
             <type by_reference="false">\Exception</type>
           </tag>
@@ -3446,7 +3448,7 @@ un fichero LESS. Si no, cargaun fichero CSS.&lt;/p&gt;</long-description>
         <full_name>generaCronicaTurno</full_name>
         <argument line="264">
           <name>$estado_antiguo</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -3467,12 +3469,12 @@ un fichero LESS. Si no, cargaun fichero CSS.&lt;/p&gt;</long-description>
         <full_name>bonifAnimo</full_name>
         <argument line="454">
           <name>$equipo</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="454">
           <name>$bonus</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -3497,7 +3499,7 @@ un fichero LESS. Si no, cargaun fichero CSS.&lt;/p&gt;</long-description>
         <full_name>actualizaSiguientePartido</full_name>
         <argument line="644">
           <name>$id_equipo</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -3506,7 +3508,7 @@ un fichero LESS. Si no, cargaun fichero CSS.&lt;/p&gt;</long-description>
         <full_name>rellenaSiguientePartido</full_name>
         <argument line="690">
           <name>$id_equipo</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -3515,7 +3517,7 @@ un fichero LESS. Si no, cargaun fichero CSS.&lt;/p&gt;</long-description>
         <full_name>eliminaGrupales</full_name>
         <argument line="741">
           <name>$id_equipo</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -3628,7 +3630,7 @@ data can identity the user.&lt;/p&gt;</long-description>
       <full_name>\AccionesController</full_name>
       <docblock line="3">
         <description>Controlador de las acciones</description>
-        <long-description></long-description>
+        <long-description/>
         <tag line="3" name="package" description="controladores"/>
       </docblock>
       <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="18" package="controladores">
@@ -3716,7 +3718,7 @@ al que pertenece el usuario&lt;/p&gt;&lt;/li&gt;
         </docblock>
         <argument line="110">
           <name>$id_accion</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -3761,7 +3763,7 @@ usuario.&lt;/p&gt;
         </docblock>
         <argument line="272">
           <name>$id_accion</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -3795,7 +3797,7 @@ usuario.&lt;/p&gt;
         </docblock>
         <argument line="455">
           <name>$id_accion</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -3832,7 +3834,7 @@ usuario.&lt;/p&gt;
         </docblock>
         <argument line="534">
           <name>$id_accion</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -3859,12 +3861,12 @@ usuario.&lt;/p&gt;
         </docblock>
         <argument line="637">
           <name>$id_accion</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="637">
           <name>$id_jugador</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -3888,7 +3890,7 @@ usuario.&lt;/p&gt;
         </docblock>
         <argument line="666">
           <name>$id</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -3907,7 +3909,7 @@ usuario.&lt;/p&gt;
         </docblock>
         <argument line="682">
           <name>$model</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -3929,7 +3931,7 @@ usuario.&lt;/p&gt;
       <full_name>\EmailsController</full_name>
       <docblock line="3">
         <description>Controlador de la mensajeria</description>
-        <long-description></long-description>
+        <long-description/>
         <tag line="3" name="package" description="controladores"/>
       </docblock>
       <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="18" package="controladores">
@@ -3971,7 +3973,7 @@ usuario.&lt;/p&gt;
         <full_name>actionIndex</full_name>
         <docblock line="41">
           <description>Muestra la bandeja de entrada del usuario</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="41" name="route" description="jugadorNum12/emails"/>
           <tag line="41" name="return" description="" type="void">
             <type by_reference="false">void</type>
@@ -3983,18 +3985,18 @@ usuario.&lt;/p&gt;
         <full_name>actionRedactar</full_name>
         <docblock line="71">
           <description>Muestra la formulario para redactar un email junto con una lista de usuarios</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="71" name="ruta" description="jugadorNum12/emails/redactar"/>
           <tag line="71" name="redirige" description="juagdorNum12/emails"/>
         </docblock>
         <argument line="77">
           <name>$destinatario</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="77">
           <name>$tema</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -4003,7 +4005,7 @@ usuario.&lt;/p&gt;
         <full_name>actionLeerEmail</full_name>
         <docblock line="116">
           <description>Muestra un email</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="116" name="param" description="id del email a leer" type="int" variable="$id">
             <type by_reference="false">int</type>
           </tag>
@@ -4014,7 +4016,7 @@ usuario.&lt;/p&gt;
         </docblock>
         <argument line="124">
           <name>$id</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -4023,7 +4025,7 @@ usuario.&lt;/p&gt;
         <full_name>actionEliminarEmails</full_name>
         <docblock line="149">
           <description>Elimina emails</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="149" name="param" description="id del email a eliminar o 0 si se quieren eliminar todos" type="int" variable="$id">
             <type by_reference="false">int</type>
           </tag>
@@ -4039,12 +4041,12 @@ usuario.&lt;/p&gt;
         </docblock>
         <argument line="161">
           <name>$id</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="161">
           <name>$borrado</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -4053,7 +4055,7 @@ usuario.&lt;/p&gt;
         <full_name>actionEnviados</full_name>
         <docblock line="195">
           <description>Muestra la bandeja de salida del usuario</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="195" name="route" description="jugadorNum12/emails/enviados"/>
           <tag line="195" name="return" description="" type="void">
             <type by_reference="false">void</type>
@@ -4065,13 +4067,13 @@ usuario.&lt;/p&gt;
         <full_name>actionMensajeEquipo</full_name>
         <docblock line="214">
           <description>Al mandar un mensaje a toda la aficion saca los nombres de todos los de tu equipo para mandar el mensaje</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="214" name="parametro" description="id del equipo al que se va a mandar el mensaje"/>
           <tag line="214" name="redirige" description="jugadorNum12/email/redactar"/>
         </docblock>
         <argument line="220">
           <name>$id_equipo</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -4095,7 +4097,7 @@ usuario.&lt;/p&gt;
         </docblock>
         <argument line="247">
           <name>$id</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -4114,7 +4116,7 @@ usuario.&lt;/p&gt;
         </docblock>
         <argument line="263">
           <name>$model</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -4308,7 +4310,7 @@ quedan intactas; el creador de la accion podra si quiere, eliminar esas aportaci
       <full_name>\HabilidadesController</full_name>
       <docblock line="3">
         <description>Controlador de las habilidades</description>
-        <long-description></long-description>
+        <long-description/>
         <tag line="3" name="package" description="controladores"/>
       </docblock>
       <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="18" package="controladores">
@@ -4350,7 +4352,7 @@ quedan intactas; el creador de la accion podra si quiere, eliminar esas aportaci
         <full_name>actionIndex</full_name>
         <docblock line="41">
           <description>Muestra el arbol de habilidades completo</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="41" name="route" description="jugadorNum12/habilidades"/>
           <tag line="41" name="return" description="" type="void">
             <type by_reference="false">void</type>
@@ -4378,7 +4380,7 @@ quedan intactas; el creador de la accion podra si quiere, eliminar esas aportaci
         </docblock>
         <argument line="103">
           <name>$id_habilidad</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -4405,7 +4407,7 @@ quedan intactas; el creador de la accion podra si quiere, eliminar esas aportaci
         </docblock>
         <argument line="173">
           <name>$id_habilidad</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -4429,7 +4431,7 @@ quedan intactas; el creador de la accion podra si quiere, eliminar esas aportaci
         </docblock>
         <argument line="271">
           <name>$id</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -4448,7 +4450,7 @@ quedan intactas; el creador de la accion podra si quiere, eliminar esas aportaci
         </docblock>
         <argument line="287">
           <name>$model</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -4464,7 +4466,7 @@ quedan intactas; el creador de la accion podra si quiere, eliminar esas aportaci
       <full_name>\NotificacionesController</full_name>
       <docblock line="3">
         <description>Controlador de las notificaciones</description>
-        <long-description></long-description>
+        <long-description/>
         <tag line="3" name="package" description="controladores"/>
       </docblock>
       <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="18" package="controladores">
@@ -4506,7 +4508,7 @@ quedan intactas; el creador de la accion podra si quiere, eliminar esas aportaci
         <full_name>actionIndex</full_name>
         <docblock line="41">
           <description>Muestra las notificaciones</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="41" name="route" description="jugadorNum12/notificaciones"/>
           <tag line="41" name="return" description="" type="void">
             <type by_reference="false">void</type>
@@ -4518,7 +4520,7 @@ quedan intactas; el creador de la accion podra si quiere, eliminar esas aportaci
         <full_name>actionLeer</full_name>
         <docblock line="56">
           <description>Leer una notificacion: Cambia el estado de la notificación a leida</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="56" name="param" description="id de la notificacion" type="int" variable="$id">
             <type by_reference="false">int</type>
           </tag>
@@ -4530,7 +4532,7 @@ quedan intactas; el creador de la accion podra si quiere, eliminar esas aportaci
         </docblock>
         <argument line="66">
           <name>$id</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -4539,7 +4541,7 @@ quedan intactas; el creador de la accion podra si quiere, eliminar esas aportaci
         <full_name>actionEliminarNotificaciones</full_name>
         <docblock line="86">
           <description>Eliminar las notificaciones del usuario: Cambia el estado de las notificaciones a leido</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="86" name="route" description="jugadorNum12/notificaciones/index"/>
           <tag line="86" name="return" description="" type="void">
             <type by_reference="false">void</type>
@@ -4566,7 +4568,7 @@ quedan intactas; el creador de la accion podra si quiere, eliminar esas aportaci
         </docblock>
         <argument line="121">
           <name>$id</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -4585,7 +4587,7 @@ quedan intactas; el creador de la accion podra si quiere, eliminar esas aportaci
         </docblock>
         <argument line="137">
           <name>$model</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -4601,7 +4603,7 @@ quedan intactas; el creador de la accion podra si quiere, eliminar esas aportaci
       <full_name>\PartidosController</full_name>
       <docblock line="3">
         <description>Controlador de las jornadas y previas a los partidos</description>
-        <long-description></long-description>
+        <long-description/>
         <tag line="3" name="package" description="controladores"/>
       </docblock>
       <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="19" package="controladores">
@@ -4621,7 +4623,7 @@ quedan intactas; el creador de la accion podra si quiere, eliminar esas aportaci
         </docblock>
         <argument line="19">
           <name>$action</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -4697,7 +4699,7 @@ quedan intactas; el creador de la accion podra si quiere, eliminar esas aportaci
         </docblock>
         <argument line="114">
           <name>$id_partido</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -4723,7 +4725,7 @@ quedan intactas; el creador de la accion podra si quiere, eliminar esas aportaci
         </docblock>
         <argument line="199">
           <name>$id_partido</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -4747,7 +4749,7 @@ quedan intactas; el creador de la accion podra si quiere, eliminar esas aportaci
         </docblock>
         <argument line="298">
           <name>$id_partido</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -4756,7 +4758,7 @@ quedan intactas; el creador de la accion podra si quiere, eliminar esas aportaci
         <full_name>actionActRecursos</full_name>
         <docblock line="352">
           <description>Incrementa los recursos durante el partido de forma asíncrona</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="352" name="param" description="id del usuario al que incrementar recursos" type="int" variable="$id_usuario">
             <type by_reference="false">int</type>
           </tag>
@@ -4767,7 +4769,7 @@ quedan intactas; el creador de la accion podra si quiere, eliminar esas aportaci
         </docblock>
         <argument line="361">
           <name>$id_usuario</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -4791,7 +4793,7 @@ quedan intactas; el creador de la accion podra si quiere, eliminar esas aportaci
         </docblock>
         <argument line="398">
           <name>$id</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -4810,15 +4812,15 @@ quedan intactas; el creador de la accion podra si quiere, eliminar esas aportaci
         </docblock>
         <argument line="414">
           <name>$model</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
     </class>
     <markers>
       <todo line="228">eliminar esta restriccion</todo>
-      <todo line="268"></todo>
-      <todo line="276"></todo>
+      <todo line="268"/>
+      <todo line="276"/>
       <fixme line="300">¿misma logica que actionAsistir?</fixme>
     </markers>
     <parse_markers>
@@ -4832,15 +4834,15 @@ quedan intactas; el creador de la accion podra si quiere, eliminar esas aportaci
       <full_name>\RegistroController</full_name>
       <docblock line="3">
         <description>Controlador del registro</description>
-        <long-description></long-description>
+        <long-description/>
         <tag line="3" name="package" description="controladores"/>
       </docblock>
       <property final="false" static="false" visibility="public" line="12" namespace="global" package="Default">
         <name>$layout</name>
         <default>'//layouts/login'</default>
         <docblock line="11">
-          <description></description>
-          <long-description></long-description>
+          <description/>
+          <long-description/>
           <tag line="11" name="type" description="String"/>
         </docblock>
       </property>
@@ -4898,7 +4900,7 @@ quedan intactas; el creador de la accion podra si quiere, eliminar esas aportaci
         </docblock>
         <argument line="98">
           <name>$id_usuario</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -4930,7 +4932,7 @@ quedan intactas; el creador de la accion podra si quiere, eliminar esas aportaci
         </docblock>
         <argument line="148">
           <name>$id_usuario</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -4949,7 +4951,7 @@ quedan intactas; el creador de la accion podra si quiere, eliminar esas aportaci
         </docblock>
         <argument line="203">
           <name>$model</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -4966,7 +4968,7 @@ quedan intactas; el creador de la accion podra si quiere, eliminar esas aportaci
       <full_name>\ScriptsController</full_name>
       <docblock line="3">
         <description>Esta api permite llamar y testear los diferentes scripts.</description>
-        <long-description></long-description>
+        <long-description/>
         <tag line="3" name="package" description="controladores"/>
       </docblock>
       <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="18" package="controladores">
@@ -5004,7 +5006,7 @@ quedan intactas; el creador de la accion podra si quiere, eliminar esas aportaci
         <full_name>actionEjecutarTurno</full_name>
         <docblock line="44">
           <description>Selecciona los partidos en juego y ejecuta sus turnos correspondientes.</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="44" name="route" description="JugadorNum12/scripts/ejecutarturno"/>
           <tag line="44" name="return" description="" type="void">
             <type by_reference="false">void</type>
@@ -5260,17 +5262,17 @@ Si no se pasan paritcipantes, coje todos los equipos que haya en la tabla Clasif
         </docblock>
         <argument line="487">
           <name>$id_local</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="487">
           <name>$id_visitande</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="487">
           <name>$time</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="487">
@@ -5289,7 +5291,7 @@ Si no se pasan paritcipantes, coje todos los equipos que haya en la tabla Clasif
         <full_name>actionLiga</full_name>
         <docblock line="545">
           <description>Genera una liga con emparejamientos por defecto, que empieza mañana, con jornadas cada 2 días</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="545" name="route" description="JugadorNum12/scripts/liga"/>
           <tag line="545" name="return" description="" type="void">
             <type by_reference="false">void</type>
@@ -5309,7 +5311,7 @@ Si no se pasan paritcipantes, coje todos los equipos que haya en la tabla Clasif
       <full_name>\SiteController</full_name>
       <docblock line="2">
         <description>Controlador principal</description>
-        <long-description></long-description>
+        <long-description/>
         <tag line="2" name="package" description="controladores"/>
       </docblock>
       <property final="false" static="false" visibility="public" line="10" namespace="global" package="Default">
@@ -5321,7 +5323,7 @@ Si no se pasan paritcipantes, coje todos los equipos que haya en la tabla Clasif
         <full_name>actions</full_name>
         <docblock line="12">
           <description>Declares class-based actions.</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="12" name="return" description="" type="void">
             <type by_reference="false">void</type>
           </tag>
@@ -5332,7 +5334,7 @@ Si no se pasan paritcipantes, coje todos los equipos que haya en la tabla Clasif
         <full_name>actionIndex</full_name>
         <docblock line="35">
           <description>This is the default 'index' action that is invoked when an action is not explicitly requested by users.</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="35" name="route" description="jugadorNum12/site/index"/>
           <tag line="35" name="redirect" description="jugadorNum12/site/login (guest)"/>
           <tag line="35" name="redirect" description="jugadorNum12/usuarios/index"/>
@@ -5346,7 +5348,7 @@ Si no se pasan paritcipantes, coje todos los equipos que haya en la tabla Clasif
         <full_name>actionError</full_name>
         <docblock line="53">
           <description>This is the action to handle external exceptions.</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="53" name="return" description="" type="void">
             <type by_reference="false">void</type>
           </tag>
@@ -5357,7 +5359,7 @@ Si no se pasan paritcipantes, coje todos los equipos que haya en la tabla Clasif
         <full_name>actionContact</full_name>
         <docblock line="69">
           <description>Displays the contact page</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="69" name="route" description="JugadorNum12/site/contact"/>
           <tag line="69" name="return" description="" type="void">
             <type by_reference="false">void</type>
@@ -5369,7 +5371,7 @@ Si no se pasan paritcipantes, coje todos los equipos que haya en la tabla Clasif
         <full_name>actionLogin</full_name>
         <docblock line="98">
           <description>Displays the login page</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="98" name="route" description="jugadorNum12/site/login"/>
           <tag line="98" name="redirect" description="jugadorNum12/registro/equipo"/>
           <tag line="98" name="redirect" description="jugadorNum12/registro/personaje"/>
@@ -5383,7 +5385,7 @@ Si no se pasan paritcipantes, coje todos los equipos que haya en la tabla Clasif
         <full_name>actionLogout</full_name>
         <docblock line="146">
           <description>Logs out the current user and redirect to homepage.</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="146" name="route" description="jugadorNum12/site/logout"/>
           <tag line="146" name="redirect" description="jugadorNum12/"/>
           <tag line="146" name="return" description="" type="void">
@@ -5407,7 +5409,7 @@ Si no se pasan paritcipantes, coje todos los equipos que haya en la tabla Clasif
       <full_name>\UsuariosController</full_name>
       <docblock line="3">
         <description>Controlador de usuarios que comprende: perfil del personaje y cuenta de usuario</description>
-        <long-description></long-description>
+        <long-description/>
         <tag line="3" name="package" description="controladores"/>
       </docblock>
       <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="17" package="controladores">
@@ -5507,7 +5509,7 @@ Si no se pasan paritcipantes, coje todos los equipos que haya en la tabla Clasif
         </docblock>
         <argument line="150">
           <name>$id_usuario</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -5543,7 +5545,7 @@ nuevo email en la tabla &amp;lt;&lt;usuarios&gt;&gt;&lt;/p&gt;</long-description
         <full_name>actionDebug</full_name>
         <docblock line="276">
           <description>Incrementa en 500 la experiencia (DEBUG)</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="276" name="route" description="jugadorNum12/usuarios/debug"/>
           <tag line="276" name="redirect" description="jugadorNum12/usuarios/perfil"/>
           <tag line="276" name="return" description="" type="void">
@@ -5556,7 +5558,7 @@ nuevo email en la tabla &amp;lt;&lt;usuarios&gt;&gt;&lt;/p&gt;</long-description
         <full_name>actionDebug2</full_name>
         <docblock line="296">
           <description>Incrementa en 5000 la experiencia (DEBUG)</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="296" name="route" description="jugadorNum12/usuarios/debug2"/>
           <tag line="296" name="redirect" description="jugadorNum12/usuarios/perfil"/>
           <tag line="296" name="return" description="" type="void">
@@ -5569,7 +5571,7 @@ nuevo email en la tabla &amp;lt;&lt;usuarios&gt;&gt;&lt;/p&gt;</long-description
         <full_name>actionExp</full_name>
         <docblock line="316">
           <description>Listado de niveles de exp necesarios (DEBUG)</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="316" name="route" description="jugadorNum12/usuarios/exp"/>
           <tag line="316" name="return" description="" type="void">
             <type by_reference="false">void</type>
@@ -5581,7 +5583,7 @@ nuevo email en la tabla &amp;lt;&lt;usuarios&gt;&gt;&lt;/p&gt;</long-description
         <full_name>actionEjemplos</full_name>
         <docblock line="332">
           <description>ejemplos de personajes(DEBUG)</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="332" name="route" description="jugadorNum12/usuarios/ejemplos"/>
           <tag line="332" name="return" description="" type="void">
             <type by_reference="false">void</type>
@@ -5595,7 +5597,7 @@ nuevo email en la tabla &amp;lt;&lt;usuarios&gt;&gt;&lt;/p&gt;</long-description
           <description>Funcion predeterminada de Yii
 Devuelve el modelo de datos basado en la clave primaria dada por la variable GET
 Si el modelo de datos no se encuentra, se lanza una excepcion HTTP</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="390" name="param" description=": id del modelo que se va a cargar" type="int" variable="$id">
             <type by_reference="false">int</type>
           </tag>
@@ -5608,7 +5610,7 @@ Si el modelo de datos no se encuentra, se lanza una excepcion HTTP</description>
         </docblock>
         <argument line="399">
           <name>$id</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -5618,7 +5620,7 @@ Si el modelo de datos no se encuentra, se lanza una excepcion HTTP</description>
         <docblock line="407">
           <description>Realiza la validacion por Ajax
 &gt; Funcion predeterminada de Yii</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="407" name="param" description="(CModel) modelo a ser validado" type="\" variable="$model"/>
           <tag line="407" name="return" description="" type="void">
             <type by_reference="false">void</type>
@@ -5626,7 +5628,7 @@ Si el modelo de datos no se encuentra, se lanza una excepcion HTTP</description>
         </docblock>
         <argument line="414">
           <name>$model</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -5641,7 +5643,7 @@ Si el modelo de datos no se encuentra, se lanza una excepcion HTTP</description>
       <full_name>\IYiiChat</full_name>
       <docblock line="2">
         <description>IYiiChat A Software Interface for YiiChat Source Providers</description>
-        <long-description></long-description>
+        <long-description/>
         <tag line="2" name="uses" description="\global\CWidget" refers="\global\CWidget"/>
         <tag line="2" name="version" description="1.0"/>
         <tag line="2" name="author" description="Christian Salazar &lt;christiansalazarh@gmail.com&gt;"/>
@@ -5652,22 +5654,22 @@ Si el modelo de datos no se encuentra, se lanza una excepcion HTTP</description>
         <full_name>yiichat_post</full_name>
         <argument line="12">
           <name>$chat_id</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="12">
           <name>$identity</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="12">
           <name>$message</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="12">
           <name>$data</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -5676,22 +5678,22 @@ Si el modelo de datos no se encuentra, se lanza una excepcion HTTP</description>
         <full_name>yiichat_list_posts</full_name>
         <argument line="13">
           <name>$chat_id</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="13">
           <name>$identity</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="13">
           <name>$last_id</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="13">
           <name>$data</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -5709,7 +5711,7 @@ Si el modelo de datos no se encuentra, se lanza una excepcion HTTP</description>
       <full_name>\YiiChatAction</full_name>
       <docblock line="2">
         <description>YiiChatAction class file.</description>
-        <long-description></long-description>
+        <long-description/>
         <tag line="2" name="example" description=":&#10;&#9;public function actions() { return array('yiichat'=&gt;array('class'=&gt;'YiiChatAction')); }"/>
         <tag line="2" name="author" description="Christian Salazar &lt;christiansalazarh@gmail.com&gt;"/>
         <tag line="2" name="license" description="http://opensource.org/licenses/bsd-license.php"/>
@@ -5765,15 +5767,15 @@ $data               a user-defined value passed from the widget
       </docblock>
       <property final="false" static="false" visibility="protected" line="36" namespace="global" package="Default">
         <name>$_identity</name>
-        <default></default>
+        <default/>
       </property>
       <property final="false" static="false" visibility="protected" line="37" namespace="global" package="Default">
         <name>$_chat_id</name>
-        <default></default>
+        <default/>
       </property>
       <property final="false" static="false" visibility="protected" line="38" namespace="global" package="Default">
         <name>$_data</name>
-        <default></default>
+        <default/>
       </property>
       <method final="false" abstract="false" static="false" visibility="protected" namespace="global" line="40" package="Default">
         <name>getIdentity</name>
@@ -5804,7 +5806,7 @@ $data               a user-defined value passed from the widget
         <full_name>getDateFormatted</full_name>
         <argument line="52">
           <name>$value</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -5817,7 +5819,7 @@ $data               a user-defined value passed from the widget
         <full_name>acceptMessage</full_name>
         <argument line="54">
           <name>$message</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -5826,26 +5828,26 @@ $data               a user-defined value passed from the widget
         <full_name>yiichat_post</full_name>
         <docblock line="56">
           <description>post a message into your database.</description>
-          <long-description></long-description>
+          <long-description/>
         </docblock>
         <argument line="59">
           <name>$chat_id</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="59">
           <name>$identity</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="59">
           <name>$message</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="59">
           <name>$data</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -5868,22 +5870,22 @@ a timer, in order to receive the new posts since last_id.&lt;/p&gt;</long-descri
         </docblock>
         <argument line="108">
           <name>$chat_id</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="108">
           <name>$identity</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="108">
           <name>$last_id</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="108">
           <name>$data</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -5893,21 +5895,21 @@ a timer, in order to receive the new posts since last_id.&lt;/p&gt;</long-descri
         <docblock line="154">
           <description>retrieve the last posts since the last_id, must be used
 only when the records has been filtered (case timer).</description>
-          <long-description></long-description>
+          <long-description/>
         </docblock>
         <argument line="158">
           <name>$rows</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="158">
           <name>$limit</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="158">
           <name>$last_id</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -5959,15 +5961,15 @@ only when the records has been filtered (case timer).</description>
       </docblock>
       <property final="false" static="false" visibility="public" line="15" namespace="global" package="Default">
         <name>$chat_id</name>
-        <default></default>
+        <default/>
       </property>
       <property final="false" static="false" visibility="public" line="16" namespace="global" package="Default">
         <name>$identity</name>
-        <default></default>
+        <default/>
       </property>
       <property final="false" static="false" visibility="public" line="17" namespace="global" package="Default">
         <name>$selector</name>
-        <default></default>
+        <default/>
       </property>
       <property final="false" static="false" visibility="public" line="19" namespace="global" package="Default">
         <name>$sendButtonText</name>
@@ -5975,11 +5977,11 @@ only when the records has been filtered (case timer).</description>
       </property>
       <property final="false" static="false" visibility="public" line="20" namespace="global" package="Default">
         <name>$onError</name>
-        <default></default>
+        <default/>
       </property>
       <property final="false" static="false" visibility="public" line="21" namespace="global" package="Default">
         <name>$onSuccess</name>
-        <default></default>
+        <default/>
       </property>
       <property final="false" static="false" visibility="public" line="22" namespace="global" package="Default">
         <name>$defaultController</name>
@@ -5995,7 +5997,7 @@ only when the records has been filtered (case timer).</description>
       </property>
       <property final="false" static="false" visibility="public" line="25" namespace="global" package="Default">
         <name>$model</name>
-        <default></default>
+        <default/>
       </property>
       <property final="false" static="false" visibility="public" line="26" namespace="global" package="Default">
         <name>$timerMs</name>
@@ -6003,23 +6005,23 @@ only when the records has been filtered (case timer).</description>
       </property>
       <property final="false" static="false" visibility="public" line="27" namespace="global" package="Default">
         <name>$data</name>
-        <default></default>
+        <default/>
       </property>
       <property final="false" static="false" visibility="public" line="29" namespace="global" package="Default">
         <name>$myOwnPostCssStyle</name>
-        <default></default>
+        <default/>
       </property>
       <property final="false" static="false" visibility="public" line="30" namespace="global" package="Default">
         <name>$othersPostCssStyle</name>
-        <default></default>
+        <default/>
       </property>
       <property final="false" static="false" visibility="private" line="32" namespace="global" package="Default">
         <name>$_action</name>
-        <default></default>
+        <default/>
       </property>
       <property final="false" static="false" visibility="private" line="33" namespace="global" package="Default">
         <name>$_baseUrl</name>
-        <default></default>
+        <default/>
       </property>
       <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="35" package="Default">
         <name>init</name>
@@ -6038,12 +6040,12 @@ only when the records has been filtered (case timer).</description>
         <full_name>runAction</full_name>
         <argument line="97">
           <name>$action</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="97">
           <name>$data</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -6052,7 +6054,7 @@ only when the records has been filtered (case timer).</description>
         <full_name>_getPost</full_name>
         <argument line="140">
           <name>$attr</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="140">
@@ -6247,7 +6249,7 @@ only when the records has been filtered (case timer).</description>
         <full_name>finalizaGrupales</full_name>
         <docblock line="146">
           <description>Finaliza todas las acciones grupales no terminadas a tiempo</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="146" name="return" description="" type="void">
             <type by_reference="false">void</type>
           </tag>
@@ -6258,7 +6260,7 @@ only when the records has been filtered (case timer).</description>
         <full_name>finalizaGrupal</full_name>
         <docblock line="212">
           <description>Funcion para finalizar una grupal dada y devolver los recursos a los participantes.</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="212" name="param" description="" type="int" variable="$id_accion_grupal">
             <type by_reference="false">int</type>
           </tag>
@@ -6274,7 +6276,7 @@ only when the records has been filtered (case timer).</description>
         </docblock>
         <argument line="220">
           <name>$id_accion_grupal</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="220">
@@ -6288,7 +6290,7 @@ only when the records has been filtered (case timer).</description>
         <full_name>expulsarJugador</full_name>
         <docblock line="253">
           <description>Expulsa a un jugador de una accion grupal dada (borrarle de la lista de participantes)</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="253" name="static" description=""/>
           <tag line="253" name="param" description="" type="int" variable="$id_accion">
             <type by_reference="false">int</type>
@@ -6323,12 +6325,12 @@ only when the records has been filtered (case timer).</description>
         </docblock>
         <argument line="268">
           <name>$id_accion</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="268">
           <name>$id_jugador</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -6389,32 +6391,32 @@ only when the records has been filtered (case timer).</description>
         </docblock>
         <argument line="365">
           <name>$id_accion</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="365">
           <name>$recursosAportados</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="365">
           <name>$accion</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="365">
           <name>$habilidad</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="365">
           <name>$participacion</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="365">
           <name>$nuevo_participante</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -6423,7 +6425,7 @@ only when the records has been filtered (case timer).</description>
         <full_name>usarGrupal</full_name>
         <docblock line="555">
           <description>Usar una accion grupal</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="555" name="static" description=""/>
           <tag line="555" name="param" description="" type="\" variable="$usuario"/>
           <tag line="555" name="param" description="" type="\" variable="$id_accion"/>
@@ -6436,27 +6438,27 @@ only when the records has been filtered (case timer).</description>
         </docblock>
         <argument line="566">
           <name>$usuario</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="566">
           <name>$id_accion</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="566">
           <name>$id_equipo</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="566">
           <name>$res</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="566">
           <name>$habilidad</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -6600,7 +6602,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <full_name>finalizaIndividuales</full_name>
         <docblock line="130">
           <description>Esta función finaliza las acciones grupales de un usuario concreto.</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="130" name="param" description="id del usuario" type="int" variable="$id_usuario">
             <type by_reference="false">int</type>
           </tag>
@@ -6616,7 +6618,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         </docblock>
         <argument line="138">
           <name>$id_usuario</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -6625,7 +6627,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <full_name>usarIndividual</full_name>
         <docblock line="192">
           <description>Función empleada para usar una habilidad individual</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="192" name="param" description="id del usuario" type="int" variable="$id_usuario">
             <type by_reference="false">int</type>
           </tag>
@@ -6643,22 +6645,22 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         </docblock>
         <argument line="202">
           <name>$id_usuario</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="202">
           <name>$id_accion</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="202">
           <name>$res</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="202">
           <name>$habilidad</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -6811,7 +6813,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <full_name>buscarParticipacion</full_name>
         <docblock line="134">
           <description>Busca participacion en la tabla acciones turno</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="134" name="param" description="id del usuario" type="int" variable="$id_usuario">
             <type by_reference="false">int</type>
           </tag>
@@ -6827,17 +6829,17 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         </docblock>
         <argument line="142">
           <name>$id_usuario</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="142">
           <name>$id_partido</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="142">
           <name>$id_equipo</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -6846,7 +6848,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <full_name>agregarParticipacion</full_name>
         <docblock line="153">
           <description>Agrega participacion en la tabla acciones turno</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="153" name="param" description="id del usuario" type="int" variable="$id_usuario">
             <type by_reference="false">int</type>
           </tag>
@@ -6862,17 +6864,17 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         </docblock>
         <argument line="161">
           <name>$id_usuario</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="161">
           <name>$id_partido</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="161">
           <name>$id_equipo</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -6881,7 +6883,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <full_name>incorporarAccion</full_name>
         <docblock line="172">
           <description>incorpora registro en la tabla acciones turno si el usuario aun no estaba</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="172" name="param" description="id del usuario" type="int" variable="$id_usuario">
             <type by_reference="false">int</type>
           </tag>
@@ -6897,17 +6899,17 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         </docblock>
         <argument line="180">
           <name>$id_usuario</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="180">
           <name>$id_partido</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="180">
           <name>$id_equipo</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -6916,7 +6918,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <full_name>sumarInfluencia</full_name>
         <docblock line="196">
           <description>Suma una cantidad de influencias a una participacion</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="196" name="param" description="" type="\" variable="$participacion"/>
           <tag line="196" name="param" description="" type="int" variable="$cantidad">
             <type by_reference="false">int</type>
@@ -6927,12 +6929,12 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         </docblock>
         <argument line="203">
           <name>$participacion</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="203">
           <name>$cantidad</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -6952,27 +6954,27 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         </docblock>
         <argument line="220">
           <name>$id_usuario</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="220">
           <name>$id_equipo</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="220">
           <name>$id_partido</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="220">
           <name>$habilidad</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="220">
           <name>$res</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -7147,23 +7149,23 @@ los datos de formulario de contacto. Usado por la accion'contact' de 'SiteContro
       </docblock>
       <property final="false" static="false" visibility="public" line="12" namespace="global" package="Default">
         <name>$name</name>
-        <default></default>
+        <default/>
       </property>
       <property final="false" static="false" visibility="public" line="13" namespace="global" package="Default">
         <name>$email</name>
-        <default></default>
+        <default/>
       </property>
       <property final="false" static="false" visibility="public" line="14" namespace="global" package="Default">
         <name>$subject</name>
-        <default></default>
+        <default/>
       </property>
       <property final="false" static="false" visibility="public" line="15" namespace="global" package="Default">
         <name>$body</name>
-        <default></default>
+        <default/>
       </property>
       <property final="false" static="false" visibility="public" line="16" namespace="global" package="Default">
         <name>$verifyCode</name>
-        <default></default>
+        <default/>
       </property>
       <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="28" package="modelos">
         <name>rules</name>
@@ -7394,7 +7396,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
       </docblock>
       <property final="false" static="false" visibility="public" line="25" namespace="global" package="Default">
         <name>$nombre</name>
-        <default></default>
+        <default/>
       </property>
       <method final="false" abstract="false" static="true" visibility="public" namespace="global" line="36" package="modelos">
         <name>model</name>
@@ -7461,7 +7463,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         </docblock>
         <argument line="92">
           <name>$usuarios</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -7470,7 +7472,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <full_name>comprobarNombres</full_name>
         <docblock line="99">
           <description>Comprueba que los nombres existen</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="99" name="param" description="" type="\" variable="$attribute"/>
           <tag line="99" name="param" description="" type="\" variable="$params"/>
           <tag line="99" name="return" description="" type="void">
@@ -7479,12 +7481,12 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         </docblock>
         <argument line="106">
           <name>$attribute</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="106">
           <name>$params</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -7493,7 +7495,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <full_name>nombres</full_name>
         <docblock line="134">
           <description>Compara todos los nombres con su nick</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="134" name="return" description="array con los nombres" type="object[]">
             <type by_reference="false">object[]</type>
           </tag>
@@ -7710,7 +7712,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <full_name>aumentar_recursos_equipo</full_name>
         <docblock line="147">
           <description>Funcion auxiliar que modifica la tabla de equipos</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="147" name="paremetro" description="equipo al que modificamos sus recursos"/>
           <tag line="147" name="parametro" description="columna sobre la que modificamos (dinero, dinero_gen, ...)"/>
           <tag line="147" name="parametro" description="cantidad de recursos que aumentamos"/>
@@ -7719,17 +7721,17 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         </docblock>
         <argument line="155">
           <name>$id_equipo</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="155">
           <name>$columna</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="155">
           <name>$cantidad</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -7776,7 +7778,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <value>0</value>
         <docblock line="18">
           <description>Definicion de las habilidades grupales : 0</description>
-          <long-description></long-description>
+          <long-description/>
         </docblock>
       </constant>
       <constant namespace="global" line="21" package="modelos">
@@ -7785,7 +7787,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <value>1</value>
         <docblock line="20">
           <description>Definicion de las habilidades individuales : 1</description>
-          <long-description></long-description>
+          <long-description/>
         </docblock>
       </constant>
       <constant namespace="global" line="23" package="modelos">
@@ -7794,7 +7796,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <value>2</value>
         <docblock line="22">
           <description>Definicion de las habilidades de partido : 2</description>
-          <long-description></long-description>
+          <long-description/>
         </docblock>
       </constant>
       <constant namespace="global" line="25" package="modelos">
@@ -7803,7 +7805,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <value>3</value>
         <docblock line="24">
           <description>Definicion de las acciones pasivas : 3</description>
-          <long-description></long-description>
+          <long-description/>
         </docblock>
       </constant>
       <method final="false" abstract="false" static="true" visibility="public" namespace="global" line="36" package="modelos">
@@ -7880,12 +7882,12 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         </docblock>
         <argument line="85">
           <name>$id_usuario</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="85">
           <name>$id_habilidad</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -7954,19 +7956,19 @@ el login de usuario. Usado por la accion 'login' de 'SiteController'.&lt;/p&gt;<
       </docblock>
       <property final="false" static="false" visibility="public" line="12" namespace="global" package="Default">
         <name>$username</name>
-        <default></default>
+        <default/>
       </property>
       <property final="false" static="false" visibility="public" line="13" namespace="global" package="Default">
         <name>$password</name>
-        <default></default>
+        <default/>
       </property>
       <property final="false" static="false" visibility="public" line="14" namespace="global" package="Default">
         <name>$rememberMe</name>
-        <default></default>
+        <default/>
       </property>
       <property final="false" static="false" visibility="private" line="16" namespace="global" package="Default">
         <name>$_identity</name>
-        <default></default>
+        <default/>
       </property>
       <method final="false" abstract="false" static="false" visibility="public" namespace="global" line="28" package="modelos">
         <name>rules</name>
@@ -8011,12 +8013,12 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         </docblock>
         <argument line="63">
           <name>$attribute</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="63">
           <name>$params</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -8025,7 +8027,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <full_name>login</full_name>
         <docblock line="73">
           <description>Loguea al usuario usando su username y password establecidos en el modelo de datos</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="73" name="return" description="Login exitoso" type="boolean">
             <type by_reference="false">boolean</type>
           </tag>
@@ -8178,7 +8180,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <full_name>borrarNotificaciones</full_name>
         <docblock line="133">
           <description>Elimina las notificaciones existentes</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="133" name="return" description="" type="void">
             <type by_reference="false">void</type>
           </tag>
@@ -8232,28 +8234,28 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
       </docblock>
       <property final="false" static="false" visibility="public" line="22" namespace="global" package="Default">
         <name>$dinero_nuevo</name>
-        <default></default>
+        <default/>
         <docblock line="21">
-          <description></description>
-          <long-description></long-description>
+          <description/>
+          <long-description/>
           <tag line="21" name="type" description="double"/>
         </docblock>
       </property>
       <property final="false" static="false" visibility="public" line="24" namespace="global" package="Default">
         <name>$animo_nuevo</name>
-        <default></default>
+        <default/>
         <docblock line="23">
-          <description></description>
-          <long-description></long-description>
+          <description/>
+          <long-description/>
           <tag line="23" name="type" description="double"/>
         </docblock>
       </property>
       <property final="false" static="false" visibility="public" line="26" namespace="global" package="Default">
         <name>$influencia_nueva</name>
-        <default></default>
+        <default/>
         <docblock line="25">
-          <description></description>
-          <long-description></long-description>
+          <description/>
+          <long-description/>
           <tag line="25" name="type" description="double"/>
         </docblock>
       </property>
@@ -8408,7 +8410,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <default>array('local' =&gt; array('ambiente' =&gt; 'ambiente', 'nivel' =&gt; 'nivel_local', 'aforo' =&gt; 'aforo_local', 'moral' =&gt; 'moral_local', 'ofensivo' =&gt; 'ofensivo_local', 'defensivo' =&gt; 'defensivo_local'), 'visitante' =&gt; array('ambiente' =&gt; 'ambiente', 'nivel' =&gt; 'nivel_visitante', 'aforo' =&gt; 'aforo_visitante', 'moral' =&gt; 'moral_visitante', 'ofensivo' =&gt; 'ofensivo_visitante', 'defensivo' =&gt; 'defensivo_visitante'))</default>
         <docblock line="21">
           <description>Facilita cambiar los factores de partido</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="21" name="type" description="object[]"/>
         </docblock>
       </property>
@@ -8516,7 +8518,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <full_name>tiempoRestantePartido</full_name>
         <docblock line="155">
           <description>Devuelve el tiempo para que finalize el partido</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="155" name="return" description="tiempo restante del partido" type="int">
             <type by_reference="false">int</type>
           </tag>
@@ -8527,7 +8529,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <full_name>tiempoRestanteTurno</full_name>
         <docblock line="178">
           <description>Devuelve el tiempo para que termine el turno actual</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="178" name="return" description="tiempo restante del turno" type="int">
             <type by_reference="false">int</type>
           </tag>
@@ -8538,7 +8540,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <full_name>aumentar_factores</full_name>
         <docblock line="201">
           <description>Funcion auxiliar que modifica los factores de un partido: aumenta el factor espeficicado</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="201" name="static" description=""/>
           <tag line="201" name="param" description="partido en el que modificamos los factores" type="int" variable="$id_partido">
             <type by_reference="false">int</type>
@@ -8561,22 +8563,22 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         </docblock>
         <argument line="215">
           <name>$id_partido</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="215">
           <name>$id_equipo</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="215">
           <name>$columna</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="215">
           <name>$cantidad</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -8585,7 +8587,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <full_name>disminuir_factores</full_name>
         <docblock line="256">
           <description>Funcion auxiliar que modifica los factores de un partido: disminuye el factor espeficicado</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="256" name="static" description=""/>
           <tag line="256" name="param" description="partido en el que modificamos los factores" type="int" variable="$id_partido">
             <type by_reference="false">int</type>
@@ -8608,22 +8610,22 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         </docblock>
         <argument line="270">
           <name>$id_partido</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="270">
           <name>$id_equipo</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="270">
           <name>$columna</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="270">
           <name>$cantidad</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -8632,7 +8634,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <full_name>aumentar_factores_prop</full_name>
         <docblock line="312">
           <description>Funcion auxiliar que modifica la tabla de partidos de forma proporcionada</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="312" name="static" description=""/>
           <tag line="312" name="param" description="partido en el que modificamos los factores" type="int" variable="$id_partido">
             <type by_reference="false">int</type>
@@ -8655,22 +8657,22 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         </docblock>
         <argument line="326">
           <name>$id_partido</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="326">
           <name>$id_equipo</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="326">
           <name>$columna</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="326">
           <name>$proporcion</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -8679,7 +8681,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <full_name>partidosPorJornadas</full_name>
         <docblock line="373">
           <description>Funcion auxiliar que toma la lista de partidos divididos por jornadas</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="373" name="static" description=""/>
           <tag line="373" name="return" description="asociativo                  con los partidos divididos en jornadas" type="array">
             <type by_reference="false">array</type>
@@ -8692,7 +8694,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <docblock line="394">
           <description>Funcion auxiliar que toma la lista de partidos divididos por jornadas y
 agrupados por parejas (para la vista del calendario)</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="394" name="static" description=""/>
           <tag line="394" name="return" description="asociativo                  con los partidos divididos en jornadas" type="array">
             <type by_reference="false">array</type>
@@ -8802,8 +8804,8 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <name>attributeLabels</name>
         <full_name>attributeLabels</full_name>
         <docblock line="93">
-          <description></description>
-          <long-description></long-description>
+          <description/>
+          <long-description/>
           <tag line="93" name="return" description="customized attribute labels (name=&gt;label)" type="array">
             <type by_reference="false">array</type>
           </tag>
@@ -8814,7 +8816,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <full_name>search</full_name>
         <docblock line="116">
           <description>Retrieves a list of models based on the current search/filter conditions.</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="116" name="return" description="the data provider that can return the models based on the search/filter conditions." type="\CActiveDataProvider">
             <type by_reference="false">\CActiveDataProvider</type>
           </tag>
@@ -8825,7 +8827,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <full_name>actualizaRecursos</full_name>
         <argument line="147">
           <name>$id_usuario</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -8834,12 +8836,12 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <full_name>disminuir_influencias_bloqueadas</full_name>
         <argument line="205">
           <name>$usr</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="205">
           <name>$influencias_aportadas</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -8848,7 +8850,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <full_name>aumentar_recursos</full_name>
         <docblock line="216">
           <description>Funcion auxiliar que modifica la tabla de recursos</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="216" name="paremetro" description="usuario al que modificamos sus recursos"/>
           <tag line="216" name="parametro" description="columna sobre la que modificamos (dinero, dinero_gen, ...)"/>
           <tag line="216" name="parametro" description="cantidad de recursos que aumentamos"/>
@@ -8857,17 +8859,17 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         </docblock>
         <argument line="224">
           <name>$id_usuario</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="224">
           <name>$columna</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="224">
           <name>$cantidad</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -8876,7 +8878,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <full_name>quitar_recursos</full_name>
         <docblock line="277">
           <description>Funcion auxiliar que modifica la tabla de recursos</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="277" name="paremetro" description="usuario al que modificamos sus recursos"/>
           <tag line="277" name="parametro" description="columna sobre la que modificamos (dinero, dinero_gen, ...)"/>
           <tag line="277" name="parametro" description="cantidad de recursos que quitamos"/>
@@ -8885,17 +8887,17 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         </docblock>
         <argument line="285">
           <name>$id_usuario</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="285">
           <name>$columna</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="285">
           <name>$cantidad</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -9148,7 +9150,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <value>12</value>
         <docblock line="26">
           <description>Seguridad de contraseñas : determina el numero de vueltas del algoritmo</description>
-          <long-description></long-description>
+          <long-description/>
         </docblock>
       </constant>
       <constant namespace="global" line="30" package="modelos">
@@ -9157,7 +9159,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <value>0</value>
         <docblock line="29">
           <description>Identificador del personaje ultra : 0</description>
-          <long-description></long-description>
+          <long-description/>
         </docblock>
       </constant>
       <constant namespace="global" line="32" package="modelos">
@@ -9166,7 +9168,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <value>1</value>
         <docblock line="31">
           <description>Identificador del personaje RRPP : 1</description>
-          <long-description></long-description>
+          <long-description/>
         </docblock>
       </constant>
       <constant namespace="global" line="34" package="modelos">
@@ -9175,7 +9177,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <value>2</value>
         <docblock line="33">
           <description>Identificador del personaje empresario : 2</description>
-          <long-description></long-description>
+          <long-description/>
         </docblock>
       </constant>
       <constant namespace="global" line="37" package="modelos">
@@ -9184,7 +9186,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <value>50</value>
         <docblock line="36">
           <description>Modulo de experencia: poca experencia</description>
-          <long-description></long-description>
+          <long-description/>
         </docblock>
       </constant>
       <constant namespace="global" line="39" package="modelos">
@@ -9193,7 +9195,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <value>100</value>
         <docblock line="38">
           <description>Modulo de experencia: media experencia</description>
-          <long-description></long-description>
+          <long-description/>
         </docblock>
       </constant>
       <constant namespace="global" line="41" package="modelos">
@@ -9202,7 +9204,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <value>400</value>
         <docblock line="40">
           <description>Modulo de experencia: bastante experencia</description>
-          <long-description></long-description>
+          <long-description/>
         </docblock>
       </constant>
       <constant namespace="global" line="43" package="modelos">
@@ -9211,7 +9213,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <value>1000</value>
         <docblock line="42">
           <description>Modulo de experencia: mucha experenia</description>
-          <long-description></long-description>
+          <long-description/>
         </docblock>
       </constant>
       <constant namespace="global" line="46" package="modelos">
@@ -9220,7 +9222,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <value>55</value>
         <docblock line="45">
           <description>Modulo de experencia: probabilidad de mejorar el recurso mayoritario</description>
-          <long-description></long-description>
+          <long-description/>
         </docblock>
       </constant>
       <constant namespace="global" line="48" package="modelos">
@@ -9229,7 +9231,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <value>30</value>
         <docblock line="47">
           <description>Modulo de experencia: probabilidad de mejorar el recurso mediano</description>
-          <long-description></long-description>
+          <long-description/>
         </docblock>
       </constant>
       <constant namespace="global" line="50" package="modelos">
@@ -9238,7 +9240,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <value>15</value>
         <docblock line="49">
           <description>Modulo de experencia: probabilidad de mejorar el recurso minoritario</description>
-          <long-description></long-description>
+          <long-description/>
         </docblock>
       </constant>
       <constant namespace="global" line="53" package="modelos">
@@ -9247,7 +9249,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <value>110</value>
         <docblock line="52">
           <description>Modulo de experencia: unidad de aumento para el atributo generacion de dinero</description>
-          <long-description></long-description>
+          <long-description/>
         </docblock>
       </constant>
       <constant namespace="global" line="55" package="modelos">
@@ -9256,7 +9258,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <value>14</value>
         <docblock line="54">
           <description>Modulo de experencia: unidad de aumento para el atributo generacion de animo</description>
-          <long-description></long-description>
+          <long-description/>
         </docblock>
       </constant>
       <constant namespace="global" line="57" package="modelos">
@@ -9265,7 +9267,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <value>1</value>
         <docblock line="56">
           <description>Modulo de experencia: unidad de aumento para el atributo generacion de influencias</description>
-          <long-description></long-description>
+          <long-description/>
         </docblock>
       </constant>
       <constant namespace="global" line="60" package="modelos">
@@ -9274,7 +9276,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <value>5</value>
         <docblock line="59">
           <description>Modulo de experencia: define cada cuantos niveles se recalculara los atributos maximos</description>
-          <long-description></long-description>
+          <long-description/>
         </docblock>
       </constant>
       <constant namespace="global" line="62" package="modelos">
@@ -9283,7 +9285,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <value>2</value>
         <docblock line="61">
           <description>Modulo de experencia: determina el numero de vueltas para el algoritmo al subir de nivel</description>
-          <long-description></long-description>
+          <long-description/>
         </docblock>
       </constant>
       <constant namespace="global" line="65" package="modelos">
@@ -9292,7 +9294,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <value>70</value>
         <docblock line="64">
           <description>Modulo de experencia: unidad de aumento para el atributo influencias maximas de la RRPP</description>
-          <long-description></long-description>
+          <long-description/>
         </docblock>
       </constant>
       <constant namespace="global" line="67" package="modelos">
@@ -9301,7 +9303,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <value>44</value>
         <docblock line="66">
           <description>Modulo de experencia: unidad de aumento para el atributo influencias maximas del empresario</description>
-          <long-description></long-description>
+          <long-description/>
         </docblock>
       </constant>
       <constant namespace="global" line="69" package="modelos">
@@ -9310,7 +9312,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <value>20</value>
         <docblock line="68">
           <description>Modulo de experencia: unidad de aumento para el atributo influencias maximas del ultra</description>
-          <long-description></long-description>
+          <long-description/>
         </docblock>
       </constant>
       <constant namespace="global" line="71" package="modelos">
@@ -9319,7 +9321,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <value>450</value>
         <docblock line="70">
           <description>Modulo de experencia: unidad de aumento para el atributo animo maximo de la RRPP</description>
-          <long-description></long-description>
+          <long-description/>
         </docblock>
       </constant>
       <constant namespace="global" line="73" package="modelos">
@@ -9328,7 +9330,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <value>150</value>
         <docblock line="72">
           <description>Modulo de experencia: unidad de aumento para el atributo animo maximo del empresario</description>
-          <long-description></long-description>
+          <long-description/>
         </docblock>
       </constant>
       <constant namespace="global" line="75" package="modelos">
@@ -9337,7 +9339,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <value>750</value>
         <docblock line="74">
           <description>Modulo de experencia: unidad de aumento para el atributo animo maximo del ultra</description>
-          <long-description></long-description>
+          <long-description/>
         </docblock>
       </constant>
       <constant namespace="global" line="78" package="modelos">
@@ -9346,7 +9348,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <value>0.1</value>
         <docblock line="77">
           <description>Modulo de experencia: modificador al calcular la experencia al participar en acciones con dinero</description>
-          <long-description></long-description>
+          <long-description/>
         </docblock>
       </constant>
       <constant namespace="global" line="80" package="modelos">
@@ -9355,7 +9357,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <value>1</value>
         <docblock line="79">
           <description>Modulo de experencia: modificador al calcular la experencia al participar en acciones con animo</description>
-          <long-description></long-description>
+          <long-description/>
         </docblock>
       </constant>
       <constant namespace="global" line="82" package="modelos">
@@ -9364,7 +9366,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <value>10</value>
         <docblock line="81">
           <description>Modulo de experencia: modificador al calcular la experencia al participar en acciones con influencias</description>
-          <long-description></long-description>
+          <long-description/>
         </docblock>
       </constant>
       <constant namespace="global" line="85" package="modelos">
@@ -9373,7 +9375,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <value>9000</value>
         <docblock line="84">
           <description>Recursos iniciales: dinero inicial para el ultra</description>
-          <long-description></long-description>
+          <long-description/>
         </docblock>
       </constant>
       <constant namespace="global" line="87" package="modelos">
@@ -9382,7 +9384,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <value>1000</value>
         <docblock line="86">
           <description>Recursos iniciales: dinero inicial para la RRPP</description>
-          <long-description></long-description>
+          <long-description/>
         </docblock>
       </constant>
       <constant namespace="global" line="89" package="modelos">
@@ -9391,7 +9393,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <value>25000</value>
         <docblock line="88">
           <description>Recursos iniciales: dinero inicial para el empresario</description>
-          <long-description></long-description>
+          <long-description/>
         </docblock>
       </constant>
       <constant namespace="global" line="91" package="modelos">
@@ -9400,7 +9402,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <value>30</value>
         <docblock line="90">
           <description>Recursos iniciales: animo inicial para el utra</description>
-          <long-description></long-description>
+          <long-description/>
         </docblock>
       </constant>
       <constant namespace="global" line="93" package="modelos">
@@ -9409,7 +9411,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <value>19</value>
         <docblock line="92">
           <description>Recursos iniciales: animo inicial para la RRPP</description>
-          <long-description></long-description>
+          <long-description/>
         </docblock>
       </constant>
       <constant namespace="global" line="95" package="modelos">
@@ -9418,7 +9420,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <value>9</value>
         <docblock line="94">
           <description>Recursos iniciales: animo inicial para el empresario</description>
-          <long-description></long-description>
+          <long-description/>
         </docblock>
       </constant>
       <constant namespace="global" line="97" package="modelos">
@@ -9427,7 +9429,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <value>24</value>
         <docblock line="96">
           <description>Recursos iniciales: generacion de dinero inicial para el ultra</description>
-          <long-description></long-description>
+          <long-description/>
         </docblock>
       </constant>
       <constant namespace="global" line="99" package="modelos">
@@ -9436,7 +9438,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <value>7</value>
         <docblock line="98">
           <description>Recursos iniciales: generacion de dinero inicial para la RRPP</description>
-          <long-description></long-description>
+          <long-description/>
         </docblock>
       </constant>
       <constant namespace="global" line="101" package="modelos">
@@ -9445,7 +9447,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <value>40</value>
         <docblock line="100">
           <description>Recursos iniciales: generacion de dinero inicial para el empresario</description>
-          <long-description></long-description>
+          <long-description/>
         </docblock>
       </constant>
       <constant namespace="global" line="103" package="modelos">
@@ -9454,7 +9456,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <value>3</value>
         <docblock line="102">
           <description>Recursos iniciales: generacion de influencias inicial para el ultra</description>
-          <long-description></long-description>
+          <long-description/>
         </docblock>
       </constant>
       <constant namespace="global" line="105" package="modelos">
@@ -9463,7 +9465,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <value>10</value>
         <docblock line="104">
           <description>Recursos iniciales: generacion de influencias inicial para la animadora</description>
-          <long-description></long-description>
+          <long-description/>
         </docblock>
       </constant>
       <constant namespace="global" line="107" package="modelos">
@@ -9472,7 +9474,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <value>5</value>
         <docblock line="106">
           <description>Recursos iniciales: generacion de influencias inicial para el empresario</description>
-          <long-description></long-description>
+          <long-description/>
         </docblock>
       </constant>
       <constant namespace="global" line="109" package="modelos">
@@ -9481,7 +9483,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <value>100</value>
         <docblock line="108">
           <description>Recursos iniciales: animo maximo inicial para el ultra</description>
-          <long-description></long-description>
+          <long-description/>
         </docblock>
       </constant>
       <constant namespace="global" line="111" package="modelos">
@@ -9490,7 +9492,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <value>60</value>
         <docblock line="110">
           <description>Recursos iniciales: animo maximo inicial para la RRPP</description>
-          <long-description></long-description>
+          <long-description/>
         </docblock>
       </constant>
       <constant namespace="global" line="113" package="modelos">
@@ -9499,7 +9501,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <value>25</value>
         <docblock line="112">
           <description>Recursos iniciales: animo maximo inicial para el empresario</description>
-          <long-description></long-description>
+          <long-description/>
         </docblock>
       </constant>
       <constant namespace="global" line="115" package="modelos">
@@ -9508,7 +9510,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <value>4</value>
         <docblock line="114">
           <description>Recursos iniciales: influencias maximas para el ultra</description>
-          <long-description></long-description>
+          <long-description/>
         </docblock>
       </constant>
       <constant namespace="global" line="117" package="modelos">
@@ -9517,7 +9519,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <value>16</value>
         <docblock line="116">
           <description>Recursos iniciales: influencias maximas para la RRPP</description>
-          <long-description></long-description>
+          <long-description/>
         </docblock>
       </constant>
       <constant namespace="global" line="119" package="modelos">
@@ -9526,69 +9528,69 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <value>9</value>
         <docblock line="118">
           <description>Recursos iniciales: influencias maximas para el empresario</description>
-          <long-description></long-description>
+          <long-description/>
         </docblock>
       </constant>
       <property final="false" static="false" visibility="public" line="125" namespace="global" package="Default">
         <name>$antigua_clave</name>
-        <default></default>
+        <default/>
         <docblock line="124">
-          <description></description>
-          <long-description></long-description>
+          <description/>
+          <long-description/>
           <tag line="124" name="type" description="string"/>
         </docblock>
       </property>
       <property final="false" static="false" visibility="public" line="127" namespace="global" package="Default">
         <name>$nueva_clave1</name>
-        <default></default>
+        <default/>
         <docblock line="126">
-          <description></description>
-          <long-description></long-description>
+          <description/>
+          <long-description/>
           <tag line="126" name="type" description="string"/>
         </docblock>
       </property>
       <property final="false" static="false" visibility="public" line="129" namespace="global" package="Default">
         <name>$nueva_clave2</name>
-        <default></default>
+        <default/>
         <docblock line="128">
-          <description></description>
-          <long-description></long-description>
+          <description/>
+          <long-description/>
           <tag line="128" name="type" description="string"/>
         </docblock>
       </property>
       <property final="false" static="false" visibility="public" line="131" namespace="global" package="Default">
         <name>$antigua_email</name>
-        <default></default>
+        <default/>
         <docblock line="130">
-          <description></description>
-          <long-description></long-description>
+          <description/>
+          <long-description/>
           <tag line="130" name="type" description="string"/>
         </docblock>
       </property>
       <property final="false" static="false" visibility="public" line="133" namespace="global" package="Default">
         <name>$nueva_email1</name>
-        <default></default>
+        <default/>
         <docblock line="132">
-          <description></description>
-          <long-description></long-description>
+          <description/>
+          <long-description/>
           <tag line="132" name="type" description="string"/>
         </docblock>
       </property>
       <property final="false" static="false" visibility="public" line="135" namespace="global" package="Default">
         <name>$nueva_email2</name>
-        <default></default>
+        <default/>
         <docblock line="134">
-          <description></description>
-          <long-description></long-description>
+          <description/>
+          <long-description/>
           <tag line="134" name="type" description="string"/>
         </docblock>
       </property>
       <property final="false" static="false" visibility="public" line="137" namespace="global" package="Default">
         <name>$nuevo_nick</name>
-        <default></default>
+        <default/>
         <docblock line="136">
-          <description></description>
-          <long-description></long-description>
+          <description/>
+          <long-description/>
           <tag line="136" name="type" description="string"/>
         </docblock>
       </property>
@@ -9648,7 +9650,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <full_name>comprobarClave</full_name>
         <docblock line="222">
           <description>Comprueba que la clave pasada por parametro es valida con respecto a la clave de la base de datos</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="222" name="param" description="clave a comprobar" type="string" variable="$clave">
             <type by_reference="false">string</type>
           </tag>
@@ -9658,7 +9660,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         </docblock>
         <argument line="228">
           <name>$clave</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -9667,7 +9669,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <full_name>cambiarClave</full_name>
         <docblock line="235">
           <description>Cambia la clave del usuario a la clave pasada por parametro.</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="235" name="param" description="clave nueva" type="string" variable="$clave">
             <type by_reference="false">string</type>
           </tag>
@@ -9677,7 +9679,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         </docblock>
         <argument line="241">
           <name>$clave</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -9686,7 +9688,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <full_name>clavesIguales</full_name>
         <docblock line="254">
           <description>Comprueba que la clave coincide con la de la BBDD</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="254" name="param" description="" type="string" variable="$antigua_clave">
             <type by_reference="false">string</type>
           </tag>
@@ -9696,12 +9698,12 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         </docblock>
         <argument line="260">
           <name>$attribute</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="260">
           <name>$params</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -9710,7 +9712,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <full_name>emailIguales</full_name>
         <docblock line="268">
           <description>Comprueba que el email coincide con el de la BBDD</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="268" name="param" description="" type="string" variable="$antigua_email">
             <type by_reference="false">string</type>
           </tag>
@@ -9720,12 +9722,12 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         </docblock>
         <argument line="274">
           <name>$attribute</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="274">
           <name>$params</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -9734,7 +9736,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <full_name>comprobarEmail</full_name>
         <docblock line="283">
           <description>Comprueba que el email pasado por parametro sea unico (no se encuentra ya registrado)</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="283" name="param" description="email a comprobar" type="string" variable="$nuevo_email">
             <type by_reference="false">string</type>
           </tag>
@@ -9744,12 +9746,12 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         </docblock>
         <argument line="289">
           <name>$attribute</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="289">
           <name>$params</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -9758,7 +9760,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <full_name>comprobarNick</full_name>
         <docblock line="298">
           <description>Comprueba que el nombre pasado por parametro sea unico (no se encuentra ya registrado)</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="298" name="param" description="nick a comprobar" type="string" variable="$nuevo_nick">
             <type by_reference="false">string</type>
           </tag>
@@ -9768,12 +9770,12 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         </docblock>
         <argument line="304">
           <name>$attribute</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="304">
           <name>$params</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -9861,7 +9863,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         </docblock>
         <argument line="416">
           <name>$id_usuario</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -9887,7 +9889,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         </docblock>
         <argument line="438">
           <name>$nivel_actual</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="438">
@@ -9922,7 +9924,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         </docblock>
         <argument line="461">
           <name>$exp</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -9981,12 +9983,12 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         </docblock>
         <argument line="577">
           <name>$nivel_inicial</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
         <argument line="577">
           <name>$nivel_actual</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -10011,7 +10013,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         </docblock>
         <argument line="628">
           <name>$personaje</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -10020,7 +10022,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <full_name>queAtributo</full_name>
         <docblock line="655">
           <description>Dado un personaje, determina que atributo de generacion aumentar</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="655" name="static" description=""/>
           <tag line="655" name="param" description="tipo de personaje" type="int" variable="$personaje">
             <type by_reference="false">int</type>
@@ -10031,7 +10033,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         </docblock>
         <argument line="662">
           <name>$personaje</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -10040,7 +10042,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         <full_name>estaDesbloqueada</full_name>
         <docblock line="702">
           <description>Dado un id de una habilidad comprueba si esa habilidad está desbloqueada para el usuario</description>
-          <long-description></long-description>
+          <long-description/>
           <tag line="702" name="param" description="id de la habilidad" type="int" variable="$habilidad">
             <type by_reference="false">int</type>
           </tag>
@@ -10050,7 +10052,7 @@ Deben definirse solo las reglas para aquellos atributos que reciban entrada del 
         </docblock>
         <argument line="708">
           <name>$habilidad</name>
-          <default></default>
+          <default/>
           <type/>
         </argument>
       </method>
@@ -10447,6 +10449,7 @@ We also provide some common methods to be used by concrete test classes.&lt;/p&g
   </package>
   <package name="controladores" full_name="controladores"/>
   <package name="modelos" full_name="modelos"/>
+  <package name="raiz" full_name="raiz"/>
   <namespace name="global" full_name="global"/>
   <marker count="24">todo</marker>
   <marker count="3">fixme</marker>
